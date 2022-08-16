@@ -1,22 +1,21 @@
 {
-    "tenantId": "pb.amritsar",
-    "moduleName": "estimation-service",
-    "EntrustmentMode": [
-	{
-		"name": "Nomination",
-		"code": "Nomination",
-        "active": true
-	},
-	{
-		"name": "e-Procurement",
-		"code": "e-Procurement",
-        "active": true
-	},
-	{
-		"name": "Tendering",
-		"code": "Tendering",
-        "active": true
-	}
-       
-    ]
-  }
+  "tenantId": "pb",
+  "moduleName": "works",
+  "EntrustmentMode": [
+    {
+      "name": "Nomination",
+      "code": "Nomination",
+      "active": true
+    },
+    {
+      "name": "e-Procurement",
+      "code": "e-Procurement",
+      "active": true
+    },
+    {
+      "name": "Tendering",
+      "code": "Tendering",
+      "active": true
+    }
+  ]
+}
