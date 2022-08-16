@@ -1,16 +1,16 @@
 {
-    "tenantId": "pb",
-    "moduleName": "works",
-    "TypeOfWork": [
-		{
-			"name":"Road",
-			"code": "Road",
-			"active": true
-		},
-		{
-			"name":"Bridge",
-			"code": "Bridge",
-			"active": true
-		}   
-    ]
+  "tenantId": "pb",
+  "moduleName": "works",
+  "TypeOfWork": [
+    {
+      "name": "Road",
+      "code": "Road",
+      "active": true
+    },
+    {
+      "name": "Bridge",
+      "code": "Bridge",
+      "active": true
+    }
+  ]
 }
