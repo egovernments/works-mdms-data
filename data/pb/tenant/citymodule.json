@@ -3,20 +3,6 @@
     "moduleName": "tenant",
     "citymodule": [
         {
-            "module": "works",
-            "code": "works",
-            "active": true,
-            "order": 2,
-            "tenants": [
-                {
-                    "code": "pb.jalandhar"
-                },
-                {
-                    "code": "pb.amritsar"
-                }
-            ]
-        },
-        {
             "module": "FSM",
             "code": "FSM",
             "active": true,
@@ -524,8 +510,8 @@
             ]
         },
         {
-            "module": "Works",
-            "code": "Works",
+            "module": "works",
+            "code": "works",
             "active": true,
             "order": 1,
             "tenants": [
