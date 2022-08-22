@@ -527,6 +527,23 @@
             ]
         },
         {
+            "module": "engagement",
+            "code": "engagement",
+            "active": true,
+            "order": 3,
+            "tenants": [
+                {
+                    "code": "pb.jalandhar"
+                },
+                {
+                    "code": "pb.phagwara"
+                },
+                {
+                    "code": "pb.amritsar"
+                }
+            ]
+        },
+        {
             "module": "BillAmendment",
             "code": "BillAmendment",
             "active": true,
