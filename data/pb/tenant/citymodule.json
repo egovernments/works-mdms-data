@@ -3,8 +3,8 @@
     "moduleName": "tenant",
     "citymodule": [
         {
-            "module": "works",
-            "code": "works",
+            "module": "Works",
+            "code": "Works",
             "active": true,
             "order": 1,
             "tenants": [
