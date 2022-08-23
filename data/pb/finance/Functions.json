@@ -1,0 +1,72 @@
+{
+  "tenantId": "pb",
+  "moduleName": "finance",
+  "Functions": [
+    {
+      "name": "Municipal Body",
+      "code": "01",
+	  "Parent function Name":"General Administration",
+      "active": true
+    },
+	{
+      "name": "Administration",
+      "code": "02",
+	  "Parent function Name":"General Administration",
+      "active": true
+    },
+	{
+      "name": "Finance, Accounts, Audit",
+      "code": "03",
+	  "Parent function Name":"General Administration",
+      "active": true
+    },
+	{
+      "name": "Election",
+      "code": "04",
+	  "Parent function Name":"General Administration",
+      "active": true
+    },
+	{
+      "name": "Record Room",
+      "code": "05",
+	  "Parent function Name":"General Administration",
+      "active": true
+    },
+	{
+      "name": "Estate",
+      "code": "06",
+	  "Parent function Name":"General Administration",
+      "active": true
+    },
+	{
+      "name": "Stores & Purchase",
+      "code": "07",
+	  "Parent function Name":"General Administration",
+      "active": true
+    },
+	{
+      "name": "Workshop",
+      "code": "08",
+	  "Parent function Name":"General Administration",
+      "active": true
+    },
+	{
+      "name": "Census",
+      "code": "09",
+	  "Parent function Name":"General Administration",
+      "active": true
+    },
+	{
+      "name": "City & Town Planning",
+      "code": "11",
+	  "Parent function Name":"Planning & Regulation",
+      "active": true
+    },
+	{
+      "name": "Building Regulation",
+      "code": "12",
+	  "Parent function Name":"Planning & Regulation",
+      "active": true
+    }
+  ]
+}

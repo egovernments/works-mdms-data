@@ -1,0 +1,22 @@
+{
+  "tenantId": "pb",
+  "moduleName": "finance",
+  "BudgetHead": [
+    {
+      "name": "Daily Expense",
+      "code": "BH01",	 
+      "active": true
+    },
+	{
+      "name": "Salary",
+      "code": "BH02",	 
+      "active": true
+    },
+	,
+	{
+      "name": "Food Items",
+      "code": "BH03",	 
+      "active": true
+    }
+  ]
+}

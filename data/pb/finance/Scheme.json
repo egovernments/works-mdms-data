@@ -1,0 +1,21 @@
+{
+  "tenantId": "pb",
+  "moduleName": "finance",
+  "Scheme": [
+    {
+      "schemeCode": "SCH001",
+      "schemeName": "AMRUT",
+      "fund": "GRANT FUND",
+      "startDate": "01/04/2022",
+      "endDate": "01/04/2030",
+      "active": true,
+	  "subSchemes": [
+        {
+          "name": "STP",
+          "code": "SS01",
+          "active": true
+        }
+      ]
+    }
+  ]
+}
