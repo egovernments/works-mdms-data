@@ -3,69 +3,69 @@
   "moduleName": "finance",
   "Functions": [
     {
-      "name": "Municipal Body",
-      "code": "01",
-	  "Parent function Name":"General Administration",
+      "code": "0001",
+      "name": "Municipal Body",      
+	"functionGroup":"General Administration",
       "active": true
     },
-	{
-      "name": "Administration",
-      "code": "02",
-	  "Parent function Name":"General Administration",
+    {
+      "code": "0002",
+      "name": "Administration",      
+	"functionGroup":"General Administration",
+	"active": true
+    },
+    {
+      "code": "0003",
+      "name": "Finance, Accounts, Audit",     
+	"functionGroup":"General Administration",
       "active": true
     },
-	{
-      "name": "Finance, Accounts, Audit",
-      "code": "03",
-	  "Parent function Name":"General Administration",
+    {
+      "code": "0004",
+      "name": "Election",      
+	"functionGroup":"General Administration",
       "active": true
     },
-	{
-      "name": "Election",
-      "code": "04",
-	  "Parent function Name":"General Administration",
+    {
+      "code": "0005",
+      "name": "Record Room",     
+	"functionGroup":"General Administration",
       "active": true
     },
-	{
-      "name": "Record Room",
-      "code": "05",
-	  "Parent function Name":"General Administration",
+    {
+      "code": "0006",
+      "name": "Estate",     
+	"functionGroup":"General Administration",
       "active": true
     },
-	{
-      "name": "Estate",
-      "code": "06",
-	  "Parent function Name":"General Administration",
+    {
+      "code": "0007",
+      "name": "Stores & Purchase",      
+	"functionGroup":"General Administration",
       "active": true
     },
-	{
-      "name": "Stores & Purchase",
-      "code": "07",
-	  "Parent function Name":"General Administration",
+    {
+      "code": "0008",
+      "name": "Workshop",      
+	"functionGroup":"General Administration",
       "active": true
     },
-	{
-      "name": "Workshop",
-      "code": "08",
-	  "Parent function Name":"General Administration",
+    {
+      "code": "0009",
+      "name": "Census",      
+	"functionGroup":"General Administration",
       "active": true
     },
-	{
-      "name": "Census",
-      "code": "09",
-	  "Parent function Name":"General Administration",
+    {
+      "code": "1011",
+      "name": "City & Town Planning",     
+	"functionGroup":"Planning & Regulation",
       "active": true
     },
-	{
-      "name": "City & Town Planning",
-      "code": "11",
-	  "Parent function Name":"Planning & Regulation",
-      "active": true
-    },
-	{
-      "name": "Building Regulation",
-      "code": "12",
-	  "Parent function Name":"Planning & Regulation",
+    {
+      "code": "1012",
+      "name": "Building Regulation",      
+	"functionGroup":"Planning & Regulation",
       "active": true
     }
   ]

@@ -3,16 +3,27 @@
   "moduleName": "finance",
   "Scheme": [
     {
-      "schemeCode": "SCH001",
-      "schemeName": "AMRUT",
-      "fund": "GRANT FUND",
-      "startDate": "01/04/2022",
-      "endDate": "01/04/2030",
+      "schemeCode": "15th CFC",
+      "schemeName": "15th CFC-15th Central Finance Commission",
+      "fund": "Grant Fund from Central Government",    
       "active": true,
-	  "subSchemes": [
+	"subSchemes": [
         {
-          "name": "STP",
-          "code": "SS01",
+	    "code": "15th CFC-01",
+          "name": "Drinking Water Supply (including Rain Water Harvesting & Recycling)",          
+          "active": true
+        }
+      ]
+    },
+    {
+      "schemeCode": "AMRUT",
+      "schemeName": "AMRUT-AMRUT Yojana",
+      "fund": "Grant Fund from Central Government",    
+      "active": true,
+	"subSchemes": [
+        {
+ 	    "code": "AMRUT-01",
+          "name": "Water Supply",         
           "active": true
         }
       ]

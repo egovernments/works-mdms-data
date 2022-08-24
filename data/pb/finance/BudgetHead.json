@@ -3,19 +3,18 @@
   "moduleName": "finance",
   "BudgetHead": [
     {
-      "name": "Daily Expense",
-      "code": "BH01",	 
+      "name": "ADM",
+      "code": "01",	 
       "active": true
     },
 	{
-      "name": "Salary",
-      "code": "BH02",	 
+      "name": "ACC",
+      "code": "02",	 
       "active": true
-    },
-	,
-	{
-      "name": "Food Items",
-      "code": "BH03",	 
+    },	
+    {
+      "name": "ENG",
+      "code": "03",	 
       "active": true
     }
   ]
