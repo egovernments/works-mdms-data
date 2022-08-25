@@ -1,0 +1,21 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+  "actions-test": [
+    {
+      "id": 1,
+      "name": "Home",
+      "url": "url",
+      "displayName": "Home",
+      "orderNumber": 1,
+      "parentModule": "works",
+      "enabled": true,
+      "serviceCode": "works",
+      "code": "null",
+      "path": "Home",
+      "navigationURL": "/works-ui/employee/",
+      "leftIcon": "action:announcement",
+      "rightIcon": ""
+    }
+  ]
+}

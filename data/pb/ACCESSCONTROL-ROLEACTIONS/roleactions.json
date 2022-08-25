@@ -1,0 +1,12 @@
+{
+  "tenantId": "pb",
+  "moduleName": "ACCESSCONTROL-ROLEACTIONS",
+  "roleactions": [
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1,
+      "actioncode": "",
+      "tenantId": "pb"
+    }
+  ]
+}
