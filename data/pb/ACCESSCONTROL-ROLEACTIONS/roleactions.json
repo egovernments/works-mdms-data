@@ -7,6 +7,33 @@
       "actionid": 1,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 1,
+      "actioncode": "",
+      "tenantId": "pb"
+    },{
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 2,
+      "actioncode": "",
+      "tenantId": "pb"
+    },{
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 3,
+      "actioncode": "",
+      "tenantId": "pb"
+    },{
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 4,
+      "actioncode": "",
+      "tenantId": "pb"
+    },{
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 5,
+      "actioncode": "",
+      "tenantId": "pb"
     }
+    
   ]
 }

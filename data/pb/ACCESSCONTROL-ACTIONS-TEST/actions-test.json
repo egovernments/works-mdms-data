@@ -16,6 +16,55 @@
       "navigationURL": "/works-ui/employee/",
       "leftIcon": "action:announcement",
       "rightIcon": ""
+    },
+    {
+      "id": 2,
+      "name": "Employee Create",
+      "url": "/egov-hrms/employees/_create",
+      "parentModule": "egov-hrms",
+      "displayName": "Employee Create",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-hrms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 3,
+      "name": "Employee Update",
+      "url": "/egov-hrms/employees/_update",
+      "parentModule": "egov-hrms",
+      "displayName": "Employee Update",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-hrms",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 4,
+      "name": "Employee Search",
+      "url": "/egov-hrms/employees/_search",
+      "parentModule": "egov-hrms",
+      "displayName": "Employee Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-hrms",
+      "code": "null",
+      "path": ""
+    }, {
+      "id": 5,
+      "name": "HRMS",
+      "url": "url",
+      "displayName": "Search Employee",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "HRMS",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/hrms/inbox",
+      "path": "HRMS.Search",
+      "leftIcon": "social:people"
     }
   ]
 }
