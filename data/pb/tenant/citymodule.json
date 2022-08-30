@@ -35,6 +35,23 @@
                     "code": "pb.amritsar"
                 }
             ]
-        }
+        },
+        {
+            "module": "HRMS",
+            "code": "HRMS",
+            "active": true,
+            "order": 2,
+            "tenants": [
+              {
+                "code": "pb.jalandhar"
+              },
+              {
+                "code": "pb.nawanshahr"
+              },
+              {
+                "code": "pb.amritsar"
+              }
+            ]
+          }
     ]
 }
