@@ -49,6 +49,12 @@
       "actionid": 7,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 8,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }
