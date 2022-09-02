@@ -52,7 +52,8 @@
       "serviceCode": "egov-hrms",
       "code": "null",
       "path": ""
-    }, {
+    },
+    {
       "id": 5,
       "name": "HRMS",
       "url": "url",
@@ -65,6 +66,30 @@
       "navigationURL": "/works-ui/employee/hrms/inbox",
       "path": "HRMS.Search",
       "leftIcon": "social:people"
+    },
+    {
+      "id": 6,
+      "name": "LocalizationMessagesSearch",
+      "url": "/localization/messages/v1/_search",
+      "displayName": "Localization Messages Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "filestore url",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 7,
+      "name": "LocalizationMessagesUpsert",
+      "url": "/localization/messages/v1/_upsert",
+      "displayName": "Localization Messages Upsert",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "filestore url",
+      "code": "null",
+      "path": ""
     }
   ]
 }

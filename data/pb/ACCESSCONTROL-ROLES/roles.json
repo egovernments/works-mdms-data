@@ -11,6 +11,11 @@
       "code": "HRMS_ADMIN",
       "name": "HRMS Admin",
       "description": "HRMS Admin"
+    },
+    {
+      "code": "SUPERUSER",
+      "name": "SUPER USER",
+      "description": "SUPER USER"
     }
   ]
 }
