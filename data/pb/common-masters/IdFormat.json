@@ -11,7 +11,7 @@
       "idname": "estimate.detail.number"
     },
     {
-      "format": "LI/[fy:yyyy-yy]/[cy:MM]/SEQ_ESTIMATE_NUM_[d{4}]",
+      "format": "LI/[fy:yyyy-yy]/[cy:MM]/SEQ_LI_NUM_[d{4}]",
       "idname": "loi.number"
     }
   ]
