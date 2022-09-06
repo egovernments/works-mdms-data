@@ -2,13 +2,17 @@
   "tenantId": "pb",
   "moduleName": "common-masters",
   "IdFormat": [
-	{
+    {
       "format": "EP/[fy:yyyy-yy]/[cy:MM]/SEQ_ESTIMATE_NUM_[d{4}]",
       "idname": "estimate.number"
     },
     {
       "format": "EP/[fy:yyyy-yy]/[cy:MM]/SEQ_ESTIMATE_NUM_[d{4}]/SEQ_SUB_ESTIMATE_NUM",
       "idname": "estimate.detail.number"
+    },
+    {
+      "format": "LI/[fy:yyyy-yy]/[cy:MM]/SEQ_ESTIMATE_NUM_[d{4}]",
+      "idname": "loi.number"
     }
   ]
 }
