@@ -102,6 +102,54 @@
       "serviceCode": "egov-hrms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 9,
+      "name": "lOI Create",
+      "url": "/loi-service/loi/v1/_create",
+      "parentModule": "loi-service",
+      "displayName": "lOI Create",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "loi-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 10,
+      "name": "lOI Update",
+      "url": "/loi-service/loi/v1/_update",
+      "parentModule": "loi-service",
+      "displayName": "lOI Update",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "loi-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 11,
+      "name": "lOI Update",
+      "url": "/loi-service/loi/v1/_update",
+      "parentModule": "loi-service",
+      "displayName": "lOI Update",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "loi-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 12,
+      "name": "lOI Search",
+      "url": "/loi-service/loi/v1/_search",
+      "parentModule": "loi-service",
+      "displayName": "lOI Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "loi-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }

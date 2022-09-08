@@ -55,6 +55,24 @@
       "actionid": 8,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "LOI_CREATOR",
+      "actionid": 9,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "LOI_CHECKER",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "LOI_APPROVER",
+      "actionid": 11,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }

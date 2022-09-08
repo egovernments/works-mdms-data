@@ -16,6 +16,21 @@
       "code": "SUPERUSER",
       "name": "SUPER USER",
       "description": "SUPER USER"
+    },
+    {
+      "code": "LOI_CREATOR",
+      "name": "LOI CREATOR",
+      "description": "LOI CREATOR"
+    },
+    {
+      "code": "LOI_CREATOR",
+      "name": "LOI CREATOR",
+      "description": "LOI CREATOR"
+    },
+    {
+      "code": "LOI_CREATOR",
+      "name": "LOI CREATOR",
+      "description": "LOI CREATOR"
     }
   ]
 }
