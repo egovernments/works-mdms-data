@@ -102,6 +102,42 @@
       "serviceCode": "egov-hrms",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 9,
+      "name": "Create Estimate",
+      "url": "/estimate-service/estimate/v1/_create",
+      "parentModule": "estimate-service",
+      "displayName": "Create Estimate",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "estimate-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 10,
+      "name": "Search Estimate",
+      "url": "/estimate-service/estimate/v1/_search",
+      "parentModule": "estimate-service",
+      "displayName": "Search Estimate",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "estimate-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 11,
+      "name": "Update Estimate",
+      "url": "/estimate-service/estimate/v1/_update",
+      "parentModule": "estimate-service",
+      "displayName": "Update Estimate",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "estimate-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
