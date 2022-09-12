@@ -16,6 +16,31 @@
       "code": "SUPERUSER",
       "name": "SUPER USER",
       "description": "SUPER USER"
+    },
+    {
+      "code": "EST_CREATOR",
+      "name": "EST CREATOR",
+      "description": "Estimate Creator"
+    },
+    {
+      "code": "EST_CHECKER",
+      "name": "EST_CHECKER",
+      "description": "Estimate Checker"
+    },
+    {
+      "code": "EST_ADMIN_SANC",
+      "name": "EST TECH SANC",
+      "description": "Estimate Admin Approver"
+    },
+    {
+      "code": "EST_FIN_SANC",
+      "name": "EST FIN SANC",
+      "description": "Estimate Finance Approver"
+    },
+    {
+      "code": "EST_TECH_SANC",
+      "name": "EST TECH SANC",
+      "description": "Estimate Technical Approver"
     }
   ]
 }
