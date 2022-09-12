@@ -73,6 +73,48 @@
       "actionid": 11,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_CREATOR",
+      "actionid": 9,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_CREATOR",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_CREATOR",
+      "actionid": 11,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_CHECKER",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_ADMIN_SANC",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_FIN_SANC",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_TECH_SANC",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }
