@@ -138,6 +138,18 @@
       "serviceCode": "estimate-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 12,
+      "name": "Create LOI",
+      "url": "/loi-service/loi/v1/_create",
+      "parentModule": "loi-service",
+      "displayName": "Create LOI",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "loi-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
