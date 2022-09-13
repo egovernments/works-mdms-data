@@ -41,6 +41,21 @@
       "code": "EST_TECH_SANC",
       "name": "EST TECH SANC",
       "description": "Estimate Technical Approver"
+    },
+    {
+      "code": "LOI_CREATOR",
+      "name": "LOI CREATOR",
+      "description": "LOI Creator"
+    },
+    {
+      "code": "LOI_CHECKER",
+      "name": "LOI CHECKER",
+      "description": "LOI Checker"
+    },
+    {
+      "code": "LOI_APPROVER",
+      "name": "LOI APPROVER",
+      "description": "LOI Approver"
     }
   ]
 }

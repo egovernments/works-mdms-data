@@ -115,6 +115,12 @@
       "actionid": 10,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "LOI_CREATOR",
+      "actionid": 12,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }
