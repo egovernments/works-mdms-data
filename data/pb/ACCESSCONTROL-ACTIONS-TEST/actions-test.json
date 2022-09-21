@@ -142,7 +142,7 @@
     {
       "id": 12,
       "name": "Create LOI",
-      "url": "/loi-service/loi/v1/_create",
+      "url": "/loi-service/v1/_create",
       "parentModule": "loi-service",
       "displayName": "Create LOI",
       "orderNumber": 0,
