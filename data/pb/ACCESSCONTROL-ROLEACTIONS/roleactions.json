@@ -33,6 +33,12 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "EMPLOYEE",
+      "actionid": 4,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "HRMS_ADMIN",
       "actionid": 5,
       "actioncode": "",
