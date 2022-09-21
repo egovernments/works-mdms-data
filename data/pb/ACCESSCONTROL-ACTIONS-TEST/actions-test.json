@@ -234,6 +234,18 @@
       "navigationURL": "/works-ui/employee/works/LOIInbox",
       "path": "WORKS.LOIInbox",
       "leftIcon": "social:people"
+    },
+    {
+      "id": 19,
+      "name": "Search LOI",
+      "url": "/loi-service/v1/_search",
+      "parentModule": "loi-service",
+      "displayName": "Search LOI",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "loi-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
