@@ -187,6 +187,18 @@
       "actionid": 19,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "LOI_CHECKER",
+      "actionid": 20,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "LOI_APPROVER",
+      "actionid": 20,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }
