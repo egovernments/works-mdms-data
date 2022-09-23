@@ -199,6 +199,18 @@
       "actionid": 20,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 21,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 22,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }
