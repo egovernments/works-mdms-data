@@ -234,6 +234,17 @@
       "navigationURL": "/works-ui/employee/works/LOIInbox",
       "path": "WORKS.LOIInbox",
       "leftIcon": "social:people"
+    },
+    {
+      "id": "19",
+      "name": "Profile Update",
+      "url": "/user/profile/_update",
+      "displayName": "Profile Update",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "ADMIN",
+      "code": "null",
+      "path": "Administration.Profile Update"
     }
   ]
 }
