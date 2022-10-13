@@ -33,6 +33,12 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "EMPLOYEE",
+      "actionid": 4,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "HRMS_ADMIN",
       "actionid": 5,
       "actioncode": "",
@@ -123,8 +129,86 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 13,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_CREATOR",
+      "actionid": 14,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "LOI_CREATOR",
+      "actionid": 15,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "EMPLOYEE",
+      "actionid": 16,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_CREATOR",
+      "actionid": 17,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_CHECKER",
+      "actionid": 17,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_TECH_SANC",
+      "actionid": 17,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_ADMIN_SANC",
+      "actionid": 17,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "LOI_CREATOR",
+      "actionid": 18,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "LOI_CREATOR",
       "actionid": 19,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "LOI_CHECKER",
+      "actionid": 20,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "LOI_APPROVER",
+      "actionid": 20,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 21,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 22,
       "actioncode": "",
       "tenantId": "pb"
     }
