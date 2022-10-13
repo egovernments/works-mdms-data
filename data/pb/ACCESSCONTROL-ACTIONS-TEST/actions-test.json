@@ -236,15 +236,52 @@
       "leftIcon": "social:people"
     },
     {
-      "id": "19",
-      "name": "Profile Update",
-      "url": "/user/profile/_update",
-      "displayName": "Profile Update",
-      "orderNumber": 1,
+      "id": 19,
+      "name": "Search LOI",
+      "url": "/loi-service/v1/_search",
+      "parentModule": "loi-service",
+      "displayName": "Search LOI",
+      "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "ADMIN",
+      "serviceCode": "loi-service",
       "code": "null",
-      "path": "Administration.Profile Update"
+      "path": ""
+    },
+    {
+      "id": 20,
+      "name": "Update LOI",
+      "url": "/loi-service/v1/_update",
+      "parentModule": "loi-service",
+      "displayName": "Update LOI",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "loi-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 21,
+      "name": "Workflow search",
+      "url": "/egov-workflow-v2/egov-wf/process/_search",
+      "parentModule": "",
+      "displayName": "Workflow search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-workflow-v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 22,
+      "name": "BusinessService Search",
+      "url": "/egov-workflow-v2/egov-wf/businessservice/_search",
+      "parentModule": "",
+      "displayName": "BusinessService Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-workflow-v2",
+      "code": "null",
+      "path": ""
     }
   ]
 }
