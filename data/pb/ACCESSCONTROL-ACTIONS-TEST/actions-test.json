@@ -320,7 +320,7 @@
       "path": "WORKS.SearchApprovedEstimate",
       "leftIcon": "social:people"
     },
-     {
+    {
       "id": 26,
       "name": "Update Password",
       "url": "/user/password/_update",
