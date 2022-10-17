@@ -319,6 +319,17 @@
       "navigationURL": "/works-ui/employee/works/search-approved-estimate",
       "path": "WORKS.SearchApprovedEstimate",
       "leftIcon": "social:people"
+    },
+    {
+      "id": 26,
+      "name": "Update Password",
+      "url": "/user/password/_update",
+      "displayName": "Update Password",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "ADMIN",
+      "code": "null",
+      "path": "Administration.Update Password"
     }
   ]
 }
