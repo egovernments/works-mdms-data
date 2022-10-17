@@ -305,6 +305,20 @@
       "serviceCode": "works-inbox-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 25,
+      "name": "WORKS",
+      "url": "url",
+      "displayName": "Search Approved Estimates",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "WORKS",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/works/search-approved-estimate",
+      "path": "WORKS.SearchApprovedEstimate",
+      "leftIcon": "social:people"
     }
   ]
 }

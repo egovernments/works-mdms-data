@@ -271,6 +271,12 @@
       "actionid": 24,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "LOI_CREATOR",
+      "actionid": 25,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }
