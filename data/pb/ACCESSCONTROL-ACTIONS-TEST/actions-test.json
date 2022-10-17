@@ -282,6 +282,43 @@
       "serviceCode": "egov-workflow-v2",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 23,
+      "name": "Profile Update",
+      "url": "/user/profile/_update",
+      "displayName": "Profile Update",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "ADMIN",
+      "code": "null",
+      "path": "Administration.Profile Update"
+    },
+    {
+      "id": 24,
+      "name": "Works inbox service",
+      "url": "/works-inbox-service/v1/_search",
+      "parentModule": "works-inbox-service",
+      "displayName": "Works inbox",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-inbox-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 25,
+      "name": "WORKS",
+      "url": "url",
+      "displayName": "Search Approved Estimates",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "WORKS",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/works/search-approved-estimate",
+      "path": "WORKS.SearchApprovedEstimate",
+      "leftIcon": "social:people"
     }
   ]
 }
