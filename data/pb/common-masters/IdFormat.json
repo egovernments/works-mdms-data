@@ -3,15 +3,15 @@
   "moduleName": "common-masters",
   "IdFormat": [
     {
-      "format": "EP/[fy:yyyy-yy]/[cy:MM]/SEQ_ESTIMATE_NUM_[d{4}]",
+      "format": "EP/[fy:yyyy-yy]/[cy:MM]/[SEQ_ESTIMATE_NUM]",
       "idname": "estimate.number"
     },
     {
-      "format": "EP/[fy:yyyy-yy]/[cy:MM]/SEQ_ESTIMATE_NUM_[d{4}]/SEQ_SUB_ESTIMATE_NUM",
+      "format": "EP/[fy:yyyy-yy]/[cy:MM]/ESTIMATE_NUM/[SEQ_ESTIMATE_DETAIL_NUM]",
       "idname": "estimate.detail.number"
     },
     {
-      "format": "LI/[fy:yyyy-yy]/[cy:MM]/SEQ_LI_NUM_[d{4}]",
+      "format": "LI/[fy:yyyy-yy]/[cy:MM]/[SEQ_LI_NUM]",
       "idname": "loi.number"
     }
   ]
