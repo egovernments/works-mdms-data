@@ -330,6 +330,42 @@
       "serviceCode": "ADMIN",
       "code": "null",
       "path": "Administration.Update Password"
+    },
+    {
+      "id": 27,
+      "name": "WorkflowProcessStatusCount",
+      "url": "/egov-workflow-v2/egov-wf/process/_statuscount",
+      "displayName": "Workflow Status Count",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    }, 
+    {
+      "id": 28,
+      "name": "WorkflowProcessNearingslaCount",
+      "url": "/egov-workflow-v2/egov-wf/process/_nearingslacount",
+      "displayName": "Workflow Nearing sla Count",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
+    },
+     {
+      "id": 29,
+      "name": "WorkflowProcessCount",
+      "url": "/egov-workflow-v2/egov-wf/process/_count",
+      "displayName": "Workflow Process Count",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "",
+      "code": "null",
+      "path": ""
     }
   ]
 }
