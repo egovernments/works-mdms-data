@@ -52,6 +52,22 @@
                 "code": "pb.amritsar"
               }
             ]
-          }
+          } ,{
+            "module": "FSM",
+            "code": "FSM",
+            "active": true,
+            "order": 1,
+            "tenants": [
+                {
+                    "code": "pb.jalandhar"
+                },
+                {
+                    "code": "pb.nawanshahr"
+                },
+                {
+                    "code": "pb.amritsar"
+                }
+            ]
+        }
     ]
 }
