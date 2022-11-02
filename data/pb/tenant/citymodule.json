@@ -20,6 +20,23 @@
             ]
         },
         {
+            "module": "AttendenceMgmt",
+            "code": "AttendenceMgmt",
+            "active": true,
+            "order": 4,
+            "tenants": [
+                {
+                    "code": "pb.jalandhar"
+                },
+                {
+                    "code": "pb.nawanshahr"
+                },
+                {
+                    "code": "pb.amritsar"
+                }
+            ]
+        },
+        {
             "module": "Engagement",
             "code": "Engagement",
             "active": true,
