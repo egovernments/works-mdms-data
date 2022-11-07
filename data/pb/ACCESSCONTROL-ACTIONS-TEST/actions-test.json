@@ -366,6 +366,61 @@
       "serviceCode": "",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 30,
+      "name": "Pdf Generator create",
+      "url": "/pdf-service/v1/_create",
+      "displayName": "Pdf Generator create",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "pdf-generator-create",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 31,
+      "name": "Pdf Generator search",
+      "url": "/pdf-service/v1/_search",
+      "displayName": "Pdf Generator search",
+      "orderNumber": 2,
+      "enabled": false,
+      "serviceCode": "pdf-generator-search",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 32,
+      "name": "Bulk PDF Details",
+      "url": "/pdf-service/v1/_getBulkPdfRecordsDetails",
+      "displayName": "Bulk PDF Details",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "pdf-generator-create",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 33,
+      "name": "Bulk PDF Cancel Process",
+      "url": "/pdf-service/v1/_cancelProcess",
+      "displayName": "Bulk PDF Cancel Process",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "pdf-generator-create",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 34,
+      "name": "Works Estimate Pdf",
+      "url": "/egov-pdf/download/WORKSESTIMATE/estimatepdf",
+      "displayName": "consolidatedreceipt search",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
     }
   ]
 }
