@@ -37,6 +37,23 @@
             ]
         },
         {
+            "module": "Contracts",
+            "code": "Contracts",
+            "active": true,
+            "order": 5,
+            "tenants": [
+                {
+                    "code": "pb.jalandhar"
+                },
+                {
+                    "code": "pb.nawanshahr"
+                },
+                {
+                    "code": "pb.amritsar"
+                }
+            ]
+        },
+        {
             "module": "Engagement",
             "code": "Engagement",
             "active": true,
