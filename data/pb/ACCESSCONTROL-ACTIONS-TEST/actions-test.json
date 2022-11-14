@@ -421,6 +421,24 @@
       "serviceCode": "egov-pdf",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 35,
+      "name": "SHG Home",
+      "url": "works-ui-card",
+      "displayName": "SHG HOME",
+      "orderNumber": 1,
+      "parentModule": "AttendenceMgmt",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "/works-ui/citizen/shghome",
+      "leftIcon": "BillsIcon",
+      "rightIcon": "",
+      "queryParams": "",
+      "sidebar": "works-ui-links",
+      "sidebarURL": "/digit-ui/citizen/shghome"
     }
   ]
 }
