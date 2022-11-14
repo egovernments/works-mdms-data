@@ -433,12 +433,12 @@
       "serviceCode": "",
       "code": "",
       "path": "",
-      "navigationURL": "/works-ui/citizen/shghome",
+      "navigationURL": "/works-ui/citizen/attendencemgmt/shghome",
       "leftIcon": "BillsIcon",
       "rightIcon": "",
       "queryParams": "",
       "sidebar": "works-ui-links",
-      "sidebarURL": "/works-ui/citizen/shghome"
+      "sidebarURL": "/works-ui/citizen/attendencemgmt/shghome"
     }
   ]
 }
