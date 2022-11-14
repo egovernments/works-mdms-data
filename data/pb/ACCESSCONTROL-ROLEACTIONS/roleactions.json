@@ -123,6 +123,30 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "EST_CHECKER",
+      "actionid": 11,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_ADMIN_SANC",
+      "actionid": 11,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_FIN_SANC",
+      "actionid": 11,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_TECH_SANC",
+      "actionid": 11,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "LOI_CREATOR",
       "actionid": 12,
       "actioncode": "",
