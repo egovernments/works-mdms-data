@@ -27,7 +27,19 @@
     {
       "name": "Bridge",
       "code": "Bridge",
-      "active": true
+      "active": true,
+      "subTypes": [
+        {
+          "name": "New",
+          "code": "New",
+          "active": true
+        },
+        {
+          "name": "Maintenance",
+          "code": "Maintenance",
+          "active": true
+        }
+      ]
     }
   ]
 }
