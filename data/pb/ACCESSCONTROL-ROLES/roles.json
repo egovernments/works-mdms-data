@@ -56,6 +56,11 @@
       "code": "LOI_APPROVER",
       "name": "LOI APPROVER",
       "description": "LOI Approver"
+    },
+    {
+      "code": "ORG_ADMIN",
+      "name": "ORG ADMIN",
+      "description": "ORG ADMIN SHG"
     }
   ]
 }
