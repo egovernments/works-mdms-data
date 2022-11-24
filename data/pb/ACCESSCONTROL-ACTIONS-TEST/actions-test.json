@@ -475,6 +475,127 @@
       "serviceCode": "muster-roll-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 39,
+      "name": "Create Attendance Register",
+      "url": "/attendance/v1/_create",
+      "parentModule": "attendance-service",
+      "displayName": "Create attendance register",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 40,
+      "name": "Search Attendance Register",
+      "url": "/attendance/v1/_search",
+      "parentModule": "attendance-service",
+      "displayName": "Search attendance register",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 41,
+      "name": "Update Attendance Register",
+      "url": "/attendance/v1/_update",
+      "parentModule": "attendance-service",
+      "displayName": "Update attendance register",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+
+    {
+      "id": 42,
+      "name": "Create Attendance Register Log",
+      "url": "/attendance/log/v1/_create",
+      "parentModule": "attendance-service",
+      "displayName": "Create attendance register log",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 43,
+      "name": "Search Attendance Register Log",
+      "url": "/attendance/log/v1/_search",
+      "parentModule": "attendance-service",
+      "displayName": "Search attendance register log",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 44,
+      "name": "Update Attendance Register Log",
+      "url": "/attendance/log/v1/_update",
+      "parentModule": "attendance-service",
+      "displayName": "Update attendance register log",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 45,
+      "name": "Create Attendee",
+      "url": "/attendance/attendee/v1/_create",
+      "parentModule": "attendance-service",
+      "displayName": "Create Attendee",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 46,
+      "name": "Delete Attendee",
+      "url": "/attendance/attendee/v1/_delete",
+      "parentModule": "attendance-service",
+      "displayName": "Delete Attendee",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 47,
+      "name": "Create Staff",
+      "url": "/attendance/staff/v1/_create",
+      "parentModule": "attendance-service",
+      "displayName": "Create Staff",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 48,
+      "name": "Delete Staff",
+      "url": "/attendance/staff/v1/_delete",
+      "parentModule": "attendance-service",
+      "displayName": "Delete Staff",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "attendance-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }

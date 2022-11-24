@@ -319,6 +319,66 @@
       "actionid": 38,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 39,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 40,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 41,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 42,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 43,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 44,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 45,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 46,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 47,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 48,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }
