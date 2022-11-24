@@ -439,6 +439,42 @@
       "queryParams": "",
       "sidebar": "works-ui-links",
       "sidebarURL": "/works-ui/citizen/attendencemgmt/shghome"
+    },
+    {
+      "id": 36,
+      "name": "Create muster roll",
+      "url": "/muster-roll/v1/_create",
+      "parentModule": "muster-roll-service",
+      "displayName": "Create muster roll",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "muster-roll-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 37,
+      "name": "Search muster roll",
+      "url": "/muster-roll/v1/_search",
+      "parentModule": "muster-roll-service",
+      "displayName": "Search muster roll",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "muster-roll-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 38,
+      "name": "Update muster roll",
+      "url": "/muster-roll/v1/_update",
+      "parentModule": "muster-roll-service-service",
+      "displayName": "Update muster roll",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "muster-roll-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
