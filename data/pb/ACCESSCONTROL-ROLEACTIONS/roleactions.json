@@ -322,6 +322,24 @@
     },
     {
       "rolecode": "EMPLOYEE",
+      "actionid": 36,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 37,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 38,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
       "actionid": 39,
       "actioncode": "",
       "tenantId": "pb"
@@ -377,6 +395,102 @@
     {
       "rolecode": "EMPLOYEE",
       "actionid": 48,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 39,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 40,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 41,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 42,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 43,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 44,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 45,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 46,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 47,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 48,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 36,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 37,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 38,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 42,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 43,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 44,
       "actioncode": "",
       "tenantId": "pb"
     }
