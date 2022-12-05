@@ -65,7 +65,7 @@
      {
         "code": "ORG_ADMIN",
         "name": "Organization admin",
-        "description": "Role for the admin of any organization",
+        "description": "Role for the admin of any organization"
       },
       { "code": "ORG_STAFF", 
         "name": "Organization staff",
@@ -74,12 +74,12 @@
       {
         "code": "JUNIOR_ENGINEER",
         "name": "JUNIOR ENGINEER",
-        "description": "Junior engineer of a ULB",
+        "description": "Junior engineer of a ULB"
       },
       {
         "code": "MUNICIPAL_ENGINEER",
         "name": "MUNICIPAL ENGINEER",
-        "description": "Municipal engineer of a ULB",
+        "description": "Municipal engineer of a ULB"
       }
   ]
 }
