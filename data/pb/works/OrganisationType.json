@@ -1,0 +1,16 @@
+{
+    "tenantId": "pb",
+    "moduleName": "works",
+    "OrganisationType": [
+      {
+        "name": "Community Organisation",
+        "code": "Community Organisation",      
+          "active": true
+      },
+      {
+        "name": "Vendor",
+        "code": "Vendor",      
+          "active": true
+      }
+    ]
+}
