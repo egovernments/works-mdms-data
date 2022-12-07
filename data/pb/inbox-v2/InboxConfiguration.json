@@ -4,13 +4,18 @@
   "InboxQueryConfiguration": [
     {
       "module": "estimate-service",
-      "index": "estimate-service",
+      "index": "estimate-inbox",
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
           "path": "Data.tenantId.keyword",
           "isMandatory": true,
           "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "isMandatory": false
         },
         {
           "name": "estimateId",
