@@ -1,0 +1,21 @@
+{
+    "tenantId": "pb",
+    "moduleName": "works",
+    "BankAccType": [
+      {
+        "name": "Savings",
+        "code": "Savings",      
+        "active": true
+      },
+      {
+        "name": "Current",
+        "code": "Current",      
+        "active": true
+      },
+      {
+        "name": "Loan",
+        "code": "Loan",      
+        "active": true
+      }
+    ]
+}
