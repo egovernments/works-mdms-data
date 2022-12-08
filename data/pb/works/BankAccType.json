@@ -4,17 +4,17 @@
     "BankAccType": [
       {
         "name": "Savings",
-        "code": "Savings",      
+        "code": "SAVINGS",      
         "active": true
       },
       {
         "name": "Current",
-        "code": "Current",      
+        "code": "CURRENT",      
         "active": true
       },
       {
         "name": "Loan",
-        "code": "Loan",      
+        "code": "LOAN",      
         "active": true
       }
     ]

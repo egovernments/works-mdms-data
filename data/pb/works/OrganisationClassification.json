@@ -24,7 +24,7 @@
       },
       {
         "name": "Others",
-        "code": "Others",      
+        "code": "OTHERS",      
         "active": true
       }
     ]
