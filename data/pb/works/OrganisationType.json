@@ -4,12 +4,12 @@
     "OrganisationType": [
       {
         "name": "Community Organisation",
-        "code": "Community Organisation",      
+        "code": "COMMUNITY_ORGN",      
           "active": true
       },
       {
         "name": "Vendor",
-        "code": "Vendor",      
+        "code": "VENDOR",      
           "active": true
       }
     ]

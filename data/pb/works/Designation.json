@@ -4,22 +4,22 @@
     "Designation": [
       {
         "name": "President",
-        "code": "President",      
+        "code": "PRESIDENT",      
           "active": true
       },
       {
         "name": "Secretary",
-        "code": "Secretary",      
+        "code": "SECRETARY",      
           "active": true
       },
       {
         "name": "Office Bearer",
-        "code": "Office Bearer",      
+        "code": "OFFICE_BEARER",      
           "active": true
       },
       {
         "name": "Other",
-        "code": "Other",      
+        "code": "OTHER",      
           "active": true
       }
     ]
