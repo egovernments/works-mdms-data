@@ -1,65 +1,70 @@
 {
-    "tenantId": "pb",
-    "moduleName": "INBOX",
-    "InboxQueryConfiguration": [
-      {
-        "module": "estimate-service",
-        "index": "estimate-service",
-        "allowedSearchCriteria": [
-          {
-            "name": "tenantId",
-            "path": "Data.tenantId.keyword",
-            "isMandatory": true,
-            "operator": "EQUAL"
-          },
-          {
-            "name": "estimateId",
-            "path": "Data.id.keyword",
-            "isMandatory": false
-          },
-          {
-            "name": "department",
-            "path": "Data.department.keyword",
-            "isMandatory": false
-          },
-          {
-            "name": "typeOfWork",
-            "path": "Data.typeOfWork.keyword",
-            "isMandatory": false
-          },
-          {
-            "name": "fund",
-            "path": "Data.fund.keyword",
-            "isMandatory": false
-          },
-          {
-            "name": "function",
-            "path": "Data.function.keyword",
-            "isMandatory": false
-          },
-          {
-            "name": "budgetHead",
-            "path": "Data.budgetHead.keyword",
-            "isMandatory": false
-          },
-          {
-            "name": "fromProposalDate",
-            "path": "Data.proposalDate.keyword",
-            "isMandatory": false,
-            "operator": "GTE"
-          },
-          {
-            "name": "toProposalDate",
-            "path": "Data.proposalDate.keyword",
-            "isMandatory": false,
-            "operator": "LTE"
-          }
-        ],
-        "sortBy": {
-            "path": "Data.auditDetails.createdTime",
-            "defaultOrder": "ASC"
+  "tenantId": "pb",
+  "moduleName": "INBOX",
+  "InboxQueryConfiguration": [
+    {
+      "module": "estimate-service",
+      "index": "estimate-inbox",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
         },
-        "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.tenantId"]
-      }
-    ]
-  }
+        {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "estimateId",
+          "path": "Data.id.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "department",
+          "path": "Data.department.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "typeOfWork",
+          "path": "Data.typeOfWork.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "fund",
+          "path": "Data.fund.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "function",
+          "path": "Data.function.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "budgetHead",
+          "path": "Data.budgetHead.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "fromProposalDate",
+          "path": "Data.proposalDate.keyword",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "toProposalDate",
+          "path": "Data.proposalDate.keyword",
+          "isMandatory": false,
+          "operator": "LTE"
+        }
+      ],
+      "sortBy": {
+          "path": "Data.auditDetails.createdTime",
+          "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.tenantId"]
+    }
+  ]
+}
