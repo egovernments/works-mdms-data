@@ -74,7 +74,7 @@
             "module": "Engagement",
             "code": "Engagement",
             "active": false,
-            "order": 3,
+            "order": 4,
             "tenants": [
                 {
                     "code": "pb.jalandhar"
@@ -105,10 +105,10 @@
             ]
         },
         {
-            "module": "FSM",
-            "code": "FSM",
+            "module": "Estimate",
+            "code": "Estimate",
             "active": true,
-            "order": 1,
+            "order": 3,
             "tenants": [
                 {
                     "code": "pb.jalandhar"
