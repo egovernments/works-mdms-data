@@ -1,0 +1,37 @@
+{
+    "tenantId": "pb",
+    "moduleName": "common-masters",
+    "RejectReasons":
+    [
+        {
+            "name": "Estimate Details are incorrect",
+            "code": "Estimate_Details_Incorrect",
+            "active": true
+        },
+        {
+            "name": "Financial Details are incorrect",
+            "code": "Financial_Details_Incorrect",
+            "active": true
+        },
+        {
+            "name": "Agreement Details are incorrect",
+            "code": "Agreement_Details_Incorrect",
+            "active": true
+        },
+        {
+            "name": "Vendor Details are incorrect",
+            "code": "Vendor_Details_Incorrect",
+            "active": true
+        },
+        {
+            "name": "Attachments provided are wrong",
+            "code": "Attachments_Provided_Wrong",
+            "active": true
+        },
+        {
+            "name": "Others",
+            "code": "Others",
+            "active": true
+        }
+    ]
+  }
