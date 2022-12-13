@@ -137,6 +137,23 @@
                     "code": "pb.amritsar"
                 }
             ]
+        },
+        {
+            "module": "Project",
+            "code": "Project",
+            "active": true,
+            "order": 8,
+            "tenants": [
+                {
+                    "code": "pb.jalandhar"
+                },
+                {
+                    "code": "pb.nawanshahr"
+                },
+                {
+                    "code": "pb.amritsar"
+                }
+            ]
         }
     ]
 }
