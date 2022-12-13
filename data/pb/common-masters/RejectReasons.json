@@ -5,32 +5,32 @@
     [
         {
             "name": "Estimate Details are incorrect",
-            "code": "Estimate_Details_Incorrect",
+            "code": "ESTIMATE_DETAILS_INCORRECT",
             "active": true
         },
         {
             "name": "Financial Details are incorrect",
-            "code": "Financial_Details_Incorrect",
+            "code": "FINANCIAL_DETAILS_INCORRECT",
             "active": true
         },
         {
             "name": "Agreement Details are incorrect",
-            "code": "Agreement_Details_Incorrect",
+            "code": "AGREEMENT_DETAILS_INCORRECT",
             "active": true
         },
         {
             "name": "Vendor Details are incorrect",
-            "code": "Vendor_Details_Incorrect",
+            "code": "VENDOR_DETAILS_INCORRECT",
             "active": true
         },
         {
             "name": "Attachments provided are wrong",
-            "code": "Attachments_Provided_Wrong",
+            "code": "ATTACHMENTS_PROVIDED_WRONG",
             "active": true
         },
         {
             "name": "Others",
-            "code": "Others",
+            "code": "OTHERS",
             "active": true
         }
     ]
