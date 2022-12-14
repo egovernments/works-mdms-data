@@ -37,9 +37,9 @@
       ]
     },
     {
-      "module": "Engagement",
-      "code": "Engagement",
-      "active": false,
+      "module": "Estimate",
+      "code": "Estimate",
+      "active": true,
       "order": 3,
       "tenants": [
         {
