@@ -1,0 +1,31 @@
+{
+    "tenantId": "pb",
+    "moduleName": "works",
+    "OrganisationClassification": [
+      {
+        "name": "MSG",
+        "code": "MSG",      
+        "active": true
+      },
+      {
+        "name": "SDA",
+        "code": "SDA",      
+        "active": true
+      },
+      {
+        "name": "ALF",
+        "code": "ALF",      
+        "active": true
+      },
+      {
+        "name": "CLF",
+        "code": "CLF",      
+        "active": true
+      },
+      {
+        "name": "Others",
+        "code": "OTHERS",      
+        "active": true
+      }
+    ]
+}
