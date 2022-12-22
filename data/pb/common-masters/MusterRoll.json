@@ -13,6 +13,18 @@
     {
       "code": "EXIT_HOUR_FULL_DAY",
       "value": "18"
+    },
+    {
+      "code": "HALF_DAY_NUM_HOURS",
+      "value": "4"
+    },
+    {
+      "code": "FULL_DAY_NUM_HOURS",
+      "value": "8"
+    },
+    {
+      "code": "ROUND_OFF_HOURS",
+      "value": "true"
     }
   ]
 }
