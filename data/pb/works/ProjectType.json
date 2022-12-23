@@ -1,0 +1,46 @@
+{
+    "tenantId": "pb",
+    "moduleName": "works",
+    "ProjectType": [
+      {
+        "name": "Mini Park",
+        "code": "MiniPark",
+        "active": true
+      },
+      {
+        "name": "Child Play Station",
+        "code": "ChildPlayStation",
+        "active": true
+      },
+      {
+        "name": "Open Air Gym",
+        "code": "OpenAirGym",
+        "active": true
+      },
+      {
+        "name": "Water Body",
+        "code": "WaterBody",
+        "active": true
+      },
+      {
+        "name": "Walking Track",
+        "code": "WalkingTrack",
+        "active": true
+      },
+      {
+        "name": "Playground",
+        "code": "Playground",
+        "active": true
+      },
+      {
+        "name": "Loo",
+        "code": "Loo",
+        "active": true
+      },
+      {
+        "name": "Vending Zone",
+        "code": "VendingZone",
+        "active": true
+      }
+    ]
+  }
