@@ -17,7 +17,7 @@
         "latitude": null,
         "label": "City",
         "code": "pb.jalandhar",
-        "children1": [
+        "children": [
           {
             "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
             "boundaryNum": 1,
@@ -3606,7 +3606,6 @@
               }
             ]
           },
-
           {
             "id": "199f5a68-384d-49d4-9e07-504a174ead15",
             "boundaryNum": 1,
@@ -7879,7 +7878,6 @@
               }
             ]
           },
-
           {
             "id": "1b7748de-3c8d-456d-b3c9-3cab3aace11d",
             "boundaryNum": 1,
@@ -11768,7 +11766,6 @@
               }
             ]
           },
-
           {
             "id": "f8026c7b-903f-42bb-a10a-b1b5aedae8c5",
             "boundaryNum": 1,
