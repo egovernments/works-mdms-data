@@ -54,10 +54,27 @@
             ]
         },
         {
+            "module": "Expenditure",
+            "code": "Expenditure",
+            "active": true,
+            "order": 7,
+            "tenants": [
+                {
+                    "code": "pb.jalandhar"
+                },
+                {
+                    "code": "pb.nawanshahr"
+                },
+                {
+                    "code": "pb.amritsar"
+                }
+            ]
+        },
+        {
             "module": "Engagement",
             "code": "Engagement",
             "active": false,
-            "order": 3,
+            "order": 4,
             "tenants": [
                 {
                     "code": "pb.jalandhar"
@@ -88,10 +105,10 @@
             ]
         },
         {
-            "module": "FSM",
-            "code": "FSM",
+            "module": "Estimate",
+            "code": "Estimate",
             "active": true,
-            "order": 1,
+            "order": 3,
             "tenants": [
                 {
                     "code": "pb.jalandhar"
@@ -109,6 +126,23 @@
             "code": "Masters",
             "active": true,
             "order": 6,
+            "tenants": [
+                {
+                    "code": "pb.jalandhar"
+                },
+                {
+                    "code": "pb.nawanshahr"
+                },
+                {
+                    "code": "pb.amritsar"
+                }
+            ]
+        },
+        {
+            "module": "Project",
+            "code": "Project",
+            "active": true,
+            "order": 8,
             "tenants": [
                 {
                     "code": "pb.jalandhar"

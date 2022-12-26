@@ -493,6 +493,60 @@
       "actionid": 44,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 49,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_CREATOR",
+      "actionid": 49,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_CHECKER",
+      "actionid": 49,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_ADMIN_SANC",
+      "actionid": 49,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_FIN_SANC",
+      "actionid": 49,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EST_TECH_SANC",
+      "actionid": 49,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "LOI_CREATOR",
+      "actionid": 49,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "LOI_CHECKER",
+      "actionid": 49,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "LOI_APPROVER",
+      "actionid": 49,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+    "tenantId": "pb",
+    "moduleName": "works",
+    "Designation": [
+      {
+        "name": "President",
+        "code": "PRESIDENT",      
+          "active": true
+      },
+      {
+        "name": "Secretary",
+        "code": "SECRETARY",      
+          "active": true
+      },
+      {
+        "name": "Office Bearer",
+        "code": "OFFICE_BEARER",      
+          "active": true
+      },
+      {
+        "name": "Other",
+        "code": "OTHER",      
+          "active": true
+      }
+    ]
+}
