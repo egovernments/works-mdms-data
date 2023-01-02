@@ -1,0 +1,21 @@
+{
+    "tenantId": "pb",
+    "moduleName": "works",
+    "BillAmountPaidTo": [
+      {
+        "name": "Organisation (SHG)",
+        "code": "ORGANISATION",      
+        "active": true
+      },
+      {
+        "name": "Department (JE)",
+        "code": "DEPARTMENT",      
+        "active": true
+      },
+      {
+        "name": "Vendor",
+        "code": "VENDOR",      
+        "active": true
+      }
+    ]
+}
