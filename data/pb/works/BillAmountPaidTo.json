@@ -4,12 +4,12 @@
     "BillAmountPaidTo": [
       {
         "name": "Organisation (SHG)",
-        "code": "ORGANISATION",      
+        "code": "ORGANISATION_SHG",      
         "active": true
       },
       {
         "name": "Department (JE)",
-        "code": "DEPARTMENT",      
+        "code": "DEPARTMENT_JE",      
         "active": true
       },
       {
