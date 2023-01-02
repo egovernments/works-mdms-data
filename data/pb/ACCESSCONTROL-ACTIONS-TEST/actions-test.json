@@ -468,7 +468,7 @@
       "id": 38,
       "name": "Update muster roll",
       "url": "/muster-roll/v1/_update",
-      "parentModule": "muster-roll-service-service",
+      "parentModule": "muster-roll-service",
       "displayName": "Update muster roll",
       "orderNumber": 0,
       "enabled": false,
@@ -606,6 +606,18 @@
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "works-inbox-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 50,
+      "name": "Estimate muster roll",
+      "url": "/muster-roll/v1/_estimate",
+      "parentModule": "muster-roll-service",
+      "displayName": "Estimate muster roll",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "muster-roll-service",
       "code": "null",
       "path": ""
     }
