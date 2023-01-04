@@ -345,62 +345,8 @@
       "tenantId": "pb"
     },
     {
-      "rolecode": "EMPLOYEE",
-      "actionid": 39,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 40,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 41,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 42,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE",
+      "rolecode": "CITIZEN",
       "actionid": 43,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 44,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 45,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 46,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 47,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 48,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -436,30 +382,6 @@
     },
     {
       "rolecode": "ORG_ADMIN",
-      "actionid": 39,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ORG_ADMIN",
-      "actionid": 40,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ORG_ADMIN",
-      "actionid": 41,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ORG_ADMIN",
-      "actionid": 42,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ORG_ADMIN",
       "actionid": 43,
       "actioncode": "",
       "tenantId": "pb"
@@ -467,30 +389,6 @@
     {
       "rolecode": "ORG_ADMIN",
       "actionid": 44,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ORG_ADMIN",
-      "actionid": 45,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ORG_ADMIN",
-      "actionid": 46,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ORG_ADMIN",
-      "actionid": 47,
-      "actioncode": "",
-      "tenantId": "pb"
-    },
-    {
-      "rolecode": "ORG_ADMIN",
-      "actionid": 48,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -514,6 +412,18 @@
     },
     {
       "rolecode": "ORG_STAFF",
+      "actionid": 42,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 42,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "SUPERUSER",
       "actionid": 42,
       "actioncode": "",
       "tenantId": "pb"
@@ -615,7 +525,25 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 39,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "SUPERUSER",
+      "actionid": 39,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 39,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "MUNICIPAL_ENGINEER",
       "actionid": 39,
       "actioncode": "",
       "tenantId": "pb"
@@ -627,14 +555,44 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 40,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 40,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "MUNICIPAL_ENGINEER",
+      "actionid": 40,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "SUPERUSER",
       "actionid": 41,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 42,
+      "rolecode": "ORG_ADMIN",
+      "actionid": 41,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 41,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "MUNICIPAL_ENGINEER",
+      "actionid": 41,
       "actioncode": "",
       "tenantId": "pb"
     },
@@ -651,6 +609,18 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 45,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 45,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "SUPERUSER",
       "actionid": 45,
       "actioncode": "",
@@ -663,13 +633,49 @@
       "tenantId": "pb"
     },
     {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 46,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 46,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "SUPERUSER",
       "actionid": 47,
       "actioncode": "",
       "tenantId": "pb"
     },
     {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 47,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 47,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
       "rolecode": "SUPERUSER",
+      "actionid": 48,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 48,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_STAFF",
       "actionid": 48,
       "actioncode": "",
       "tenantId": "pb"
