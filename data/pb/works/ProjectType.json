@@ -1,46 +1,294 @@
 {
-    "tenantId": "pb",
-    "moduleName": "works",
-    "ProjectType": [
-      {
-        "name": "Mini Park",
-        "code": "MiniPark",
-        "active": true
-      },
-      {
-        "name": "Child Play Station",
-        "code": "ChildPlayStation",
-        "active": true
-      },
-      {
-        "name": "Open Air Gym",
-        "code": "OpenAirGym",
-        "active": true
-      },
-      {
-        "name": "Water Body",
-        "code": "WaterBody",
-        "active": true
-      },
-      {
-        "name": "Walking Track",
-        "code": "WalkingTrack",
-        "active": true
-      },
-      {
-        "name": "Playground",
-        "code": "Playground",
-        "active": true
-      },
-      {
-        "name": "Loo",
-        "code": "Loo",
-        "active": true
-      },
-      {
-        "name": "Vending Zone",
-        "code": "VendingZone",
-        "active": true
-      }
-    ]
-  }
+  "tenantId": "pb",
+  "moduleName": "works",
+  "ProjectType": [
+    {
+      "id": 1,
+      "name": "Mini Park",
+      "code": "MP-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": ["MP001", "MP002"]
+    },
+    {
+      "id": 2,
+      "name": "Mini Park",
+      "code": "MP_OMS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 3,
+      "name": "Mini Park",
+      "code": "MP_CWNS",
+      "group": "Capital Works",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 4,
+      "name": "Mini Park",
+      "code": "MP_OMNS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 5,
+      "name": "Child Play Station",
+      "code": "CPS-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 6,
+      "name": "Child Play Station",
+      "code": "CPS_OMS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 7,
+      "name": "Child Play Station",
+      "code": "CPS_CWNS",
+      "group": "Capital Works",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 8,
+      "name": "Child Play Station",
+      "code": "CPS_OMNS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 9,
+      "name": "Open Air Gym",
+      "code": "OAG-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 10,
+      "name": "Open Air Gym",
+      "code": "OAG_OMS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 11,
+      "name": "Open Air Gym",
+      "code": "OAG_CWNS",
+      "group": "Capital Works",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 12,
+      "name": "Open Air Gym",
+      "code": "OAG_OMNS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 13,
+      "name": "Water Body",
+      "code": "WB-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 14,
+      "name": "Water Body",
+      "code": "WB_OMS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 15,
+      "name": "Water Body",
+      "code": "WB_CWNS",
+      "group": "Capital Works",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 16,
+      "name": "Water Body",
+      "code": "WB_OMNS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 17,
+      "name": "Walking Track",
+      "code": "WT-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 18,
+      "name": "Walking Track",
+      "code": "WT_OMS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 19,
+      "name": "Walking Track",
+      "code": "WT_CWNS",
+      "group": "Capital Works",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 20,
+      "name": "Walking Track",
+      "code": "WT_OMNS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 21,
+      "name": "Playground",
+      "code": "PG-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 22,
+      "name": "Playground",
+      "code": "PG_OMS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 23,
+      "name": "Playground",
+      "code": "PG_CWNS",
+      "group": "Capital Works",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 24,
+      "name": "Playground",
+      "code": "PG_OMNS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 25,
+      "name": "Loo",
+      "code": "LOO-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 26,
+      "name": "Loo",
+      "code": "LOO_OMS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 27,
+      "name": "Loo",
+      "code": "LOO_CWNS",
+      "group": "Capital Works",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 28,
+      "name": "Loo",
+      "code": "LOO_OMNS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 29,
+      "name": "Vending Zone",
+      "code": "VZ-CWS",
+      "group": "Capital Works",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 30,
+      "name": "Vending Zone",
+      "code": "VZ_OMS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 31,
+      "name": "Vending Zone",
+      "code": "VZ_CWNS",
+      "group": "Capital Works",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    },
+    {
+      "id": 32,
+      "name": "Vending Zone",
+      "code": "VZ_OMNS",
+      "group": "Operations and Maintenance",
+      "beneficiary": "Non-Slum",
+      "active": true,
+      "projectSubType": []
+    }
+  ]
+}
