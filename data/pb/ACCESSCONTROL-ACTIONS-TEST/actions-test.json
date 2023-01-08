@@ -620,6 +620,42 @@
       "serviceCode": "muster-roll-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 51,
+      "name": "Create Project",
+      "url": "/project-management-system/project/v1/_create",
+      "parentModule": "project-management-system",
+      "displayName": "Create Project",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "project-management-system",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 52,
+      "name": "Search Project",
+      "url": "/project-management-system/project/v1/_search",
+      "parentModule": "project-management-system",
+      "displayName": "Search Project",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "project-management-system",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 53,
+      "name": "Update Project",
+      "url": "/project-management-system/project/v1/_update",
+      "parentModule": "project-management-system",
+      "displayName": "Update Project",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "project-management-system",
+      "code": "null",
+      "path": ""
     }
   ]
 }
