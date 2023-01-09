@@ -63,9 +63,23 @@
       "description": "LOI Approver"
     },
     {
-      "code": "ORG_ADMIN",
-      "name": "ORG ADMIN",
-      "description": "ORG ADMIN SHG"
+        "code": "ORG_ADMIN",
+        "name": "Organization admin",
+        "description": "Role for the admin of any organization"
+    },
+    { "code": "ORG_STAFF", 
+        "name": "Organization staff",
+        "description": "Role for the staff of any organization" 
+    },
+    {
+        "code": "JUNIOR_ENGINEER",
+        "name": "JUNIOR ENGINEER",
+        "description": "Junior engineer of a ULB"
+    },
+    {
+        "code": "MUNICIPAL_ENGINEER",
+        "name": "MUNICIPAL ENGINEER",
+        "description": "Municipal engineer of a ULB"
     }
   ]
 }
