@@ -1,0 +1,26 @@
+{
+    "tenantId": "pb",
+    "moduleName": "works",
+    "ClosureChecklist": [
+        {
+            "title": "What is the labour end date?",
+            "code": "CLOSURECHECKLIST_QUES_1",
+            "active": true
+        },
+        {
+            "title": "Are All Muster rolls submitted?",
+            "code": "CLOSURECHECKLIST_QUES_2",
+            "active": true
+        },
+        {
+            "title": "Is the final Bill submitted?",
+            "code": "CLOSURECHECKLIST_QUES_3",
+            "active": true
+        },
+        {
+            "title": "Upload Site Photos",
+            "code": "CLOSURECHECKLIST_QUES_4",
+            "active": true
+        }
+    ]
+}
