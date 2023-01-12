@@ -27,9 +27,6 @@
                 "active": true,
                 "type": "UPLOAD_ANSWER_TYPE"
             }
-        ],
-        "formConfig": {
-
-        }
+        ]
     }
 }
