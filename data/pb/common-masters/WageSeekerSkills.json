@@ -5,27 +5,32 @@
         {
             "name": "Unskilled",
             "code": "UNSKILLED",
-            "active": true
+            "active": true,
+            "amount": 2000
         },
         {
             "name": "Skilled Level 1",
             "code": "SKILLED_LEVEL_1",
-            "active": true
+            "active": true,
+            "amount": 2000
         },
         {
             "name": "Skilled Level 2",
             "code": "SKILLED_LEVEL_2",
-            "active": true
+            "active": true,
+            "amount": 2000
         },
         {
             "name": "Skilled Level 3",
             "code": "SKILLED_LEVEL_3",
-            "active": true
+            "active": true,
+            "amount": 1000
         },
         {
             "name": "Skilled Level 4",
             "code": "SKILLED_LEVEL_4",
-            "active": true
+            "active": true,
+            "amount": 1000
         }
     ]
 }
