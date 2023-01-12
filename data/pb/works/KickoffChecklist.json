@@ -9,7 +9,7 @@
             "type": "MULTIPLE_ANSWER_TYPE"
         },
         {
-            "title": "Labour Start date/ Date of Commencement",
+            "title": "Project Start date/ Date of Commencement",
             "code": "KICKOFFCHEKCLIST_QUES_2",
             "active": true,
             "type": "DATE_ANSWER_TYPE"
