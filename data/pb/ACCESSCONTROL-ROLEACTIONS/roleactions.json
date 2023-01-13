@@ -751,6 +751,72 @@
       "actionid": 53,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 15,
+      "actioncode": "",
+      "tenantId": "pb"
+    }, {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 18,
+      "actioncode": "",
+      "tenantId": "pb"
+    }, {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 54,
+      "actioncode": "",
+      "tenantId": "pb"
+    }, {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 55,
+      "actioncode": "",
+      "tenantId": "pb"
+    }, {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 56,
+      "actioncode": "",
+      "tenantId": "pb"
+    }, {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 57,
+      "actioncode": "",
+      "tenantId": "pb"
+    }, {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 58,
+      "actioncode": "",
+      "tenantId": "pb"
+    }, {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 59,
+      "actioncode": "",
+      "tenantId": "pb"
+    }, {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 60,
+      "actioncode": "",
+      "tenantId": "pb"
+    },{
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 61,
+      "actioncode": "",
+      "tenantId": "pb"
+    }, {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 62,
+      "actioncode": "",
+      "tenantId": "pb"
+    }, {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 63,
+      "actioncode": "",
+      "tenantId": "pb"
+    }, {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 64,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }
