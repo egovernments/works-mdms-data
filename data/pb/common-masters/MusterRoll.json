@@ -32,7 +32,7 @@
     },
     {
       "code": "Skill 2",
-      "value": "Semiskilled"
+      "value": "Semi-Skilled"
     },
     {
       "code": "Skill 3",
@@ -40,7 +40,7 @@
     },
     {
       "code": "Skill 4",
-      "value": "Highskilled"
+      "value": "High-Skilled"
     }
   ]
 }
