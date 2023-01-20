@@ -797,7 +797,7 @@
       "leftIcon": "FSMIcon"
     },
     {
-      "id": 62,
+      "id": 64,
       "name": "MASTERS",
       "url": "url",
       "displayName": "Masters Search",
@@ -811,7 +811,7 @@
       "leftIcon": "TLIcon"
     },
     {
-      "id": 63,
+      "id": 65,
       "name": "MASTERS",
       "url": "url",
       "displayName": "Masters Create WageSeeker",
@@ -825,7 +825,7 @@
       "leftIcon": "TLIcon"
     },
     {
-      "id": 64,
+      "id": 66,
       "name": "MASTERS",
       "url": "url",
       "displayName": "Masters Create Organisation",
