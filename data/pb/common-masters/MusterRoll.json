@@ -25,22 +25,6 @@
     {
       "code": "ROUND_OFF_HOURS",
       "value": "true"
-    },
-    {
-      "code": "Skill 1",
-      "value": "Unskilled"
-    },
-    {
-      "code": "Skill 2",
-      "value": "Semi-Skilled"
-    },
-    {
-      "code": "Skill 3",
-      "value": "Skilled"
-    },
-    {
-      "code": "Skill 4",
-      "value": "High-Skilled"
     }
   ]
 }
