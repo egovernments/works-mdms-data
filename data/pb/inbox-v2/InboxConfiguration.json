@@ -65,6 +65,45 @@
           "defaultOrder": "ASC"
       },
       "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.tenantId"]
+    },
+    {
+      "module": "muster-roll-service",
+      "index": "muster-roll-inbox",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "musterRollStatus",
+          "path": "Data.musterRollStatus.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "startDate",
+          "path": "Data.startDate.keyword",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "endDate",
+          "path": "Data.endDate.keyword",
+          "isMandatory": false,
+          "operator": "LTE"
+        },
+        {
+          "name": "attendanceRegisterName",
+          "path": "Data.additionalDetails.attendanceRegisterName.keyword",
+          "isMandatory": false
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.tenantId"]
     }
   ]
 }
