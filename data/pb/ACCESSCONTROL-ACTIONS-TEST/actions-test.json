@@ -838,6 +838,18 @@
       "navigationURL": "/works-ui/employee/masters/create-organization",
       "path": "MASTERS.CreateOrganisation",
       "leftIcon": "TLIcon"
+    },
+    {
+      "id": 65,
+      "name": "Inbox service V2",
+      "url": "/inbox/v2/_search",
+      "parentModule": "inbox-v2",
+      "displayName": "Works inbox",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "inbox-v2",
+      "code": "null",
+      "path": ""
     }
   ]
 }
