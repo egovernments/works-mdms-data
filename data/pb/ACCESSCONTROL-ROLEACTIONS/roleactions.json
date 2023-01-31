@@ -817,6 +817,11 @@
       "actionid": 64,
       "actioncode": "",
       "tenantId": "pb"
+    }, {
+      "rolecode": "SUPERUSER",
+      "actionid": 65,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }
