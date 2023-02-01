@@ -103,7 +103,7 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.tenantId"]
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.musterRollNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.currentProcessInstance", "Data.auditDetails"]
     }
   ]
 }
