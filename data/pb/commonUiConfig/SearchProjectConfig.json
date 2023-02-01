@@ -1,7 +1,7 @@
 {
     "tenantId":"pb",
-    "moduleName":"uiconfigs",
-    "SearchProject":[
+    "moduleName":"commonUiConfig",
+    "SearchProjectConfig":[
         {
             "label": "Search Projects",
             "type": "search",
