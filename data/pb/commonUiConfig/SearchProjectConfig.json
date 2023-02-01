@@ -1,6 +1,6 @@
 {
     "tenantId":"pb",
-    "moduleName":"works",
+    "moduleName":"uiconfigs",
     "SearchProject":[
         {
             "label": "Search Projects",
