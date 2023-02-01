@@ -77,6 +77,11 @@
           "operator": "EQUAL"
         },
         {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "isMandatory": false
+        },
+        {
           "name": "musterRollStatus",
           "path": "Data.musterRollStatus.keyword",
           "isMandatory": false
