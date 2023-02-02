@@ -3,7 +3,7 @@
     "moduleName":"commonUiConfig",
     "SearchProjectConfig":[
         {
-            "label": "Search Projects",
+            "label": "WORKS_SEARCH_PROJECT",
             "type": "search",
             "apiDetails": {
                 "serviceName": "/pms/project/v1/_search",
@@ -14,14 +14,11 @@
                         {}
                     ]
                 },
+                "minParametersForSearchForm": 1,
+                "masterName": "commonUiConfig",
+                "moduleName": "SearchProjectConfig",
                 "jsonPathForReqBody": "requestBody.Projects[0]",
                 "jsonPathForReqParam": "requestParam",
-                "mandatoryFieldsInParam": {
-                    "tenantId": "fetchTenantId"
-                },
-                "mandatoryFieldsInBody": {
-                    "tenantId": "fetchTenantId"
-                },
                 "tableFormJsonPath": "",
                 "filterFormJsonPath": "",
                 "searchFormJsonPath": ""
@@ -30,8 +27,8 @@
                 "search": {
                     "uiConfig": {
                         "headerStyle": null,
-                        "primaryLabel": "Search",
-                        "secondaryLabel": "Clear Search",
+                        "primaryLabel": "ACTION_TEST_SEARCH",
+                        "secondaryLabel": "CLEAR_SEARCH_LINk",
                         "minReqFields": 1,
                         "defaultValues": {
                             "projectNumber": "",
@@ -43,34 +40,49 @@
                         },
                         "fields": [
                             {
-                                "label": "Project ID",
+                                "label": "WORKS_PROJECT_ID",
                                 "type": "text",
                                 "isMandatory": false,
                                 "disable": false,
                                 "populators": {
-                                    "name": "projectNumber"
+                                    "name": "projectNumber",
+                                    "error": "PROJECT_PATTERN_ERR_MSG",
+                                    "validation": {
+                                        "pattern": {},
+                                        "minlength": 2
+                                    }
                                 }
                             },
                             {
-                                "label": "Sub Project ID",
+                                "label": "PROJECT_PRJ_SUB_ID",
                                 "type": "text",
                                 "isMandatory": false,
                                 "disable": false,
                                 "populators": {
-                                    "name": "projectNumber"
+                                    "name": "projectNumber",
+                                    "error": "PROJECT_PATTERN_ERR_MSG",
+                                    "validation": {
+                                        "pattern": {},
+                                        "minlength": 2
+                                    }
                                 }
                             },
                             {
-                                "label": "Name of the Project",
+                                "label": "PROJECT_NAME",
                                 "type": "text",
                                 "isMandatory": false,
                                 "disable": false,
                                 "populators": {
-                                    "name": "name"
+                                    "name": "name",
+                                    "error": "PROJECT_PATTERN_ERR_MSG",
+                                    "validation": {
+                                        "pattern": {},
+                                        "minlength": 2
+                                    }
                                 }
                             },
                             {
-                                "label": "Type Of Work",
+                                "label": "WORKS_PROJECT_TYPE",
                                 "type": "dropdown",
                                 "isMandatory": false,
                                 "disable": false,
@@ -79,30 +91,29 @@
                                     "optionsKey": "code",
                                     "mdmsConfig": {
                                         "masterName": "ProjectType",
-                                        "moduleName": "works"
+                                        "moduleName": "works",
+                                        "localePrefix": "ES_COMMON"
                                     }
-                                },
-                                "preProcessfn": "getCode"
+                                }
                             },
                             {
-                                "label": "Created from Date",
+                                "label": "CREATED_FROM_DATE",
                                 "type": "date",
                                 "isMandatory": false,
                                 "disable": false,
                                 "populators": {
                                     "name": "startDate"
-                                },
-                                "preProcessfn": "convertDateToEpoch"
+                                }
                             },
                             {
-                                "label": "Created to Date",
+                                "label": "CREATED_TO_DATE",
                                 "type": "date",
                                 "isMandatory": false,
                                 "disable": false,
                                 "populators": {
-                                    "name": "endDate"
-                                },
-                                "preProcessfn": "convertDateToEpoch"
+                                    "name": "endDate",
+                                    "error": "DATE_VALIDATION_MSG"
+                                }
                             }
                         ]
                     },
