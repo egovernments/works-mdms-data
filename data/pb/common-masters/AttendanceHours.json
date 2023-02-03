@@ -8,11 +8,11 @@
       "active": true
     },{
       "code": "EVENING",
-      "value": "9",
+      "value": "14",
       "active": true
     },{
       "code": "AFTERNOON",
-      "value": "9",
+      "value": "18",
       "active": true
     }
   ]
