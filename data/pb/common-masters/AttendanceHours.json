@@ -7,11 +7,11 @@
       "value": "9",
       "active": true
     },{
-      "code": "EVENING",
+      "code": "AFTERNOON",
       "value": "14",
       "active": true
     },{
-      "code": "AFTERNOON",
+      "code": "EVENING",
       "value": "18",
       "active": true
     }
