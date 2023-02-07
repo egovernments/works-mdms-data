@@ -5,6 +5,8 @@
     {
       "schemeCode": "15th CFC",
       "schemeName": "15th CFC-15th Central Finance Commission",
+      "code": "15th CFC",
+      "name": "15th CFC-15th Central Finance Commission",
       "fund": "Grant Fund from Central Government",    
       "active": true,
 	"subSchemes": [
@@ -18,6 +20,8 @@
     {
       "schemeCode": "AMRUT",
       "schemeName": "AMRUT-AMRUT Yojana",
+      "code": "AMRUT",
+      "name": "AMRUT-AMRUT Yojana",
       "fund": "Grant Fund from Central Government",    
       "active": true,
 	"subSchemes": [
