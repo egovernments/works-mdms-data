@@ -63,7 +63,7 @@
     },
     {
       "module": "muster-roll-service",
-      "index": "muster-roll-inbox",
+      "index": "muster-inbox",
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
