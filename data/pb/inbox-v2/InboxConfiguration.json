@@ -83,13 +83,13 @@
         },
         {
           "name": "startDate",
-          "path": "Data.startDate.keyword",
+          "path": "Data.startDate",
           "isMandatory": false,
           "operator": "GTE"
         },
         {
           "name": "endDate",
-          "path": "Data.endDate.keyword",
+          "path": "Data.endDate",
           "isMandatory": false,
           "operator": "LTE"
         },
