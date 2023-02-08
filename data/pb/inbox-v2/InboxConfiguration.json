@@ -59,7 +59,7 @@
           "path": "Data.auditDetails.createdTime",
           "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.tenantId","Data.project","Data.estimateDetails"]
+      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails"]
     },
     {
       "module": "muster-roll-service",
