@@ -153,7 +153,7 @@
                         },
                         {
                             "label": "WORKS_WORK_NATURE",
-                            "jsonPath": "endDate"
+                            "jsonPath": "natureOfWork"
                         },
                         {
                             "label": "WORKS_PARENT_PROJECT_ID",
