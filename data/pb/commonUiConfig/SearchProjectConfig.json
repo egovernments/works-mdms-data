@@ -161,7 +161,7 @@
                         },
                         {
                             "label": "WORKS_PARENT_PROJECT_ID",
-                            "jsonPath": "parentId"
+                            "jsonPath": "parent"
                         },
                         {
                             "label": "WORKS_CREATED_BY",
