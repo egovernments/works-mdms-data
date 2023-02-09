@@ -39,13 +39,13 @@
         },
         {
           "name": "fromProposalDate",
-          "path": "Data.proposalDate.keyword",
+          "path": "Data.proposalDate",
           "isMandatory": false,
           "operator": "GTE"
         },
         {
           "name": "toProposalDate",
-          "path": "Data.proposalDate.keyword",
+          "path": "Data.proposalDate",
           "isMandatory": false,
           "operator": "LTE"
         },
