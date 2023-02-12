@@ -1,0 +1,36 @@
+{
+    "tenantId": "pg",
+    "moduleName": "common-masters",
+    "WageSeekerSkills": [
+        {
+            "name": "Unskilled",
+            "code": "UNSKILLED",
+            "active": true,
+            "amount": 1000
+        },
+        {
+            "name": "Skill 1",
+            "code": "SKILL_1",
+            "active": true,
+            "amount": 1500
+        },
+        {
+            "name": "Skill 2",
+            "code": "SKILL_2",
+            "active": true,
+            "amount": 2000
+        },
+        {
+            "name": "Skill 3",
+            "code": "SKILL_3",
+            "active": true,
+            "amount": 2500
+        },
+        {
+            "name": "Skill 4",
+            "code": "SKILL_4",
+            "active": true,
+            "amount": 3000
+        }
+    ]
+}

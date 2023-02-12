@@ -1,0 +1,159 @@
+{
+    "tenantId": "pg",
+    "moduleName": "tenant",
+    "citymodule": [
+        {
+            "module": "Works",
+            "code": "Works",
+            "active": true,
+            "order": 1,
+            "tenants": [
+                {
+                    "code": "pg.jalandhar"
+                },
+                {
+                    "code": "pg.nawanshahr"
+                },
+                {
+                    "code": "pg.amritsar"
+                }
+            ]
+        },
+        {
+            "module": "AttendenceMgmt",
+            "code": "AttendenceMgmt",
+            "active": true,
+            "order": 4,
+            "tenants": [
+                {
+                    "code": "pg.jalandhar"
+                },
+                {
+                    "code": "pg.nawanshahr"
+                },
+                {
+                    "code": "pg.amritsar"
+                }
+            ]
+        },
+        {
+            "module": "Contracts",
+            "code": "Contracts",
+            "active": true,
+            "order": 5,
+            "tenants": [
+                {
+                    "code": "pg.jalandhar"
+                },
+                {
+                    "code": "pg.nawanshahr"
+                },
+                {
+                    "code": "pg.amritsar"
+                }
+            ]
+        },
+        {
+            "module": "Expenditure",
+            "code": "Expenditure",
+            "active": true,
+            "order": 7,
+            "tenants": [
+                {
+                    "code": "pg.jalandhar"
+                },
+                {
+                    "code": "pg.nawanshahr"
+                },
+                {
+                    "code": "pg.amritsar"
+                }
+            ]
+        },
+        {
+            "module": "Engagement",
+            "code": "Engagement",
+            "active": false,
+            "order": 4,
+            "tenants": [
+                {
+                    "code": "pg.jalandhar"
+                },
+                {
+                    "code": "pg.phagwara"
+                },
+                {
+                    "code": "pg.amritsar"
+                }
+            ]
+        },
+        {
+            "module": "HRMS",
+            "code": "HRMS",
+            "active": true,
+            "order": 2,
+            "tenants": [
+                {
+                    "code": "pg.jalandhar"
+                },
+                {
+                    "code": "pg.nawanshahr"
+                },
+                {
+                    "code": "pg.amritsar"
+                }
+            ]
+        },
+        {
+            "module": "Estimate",
+            "code": "Estimate",
+            "active": true,
+            "order": 3,
+            "tenants": [
+                {
+                    "code": "pg.jalandhar"
+                },
+                {
+                    "code": "pg.nawanshahr"
+                },
+                {
+                    "code": "pg.amritsar"
+                }
+            ]
+        },
+        {
+            "module": "Masters",
+            "code": "Masters",
+            "active": true,
+            "order": 6,
+            "tenants": [
+                {
+                    "code": "pg.jalandhar"
+                },
+                {
+                    "code": "pg.nawanshahr"
+                },
+                {
+                    "code": "pg.amritsar"
+                }
+            ]
+        },
+        {
+            "module": "Project",
+            "code": "Project",
+            "active": true,
+            "order": 8,
+            "tenants": [
+                {
+                    "code": "pg.jalandhar"
+                },
+                {
+                    "code": "pg.nawanshahr"
+                },
+                {
+                    "code": "pg.amritsar"
+                }
+            ]
+        }
+    ]
+}
