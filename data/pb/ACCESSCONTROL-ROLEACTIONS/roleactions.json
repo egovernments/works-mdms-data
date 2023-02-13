@@ -839,6 +839,72 @@
       "actionid": 22,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "CONTRACT_CREATOR",
+      "actionid": 66,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CONTRACT_CREATOR",
+      "actionid": 67,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CONTRACT_CREATOR",
+      "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CONTRACT_CHECKER",
+      "actionid": 67,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CONTRACT_CHECKER",
+      "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CONTRACT_APPROVER",
+      "actionid": 67,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CONTRACT_APPROVER",
+      "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CONTRACT_ISSUER",
+      "actionid": 67,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CONTRACT_ISSUER",
+      "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CONTRACT_ACCEPTER",
+      "actionid": 67,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CONTRACT_ACCEPTER",
+      "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }
