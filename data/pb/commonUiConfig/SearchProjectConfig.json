@@ -169,7 +169,7 @@
                         },
                         {
                             "label": "WORKS_TOTAL_AMOUNT",
-                            "jsonPath": "totalAmount"
+                            "jsonPath": "additionalDetails.estimatedCostInRs"
                         }
                     ],
                     "enableGlobalSearch": false,
