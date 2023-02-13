@@ -596,6 +596,42 @@
       "serviceCode": "attendance-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 49,
+      "name": "Create Contract",
+      "url": "/contract-service/contract/v1/_create",
+      "parentModule": "contract-service",
+      "displayName": "Create Contract",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "contract-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 50,
+      "name": "Update Contract",
+      "url": "/contract-service/contract/v1/_update",
+      "parentModule": "contract-service",
+      "displayName": "Update Contract",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "contract-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 51,
+      "name": "Search Contract",
+      "url": "/contract-service/contract/v1/_search",
+      "parentModule": "contract-service",
+      "displayName": "Create Contract",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "contract-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
