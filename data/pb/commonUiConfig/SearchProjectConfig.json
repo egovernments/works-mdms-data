@@ -5,6 +5,7 @@
       {
         "label": "WORKS_SEARCH_PROJECT",
         "type": "search",
+        "postProcessResult": true,
         "apiDetails": {
             "serviceName": "/pms/project/v1/_search",
             "requestParam": {},
@@ -46,7 +47,7 @@
                                 "name": "projectNumber",
                                 "error": "PROJECT_PATTERN_ERR_MSG",
                                 "validation": {
-                                    "pattern": {},
+                                    "pattern": "/^[a-z0-9\/-]*$/i",
                                     "minlength": 2
                                 }
                             }
@@ -60,7 +61,7 @@
                                 "name": "projectNumber",
                                 "error": "PROJECT_PATTERN_ERR_MSG",
                                 "validation": {
-                                    "pattern": {},
+                                    "pattern": "/^[a-z0-9\/-]*$/i",
                                     "minlength": 2
                                 }
                             }
@@ -74,7 +75,7 @@
                                 "name": "name",
                                 "error": "PROJECT_PATTERN_ERR_MSG",
                                 "validation": {
-                                    "pattern": {},
+                                    "pattern": "/^[a-z0-9\/-@#]*$/i",
                                     "minlength": 2
                                 }
                             }
@@ -111,6 +112,10 @@
                             "populators": {
                                 "name": "endDate",
                                 "error": "DATE_VALIDATION_MSG"
+                            },
+                            "additionalValidation": {
+                                "type": "date",
+                                "keys": { "start": "startDate", "end": "endDate" }
                             }
                         }
                     ]
@@ -157,11 +162,11 @@
                         },
                         {
                             "label": "WORKS_PARENT_PROJECT_ID",
-                            "jsonPath": "parent"
+                            "jsonPath": "ancestors[0].projectNumber"
                         },
                         {
                             "label": "WORKS_CREATED_BY",
-                            "jsonPath": "auditDetails.createdBy"
+                            "jsonPath": "createdBy"
                         },
                         {
                             "label": "WORKS_STATUS",
