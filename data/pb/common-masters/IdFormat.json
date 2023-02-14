@@ -3,7 +3,7 @@
   "moduleName": "common-masters",
   "IdFormat": [
     {
-      "format": "EP/[fy:yyyy-yy]/[cy:MM]/[SEQ_ESTIMATE_NUM]",
+      "format": "ES-[fy:yyyy]-[SEQ_ESTIMATE_NUM]",
       "idname": "estimate.number"
     },
     {
