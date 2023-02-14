@@ -1,0 +1,18 @@
+{
+  "tenantId": "pg",
+  "moduleName": "works",
+  "ExecutingAuthority": [
+    {
+      "executingAuthorityCode": "EA01",
+      "name": "Implementation Agency",
+      "description": "Implementation agency",
+      "active": true
+    },
+    {
+      "executingAuthorityCode": "EA01",
+      "name": "Implementation Partner",
+      "description": "Implementation partner",
+      "active": true
+    }
+  ]
+}

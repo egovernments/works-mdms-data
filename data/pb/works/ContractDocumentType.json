@@ -1,0 +1,36 @@
+{
+  "tenantId":"pg",
+  "moduleName":"works",
+  "DocumentType":[
+    {
+      "documentTypeCode":"DT01",
+      "name":"BOQ",
+      "description":"BOQ",
+      "active":true
+    },
+    {
+      "documentTypeCode":"DT02",
+      "name":"Labour Analysis",
+      "description":"Labour Analysis",
+      "active":true
+    },
+    {
+      "documentTypeCode":"DT03",
+      "name":"Material Analysis",
+      "description":"Material Analysis",
+      "active":true
+    },
+    {
+      "documentTypeCode":"DT04",
+      "name":"Terms And Conditions",
+      "description":"Terms and conditions",
+      "active":true
+    },
+    {
+      "documentTypeCode":"DT05",
+      "name":"Others",
+      "description":"Others",
+      "active":true
+    }
+  ]
+}

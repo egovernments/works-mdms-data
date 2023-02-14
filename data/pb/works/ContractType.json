@@ -1,0 +1,18 @@
+{
+  "tenantId": "pg",
+  "moduleName": "works",
+  "ContractType": [
+    {
+      "contractCode": "CON-01",
+      "name": "Purchase Order",
+      "description": "Defines a contract of type purchase order",
+      "active": true
+    },
+    {
+      "contractCode": "CON-02",
+      "name": "Work Order",
+      "description": "Defines a contract of type work order",
+      "active": true
+    }
+  ]
+}
