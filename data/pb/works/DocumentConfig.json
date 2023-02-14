@@ -1,0 +1,123 @@
+{
+    "tenantId": "pb",
+    "moduleName": "works",
+    "DocumentConfig": [ 
+      {
+        "module": "Project",
+        "documents": [
+          {
+            "code": "PROJECT_PROPOSAL",
+            "active": true,
+            "isMandatory": true,
+            "isMultiple" : true
+          },
+          {
+            "code": "FINALIZED_WORKLIST",
+            "active": true,
+            "isMandatory": false,
+            "isMultiple" : false
+          },
+          {
+            "code": "FEASIBILITY_ANALYSIS",
+            "active": true,
+            "isMandatory": false,
+            "isMultiple" : false
+          }
+        ]
+      },
+      {
+        "module": "Estimate",
+        "documents": [
+          {
+            "code": "DETAILED_ESTIMATE",
+            "active": true,
+            "isMandatory": true,
+            "isMultiple" : true
+          },
+          {
+            "code": "LABOUR_ANALYSIS",
+            "active": true,
+            "isMandatory": false,
+            "isMultiple" : false
+          },
+          {
+            "code": "MATERIAL_ANALYSIS",
+            "active": true,
+            "isMandatory": false,
+            "isMultiple" : false
+          },
+          {
+            "code": "DESIGN_DOCUMENT",
+            "active": true,
+            "isMandatory": false,
+            "isMultiple" : false
+          },
+          {
+            "code": "OTHERS",
+            "active": true,
+            "isMandatory": false,
+            "isMultiple" : true
+          }
+        ]
+      }, 
+      {
+        "module": "Work Order",
+        "documents": [
+          {
+            "code": "BOQ",
+            "active": true,
+            "isMandatory": true,
+            "isMultiple" : true
+          },
+          {
+            "code": "LABOUR_ANALYSIS",
+            "active": true,
+            "isMandatory": false,
+            "isMultiple" : false
+          },
+          {
+            "code": "MATERIAL_ANALYSIS",
+            "active": true,
+            "isMandatory": false,
+            "isMultiple" : false
+          },
+          {
+            "code": "TERMS_AND_CONDITIONS",
+            "active": true,
+            "isMandatory": false,
+            "isMultiple" : false
+          },
+          {
+            "code": "OTHERS",
+            "active": true,
+            "isMandatory": false,
+            "isMultiple" : true
+          }
+        ]
+      },
+      {
+        "module": "Bill",
+        "documents": [
+          {
+            "code": "MEASUREMENT_BOOK",
+            "active": true,
+            "isMandatory": true,
+            "isMultiple" : true
+          },
+          {
+            "code": "MATERIAL_UTILIZATION_LOG",
+            "active": true,
+            "isMandatory": false,
+            "isMultiple" : false
+          },
+          {
+            "code": "LABOUR_UTILIZATION_LOG",
+            "active": true,
+            "isMandatory": false,
+            "isMultiple" : false
+          }
+        ]
+      }
+    ]
+  }
+  
