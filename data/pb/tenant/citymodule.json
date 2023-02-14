@@ -154,6 +154,23 @@
                     "code": "pb.amritsar"
                 }
             ]
+        },
+         {
+            "module": "Mukta",
+            "code": "Mukta",
+            "active": true,
+            "order": 9,
+            "tenants": [
+                {
+                    "code": "pb.jalandhar"
+                },
+                {
+                    "code": "pb.nawanshahr"
+                },
+                {
+                    "code": "pb.amritsar"
+                }
+            ]
         }
     ]
 }
