@@ -161,7 +161,8 @@
                         },
                         {
                             "label": "WORKS_PARENT_PROJECT_ID",
-                            "jsonPath": "ancestors[0].projectNumber"
+                            "jsonPath": "ancestors[0].projectNumber",
+                            "additionalCustomization": true
                         },
                         {
                             "label": "WORKS_CREATED_BY",
