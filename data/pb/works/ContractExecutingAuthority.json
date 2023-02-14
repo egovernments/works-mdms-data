@@ -4,14 +4,32 @@
   "ExecutingAuthority": [
     {
       "executingAuthorityCode": "EA01",
-      "name": "Implementation Agency",
-      "description": "Implementation agency",
+      "name": "Housing and Urban Development Department",
+      "description": "Defines a executing authority of Housing and Urban Development Department",
       "active": true
     },
     {
-      "executingAuthorityCode": "EA01",
-      "name": "Implementation Partner",
-      "description": "Implementation partner",
+      "executingAuthorityCode": "EA02",
+      "name": "Health Department",
+      "description": "Defines a executing authority of Health Department",
+      "active": true
+    },
+    {
+      "executingAuthorityCode": "EA03",
+      "name": "Education Department",
+      "description": "Defines a executing authority of Education Department",
+      "active": true
+    },
+    {
+      "executingAuthorityCode": "EA04",
+      "name": "Public Works Department",
+      "description": "Defines a executing authority of Public Works Department",
+      "active": true
+    },
+    {
+      "executingAuthorityCode": "EA05",
+      "name": "Agriculture Department",
+      "description": "Defines a executing authority of Agriculture Department",
       "active": true
     }
   ]

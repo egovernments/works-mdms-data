@@ -4,14 +4,26 @@
   "ContractType": [
     {
       "contractCode": "CON-01",
-      "name": "Purchase Order",
-      "description": "Defines a contract of type purchase order",
+      "name": "WO.Work_Items",
+      "description": "Defines a contract of type WO.Work_Items",
       "active": true
     },
     {
       "contractCode": "CON-02",
       "name": "Work Order",
-      "description": "Defines a contract of type work order",
+      "description": "Defines a contract of type WO.Labour_and_Material",
+      "active": true
+    },
+    {
+      "contractCode": "CON-03",
+      "name": "Purchase Order",
+      "description": "Defines a contract of type Purchase Order",
+      "active": true
+    },
+    {
+      "contractCode": "CON-04",
+      "name": "Mixed",
+      "description": "Defines a contract of type Mixed",
       "active": true
     }
   ]
