@@ -850,6 +850,18 @@
       "serviceCode": "inbox-v2",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 66,
+      "name": "Create Individual",
+      "url": "/individual/v1/_create",
+      "parentModule": "individual",
+      "displayName": "Create individual",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "individual",
+      "code": "null",
+      "path": ""
     }
   ]
 }
