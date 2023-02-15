@@ -100,7 +100,7 @@
                             "isMandatory": false,
                             "disable": false,
                             "populators": {
-                                "name": "startDate"
+                                "name": "createdFrom"
                             }
                         },
                         {
@@ -109,7 +109,7 @@
                             "isMandatory": false,
                             "disable": false,
                             "populators": {
-                                "name": "endDate",
+                                "name": "createdTo",
                                 "error": "DATE_VALIDATION_MSG"
                             },
                             "additionalValidation": {
