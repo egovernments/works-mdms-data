@@ -1,9 +1,0 @@
-{
-    "tenantId": "pb",
-    "moduleName": "common-masters",
-    "uiHomePage": [
-        {
-           "redirectURL":"attendencemgmt/shghome"
-        }   
-    ]
-}

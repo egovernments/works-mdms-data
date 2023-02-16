@@ -9,13 +9,13 @@
             "order": 1,
             "tenants": [
                 {
-                    "code": "pg.jalandhar"
+                    "code": "pg.cityb"
                 },
                 {
-                    "code": "pg.nawanshahr"
+                    "code": "pg.cityc"
                 },
                 {
-                    "code": "pg.amritsar"
+                    "code": "pg.citya"
                 }
             ]
         },
@@ -26,13 +26,13 @@
             "order": 4,
             "tenants": [
                 {
-                    "code": "pg.jalandhar"
+                    "code": "pg.cityb"
                 },
                 {
-                    "code": "pg.nawanshahr"
+                    "code": "pg.cityc"
                 },
                 {
-                    "code": "pg.amritsar"
+                    "code": "pg.citya"
                 }
             ]
         },
@@ -43,13 +43,13 @@
             "order": 5,
             "tenants": [
                 {
-                    "code": "pg.jalandhar"
+                    "code": "pg.cityb"
                 },
                 {
-                    "code": "pg.nawanshahr"
+                    "code": "pg.cityc"
                 },
                 {
-                    "code": "pg.amritsar"
+                    "code": "pg.citya"
                 }
             ]
         },
@@ -60,13 +60,13 @@
             "order": 7,
             "tenants": [
                 {
-                    "code": "pg.jalandhar"
+                    "code": "pg.cityb"
                 },
                 {
-                    "code": "pg.nawanshahr"
+                    "code": "pg.cityc"
                 },
                 {
-                    "code": "pg.amritsar"
+                    "code": "pg.citya"
                 }
             ]
         },
@@ -77,13 +77,13 @@
             "order": 4,
             "tenants": [
                 {
-                    "code": "pg.jalandhar"
+                    "code": "pg.cityb"
                 },
                 {
-                    "code": "pg.phagwara"
+                    "code": "pg.cityc"
                 },
                 {
-                    "code": "pg.amritsar"
+                    "code": "pg.citya"
                 }
             ]
         },
@@ -94,13 +94,13 @@
             "order": 2,
             "tenants": [
                 {
-                    "code": "pg.jalandhar"
+                    "code": "pg.cityb"
                 },
                 {
-                    "code": "pg.nawanshahr"
+                    "code": "pg.cityc"
                 },
                 {
-                    "code": "pg.amritsar"
+                    "code": "pg.citya"
                 }
             ]
         },
@@ -111,13 +111,13 @@
             "order": 3,
             "tenants": [
                 {
-                    "code": "pg.jalandhar"
+                    "code": "pg.cityb"
                 },
                 {
-                    "code": "pg.nawanshahr"
+                    "code": "pg.cityc"
                 },
                 {
-                    "code": "pg.amritsar"
+                    "code": "pg.citya"
                 }
             ]
         },
@@ -128,13 +128,13 @@
             "order": 6,
             "tenants": [
                 {
-                    "code": "pg.jalandhar"
+                    "code": "pg.cityb"
                 },
                 {
-                    "code": "pg.nawanshahr"
+                    "code": "pg.cityc"
                 },
                 {
-                    "code": "pg.amritsar"
+                    "code": "pg.citya"
                 }
             ]
         },
@@ -145,13 +145,30 @@
             "order": 8,
             "tenants": [
                 {
-                    "code": "pg.jalandhar"
+                    "code": "pg.cityb"
                 },
                 {
-                    "code": "pg.nawanshahr"
+                    "code": "pg.cityc"
                 },
                 {
-                    "code": "pg.amritsar"
+                    "code": "pg.citya"
+                }
+            ]
+        },
+         {
+            "module": "Mukta",
+            "code": "Mukta",
+            "active": true,
+            "order": 9,
+            "tenants": [
+                {
+                    "code": "pg.cityb"
+                },
+                {
+                    "code": "pg.cityc"
+                },
+                {
+                    "code": "pg.citya"
                 }
             ]
         }
