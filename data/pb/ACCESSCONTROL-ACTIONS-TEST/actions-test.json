@@ -886,6 +886,18 @@
       "serviceCode": "contract-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 69,
+      "name": "Create Individual",
+      "url": "/individual/v1/_create",
+      "parentModule": "individual",
+      "displayName": "Create individual",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "individual",
+      "code": "null",
+      "path": ""
     }
 
   ]
