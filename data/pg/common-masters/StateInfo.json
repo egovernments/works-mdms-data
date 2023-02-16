@@ -3,13 +3,13 @@
   "moduleName": "common-masters",
   "StateInfo": [
     {
-      "name": "Panjab",
+      "name": "Demo",
       "code": "pg",
       "qrCodeURL": "https://raw.githubusercontent.com/egovernments/frontend/master/web/rainmaker/dev-packages/egov-ui-kit-dev/src/assets/images/qrImage.png",
-      "bannerUrl": "https://s3.ap-south-1.amazonaws.com/pg-egov-assets/pg.testing/Punjab-bg-QA.jpg",
+      "bannerUrl": "https://s3.ap-south-1.amazonaws.com/works-dev-asset/banner-bg.jpg",
       "logoUrl": "https://s3.ap-south-1.amazonaws.com/works-dev-asset/mseva-white-logo.png",
       "logoUrlWhite": "https://dev.digit.org/egov-dev-assets/logo-mseva-white.png",
-      "statelogo":"https://dev.digit.org/egov-dev-assets/pglogo.png",
+      "statelogo":"https://s3.ap-south-1.amazonaws.com/works-dev-asset/pg/logo.png",
       "hasLocalisation": true,
       "enableWhatsApp": true,
       "defaultUrl": {
