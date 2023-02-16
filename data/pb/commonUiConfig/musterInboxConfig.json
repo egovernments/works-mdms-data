@@ -135,7 +135,7 @@
                             },
                             {
                                 "label": "WORKS_NAME_OF_WORK",
-                                "jsonPath": "businessObject.additionalDetails.attendanceRegisterName",
+                                "jsonPath": "businessObject.additionalDetails.attendanceRegisterName"
                             },
                             {
                                 "label": "ATM_ATTENDANCE_WEEK",
@@ -144,7 +144,7 @@
                             },
                             {
                                 "label": "ATM_IA_AP",
-                                "jsonPath": "businessObject.additionalDetails.orgName",
+                                "jsonPath": "businessObject.additionalDetails.orgName"
                             },
                             {
                                 "label": "ATM_NO_OF_INDIVIDUALS",
