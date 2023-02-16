@@ -1,10 +1,11 @@
 {
-    "tenantId":"pb",
+    "tenantId":"pg",
     "moduleName":"commonUiConfig",
     "SearchProjectConfig":[
       {
         "label": "WORKS_SEARCH_PROJECT",
         "type": "search",
+        "postProcessResult": true,
         "apiDetails": {
             "serviceName": "/pms/project/v1/_search",
             "requestParam": {},
@@ -33,8 +34,8 @@
                         "subProjectId": "",
                         "name": "",
                         "projectType": "",
-                        "createdFrom": "",
-                        "createdTo": ""
+                        "startDate": "",
+                        "endDate": ""
                     },
                     "fields": [
                         {
@@ -100,7 +101,7 @@
                             "isMandatory": false,
                             "disable": false,
                             "populators": {
-                                "name": "createdFrom"
+                                "name": "startDate"
                             }
                         },
                         {
@@ -109,7 +110,7 @@
                             "isMandatory": false,
                             "disable": false,
                             "populators": {
-                                "name": "createdTo",
+                                "name": "endDate",
                                 "error": "DATE_VALIDATION_MSG"
                             },
                             "additionalValidation": {
@@ -161,8 +162,7 @@
                         },
                         {
                             "label": "WORKS_PARENT_PROJECT_ID",
-                            "jsonPath": "ancestors[0].projectNumber",
-                            "additionalCustomization": true
+                            "jsonPath": "ancestors[0].projectNumber"
                         },
                         {
                             "label": "WORKS_CREATED_BY",

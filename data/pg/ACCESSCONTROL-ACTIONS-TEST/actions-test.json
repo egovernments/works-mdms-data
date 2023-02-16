@@ -1,5 +1,5 @@
 {
-  "tenantId": "pb",
+  "tenantId": "pg",
   "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
   "actions-test": [
     {
@@ -852,42 +852,6 @@
       "path": ""
     },
     {
-      "id": 66,
-      "name": "Create Contract",
-      "url": "/contract-service/contract/v1/_create",
-      "parentModule": "contract-service",
-      "displayName": "Create Contract",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "contract-service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 67,
-      "name": "Update Contract",
-      "url": "/contract-service/contract/v1/_update",
-      "parentModule": "contract-service",
-      "displayName": "Update Contract",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "contract-service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 68,
-      "name": "Search Contract",
-      "url": "/contract-service/contract/v1/_search",
-      "parentModule": "contract-service",
-      "displayName": "Create Contract",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "contract-service",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 69,
       "name": "Create Individual",
       "url": "/individual/v1/_create",
@@ -899,6 +863,5 @@
       "code": "null",
       "path": ""
     }
-
   ]
 }
