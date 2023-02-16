@@ -6,19 +6,24 @@
             "code": "GST",
             "description": "GST Tax",
             "active": true,
-            "isAutoCalculated":"true"
+            "isAutoCalculated":"true",
+            "type":"percentage",
+            "value":"18"
         },
         {
             "code": "ROYALTY",
             "description": "Royalty",
             "active": true,
-            "isAutoCalculated": "true"
+            "isAutoCalculated": "true",
+            "type":"lumpsum",
+            "value":"1000"
         },
         {
             "code": "CHARGES",
             "description": "Charges",
             "active": true,
-            "isAutoCalculated": "false"
+            "isAutoCalculated": "false",
+            "type": "lumpsum"
         }
     ]
 }
