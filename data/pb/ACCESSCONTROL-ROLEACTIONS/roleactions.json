@@ -905,6 +905,30 @@
       "actionid": 68,
       "actioncode": "",
       "tenantId": "pb"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 69,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 69,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 69,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 69,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }
