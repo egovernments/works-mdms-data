@@ -25,8 +25,8 @@
             "search": {
                 "uiConfig": {
                     "headerStyle": null,
-                    "primaryLabel": "ACTION_TEST_SEARCH",
-                    "secondaryLabel": "CLEAR_SEARCH_LINk",
+                    "primaryLabel": "ES_COMMON_SEARCH",
+                    "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
                     "minReqFields": 1,
                     "defaultValues": {
                         "projectNumber": "",
