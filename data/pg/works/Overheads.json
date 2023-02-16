@@ -1,0 +1,24 @@
+{
+    "tenantId": "pb",
+    "moduleName": "works",
+    "Overheads": [
+        {
+            "code": "GST",
+            "description": "GST Tax",
+            "active": true,
+            "isAutoCalculated":"true"
+        },
+        {
+            "code": "ROYALTY",
+            "description": "Royalty",
+            "active": true,
+            "isAutoCalculated": "true"
+        },
+        {
+            "code": "CHARGES",
+            "description": "Charges",
+            "active": true,
+            "isAutoCalculated": "false"
+        }
+    ]
+}

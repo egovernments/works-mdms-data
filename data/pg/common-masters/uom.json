@@ -1,0 +1,21 @@
+{
+    "tenantId": "pb",
+    "moduleName": "common-masters",
+    "uom": [
+        {
+            "code":"KG",
+            "description":"Kilogram",
+            "active":true
+        },
+        {
+            "code": "UNIT",
+            "description": "Amount of units",
+            "active": true
+        },
+        {
+            "code": "FOOT",
+            "description": "Foot",
+            "active": true
+        }
+    ]
+}
