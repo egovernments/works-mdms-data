@@ -16,6 +16,11 @@
             "code": "FOOT",
             "description": "Foot",
             "active": true
+        },
+        {
+            "code": "NOS",
+            "description": "Count of units",
+            "active": true
         }
     ]
 }
