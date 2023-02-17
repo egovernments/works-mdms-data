@@ -29,6 +29,10 @@
     {
       "format": "WO/[fy:yyyy-yy]/[SEQ_CONTRACT_NUM]",
       "idname": "contract.number"
+    },
+    {
+      "format": "IND-[cy:yyyy-MM-dd]-[SEQ_ADDRESS_IND]",
+      "idname": "individual.id"
     }
   ]
 }
