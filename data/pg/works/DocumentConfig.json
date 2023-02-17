@@ -5,7 +5,7 @@
       {
         "module": "Project",
         "allowedFormats": ["pdf","docx"],
-        "maxSizeInMD": 5,
+        "maxSizeInMB": 5,
         "documents": [
           {
             "code": "PROJECT_PROPOSAL",
@@ -13,7 +13,7 @@
             "isMandatory": true,
             "isMultiple" : true,
             "allowedFormats": ["png","jpg"],
-            "maxSizeInMD": 2
+            "maxSizeInMB": 2
           },
           {
             "code": "FINALIZED_WORKLIST",
@@ -21,7 +21,7 @@
             "isMandatory": false,
             "isMultiple" : false,
             "allowedFormats": [],
-            "maxSizeInMD": null
+            "maxSizeInMB": null
           },
           {
             "code": "FEASIBILITY_ANALYSIS",
@@ -29,14 +29,14 @@
             "isMandatory": false,
             "isMultiple" : false,
             "allowedFormats": [],
-            "maxSizeInMD": null
+            "maxSizeInMB": null
           }
         ]
       },
       {
         "module": "Estimate",
         "allowedFormats": ["pdf","docx"],
-        "maxSizeInMD": 3,
+        "maxSizeInMB": 3,
         "documents": [
           {
             "code": "DETAILED_ESTIMATE",
@@ -44,7 +44,7 @@
             "isMandatory": true,
             "isMultiple" : true,
             "allowedFormats": [],
-            "maxSizeInMD": null
+            "maxSizeInMB": null
           },
           {
             "code": "LABOUR_ANALYSIS",
@@ -52,7 +52,7 @@
             "isMandatory": false,
             "isMultiple" : false,
             "allowedFormats": [],
-            "maxSizeInMD": null
+            "maxSizeInMB": null
           },
           {
             "code": "MATERIAL_ANALYSIS",
@@ -60,7 +60,7 @@
             "isMandatory": false,
             "isMultiple" : false,
             "allowedFormats": [],
-            "maxSizeInMD": null
+            "maxSizeInMB": null
           },
           {
             "code": "DESIGN_DOCUMENT",
@@ -68,7 +68,7 @@
             "isMandatory": false,
             "isMultiple" : false,
             "allowedFormats": [],
-            "maxSizeInMD": null
+            "maxSizeInMB": null
           },
           {
             "code": "OTHERS",
@@ -76,14 +76,14 @@
             "isMandatory": false,
             "isMultiple" : true,
             "allowedFormats": [],
-            "maxSizeInMD": null
+            "maxSizeInMB": null
           }
         ]
       }, 
       {
         "module": "Work Order",
         "allowedFormats": ["pdf","docx"],
-        "maxSizeInMD": 5,
+        "maxSizeInMB": 5,
         "documents": [
           {
             "code": "BOQ",
@@ -91,7 +91,7 @@
             "isMandatory": true,
             "isMultiple" : true,
             "allowedFormats": [],
-            "maxSizeInMD": null
+            "maxSizeInMB": null
           },
           {
             "code": "LABOUR_ANALYSIS",
@@ -99,7 +99,7 @@
             "isMandatory": false,
             "isMultiple" : false,
             "allowedFormats": [],
-            "maxSizeInMD": null
+            "maxSizeInMB": null
           },
           {
             "code": "MATERIAL_ANALYSIS",
@@ -107,7 +107,7 @@
             "isMandatory": false,
             "isMultiple" : false,
             "allowedFormats": [],
-            "maxSizeInMD": null
+            "maxSizeInMB": null
           },
           {
             "code": "TERMS_AND_CONDITIONS",
@@ -115,7 +115,7 @@
             "isMandatory": false,
             "isMultiple" : false,
             "allowedFormats": [],
-            "maxSizeInMD": null
+            "maxSizeInMB": null
           },
           {
             "code": "OTHERS",
@@ -123,14 +123,14 @@
             "isMandatory": false,
             "isMultiple" : true,
             "allowedFormats": [],
-            "maxSizeInMD": null
+            "maxSizeInMB": null
           }
         ]
       },
       {
         "module": "Bill",
         "allowedFormats": ["pdf","docx"],
-        "maxSizeInMD": 2,
+        "maxSizeInMB": 2,
         "documents": [
           {
             "code": "MEASUREMENT_BOOK",
@@ -138,7 +138,7 @@
             "isMandatory": true,
             "isMultiple" : true,
             "allowedFormats": [],
-            "maxSizeInMD": null
+            "maxSizeInMB": null
           },
           {
             "code": "MATERIAL_UTILIZATION_LOG",
@@ -146,7 +146,7 @@
             "isMandatory": false,
             "isMultiple" : false,
             "allowedFormats": [],
-            "maxSizeInMD": null
+            "maxSizeInMB": null
           },
           {
             "code": "LABOUR_UTILIZATION_LOG",
@@ -154,7 +154,7 @@
             "isMandatory": false,
             "isMultiple" : false,
             "allowedFormats": [],
-            "maxSizeInMD": null
+            "maxSizeInMB": null
           }
         ]
       }
