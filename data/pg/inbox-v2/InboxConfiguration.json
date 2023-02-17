@@ -1,0 +1,109 @@
+{
+  "tenantId": "pg",
+  "moduleName": "INBOX",
+  "InboxQueryConfiguration": [
+    {
+      "module": "estimate-service",
+      "index": "estimate-inbox-v2",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "estimateId",
+          "path": "Data.estimateNumber.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "department",
+          "path": "Data.executingDepartment.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "typeOfWork",
+          "path": "Data.project.projectType.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "projectId",
+          "path": "Data.project.projectNumber.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "fromProposalDate",
+          "path": "Data.proposalDate",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "toProposalDate",
+          "path": "Data.proposalDate",
+          "isMandatory": false,
+          "operator": "LTE"
+        },
+        {
+          "name": "createdBy",
+          "path": "Data.auditDetails.createdBy.keyword",
+          "isMandatory": false
+        }
+      ],
+      "sortBy": {
+          "path": "Data.auditDetails.createdTime",
+          "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails"]
+    },
+    {
+      "module": "muster-roll-service",
+      "index": "muster-inbox",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "musterRollStatus",
+          "path": "Data.musterRollStatus.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "startDate",
+          "path": "Data.startDate",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "endDate",
+          "path": "Data.endDate",
+          "isMandatory": false,
+          "operator": "LTE"
+        },
+        {
+          "name": "attendanceRegisterName",
+          "path": "Data.additionalDetails.attendanceRegisterName.keyword",
+          "isMandatory": false
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.musterRollNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.individualEntries", "Data.currentProcessInstance", "Data.auditDetails"]
+    }
+  ]
+}

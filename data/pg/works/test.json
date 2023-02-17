@@ -1,0 +1,16 @@
+{
+  "tenantId": "pg",
+  "moduleName": "works",
+  "test": [
+    {
+      "name": "ULB",
+      "code": "ULB",
+      "active": true
+    },
+    {
+      "name": "Private",
+      "code": "Private",
+      "active": true
+    }
+  ]
+}
