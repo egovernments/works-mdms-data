@@ -4,6 +4,7 @@
     "musterInboxConfig":[
         {
             "label" : "ES_COMMON_INBOX",
+            "postProcessResult": true,
             "type" : "inbox", 
             "apiDetails": {
                 "serviceName": "/inbox/v2/_search",
@@ -56,6 +57,9 @@
                                 "populators": {
                                     "name": "iaip",
                                     "optionsKey": "name",
+                                    "optionsCustomStyle" : {
+                                        "top" : "2.3rem"
+                                    },
                                     "mdmsConfig": {
                                         "masterName": "Department",
                                         "moduleName": "common-masters",
@@ -116,7 +120,10 @@
                                 "populators": {
                                     "name": "musterRollStatus",
                                     "optionsKey": "i18nKey",
-                                    "options": []
+                                    "options": [],
+                                    "optionsCustomStyle" : {
+                                        "top" : "2.3rem"
+                                    }
                                 }
                             }
                         ]
