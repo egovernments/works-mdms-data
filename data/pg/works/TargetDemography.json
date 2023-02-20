@@ -6,7 +6,7 @@
             "code": "SM",
             "name": "Slum",
             "description": "Slum", 
-            "effectiveFrom": "getCurrentDate",
+            "effectiveFrom": 1676875575195,
             "effectiveTo": null,
             "active": true
           },
@@ -14,7 +14,7 @@
             "code": "SC",
             "name": "Area inhabited by SC",
             "description": "Area inhabited by SC", 
-            "effectiveFrom": "getCurrentDate",
+            "effectiveFrom": 1676875575195,
             "effectiveTo": null,
             "active": true
           },
@@ -22,7 +22,7 @@
             "code": "ST",
             "name": "Area inhabited by ST",
             "description": "Area inhabited by ST", 
-            "effectiveFrom": "getCurrentDate",
+            "effectiveFrom": 1676875575195,
             "effectiveTo": null,
             "active": true
           },
@@ -30,7 +30,7 @@
             "code": "MN",
             "name": "Area inhabited by Minorities",
             "description": "Area inhabited by Minorities", 
-            "effectiveFrom": "getCurrentDate",
+            "effectiveFrom": 1676875575195,
             "effectiveTo": null,
             "active": true
           }
