@@ -4,117 +4,157 @@
     "DocumentConfig": [ 
       {
         "module": "Project",
+        "allowedFormats": ["pdf","docx"],
+        "maxSizeInMB": 5,
         "documents": [
           {
             "code": "PROJECT_PROPOSAL",
             "active": true,
             "isMandatory": true,
-            "isMultiple" : true
+            "isMultiple" : true,
+            "allowedFormats": ["png","jpg"],
+            "maxSizeInMB": 2
           },
           {
             "code": "FINALIZED_WORKLIST",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false
+            "isMultiple" : false,
+            "allowedFormats": [],
+            "maxSizeInMB": null
           },
           {
             "code": "FEASIBILITY_ANALYSIS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false
+            "isMultiple" : false,
+            "allowedFormats": [],
+            "maxSizeInMB": null
           }
         ]
       },
       {
         "module": "Estimate",
+        "allowedFormats": ["pdf","docx"],
+        "maxSizeInMB": 3,
         "documents": [
           {
             "code": "DETAILED_ESTIMATE",
             "active": true,
             "isMandatory": true,
-            "isMultiple" : true
+            "isMultiple" : true,
+            "allowedFormats": [],
+            "maxSizeInMB": null
           },
           {
             "code": "LABOUR_ANALYSIS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false
+            "isMultiple" : false,
+            "allowedFormats": [],
+            "maxSizeInMB": null
           },
           {
             "code": "MATERIAL_ANALYSIS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false
+            "isMultiple" : false,
+            "allowedFormats": [],
+            "maxSizeInMB": null
           },
           {
             "code": "DESIGN_DOCUMENT",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false
+            "isMultiple" : false,
+            "allowedFormats": [],
+            "maxSizeInMB": null
           },
           {
             "code": "OTHERS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : true
+            "isMultiple" : true,
+            "allowedFormats": [],
+            "maxSizeInMB": null
           }
         ]
       }, 
       {
         "module": "Work Order",
+        "allowedFormats": ["pdf","docx"],
+        "maxSizeInMB": 5,
         "documents": [
           {
             "code": "BOQ",
             "active": true,
             "isMandatory": true,
-            "isMultiple" : true
+            "isMultiple" : true,
+            "allowedFormats": [],
+            "maxSizeInMB": null
           },
           {
             "code": "LABOUR_ANALYSIS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false
+            "isMultiple" : false,
+            "allowedFormats": [],
+            "maxSizeInMB": null
           },
           {
             "code": "MATERIAL_ANALYSIS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false
+            "isMultiple" : false,
+            "allowedFormats": [],
+            "maxSizeInMB": null
           },
           {
             "code": "TERMS_AND_CONDITIONS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false
+            "isMultiple" : false,
+            "allowedFormats": [],
+            "maxSizeInMB": null
           },
           {
             "code": "OTHERS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : true
+            "isMultiple" : true,
+            "allowedFormats": [],
+            "maxSizeInMB": null
           }
         ]
       },
       {
         "module": "Bill",
+        "allowedFormats": ["pdf","docx"],
+        "maxSizeInMB": 2,
         "documents": [
           {
             "code": "MEASUREMENT_BOOK",
             "active": true,
             "isMandatory": true,
-            "isMultiple" : true
+            "isMultiple" : true,
+            "allowedFormats": [],
+            "maxSizeInMB": null
           },
           {
             "code": "MATERIAL_UTILIZATION_LOG",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false
+            "isMultiple" : false,
+            "allowedFormats": [],
+            "maxSizeInMB": null
           },
           {
             "code": "LABOUR_UTILIZATION_LOG",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false
+            "isMultiple" : false,
+            "allowedFormats": [],
+            "maxSizeInMB": null
           }
         ]
       }
