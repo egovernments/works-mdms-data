@@ -74,7 +74,7 @@
                         "links" : [
                             {
                                 "text": "WORKS_ENROLL_WAGE_SEEKER",
-                                "url": "/employee/contracts/create-contract",
+                                "url": "/employee/masters/wage-seeker-registration",
                                 "roles": []
                             }
                         ],
