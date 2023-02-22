@@ -3,7 +3,7 @@
     "moduleName":"commonUiConfig",
     "SearchProjectConfig":[
       {
-        "label": "WORKS_SEARCH_PROJECT",
+        "label": "WORKS_SEARCH_PROJECTS",
         "type": "search",
         "apiDetails": {
             "serviceName": "/pms/project/v1/_search",
@@ -114,7 +114,7 @@
                             },
                             "additionalValidation": {
                                 "type": "date",
-                                "keys": { "start": "startDate", "end": "endDate" }
+                                "keys": {"start": "createdFrom", "end": "createdTo"}
                             }
                         }
                     ]
@@ -156,7 +156,7 @@
                             "jsonPath": "projectSubType"
                         },
                         {
-                            "label": "WORKS_WORK_NATURE",
+                            "label": "ES_COMMON_WORK_NATURE",
                             "jsonPath": "natureOfWork"
                         },
                         {
@@ -165,15 +165,15 @@
                             "additionalCustomization": true
                         },
                         {
-                            "label": "WORKS_CREATED_BY",
+                            "label": "ES_COMMON_CREATED_BY",
                             "jsonPath": "additionalDetails.creator"
                         },
                         {
-                            "label": "WORKS_STATUS",
+                            "label": "ES_COMMON_STATUS",
                             "jsonPath": "status"
                         },
                         {
-                            "label": "WORKS_TOTAL_AMOUNT",
+                            "label": "ES_COMMON_TOTAL_AMOUNT",
                             "jsonPath": "additionalDetails.estimatedCostInRs"
                         }
                     ],
