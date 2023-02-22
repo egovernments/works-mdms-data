@@ -6,36 +6,36 @@
             "code":"KG",
             "description":"Kilogram",
             "isActive":true,
-            "effectiveFrom":"22/02/2023",
-            "effectiveTo":"22/02/2025"
+            "effectiveFrom":"1677044852",
+            "effectiveTo":null
         },
         {
             "code": "SQM",
             "description": "Square Meter",
             "isActive": true,
-            "effectiveFrom": "22/02/2023",
-            "effectiveTo": "22/02/2025"
+            "effectiveFrom": "1677044852",
+            "effectiveTo": null
         },
         {
             "code": "RMT",
             "description": "Running Meter",
             "isActive": true,
-            "effectiveFrom": "22/02/2023",
-            "effectiveTo": "22/02/2025"
+            "effectiveFrom": "1677044852",
+            "effectiveTo": null
         },
         {
             "code": "NOS",
             "description": "Numbers",
             "isActive": true,
-            "effectiveFrom": "22/02/2023",
-            "effectiveTo": "22/02/2025"
+            "effectiveFrom": "1677044852",
+            "effectiveTo": null
         },
         {
             "code": "CUM",
             "description": "Cubic Meter",
             "isActive": true,
-            "effectiveFrom": "22/02/2023",
-            "effectiveTo": "22/02/2025"
+            "effectiveFrom": "1677044852",
+            "effectiveTo": null
         }
        
     ]

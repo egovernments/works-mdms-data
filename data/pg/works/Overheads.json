@@ -10,8 +10,8 @@
             "type":"percentage",
             "value":"12",
             "isWorkOrderValue":true,
-            "effectiveFrom": "22/02/2023",
-            "effectiveTo": "22/02/2025"
+            "effectiveFrom": "1677044852",
+            "effectiveTo": null
         },
         {
             "code": "REW",
@@ -20,8 +20,8 @@
             "isAutoCalculated": false,
             "type":"lumpsum",
             "isWorkOrderValue": false,
-            "effectiveFrom": "22/02/2023",
-            "effectiveTo": "22/02/2025"
+            "effectiveFrom": "1677044852",
+            "effectiveTo": null
         },
         {
             "code": "SC",
@@ -31,8 +31,8 @@
             "type": "percentage",
             "value": "7.5",
             "isWorkOrderValue": true,
-            "effectiveFrom": "22/02/2023",
-            "effectiveTo": "22/02/2025"
+            "effectiveFrom": "1677044852",
+            "effectiveTo": null
         },
         {
             "code": "TST",
@@ -42,8 +42,8 @@
             "type": "lumpsum",
             "value": "5000",
             "isWorkOrderValue": true,
-            "effectiveFrom": "22/02/2023",
-            "effectiveTo": "22/02/2025"
+            "effectiveFrom": "1677044852",
+            "effectiveTo": null
         }
 
     ]
