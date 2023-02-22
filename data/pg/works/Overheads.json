@@ -4,26 +4,47 @@
     "Overheads": [
         {
             "code": "GST",
-            "description": "GST Tax",
+            "description": "Goods and Service Tax",
             "active": true,
             "isAutoCalculated":true,
             "type":"percentage",
-            "value":"18"
+            "value":"12",
+            "isWorkOrderValue":true,
+            "effectiveFrom": 1677044852,
+            "effectiveTo": null
         },
         {
-            "code": "ROYALTY",
-            "description": "Royalty",
-            "active": true,
-            "isAutoCalculated": true,
-            "type":"lumpsum",
-            "value":"1000"
-        },
-        {
-            "code": "CHARGES",
-            "description": "Charges",
+            "code": "REW",
+            "description": "Royalty on Earth Work",
             "active": true,
             "isAutoCalculated": false,
-            "type": "lumpsum"
+            "type":"lumpsum",
+            "isWorkOrderValue": false,
+            "effectiveFrom": 1677044852,
+            "effectiveTo": null
+        },
+        {
+            "code": "SC",
+            "description": "Supervision Charge",
+            "active": true,
+            "isAutoCalculated": true,
+            "type": "percentage",
+            "value": "7.5",
+            "isWorkOrderValue": true,
+            "effectiveFrom": 1677044852,
+            "effectiveTo": null
+        },
+        {
+            "code": "TST",
+            "description": "Testing Overhead",
+            "active": true,
+            "isAutoCalculated": true,
+            "type": "lumpsum",
+            "value": "5000",
+            "isWorkOrderValue": true,
+            "effectiveFrom": 1677044852,
+            "effectiveTo": null
         }
+
     ]
 }
