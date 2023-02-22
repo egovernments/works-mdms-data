@@ -5,7 +5,7 @@
         {
             "code": "GST",
             "description": "Goods and Service Tax",
-            "isActive": true,
+            "active": true,
             "isAutoCalculated":true,
             "type":"percentage",
             "value":"12",
@@ -16,7 +16,7 @@
         {
             "code": "REW",
             "description": "Royalty on Earth Work",
-            "isActive": true,
+            "active": true,
             "isAutoCalculated": false,
             "type":"lumpsum",
             "isWorkOrderValue": false,
@@ -26,7 +26,7 @@
         {
             "code": "SC",
             "description": "Supervision Charge",
-            "isActive": true,
+            "active": true,
             "isAutoCalculated": true,
             "type": "percentage",
             "value": "7.5",
@@ -37,7 +37,7 @@
         {
             "code": "TST",
             "description": "Testing Overhead",
-            "isActive": true,
+            "active": true,
             "isAutoCalculated": true,
             "type": "lumpsum",
             "value": "5000",

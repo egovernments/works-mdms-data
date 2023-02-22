@@ -5,35 +5,35 @@
         {
             "code":"KG",
             "description":"Kilogram",
-            "isActive":true,
+            "active":true,
             "effectiveFrom":1677044852,
             "effectiveTo":null
         },
         {
             "code": "SQM",
             "description": "Square Meter",
-            "isActive": true,
+            "active": true,
             "effectiveFrom": 1677044852,
             "effectiveTo": null
         },
         {
             "code": "RMT",
             "description": "Running Meter",
-            "isActive": true,
+            "active": true,
             "effectiveFrom": 1677044852,
             "effectiveTo": null
         },
         {
             "code": "NOS",
             "description": "Numbers",
-            "isActive": true,
+            "active": true,
             "effectiveFrom": 1677044852,
             "effectiveTo": null
         },
         {
             "code": "CUM",
             "description": "Cubic Meter",
-            "isActive": true,
+            "active": true,
             "effectiveFrom": 1677044852,
             "effectiveTo": null
         }
