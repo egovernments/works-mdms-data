@@ -4,26 +4,47 @@
     "Overheads": [
         {
             "code": "GST",
-            "description": "GST Tax",
-            "active": true,
+            "description": "Goods and Service Tax",
+            "isActive": true,
             "isAutoCalculated":true,
             "type":"percentage",
-            "value":"18"
+            "value":"12",
+            "isWorkOrderValue":true,
+            "effectiveFrom": "22/02/2023",
+            "effectiveTo": "22/02/2025"
         },
         {
-            "code": "ROYALTY",
-            "description": "Royalty",
-            "active": true,
-            "isAutoCalculated": true,
-            "type":"lumpsum",
-            "value":"1000"
-        },
-        {
-            "code": "CHARGES",
-            "description": "Charges",
-            "active": true,
+            "code": "REW",
+            "description": "Royalty on Earth Work",
+            "isActive": true,
             "isAutoCalculated": false,
-            "type": "lumpsum"
+            "type":"lumpsum",
+            "isWorkOrderValue": false,
+            "effectiveFrom": "22/02/2023",
+            "effectiveTo": "22/02/2025"
+        },
+        {
+            "code": "SC",
+            "description": "Supervision Charge",
+            "isActive": true,
+            "isAutoCalculated": true,
+            "type": "percentage",
+            "value": "7.5",
+            "isWorkOrderValue": true,
+            "effectiveFrom": "22/02/2023",
+            "effectiveTo": "22/02/2025"
+        },
+        {
+            "code": "TST",
+            "description": "Testing Overhead",
+            "isActive": true,
+            "isAutoCalculated": true,
+            "type": "lumpsum",
+            "value": "5000",
+            "isWorkOrderValue": true,
+            "effectiveFrom": "22/02/2023",
+            "effectiveTo": "22/02/2025"
         }
+
     ]
 }

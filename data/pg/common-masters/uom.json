@@ -5,22 +5,38 @@
         {
             "code":"KG",
             "description":"Kilogram",
-            "active":true
+            "isActive":true,
+            "effectiveFrom":"22/02/2023",
+            "effectiveTo":"22/02/2025"
         },
         {
-            "code": "UNIT",
-            "description": "Amount of units",
-            "active": true
+            "code": "SQM",
+            "description": "Square Meter",
+            "isActive": true,
+            "effectiveFrom": "22/02/2023",
+            "effectiveTo": "22/02/2025"
         },
         {
-            "code": "FOOT",
-            "description": "Foot",
-            "active": true
+            "code": "RMT",
+            "description": "Running Meter",
+            "isActive": true,
+            "effectiveFrom": "22/02/2023",
+            "effectiveTo": "22/02/2025"
         },
         {
             "code": "NOS",
-            "description": "Count of units",
-            "active": true
+            "description": "Numbers",
+            "isActive": true,
+            "effectiveFrom": "22/02/2023",
+            "effectiveTo": "22/02/2025"
+        },
+        {
+            "code": "CUM",
+            "description": "Cubic Meter",
+            "isActive": true,
+            "effectiveFrom": "22/02/2023",
+            "effectiveTo": "22/02/2025"
         }
+       
     ]
 }
