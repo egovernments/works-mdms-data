@@ -140,7 +140,9 @@
                         },
                         {
                             "label": "WORKS_PROJECT_NAME",
-                            "jsonPath": "name"
+                            "jsonPath": "name",
+                            "maxLength": 20,
+                            "additionalCustomization":true
                         },
                         {
                             "label": "PROJECT_OWNING_DEPT",
