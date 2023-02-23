@@ -1,0 +1,22 @@
+{
+  "tenantId": "pg",
+  "moduleName": "works",
+  "CBORoles": [
+    {
+      "code": "IA",
+      "name": "Implementation Agency",
+      "description": "",
+      "effectiveFrom": "01-01-2023",
+      "effectiveTo": "",
+      "active": true
+    },
+    {
+      "code": "IP",
+      "name": "Implementation Partner",
+      "description": "",
+      "effectiveFrom": "01-01-2023",
+      "effectiveTo": "",
+      "active": true
+    }
+  ]
+}
