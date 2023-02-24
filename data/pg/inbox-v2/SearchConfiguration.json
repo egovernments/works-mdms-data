@@ -1,7 +1,7 @@
 {
   "tenantId": "pg",
-  "moduleName": "INBOX",
-  "InboxQueryConfiguration": [
+  "moduleName": "SEARCH",
+  "SearchQueryConfiguration": [
     {
       "module": "estimate-service",
       "index": "estimate-inbox-v2",
