@@ -83,29 +83,24 @@
       "description": "Municipal engineer of a ULB"
     },
     {
-      "code": "CONTRACT_CREATOR",
-      "name": "CONTRACT CREATOR",
+      "code": "WORK_ORDER_CREATOR",
+      "name": "WORK ORDER CREATOR",
       "description": "Creator of a contract"
     },
     {
-      "code": "CONTRACT_CHECKER",
-      "name": "CONTRACT CHECKER",
-      "description": "Checker of a contract"
+      "code": "WORK_ORDER_VERIFIER",
+      "name": "WORK ORDER VERIFIER",
+      "description": "Verifier of a contract"
     },
     {
-      "code": "CONTRACT_APPROVER",
-      "name": "CONTRACT APPROVER",
+      "code": "WORK_ORDER_APPROVER",
+      "name": "WORK ORDER APPROVER",
       "description": "Approver of a contract"
     },
     {
-      "code": "CONTRACT_ISSUER",
-      "name": "CONTRACT ISSUER",
-      "description": "Issuer of a contract"
-    },
-    {
-      "code": "CONTRACT_ACCEPTER",
-      "name": "CONTRACT ACCEPTER",
-      "description": "Accepter of a contract"
+      "code": "CBO_ADMIN",
+      "name": "CBO ADMIN",
+      "description": "CBO admin to accept or decline a contract"
     }
   ]
 }

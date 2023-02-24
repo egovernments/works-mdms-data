@@ -860,67 +860,55 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_CREATOR",
+      "rolecode": "WORK_ORDER_CREATOR",
       "actionid": 66,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_CREATOR",
+      "rolecode": "WORK_ORDER_CREATOR",
       "actionid": 67,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_CREATOR",
+      "rolecode": "WORK_ORDER_CREATOR",
       "actionid": 68,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_CHECKER",
+      "rolecode": "WORK_ORDER_VERIFIER",
       "actionid": 67,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_CHECKER",
+      "rolecode": "WORK_ORDER_VERIFIER",
       "actionid": 68,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_APPROVER",
+      "rolecode": "WORK_ORDER_APPROVER",
       "actionid": 67,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_APPROVER",
+      "rolecode": "WORK_ORDER_APPROVER",
       "actionid": 68,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_ISSUER",
+      "rolecode": "CBO_ADMIN",
       "actionid": 67,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_ISSUER",
-      "actionid": 68,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CONTRACT_ACCEPTER",
-      "actionid": 67,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "CONTRACT_ACCEPTER",
+      "rolecode": "CBO_ADMIN",
       "actionid": 68,
       "actioncode": "",
       "tenantId": "pg"
