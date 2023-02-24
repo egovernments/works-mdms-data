@@ -1,0 +1,12 @@
+{
+  "tenantId": "pg",
+  "moduleName": "works",
+  "Roles": [
+    {
+      "code": "ROLE-01",
+      "name": "OFFICER_IN_CHARGE",
+      "description": "Officer In Charge role",
+      "active": true
+    }
+  ]
+}
