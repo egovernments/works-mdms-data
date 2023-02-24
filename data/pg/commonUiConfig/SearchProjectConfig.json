@@ -3,7 +3,7 @@
     "moduleName":"commonUiConfig",
     "SearchProjectConfig":[
       {
-        "label": "WORKS_SEARCH_PROJECT",
+        "label": "WORKS_SEARCH_PROJECTS",
         "type": "search",
         "apiDetails": {
             "serviceName": "/pms/project/v1/_search",
@@ -87,10 +87,13 @@
                             "populators": {
                                 "name": "projectType",
                                 "optionsKey": "code",
+                                "optionsCustomStyle" : {	
+                                    "top" : "2.3rem"	
+                                },
                                 "mdmsConfig": {
                                     "masterName": "ProjectType",
                                     "moduleName": "works",
-                                    "localePrefix": "ES_COMMON"
+                                    "localePrefix": "COMMON_MASTERS"
                                 }
                             }
                         },
@@ -114,7 +117,7 @@
                             },
                             "additionalValidation": {
                                 "type": "date",
-                                "keys": { "start": "startDate", "end": "endDate" }
+                                "keys": {"start": "createdFrom", "end": "createdTo"}
                             }
                         }
                     ]
@@ -139,7 +142,9 @@
                         },
                         {
                             "label": "WORKS_PROJECT_NAME",
-                            "jsonPath": "name"
+                            "jsonPath": "name",
+                            "maxLength": 20,	
+                            "additionalCustomization":true
                         },
                         {
                             "label": "PROJECT_OWNING_DEPT",
@@ -156,7 +161,7 @@
                             "jsonPath": "projectSubType"
                         },
                         {
-                            "label": "WORKS_WORK_NATURE",
+                            "label": "ES_COMMON_WORK_NATURE",
                             "jsonPath": "natureOfWork"
                         },
                         {
@@ -165,15 +170,15 @@
                             "additionalCustomization": true
                         },
                         {
-                            "label": "WORKS_CREATED_BY",
-                            "jsonPath": "createdBy"
+                            "label": "ES_COMMON_CREATED_BY",
+                            "jsonPath": "additionalDetails.creator"
                         },
                         {
-                            "label": "WORKS_STATUS",
+                            "label": "additionalDetails.creator",
                             "jsonPath": "status"
                         },
                         {
-                            "label": "WORKS_TOTAL_AMOUNT",
+                            "label": "ES_COMMON_TOTAL_AMOUNT",
                             "jsonPath": "additionalDetails.estimatedCostInRs"
                         }
                     ],
