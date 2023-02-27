@@ -12,7 +12,7 @@
             "active": true,
             "isMandatory": true,
             "isMultiple" : true,
-            "allowedFormats": ["png","jpg"],
+            "allowedFormats": ["png","jpeg","pdf"],
             "maxSizeInMB": 2
           },
           {
