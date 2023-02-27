@@ -96,8 +96,9 @@
         },
         {
           "name": "attendanceRegisterName",
-          "path": "Data.additionalDetails.attendanceRegisterName.keyword",
-          "isMandatory": false
+          "path": "Data.additionalDetails.attendanceRegisterName",
+          "isMandatory": false,
+          "operator": "FUZZY"
         }
       ],
       "sortBy": {
