@@ -3,7 +3,7 @@
   "moduleName": "SEARCH",
   "SearchQueryConfiguration": [
     {
-      "module": "estimate-service",
+      "module": "estimate",
       "index": "estimate-inbox-v2",
       "allowedSearchCriteria": [
         {
@@ -62,7 +62,7 @@
       "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails"]
     },
     {
-      "module": "muster-roll-service",
+      "module": "muster",
       "index": "muster-inbox",
       "allowedSearchCriteria": [
         {
