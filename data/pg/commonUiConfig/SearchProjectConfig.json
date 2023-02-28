@@ -86,9 +86,9 @@
                             "disable": false,
                             "populators": {
                                 "name": "projectType",
-                                "optionsKey": "code",
+                                "optionsKey": "name",
                                 "optionsCustomStyle" : {	
-                                    "top" : "2.3rem"	
+                                    "top" : "2.3rem"
                                 },
                                 "mdmsConfig": {
                                     "masterName": "ProjectType",
@@ -143,7 +143,7 @@
                         {
                             "label": "WORKS_PROJECT_NAME",
                             "jsonPath": "name",
-                            "maxLength": 20,	
+                            "maxLength": 20,
                             "additionalCustomization":true
                         },
                         {
@@ -174,7 +174,7 @@
                             "jsonPath": "additionalDetails.creator"
                         },
                         {
-                            "label": "additionalDetails.creator",
+                            "label": "ES_COMMON_STATUS",
                             "jsonPath": "status"
                         },
                         {
