@@ -914,6 +914,24 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "OFFICER_IN_CHARGE",
+      "actionid": 66,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "OFFICER_IN_CHARGE",
+      "actionid": 67,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "OFFICER_IN_CHARGE",
+      "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "SUPERUSER",
       "actionid": 69,
       "actioncode": "",

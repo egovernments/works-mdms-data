@@ -101,6 +101,11 @@
       "code": "CBO_ADMIN",
       "name": "CBO ADMIN",
       "description": "CBO admin to accept or decline a contract"
+    },
+    {
+      "code": "OFFICER_IN_CHARGE",
+      "name": "OFFICER IN CHARGE",
+      "description": "Officer in charge of the contract"
     }
   ]
 }
