@@ -4,7 +4,7 @@
     "DocumentConfig": [ 
       {
         "module": "Project",
-        "allowedFormats": ["pdf","docx"],
+        "allowedFileTypes": ["pdf","docx"],
         "maxSizeInMB": 5,
         "documents": [
           {
@@ -12,30 +12,33 @@
             "active": true,
             "isMandatory": true,
             "isMultiple" : true,
-            "allowedFormats": ["png","jpeg","pdf"],
-            "maxSizeInMB": 2
+            "allowedFileTypes": ["png","jpeg","pdf"],
+            "maxSizeInMB": 2,
+            "maxFilesAllowed": 2
           },
           {
             "code": "FINALIZED_WORKLIST",
             "active": true,
             "isMandatory": false,
             "isMultiple" : false,
-            "allowedFormats": [],
-            "maxSizeInMB": null
+            "allowedFileTypes": [],
+            "maxSizeInMB": null,
+            "maxFilesAllowed": 0
           },
           {
             "code": "FEASIBILITY_ANALYSIS",
             "active": true,
             "isMandatory": false,
             "isMultiple" : false,
-            "allowedFormats": [],
-            "maxSizeInMB": null
+            "allowedFileTypes": [],
+            "maxSizeInMB": null,
+            "maxFilesAllowed": 0
           }
         ]
       },
       {
         "module": "Estimate",
-        "allowedFormats": ["pdf","docx"],
+        "allowedFileTypes": ["pdf","docx"],
         "maxSizeInMB": 3,
         "documents": [
           {
@@ -43,46 +46,51 @@
             "active": true,
             "isMandatory": true,
             "isMultiple" : true,
-            "allowedFormats": [],
-            "maxSizeInMB": null
+            "allowedFileTypes": [],
+            "maxSizeInMB": null,
+            "maxFilesAllowed": 2
           },
           {
             "code": "LABOUR_ANALYSIS",
             "active": true,
             "isMandatory": false,
             "isMultiple" : false,
-            "allowedFormats": [],
-            "maxSizeInMB": null
+            "allowedFileTypes": [],
+            "maxSizeInMB": null,
+            "maxFilesAllowed": 0
           },
           {
             "code": "MATERIAL_ANALYSIS",
             "active": true,
             "isMandatory": false,
             "isMultiple" : false,
-            "allowedFormats": [],
-            "maxSizeInMB": null
+            "allowedFileTypes": [],
+            "maxSizeInMB": null,
+            "maxFilesAllowed": 0
           },
           {
             "code": "DESIGN_DOCUMENT",
             "active": true,
             "isMandatory": false,
             "isMultiple" : false,
-            "allowedFormats": [],
-            "maxSizeInMB": null
+            "allowedFileTypes": [],
+            "maxSizeInMB": null,
+            "maxFilesAllowed": 0
           },
           {
             "code": "OTHERS",
             "active": true,
             "isMandatory": false,
             "isMultiple" : true,
-            "allowedFormats": [],
-            "maxSizeInMB": null
+            "allowedFileTypes": [],
+            "maxSizeInMB": null,
+            "maxFilesAllowed": 3
           }
         ]
       }, 
       {
         "module": "Work Order",
-        "allowedFormats": ["pdf","docx"],
+        "allowedFileTypes": ["pdf","docx"],
         "maxSizeInMB": 5,
         "documents": [
           {
@@ -90,15 +98,16 @@
             "active": true,
             "isMandatory": true,
             "isMultiple" : true,
-            "allowedFormats": [],
-            "maxSizeInMB": null
+            "allowedFileTypes": [],
+            "maxSizeInMB": null,
+            "maxFilesAllowed": 3
           },
           {
             "code": "LABOUR_ANALYSIS",
             "active": true,
             "isMandatory": false,
             "isMultiple" : false,
-            "allowedFormats": [],
+            "allowedFileTypes": [],
             "maxSizeInMB": null
           },
           {
@@ -106,30 +115,33 @@
             "active": true,
             "isMandatory": false,
             "isMultiple" : false,
-            "allowedFormats": [],
-            "maxSizeInMB": null
+            "allowedFileTypes": [],
+            "maxSizeInMB": null,
+            "maxFilesAllowed": 0
           },
           {
             "code": "TERMS_AND_CONDITIONS",
             "active": true,
             "isMandatory": false,
             "isMultiple" : false,
-            "allowedFormats": [],
-            "maxSizeInMB": null
+            "allowedFileTypes": [],
+            "maxSizeInMB": null,
+            "maxFilesAllowed": 0
           },
           {
             "code": "OTHERS",
             "active": true,
             "isMandatory": false,
             "isMultiple" : true,
-            "allowedFormats": [],
-            "maxSizeInMB": null
+            "allowedFileTypes": [],
+            "maxSizeInMB": null,
+            "maxFilesAllowed": 0
           }
         ]
       },
       {
         "module": "Bill",
-        "allowedFormats": ["pdf","docx"],
+        "allowedFileTypes": ["pdf","docx"],
         "maxSizeInMB": 2,
         "documents": [
           {
@@ -137,24 +149,27 @@
             "active": true,
             "isMandatory": true,
             "isMultiple" : true,
-            "allowedFormats": [],
-            "maxSizeInMB": null
+            "allowedFileTypes": [],
+            "maxSizeInMB": null,
+            "maxFilesAllowed": 2
           },
           {
             "code": "MATERIAL_UTILIZATION_LOG",
             "active": true,
             "isMandatory": false,
             "isMultiple" : false,
-            "allowedFormats": [],
-            "maxSizeInMB": null
+            "allowedFileTypes": [],
+            "maxSizeInMB": null,
+            "maxFilesAllowed": 0
           },
           {
             "code": "LABOUR_UTILIZATION_LOG",
             "active": true,
             "isMandatory": false,
             "isMultiple" : false,
-            "allowedFormats": [],
-            "maxSizeInMB": null
+            "allowedFileTypes": [],
+            "maxSizeInMB": null,
+            "maxFilesAllowed": 0
           }
         ]
       }
