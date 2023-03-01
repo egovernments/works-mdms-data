@@ -1098,6 +1098,73 @@
       "actionid": 75,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUNICIPAL_ENGINEER",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EST_CREATOR",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EST_CHECKER",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EST_ADMIN_SANC",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EST_FIN_SANC",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EST_TECH_SANC",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "pg"
     }
+    
   ]
 }
