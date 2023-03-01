@@ -970,6 +970,30 @@
       "serviceCode": "individual",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 76,
+      "name": "WMS search muster",
+      "url": "/wms/muster/_search",
+      "parentModule": "works-management-service",
+      "displayName": "WMS search muster",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-management-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 77,
+      "name": "WMS search estimate",
+      "url": "/wms/estimate/_search",
+      "parentModule": "works-management-service",
+      "displayName": "WMS search estimate",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-management-service",
+      "code": "null",
+      "path": ""
     }
 
   ]
