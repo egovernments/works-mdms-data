@@ -64,25 +64,25 @@
          },
          {
              "name": "Skilled Plumber",
-             "code": "SKILLED.PLUMBER",
+             "code": "HIGHLY_SKILLED.PLUMBER",
              "active": true,
              "amount": 205
          },
          {
              "name": "Skilled Mason",
-             "code": "SKILLED.MASON",
+             "code": "HIGHLY_SKILLED.MASON",
              "active": true,
              "amount": 205
          },
          {
              "name": "Skilled Painter",
-             "code": "SKILLED.PAINTER",
+             "code": "HIGHLY_SKILLED.PAINTER",
              "active": true,
              "amount": 205
          },
          {
              "name": "Skilled Fitter",
-             "code": "SKILLED.FITTER",
+             "code": "HIGHLY_SKILLED.FITTER",
              "active": true,
              "amount": 205
          },
