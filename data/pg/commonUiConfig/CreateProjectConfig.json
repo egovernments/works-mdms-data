@@ -397,7 +397,7 @@
                   "name": "noSubProject_uploadedFiles",
                   "allowedMaxSizeInMB": 5,
                   "maxFilesAllowed": 2,
-                  "allowedFileTypes": {},
+                  "allowedFileTypes": "/(.*?)(pdf|docx|msword|openxmlformats-officedocument|wordprocessingml|document|spreadsheetml|sheet)$/i",
                   "customClass": "upload-margin-bottom",
                   "errorMessage": "WORKS_FILE_UPLOAD_CUSTOM_ERROR_MSG",
                   "hintText": "WORKS_DOC_UPLOAD_HINT",
