@@ -6,6 +6,7 @@
         "module": "Project",
         "allowedFileTypes": ["pdf","docx"],
         "maxSizeInMB": 5,
+        "bannerLabel": "PROJECT_BANNER"
         "documents": [
           {
             "code": "PROJECT_PROPOSAL",
@@ -40,6 +41,7 @@
         "module": "Estimate",
         "allowedFileTypes": ["pdf","docx"],
         "maxSizeInMB": 3,
+        "bannerLabel": ""
         "documents": [
           {
             "code": "DETAILED_ESTIMATE",
@@ -92,6 +94,7 @@
         "module": "Work Order",
         "allowedFileTypes": ["pdf","docx"],
         "maxSizeInMB": 5,
+        "bannerLabel": ""
         "documents": [
           {
             "code": "BOQ",
@@ -143,6 +146,7 @@
         "module": "Bill",
         "allowedFileTypes": ["pdf","docx"],
         "maxSizeInMB": 2,
+        "bannerLabel": ""
         "documents": [
           {
             "code": "MEASUREMENT_BOOK",
