@@ -1034,6 +1034,17 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+     {
+      "id": 81,
+      "name": "Logout Session",
+      "url": "/user/_logout",
+      "displayName":  "Logout Session",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "ADMIN",
+      "code": "null",
+      "path": "Administration.LogoutSession",
     }
   ]
 }
