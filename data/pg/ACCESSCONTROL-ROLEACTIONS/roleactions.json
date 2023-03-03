@@ -797,17 +797,17 @@
       "actioncode": "",
       "tenantId": "pg"
     }, {
-      "rolecode": "JUNIOR_ENGINEER",
+      "rolecode": "MUKTA_ADMIN",
       "actionid": 62,
       "actioncode": "",
       "tenantId": "pg"
     }, {
-      "rolecode": "JUNIOR_ENGINEER",
+      "rolecode": "MUKTA_ADMIN",
       "actionid": 63,
       "actioncode": "",
       "tenantId": "pg"
     }, {
-      "rolecode": "JUNIOR_ENGINEER",
+      "rolecode": "MUKTA_ADMIN",
       "actionid": 64,
       "actioncode": "",
       "tenantId": "pg"
@@ -1162,6 +1162,23 @@
     {
       "rolecode": "EST_TECH_SANC",
       "actionid": 77,
+      "actioncode": "",
+      "tenantId": "pg"
+    },{
+      "rolecode": "STADMIN",
+      "actionid": 80,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "STADMIN",
+      "actionid": 79,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 78,
       "actioncode": "",
       "tenantId": "pg"
     }

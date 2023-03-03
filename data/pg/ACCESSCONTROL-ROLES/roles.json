@@ -106,6 +106,16 @@
       "code": "OFFICER_IN_CHARGE",
       "name": "OFFICER IN CHARGE",
       "description": "Officer in charge of the contract"
+    },
+    {
+      "code": "MUKTA_ADMIN",
+      "name": "MUKTA Admin",
+      "description": "Officer in charge of the Masters"
+    },
+    {
+      "code": "STADMIN",
+      "name": "State Dashboard Admin",
+      "description": "State Dashboard Admin"
     }
   ]
 }

@@ -801,7 +801,7 @@
       "id": 62,
       "name": "MASTERS",
       "url": "url",
-      "displayName": "Masters Search",
+      "displayName": "Masters Search Organisation",
       "orderNumber": 10,
       "parentModule": "",
       "enabled": true,
@@ -821,7 +821,7 @@
       "enabled": true,
       "serviceCode": "MASTERS",
       "code": "null",
-      "navigationURL": "/works-ui/employee/masters/wage-seeker-registration",
+      "navigationURL": "/works-ui/employee/masters/create-wageseeker",
       "path": "MASTERS.CreateWageSeeker",
       "leftIcon": "TLIcon"
     },
@@ -994,7 +994,46 @@
       "serviceCode": "works-management-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 78,
+      "name": "MASTERS",
+      "url": "url",
+      "displayName": "Masters Search Wageseeker",
+      "orderNumber": 10,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MASTERS",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/masters/search-wageseeker",
+      "path": "MASTERS.Search",
+      "leftIcon": "TLIcon"
+    },
+    {
+      "id": 79,
+      "name": "Dashboard Works",
+      "url": "url",
+      "displayName": "Works Dashboard",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Works",
+      "navigationURL": "integration/dss/works",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    }, {
+      "id": 80,
+      "name": "DSS Dashboard Config Works",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/works",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
     }
-
   ]
 }
