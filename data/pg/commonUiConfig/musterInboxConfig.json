@@ -77,8 +77,8 @@
                     "uiConfig" : {
                         "links" : [
                             {
-                                "text": "WORKS_ENROLL_WAGE_SEEKER",
-                                "url": "/employee/masters/wage-seeker-registration",
+                                "text": "ATM_SEARCH_ATTENDANCE",
+                                "url": "/employee/attendencemgmt/search-attendance",
                                 "roles": []
                             }
                         ],
