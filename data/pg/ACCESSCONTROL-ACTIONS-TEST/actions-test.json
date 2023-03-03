@@ -1045,6 +1045,6 @@
       "serviceCode": "ADMIN",
       "code": "null",
       "path": "Administration.LogoutSession",
-    },
+    }
   ]
 }
