@@ -1229,6 +1229,12 @@
       "actionid": 10,
       "actioncode": "",
       "tenantId": "pg"
-    }    
+    },
+     {
+      "rolecode": "EMPLOYEE",
+      "actionid": 81,
+      "actioncode": "",
+      "tenantId": "pg"
+    }
   ]
 }
