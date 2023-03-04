@@ -1,7 +1,7 @@
 {
     "tenantId": "pg",
     "moduleName": "commonUiConfig",
-    "musterInboxConfig":[
+    "InboxMusterConfig":[
         {
             "label" : "ES_COMMON_INBOX",
             "postProcessResult": true,
