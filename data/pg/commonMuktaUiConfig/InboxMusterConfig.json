@@ -1,7 +1,7 @@
 {
     "tenantId": "pg",
-    "moduleName": "commonUiConfig",
-    "musterInboxConfig":[
+    "moduleName": "commonMuktaUiConfig",
+    "InboxMusterConfig":[
         {
             "label" : "ES_COMMON_INBOX",
             "postProcessResult": true,
@@ -21,7 +21,7 @@
                     }
                 },
                 "minParametersForSearchForm":1,
-                "masterName":"commonUiConfig",
+                "masterName":"commonMuktaUiConfig",
                 "moduleName":"AttendanceInboxConfig",
                 "tableFormJsonPath":"requestBody.inbox",
                 "filterFormJsonPath":"requestBody.inbox.moduleSearchCriteria",
