@@ -1044,7 +1044,7 @@
       "enabled": false,
       "serviceCode": "ADMIN",
       "code": "null",
-      "path": "Administration.LogoutSession",
+      "path": "Administration.LogoutSession"
     }
   ]
 }
