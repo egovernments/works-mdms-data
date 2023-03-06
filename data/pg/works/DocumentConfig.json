@@ -12,7 +12,7 @@
             "code": "PROJECT_PROPOSAL",
             "active": true,
             "isMandatory": true,
-            "isMultiple" : true,
+            "showTextInput" : false,
             "allowedFileTypes": ["png","jpeg","pdf"],
             "maxSizeInMB": 2,
             "maxFilesAllowed": 2
@@ -21,7 +21,7 @@
             "code": "FINALIZED_WORKLIST",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false,
+            "showTextInput" : false,
             "allowedFileTypes": [],
             "maxSizeInMB": null,
             "maxFilesAllowed": 0
@@ -30,7 +30,7 @@
             "code": "FEASIBILITY_ANALYSIS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false,
+            "showTextInput" : false,
             "allowedFileTypes": [],
             "maxSizeInMB": null,
             "maxFilesAllowed": 0
@@ -47,7 +47,7 @@
             "code": "DETAILED_ESTIMATE",
             "active": true,
             "isMandatory": true,
-            "isMultiple" : true,
+            "showTextInput" : true,
             "allowedFileTypes": [],
             "maxSizeInMB": null,
             "maxFilesAllowed": 2
@@ -56,7 +56,7 @@
             "code": "LABOUR_ANALYSIS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false,
+            "showTextInput" : false,
             "allowedFileTypes": [],
             "maxSizeInMB": null,
             "maxFilesAllowed": 0
@@ -65,7 +65,7 @@
             "code": "MATERIAL_ANALYSIS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false,
+            "showTextInput" : false,
             "allowedFileTypes": [],
             "maxSizeInMB": null,
             "maxFilesAllowed": 0
@@ -74,7 +74,7 @@
             "code": "DESIGN_DOCUMENT",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false,
+            "showTextInput" : false,
             "allowedFileTypes": [],
             "maxSizeInMB": null,
             "maxFilesAllowed": 0
@@ -83,7 +83,7 @@
             "code": "OTHERS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : true,
+            "showTextInput" : true,
             "allowedFileTypes": [],
             "maxSizeInMB": null,
             "maxFilesAllowed": 3
@@ -100,7 +100,7 @@
             "code": "BOQ",
             "active": true,
             "isMandatory": true,
-            "isMultiple" : true,
+            "showTextInput" : true,
             "allowedFileTypes": [],
             "maxSizeInMB": null,
             "maxFilesAllowed": 3
@@ -109,7 +109,7 @@
             "code": "LABOUR_ANALYSIS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false,
+            "showTextInput" : false,
             "allowedFileTypes": [],
             "maxSizeInMB": null
           },
@@ -117,7 +117,7 @@
             "code": "MATERIAL_ANALYSIS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false,
+            "showTextInput" : false,
             "allowedFileTypes": [],
             "maxSizeInMB": null,
             "maxFilesAllowed": 0
@@ -126,7 +126,7 @@
             "code": "TERMS_AND_CONDITIONS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false,
+            "showTextInput" : false,
             "allowedFileTypes": [],
             "maxSizeInMB": null,
             "maxFilesAllowed": 0
@@ -135,7 +135,7 @@
             "code": "OTHERS",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : true,
+            "showTextInput" : true,
             "allowedFileTypes": [],
             "maxSizeInMB": null,
             "maxFilesAllowed": 0
@@ -152,7 +152,7 @@
             "code": "MEASUREMENT_BOOK",
             "active": true,
             "isMandatory": true,
-            "isMultiple" : true,
+            "showTextInput" : true,
             "allowedFileTypes": [],
             "maxSizeInMB": null,
             "maxFilesAllowed": 2
@@ -161,7 +161,7 @@
             "code": "MATERIAL_UTILIZATION_LOG",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false,
+            "showTextInput" : false,
             "allowedFileTypes": [],
             "maxSizeInMB": null,
             "maxFilesAllowed": 0
@@ -170,7 +170,7 @@
             "code": "LABOUR_UTILIZATION_LOG",
             "active": true,
             "isMandatory": false,
-            "isMultiple" : false,
+            "showTextInput" : false,
             "allowedFileTypes": [],
             "maxSizeInMB": null,
             "maxFilesAllowed": 0
