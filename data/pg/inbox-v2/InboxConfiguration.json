@@ -101,7 +101,7 @@
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "ASC"
+        "defaultOrder": "DESC"
       },
       "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.musterRollNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.individualEntries", "Data.currentProcessInstance", "Data.auditDetails"]
     }
