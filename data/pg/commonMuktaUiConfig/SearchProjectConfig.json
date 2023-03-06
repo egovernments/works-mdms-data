@@ -1,6 +1,6 @@
 {
     "tenantId":"pg",
-    "moduleName":"commonUiConfig",
+    "moduleName":"commonMuktaUiConfig",
     "SearchProjectConfig":[
       {
         "label": "WORKS_SEARCH_PROJECTS",
@@ -18,7 +18,7 @@
                 ]
             },
             "minParametersForSearchForm": 1,
-            "masterName": "commonUiConfig",
+            "masterName": "commonMuktaUiConfig",
             "moduleName": "SearchProjectConfig",
             "tableFormJsonPath": "requestParam",
             "filterFormJsonPath": "requestBody.Projects[0]",

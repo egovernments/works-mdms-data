@@ -1,6 +1,6 @@
 {
   "tenantId": "pg",
-  "moduleName": "commonUiConfig",
+  "moduleName": "commonMuktaUiConfig",
   "CreateProjectConfig": [
     {
       "form": [
