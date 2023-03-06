@@ -1234,6 +1234,42 @@
       "rolecode": "EMPLOYEE",
       "actionid": 81,
       "actioncode": "",
+      ",tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 82,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 83,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 84,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 85,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 86,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 87,
+      "actioncode": "",
       "tenantId": "pg"
     }
   ]
