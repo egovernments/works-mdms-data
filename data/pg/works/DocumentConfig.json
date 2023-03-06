@@ -34,6 +34,15 @@
             "allowedFileTypes": [],
             "maxSizeInMB": null,
             "maxFilesAllowed": 0
+          },
+          {
+            "code": "OTHERS",
+            "active": true,
+            "isMandatory": false,
+            "showTextInput" : true,
+            "allowedFileTypes": [],
+            "maxSizeInMB": null,
+            "maxFilesAllowed": 3
           }
         ]
       },
