@@ -6,6 +6,7 @@
       "code": "CON-01",
       "name": "Work Order",
       "description": "Defines a contract of type Work Order",
+      "createRegister": true,
       "active": true
     }
   ]
