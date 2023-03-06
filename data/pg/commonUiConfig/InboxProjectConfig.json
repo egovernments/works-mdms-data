@@ -1,7 +1,7 @@
 {
     "tenantId": "pg",
     "moduleName": "commonUiConfig",
-    "projectInboxConfig":[
+    "InboxProjectConfig":[
         {
             "label": "ES_COMMON_INBOX",
             "type": "inbox",

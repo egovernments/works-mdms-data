@@ -1,6 +1,6 @@
 {
     "tenantId": "pg",
-    "moduleName": "commonUiConfig",
+    "moduleName": "commonMuktaUiConfig",
     "SearchEstimateConfig": [
         {
             "label": "WORKS_SEARCH_ESTIMATES",
@@ -10,7 +10,7 @@
                 "requestParam": {},
                 "requestBody": {},
                 "minParametersForSearchForm": 1,
-                "masterName": "commonUiConfig",
+                "masterName": "commonMuktaUiConfig",
                 "moduleName": "SearchEstimateConfig",
                 "tableFormJsonPath": "requestParam",
                 "filterFormJsonPath": "requestParam",

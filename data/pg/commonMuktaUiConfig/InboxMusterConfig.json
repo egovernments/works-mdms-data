@@ -1,7 +1,7 @@
 {
     "tenantId": "pg",
-    "moduleName": "commonUiConfig",
-    "musterInboxConfig":[
+    "moduleName": "commonMuktaUiConfig",
+    "InboxMusterConfig":[
         {
             "label" : "ES_COMMON_INBOX",
             "postProcessResult": true,
@@ -21,7 +21,7 @@
                     }
                 },
                 "minParametersForSearchForm":1,
-                "masterName":"commonUiConfig",
+                "masterName":"commonMuktaUiConfig",
                 "moduleName":"AttendanceInboxConfig",
                 "tableFormJsonPath":"requestBody.inbox",
                 "filterFormJsonPath":"requestBody.inbox.moduleSearchCriteria",
@@ -77,8 +77,8 @@
                     "uiConfig" : {
                         "links" : [
                             {
-                                "text": "WORKS_ENROLL_WAGE_SEEKER",
-                                "url": "/employee/masters/wage-seeker-registration",
+                                "text": "ATM_SEARCH_ATTENDANCE",
+                                "url": "/employee/attendencemgmt/search-attendance",
                                 "roles": []
                             }
                         ],
@@ -150,7 +150,7 @@
                                 "additionalCustomization":true
                             },
                             {
-                                "label": "ATM_IA_AP",
+                                "label": "ATM_IMPLEMENTING_AGENCY",
                                 "jsonPath": "businessObject.additionalDetails.orgName"
                             },
                             {
