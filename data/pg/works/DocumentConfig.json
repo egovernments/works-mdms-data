@@ -4,7 +4,7 @@
   "DocumentConfig": [ 
     {
       "module": "Project",
-      "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg"],
+      "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg","jpg"],
       "maxSizeInMB": 5,
       "bannerLabel": "PROJECT_BANNER",
       "documents": [
@@ -14,9 +14,9 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg"],
+          "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg","jpg"],
           "maxSizeInMB": 5,
-          "maxFilesAllowed": 2
+          "maxFilesAllowed": 1
         },
         {
           "code": "FINALIZED_WORKLIST",
@@ -24,9 +24,9 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg"],
+          "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg","jpg"],
           "maxSizeInMB": 5,
-          "maxFilesAllowed": 2
+          "maxFilesAllowed": 1
         },
         {
           "code": "FEASIBILITY_ANALYSIS",
@@ -34,9 +34,9 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg"],
+          "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg","jpg"],
           "maxSizeInMB": 5,
-          "maxFilesAllowed": 2
+          "maxFilesAllowed": 1
         },
         {
           "code": "OTHERS",
@@ -44,9 +44,9 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : true,
-          "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg"],
+          "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg","jpg"],
           "maxSizeInMB": 5,
-          "maxFilesAllowed": 2
+          "maxFilesAllowed": 1
         }
       ]
     },
