@@ -1111,6 +1111,18 @@
       "serviceCode": "service-request",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 88,
+      "name": "WMS search project",
+      "url": "/wms/project/_search",
+      "parentModule": "works-management-service",
+      "displayName": "WMS search project",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-management-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
