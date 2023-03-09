@@ -106,6 +106,29 @@
         "defaultOrder": "ASC"
       },
       "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.musterRollNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.individualEntries", "Data.currentProcessInstance", "Data.auditDetails"]
+    },
+    {
+      "module": "project",
+      "index": "project-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectName",
+          "path": "Data.name",
+          "isMandatory": true,
+          "operator": "FUZZY"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.projectNumber", "Data.name", "Data.projectType", "Data.isDeleted", "Data.auditDetails"]
     }
   ]
 }
