@@ -23,8 +23,12 @@
               "key": "basicDetails_dateOfProposal",
               "type": "date",
               "disable": false,
+              "preProcess" : {
+                "updateDependent" : ["populators.max"]
+              },
               "populators": {
-                "name": "basicDetails_dateOfProposal"
+                "name": "basicDetails_dateOfProposal",
+                "max" : "currentDate"
               }
             },
             {
@@ -44,7 +48,8 @@
                 "error": "PROJECT_PATTERN_ERR_MSG_PROJECT_NAME",
                 "validation": {
                   "pattern": "^[^\\$\"<>?\\\\~`!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$",
-                  "minlength": 2
+                  "minlength": 2,
+                  "maxlength" : 32
                 }
               }
             },
@@ -65,7 +70,8 @@
                 "error": "PROJECT_PATTERN_ERR_MSG_PROJECT_DESC",
                 "validation": {
                   "pattern": "^[^{0-9}^\\$\\\"<>?\\\\\\\\~!@#$%^()+={}\\[\\]*,\\/_:;“”‘’]{1,50}$",
-                  "minlength": 2
+                  "minlength": 2,
+                  "maxlength" : 256
                 }
               }
             }
@@ -92,7 +98,8 @@
                 "error": "PROJECT_PATTERN_ERR_MSG_PROJECT_LOR",
                 "validation": {
                   "pattern": "^[^\\$\\\"<>?\\\\\\\\~`!@$%^()+={}\\[\\]*:;“”‘’]{1,50}$",
-                  "minlength": 2
+                  "minlength": 2,
+                  "maxlength" : 32
                 }
               }
             },
