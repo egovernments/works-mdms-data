@@ -801,7 +801,7 @@
       "id": 62,
       "name": "MASTERS",
       "url": "url",
-      "displayName": "Masters Search",
+      "displayName": "Masters Search Organisation",
       "orderNumber": 10,
       "parentModule": "",
       "enabled": true,
@@ -821,7 +821,7 @@
       "enabled": true,
       "serviceCode": "MASTERS",
       "code": "null",
-      "navigationURL": "/works-ui/employee/masters/wage-seeker-registration",
+      "navigationURL": "/works-ui/employee/masters/create-wageseeker",
       "path": "MASTERS.CreateWageSeeker",
       "leftIcon": "TLIcon"
     },
@@ -970,7 +970,159 @@
       "serviceCode": "individual",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 76,
+      "name": "WMS search muster",
+      "url": "/wms/muster/_search",
+      "parentModule": "works-management-service",
+      "displayName": "WMS search muster",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-management-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 77,
+      "name": "WMS search estimate",
+      "url": "/wms/estimate/_search",
+      "parentModule": "works-management-service",
+      "displayName": "WMS search estimate",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-management-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 78,
+      "name": "MASTERS",
+      "url": "url",
+      "displayName": "Masters Search Wageseeker",
+      "orderNumber": 10,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MASTERS",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/masters/search-wageseeker",
+      "path": "MASTERS.Search",
+      "leftIcon": "TLIcon"
+    },
+    {
+      "id": 79,
+      "name": "Dashboard Works",
+      "url": "url",
+      "displayName": "Works Dashboard",
+      "orderNumber": 4,
+      "parentModule": "dss-dashboard",
+      "enabled": true,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": "Dashboard.Works",
+      "navigationURL": "integration/dss/works",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    }, {
+      "id": 80,
+      "name": "DSS Dashboard Config Works",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/works",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
+      "code": "null",
+      "path": ""
+    },
+     {
+      "id": 81,
+      "name": "Logout Session",
+      "url": "/user/_logout",
+      "displayName":  "Logout Session",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "ADMIN",
+      "code": "null",
+      "path": "Administration.LogoutSession"
+    },
+    {
+      "id": 82,
+      "name": "Create Service Definition",
+      "url": "/service-request/service/definition/v1/_create",
+      "displayName":  "Create Service Definition",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "service-request",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 83,
+      "name": "Search Service Definition",
+      "url": "/service-request/service/definition/v1/_search",
+      "displayName":  "Search Service Definition",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "service-request",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 84,
+      "name": "Update Service Definition",
+      "url": "/service-request/service/definition/v1/_update",
+      "displayName":  "Update Service Definition",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "service-request",
+      "code": "null",
+      "path": ""
+    },
+    {
+     "id": 85,
+     "name": "Create Service",
+     "url": "/service-request/service/v1/_create",
+     "displayName":  "Create Service",
+     "orderNumber": 1,
+     "enabled": false,
+     "serviceCode": "service-request",
+     "code": "null",
+     "path": ""
+    },
+    {
+      "id": 86,
+      "name": "Search Service",
+      "url": "/service-request/service/v1/_search",
+      "displayName":  "Search Service",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "service-request",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 87,
+      "name": "Update Service",
+      "url": "/service-request/service/v1/_update",
+      "displayName":  "Update Service",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "service-request",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 88,
+      "name": "WMS search project",
+      "url": "/wms/project/_search",
+      "parentModule": "works-management-service",
+      "displayName": "WMS search project",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-management-service",
+      "code": "null",
+      "path": ""
     }
-
   ]
 }
