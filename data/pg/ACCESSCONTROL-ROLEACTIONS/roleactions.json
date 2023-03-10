@@ -100,25 +100,25 @@
     },
     {
       "rolecode": "EST_CHECKER",
-      "actionid": 11,
+      "actionid": 10,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "EST_ADMIN_SANC",
-      "actionid": 11,
+      "actionid": 10,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "EST_FIN_SANC",
-      "actionid": 11,
+      "actionid": 10,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "EST_TECH_SANC",
-      "actionid": 11,
+      "actionid": 10,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -797,17 +797,17 @@
       "actioncode": "",
       "tenantId": "pg"
     }, {
-      "rolecode": "JUNIOR_ENGINEER",
+      "rolecode": "MUKTA_ADMIN",
       "actionid": 62,
       "actioncode": "",
       "tenantId": "pg"
     }, {
-      "rolecode": "JUNIOR_ENGINEER",
+      "rolecode": "MUKTA_ADMIN",
       "actionid": 63,
       "actioncode": "",
       "tenantId": "pg"
     }, {
-      "rolecode": "JUNIOR_ENGINEER",
+      "rolecode": "MUKTA_ADMIN",
       "actionid": 64,
       "actioncode": "",
       "tenantId": "pg"
@@ -860,67 +860,73 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_CREATOR",
+      "rolecode": "WORK_ORDER_CREATOR",
       "actionid": 66,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_CREATOR",
+      "rolecode": "WORK_ORDER_CREATOR",
       "actionid": 67,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_CREATOR",
+      "rolecode": "WORK_ORDER_CREATOR",
       "actionid": 68,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_CHECKER",
+      "rolecode": "WORK_ORDER_VERIFIER",
       "actionid": 67,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_CHECKER",
+      "rolecode": "WORK_ORDER_VERIFIER",
       "actionid": 68,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_APPROVER",
+      "rolecode": "WORK_ORDER_APPROVER",
       "actionid": 67,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_APPROVER",
+      "rolecode": "WORK_ORDER_APPROVER",
       "actionid": 68,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_ISSUER",
+      "rolecode": "CBO_ADMIN",
       "actionid": 67,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_ISSUER",
+      "rolecode": "CBO_ADMIN",
       "actionid": 68,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_ACCEPTER",
+      "rolecode": "OFFICER_IN_CHARGE",
+      "actionid": 66,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "OFFICER_IN_CHARGE",
       "actionid": 67,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "CONTRACT_ACCEPTER",
+      "rolecode": "OFFICER_IN_CHARGE",
       "actionid": 68,
       "actioncode": "",
       "tenantId": "pg"
@@ -1090,6 +1096,203 @@
     {
       "rolecode": "ORG_ADMIN",
       "actionid": 75,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUNICIPAL_ENGINEER",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EST_CREATOR",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EST_CHECKER",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EST_ADMIN_SANC",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EST_FIN_SANC",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EST_TECH_SANC",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "pg"
+    },{
+      "rolecode": "STADMIN",
+      "actionid": 80,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "STADMIN",
+      "actionid": 79,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 78,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 9,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_VERIFIER",
+      "actionid": 11,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TECHNICAL_SANCTIONER",
+      "actionid": 11,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_APPROVER",
+      "actionid": 11,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_VERIFIER",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TECHNICAL_SANCTIONER",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_APPROVER",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+     {
+      "rolecode": "EMPLOYEE",
+      "actionid": 81,
+      "actioncode": "",
+      ",tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 82,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 83,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 84,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 85,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 86,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 87,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 88,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 88,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 88,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUNICIPAL_ENGINEER",
+      "actionid": 88,
       "actioncode": "",
       "tenantId": "pg"
     }
