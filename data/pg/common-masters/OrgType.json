@@ -1,0 +1,20 @@
+{
+  "tenantId": "pg",
+  "moduleName": "common-masters",
+  "OrgType": [
+    {
+      "code": "VEN",
+      "description": "Vendor/ Supplier",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    },
+    {
+      "code": "CBO",
+      "description": "Community Based Organization",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
+    }
+  ]
+}
