@@ -39,7 +39,7 @@
         },
         {
           "name": "assignee",
-          "path": "Data.workflow.assignees.keyword",
+          "path": "Data.workflow.assignes.keyword",
           "isMandatory": false
         }
       ],
