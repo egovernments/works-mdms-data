@@ -878,6 +878,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "WORK_ORDER_CREATOR",
+      "actionid": 65,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "WORK_ORDER_VERIFIER",
       "actionid": 67,
       "actioncode": "",
@@ -886,6 +892,12 @@
     {
       "rolecode": "WORK_ORDER_VERIFIER",
       "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WORK_ORDER_VERIFIER",
+      "actionid": 65,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -902,6 +914,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "WORK_ORDER_APPROVER",
+      "actionid": 65,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "CBO_ADMIN",
       "actionid": 67,
       "actioncode": "",
@@ -910,6 +928,12 @@
     {
       "rolecode": "CBO_ADMIN",
       "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CBO_ADMIN",
+      "actionid": 65,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -928,6 +952,12 @@
     {
       "rolecode": "OFFICER_IN_CHARGE",
       "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "OFFICER_IN_CHARGE",
+      "actionid": 65,
       "actioncode": "",
       "tenantId": "pg"
     },
