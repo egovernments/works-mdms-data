@@ -36,6 +36,11 @@
           "name": "locality",
           "path": "Data.project.address.locality.keyword",
           "isMandatory": false
+        },
+        {
+          "name": "assignee",
+          "path": "Data.workflow.assignees.keyword",
+          "isMandatory": false
         }
       ],
       "sortBy": {
