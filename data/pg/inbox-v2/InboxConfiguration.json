@@ -13,7 +13,7 @@
           "operator": "EQUAL"
         },
         {
-          "name": "state",
+          "name": "status",
           "path": "Data.currentProcessInstance.state.uuid.keyword",
           "isMandatory": false
         },
