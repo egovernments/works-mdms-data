@@ -105,15 +105,20 @@
           "operator": "EQUAL"
         },
         {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "isMandatory": false
+        },
+        {
           "name": "projectId",
           "path": "Data.additionalDetails.projectId.keyword",
-          "isMandatory": true,
+          "isMandatory": false,
           "operator": "EQUAL"
         },
         {
           "name": "projectType",
           "path": "Data.additionalDetails.projectType.keyword",
-          "isMandatory": true,
+          "isMandatory": false,
           "operator": "EQUAL"
         },
         {
@@ -129,8 +134,8 @@
           "operator": "EQUAL"
         },
         {
-          "name": "state",
-          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "name": "wfStatus",
+          "path": "Data.contractStatus.keyword",
           "isMandatory": false
         }
       ],
