@@ -21,7 +21,7 @@
                     }
                 },
                 "minParametersForSearchForm":1,
-                "masterName":"commonMuktaUiConfig",
+                "masterName":"commonUiConfig",
                 "moduleName":"AttendanceInboxConfig",
                 "tableFormJsonPath":"requestBody.inbox",
                 "filterFormJsonPath":"requestBody.inbox.moduleSearchCriteria",
