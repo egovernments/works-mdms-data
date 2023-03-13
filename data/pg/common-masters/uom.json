@@ -36,6 +36,27 @@
             "active": true,
             "effectiveFrom": 1677044852,
             "effectiveTo": null
+        },
+        {
+            "code": "CFT",
+            "description": "Cubic Feet",
+            "active": true,
+            "effectiveFrom": 1677044852,
+            "effectiveTo": null
+        },
+        {
+            "code": "SFT",
+            "description": "Square Feet",
+            "active": true,
+            "effectiveFrom": 1677044852,
+            "effectiveTo": null
+        },
+        {
+            "code": "FT",
+            "description": "Feet",
+            "active": true,
+            "effectiveFrom": 1677044852,
+            "effectiveTo": null
         }
        
     ]
