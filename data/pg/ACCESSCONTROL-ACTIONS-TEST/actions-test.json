@@ -225,14 +225,14 @@
       "id": 18,
       "name": "PROJECT",
       "url": "url",
-      "displayName": "PROJECT View",
+      "displayName": "PROJECT Search",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
       "serviceCode": "PROJECT",
       "code": "null",
-      "navigationURL": "/works-ui/employee/project/project-details",
-      "path": "PROJECT.View",
+      "navigationURL": "/works-ui/employee/project/search-project",
+      "path": "PROJECT.search",
       "leftIcon": "WSIcon"
     },
     {
