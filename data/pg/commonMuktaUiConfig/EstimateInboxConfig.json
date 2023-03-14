@@ -111,33 +111,47 @@
                         "uiConfig": {
                             "columns": [
                                 {
-                                    "label": "WORKS_ESTIMATE_ID",
-                                    "jsonPath": "estimateNumber",
+                                    "label": "ESTIMATE_ESTIMATE_NO",
+                                    "jsonPath": "ProcessInstance.businessId",
+                                    "key": "estimateNumber",
                                     "additionalCustomization": true
                                 },
                                 {
-                                    "label": "WORKS_PROJECT_ID",
-                                    "jsonPath": "projectId"
+                                    "label": "ES_COMMON_PROJECT_NAME",
+                                    "jsonPath": "businessObject.project.name"
                                 },
                                 {
-                                    "label": "PROJECT_OWNING_DEPT",
-                                    "jsonPath": "executingDepartment",
-                                    "translate": true,
-                                    "prefix": "COMMON_MASTERS_DEPARTMENT_"
+                                    "label": "ESTIMATE_PREPARED_BY",
+                                    "jsonPath": "businessObject.additionalDetails.creator"
                                 },
                                 {
-                                    "label": "WORKS_STATUS",
-                                    "jsonPath": "wfStatus"
+                                    "label": "COMMON_ASSIGNEE",
+                                    "jsonPath": "ProcessInstance.assignes",
+                                    "additionalCustomization": true,
+                                    "key": "assignee"
+                                },
+                                {
+                                    "label": "COMMON_WORKFLOW_STATES",
+                                    "jsonPath": "ProcessInstance.state.state",
+                                    "additionalCustomization": true,
+                                    "key": "state"
                                 },
                                 {
                                     "label": "WORKS_ESTIMATED_AMOUNT",
-                                    "jsonPath": "estimateDetails",
-                                    "additionalCustomization": true
+                                    "jsonPath": "businessObject.additionalDetails.totalEstimatedAmount",
+                                    "additionalCustomization": true,
+                                    "key": "estimatedAmount"
+                                },
+                                {
+                                    "label": "COMMON_SLA_DAYS",
+                                    "jsonPath": "businessObject.serviceSla",
+                                    "additionalCustomization": true,
+                                    "key": "sla"
                                 }
                             ],
                             "enableGlobalSearch": false,
                             "enableColumnSort": true,
-                            "resultsJsonPath": "estimates"
+                            "resultsJsonPath": "items"
                         },
                         "children": {},
                         "show": true
@@ -176,7 +190,10 @@
                                 "state": "",
                                 "ward": [],
                                 "locality": [],
-                                "assignee": ""
+                                "assignee": {
+                                    "code": "ASSIGNED_TO_ALL",
+                                    "name": "EST_INBOX_ASSIGNED_TO_ALL"
+                                }
                             },
                             "fields": [
                                 {

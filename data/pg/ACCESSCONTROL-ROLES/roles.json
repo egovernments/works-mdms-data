@@ -136,6 +136,36 @@
       "code": "ESTIMATE_APPROVER",
       "name": "ESTIMATE APPROVER",
       "description": "Estimate Approver"
+    },
+    {
+      "code": "PROJECT_CREATOR",
+      "name": "PROJECT CREATOR",
+      "description": "Project Creator"
+    },
+    {
+      "code": "PROJECT_VIEWER",
+      "name": "PROJECT VIEWER",
+      "description": "Project Viewer"
+    },
+    {
+      "code": "MUSTER_ROLL_VERIFIER",
+      "name": "MUSTER ROLL VERIFIER",
+      "description": "Muster Roll Viewer"
+    },
+    {
+      "code": "MUSTER_ROLL_APPROVER",
+      "name": "MUSTER ROLL APPROVER",
+      "description": "Muster Roll Approver"
+    },
+    {
+      "code": "BILL_CREATOR",
+      "name": "BILL_CREATOR",
+      "description": "Bill Creator"
+    },
+    {
+      "code": "BILL_VIEWER",
+      "name": "BILL_VIEWER",
+      "description": "Bill Viewer"
     }
   ]
 }
