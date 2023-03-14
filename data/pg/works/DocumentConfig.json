@@ -111,47 +111,28 @@
     {
       "module": "Work Order",
       "allowedFileTypes": ["pdf","docx"],
-      "maxSizeInMB": 5,
-      "bannerLabel": "",
+      "maxSizeInMB": 1,
+      "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
       "documents": [
         {
           "code": "BOQ",
           "name" : "doc_boq",
           "active": true,
           "isMandatory": true,
-          "showTextInput" : true,
-          "allowedFileTypes": [],
-          "maxSizeInMB": null,
-          "maxFilesAllowed": 3
-        },
-        {
-          "code": "LABOUR_ANALYSIS",
-          "name" : "doc_labour_analysis",
-          "active": true,
-          "isMandatory": false,
-          "showTextInput" : false,
-          "allowedFileTypes": [],
-          "maxSizeInMB": null
-        },
-        {
-          "code": "MATERIAL_ANALYSIS",
-          "name" : "doc_material_analysis",
-          "active": true,
-          "isMandatory": false,
           "showTextInput" : false,
           "allowedFileTypes": [],
           "maxSizeInMB": null,
-          "maxFilesAllowed": 0
+          "maxFilesAllowed": 1
         },
         {
           "code": "TERMS_AND_CONDITIONS",
           "name" : "doc_terms_and_conditions",
           "active": true,
-          "isMandatory": false,
+          "isMandatory": true,
           "showTextInput" : false,
           "allowedFileTypes": [],
           "maxSizeInMB": null,
-          "maxFilesAllowed": 0
+          "maxFilesAllowed": 1
         },
         {
           "code": "OTHERS",
@@ -161,7 +142,7 @@
           "showTextInput" : true,
           "allowedFileTypes": [],
           "maxSizeInMB": null,
-          "maxFilesAllowed": 0
+          "maxFilesAllowed": 1
         }
       ]
     },
