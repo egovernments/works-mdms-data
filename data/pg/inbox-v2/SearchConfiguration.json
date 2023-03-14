@@ -143,24 +143,22 @@
         {
           "name": "ward",
           "path": "Data.additionalDetails.ward.keyword",
-          "operator": "FUZZY",
           "isMandatory": false
         },
         {
           "name": "projectType",
           "path": "Data.additionalDetails.projectType.keyword",
-          "operator": "FUZZY",
           "isMandatory": false
         },
         {
           "name": "projectName",
-          "path": "Data.additionalDetails.projectName.keyword",
+          "path": "Data.additionalDetails.projectName",
           "operator": "FUZZY",
           "isMandatory": false
         },
         {
           "name": "workOrderNumber",
-          "path": "Data.contractNumber.keyword",
+          "path": "Data.contractNumber",
           "operator": "FUZZY",
           "isMandatory": false
         },
