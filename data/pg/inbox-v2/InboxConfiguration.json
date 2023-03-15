@@ -148,7 +148,7 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.contractNumber" ,"Data.additionalDetails.projectName","Data.additionalDetails.orgName", "Data.currentProcessInstance", "Data.totalContractedAmount"]
+      "sourceFilterPathList": ["Data.contractNumber" ,"Data.additionalDetails.projectName","Data.additionalDetails.orgName", "Data.currentProcessInstance", "Data.totalContractedAmount", "Data.auditDetails"]
     }
   ]
 }
