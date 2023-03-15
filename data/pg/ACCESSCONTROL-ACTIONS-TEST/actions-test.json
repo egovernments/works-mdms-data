@@ -1135,6 +1135,20 @@
       "serviceCode": "works-management-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 90,
+      "name": "ATTENDENCEMGMT",
+      "url": "url",
+      "displayName": "ATTENDENCEMGMT Search",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "ATTENDENCEMGMT",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/attendencemgmt/search-attendance",
+      "path": "ATTENDENCEMGMT.Search",
+      "leftIcon": "action:assignment"
     }
   ]
 }
