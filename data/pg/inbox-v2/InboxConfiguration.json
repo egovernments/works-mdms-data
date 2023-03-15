@@ -39,7 +39,7 @@
         },
         {
           "name": "assignee",
-          "path": "Data.workflow.assignes.keyword",
+          "path": "Data.currentProcessInstance.assignes.uuid.keyword",
           "isMandatory": false
         }
       ],
@@ -145,7 +145,7 @@
         },
         {
           "name": "assignee",
-          "path": "Data.workflow.assignes.keyword",
+          "path": "Data.currentProcessInstance.assignes.uuid.keyword",
           "isMandatory": false
         }
       ],
