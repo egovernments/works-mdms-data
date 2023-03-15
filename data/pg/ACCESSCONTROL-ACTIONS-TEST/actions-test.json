@@ -1161,6 +1161,42 @@
       "serviceCode": "organisation",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 92,
+      "name": "Create Bank Accounts",
+      "url": "/bankaccount-service/bankaccount/v1/_create",
+      "parentModule": "bankaccounts",
+      "displayName": "Create Bank Accounts",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bankaccounts",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 93,
+      "name": "Update Bank Accounts",
+      "url": "/bankaccount-service/bankaccount/v1/_update",
+      "parentModule": "bankaccounts",
+      "displayName": "Update Bank Accounts",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bankaccounts",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 94,
+      "name": "Search Bank Accounts",
+      "url": "/bankaccount-service/bankaccount/v1/_search",
+      "parentModule": "bankaccounts",
+      "displayName": "Search Bank Accounts",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bankaccounts",
+      "code": "null",
+      "path": ""
     }
   ]
 }
