@@ -1469,7 +1469,7 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "WORK_ORDER_CREATOR",
       "actionid": 91,
       "actioncode": "",
       "tenantId": "pg"
