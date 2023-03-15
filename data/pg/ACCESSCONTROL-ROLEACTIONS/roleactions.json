@@ -1508,6 +1508,12 @@
       "actionid": 22,
       "actioncode": "",
       "tenantId": "pg"
+    },
+     {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 1,
+      "actioncode": "",
+      "tenantId": "pg"
     }
     
   ]
