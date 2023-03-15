@@ -12,7 +12,7 @@
                         "inbox": {
                             "processSearchCriteria": {
                                 "businessService": [
-                                    "estimate-approval"
+                                    "estimate-approval-5"
                                 ],
                                 "moduleName": "estimate-service"
                             },
@@ -162,7 +162,7 @@
                                 {
                                     "text": "ACTION_TEST_CREATE_ESTIMATE",
                                     "url": "/employee/project/search-project",
-                                    "roles": []
+                                    "roles": ["PROJECT_VIEWER","ESTIMATE_CREATOR"]
                                 },
                                 {
                                     "text": "ACTION_TEST_SEARCH_ESTIMATE",
@@ -259,7 +259,7 @@
                                     "populators": {
                                         "name": "state",
                                         "labelPrefix": "WF_EST_",
-                                        "businessService": "estimate-approval"
+                                        "businessService": "estimate-approval-5"
                                     }
                                 }
                             ]

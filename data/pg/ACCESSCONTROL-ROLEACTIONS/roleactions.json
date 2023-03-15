@@ -39,6 +39,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 4,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "HRMS_ADMIN",
       "actionid": 5,
       "actioncode": "",
@@ -204,6 +210,12 @@
     },
     {
       "rolecode": "EMPLOYEE",
+      "actionid": 23,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
       "actionid": 23,
       "actioncode": "",
       "tenantId": "pg"
@@ -851,6 +863,42 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 67,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 89,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 67,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 89,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "WORK_ORDER_CREATOR",
       "actionid": 66,
       "actioncode": "",
@@ -870,6 +918,12 @@
     },
     {
       "rolecode": "WORK_ORDER_CREATOR",
+      "actionid": 89,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WORK_ORDER_CREATOR",
       "actionid": 65,
       "actioncode": "",
       "tenantId": "pg"
@@ -883,6 +937,12 @@
     {
       "rolecode": "WORK_ORDER_VERIFIER",
       "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WORK_ORDER_VERIFIER",
+      "actionid": 89,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -919,6 +979,12 @@
     {
       "rolecode": "CBO_ADMIN",
       "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CBO_ADMIN",
+      "actionid": 89,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -943,6 +1009,12 @@
     {
       "rolecode": "OFFICER_IN_CHARGE",
       "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "OFFICER_IN_CHARGE",
+      "actionid": 89,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -1187,8 +1259,20 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "STADMIN",
       "actionid": 80,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 81,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -1368,7 +1452,7 @@
     },
     {
       "rolecode": "WORK_ORDER_VERIFIER",
-      "actionid": 89,
+      "actionid": 90,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -1380,7 +1464,7 @@
     },
     {
       "rolecode": "WORK_ORDER_APPROVER",
-      "actionid": 89,
+      "actionid": 90,
       "actioncode": "",
       "tenantId": "pg"
     }
