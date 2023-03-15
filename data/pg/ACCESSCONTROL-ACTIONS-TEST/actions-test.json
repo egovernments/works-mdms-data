@@ -12,7 +12,7 @@
       "enabled": true,
       "serviceCode": "works",
       "code": "null",
-      "path": "Home",
+      "path": "MuktaHome",
       "navigationURL": "/works-ui/employee/",
       "leftIcon": "action:announcement",
       "rightIcon": ""
