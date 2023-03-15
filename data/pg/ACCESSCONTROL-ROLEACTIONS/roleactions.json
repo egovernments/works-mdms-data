@@ -39,6 +39,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 4,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "HRMS_ADMIN",
       "actionid": 5,
       "actioncode": "",
@@ -204,6 +210,12 @@
     },
     {
       "rolecode": "EMPLOYEE",
+      "actionid": 23,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
       "actionid": 23,
       "actioncode": "",
       "tenantId": "pg"
@@ -1249,6 +1261,12 @@
     {
       "rolecode": "STADMIN",
       "actionid": 80,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 81,
       "actioncode": "",
       "tenantId": "pg"
     },
