@@ -166,6 +166,11 @@
       "code": "BILL_VIEWER",
       "name": "BILL_VIEWER",
       "description": "Bill Viewer"
+    },
+    {
+      "code": "EMPLOYEE_COMMON",
+      "name": "Employee Common",
+      "description": "Default role for all employees that need hrms search, edit profile, logout action"
     }
   ]
 }
