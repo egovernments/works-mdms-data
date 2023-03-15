@@ -1149,6 +1149,18 @@
       "navigationURL": "/works-ui/employee/attendencemgmt/search-attendance",
       "path": "ATTENDENCEMGMT.Search",
       "leftIcon": "action:assignment"
+    },
+    {
+      "id": 91,
+      "name": "Search Organisation",
+      "url": "/org-services/organisation/v1/_search",
+      "parentModule": "organisation",
+      "displayName": "Search Organisation",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "organisation",
+      "code": "null",
+      "path": ""
     }
   ]
 }

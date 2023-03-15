@@ -1467,6 +1467,18 @@
       "actionid": 90,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "WORK_ORDER_CREATOR",
+      "actionid": 91,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 91,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
