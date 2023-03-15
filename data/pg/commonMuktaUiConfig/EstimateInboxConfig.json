@@ -162,7 +162,7 @@
                                 {
                                     "text": "ACTION_TEST_CREATE_ESTIMATE",
                                     "url": "/employee/project/search-project",
-                                    "roles": []
+                                    "roles": ["PROJECT_VIEWER","ESTIMATE_CREATOR"]
                                 },
                                 {
                                     "text": "ACTION_TEST_SEARCH_ESTIMATE",
