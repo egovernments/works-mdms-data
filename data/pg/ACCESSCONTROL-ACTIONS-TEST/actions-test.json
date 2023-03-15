@@ -1123,6 +1123,18 @@
       "serviceCode": "works-management-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 89,
+      "name": "WMS search contract",
+      "url": "/wms/contract/_search",
+      "parentModule": "works-management-service",
+      "displayName": "WMS search contract",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-management-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
