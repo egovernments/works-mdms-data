@@ -4,9 +4,9 @@
   "actions-test": [
     {
       "id": 1,
-      "name": "Home",
+      "name": "Mukta Home",
       "url": "url",
-      "displayName": "Home",
+      "displayName": "Mukta Home",
       "orderNumber": 1,
       "parentModule": "works",
       "enabled": true,
