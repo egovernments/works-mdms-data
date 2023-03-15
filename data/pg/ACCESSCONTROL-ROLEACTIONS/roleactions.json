@@ -1325,14 +1325,32 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "ESTIMATE_VERIFIER",
+      "actionid": 65,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "TECHNICAL_SANCTIONER",
       "actionid": 10,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
+      "rolecode": "TECHNICAL_SANCTIONER",
+      "actionid": 65,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "ESTIMATE_APPROVER",
       "actionid": 10,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_APPROVER",
+      "actionid": 65,
       "actioncode": "",
       "tenantId": "pg"
     },
