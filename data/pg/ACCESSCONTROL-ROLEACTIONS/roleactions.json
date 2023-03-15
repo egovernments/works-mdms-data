@@ -33,7 +33,7 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "EMPLOYEE",
+      "rolecode": "EMPLOYEE_COMMON",
       "actionid": 4,
       "actioncode": "",
       "tenantId": "pg"
@@ -203,7 +203,7 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "EMPLOYEE",
+      "rolecode": "EMPLOYEE_COMMON",
       "actionid": 23,
       "actioncode": "",
       "tenantId": "pg"
@@ -1313,7 +1313,7 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "EMPLOYEE",
+      "rolecode": "EMPLOYEE_COMMON",
       "actionid": 81,
       "actioncode": "",
       ",tenantId": "pg"
