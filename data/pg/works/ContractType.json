@@ -1,4 +1,5 @@
-  "tenantId": "pg",
+{
+ "tenantId": "pg",
   "moduleName": "works",
   "ContractType": [
     {
