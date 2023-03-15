@@ -1259,6 +1259,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "STADMIN",
       "actionid": 80,
       "actioncode": "",
