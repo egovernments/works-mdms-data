@@ -1313,6 +1313,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 52,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "ESTIMATE_VERIFIER",
       "actionid": 10,
       "actioncode": "",
