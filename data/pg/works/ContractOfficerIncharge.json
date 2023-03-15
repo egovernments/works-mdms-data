@@ -1,7 +1,7 @@
 {
   "tenantId": "pg",
   "moduleName": "works",
-  "OICRoles": [
+  "ContractOfficerInchargeRoles": [
     {
       "code": "OFFICER_IN_CHARGE",
       "name": "Officer In Charge",
