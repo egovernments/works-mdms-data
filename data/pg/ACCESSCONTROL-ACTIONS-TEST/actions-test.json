@@ -1135,6 +1135,32 @@
       "serviceCode": "works-management-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 90,
+      "name": "ATTENDENCEMGMT",
+      "url": "url",
+      "displayName": "ATTENDENCEMGMT Search",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "ATTENDENCEMGMT",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/attendencemgmt/search-attendance",
+      "path": "ATTENDENCEMGMT.Search",
+      "leftIcon": "action:assignment"
+    },
+    {
+      "id": 91,
+      "name": "Search Organisation",
+      "url": "/org-services/organisation/v1/_search",
+      "parentModule": "organisation",
+      "displayName": "Search Organisation",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "organisation",
+      "code": "null",
+      "path": ""
     }
   ]
 }
