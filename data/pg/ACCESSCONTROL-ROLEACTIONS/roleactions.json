@@ -1467,6 +1467,12 @@
       "actionid": 90,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 91,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
