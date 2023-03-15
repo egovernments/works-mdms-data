@@ -1295,6 +1295,18 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 65,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 22,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "ESTIMATE_VERIFIER",
       "actionid": 10,
       "actioncode": "",
