@@ -142,6 +142,11 @@
           "name": "wfStatus",
           "path": "Data.contractStatus.keyword",
           "isMandatory": false
+        },
+        {
+          "name": "assignee",
+          "path": "Data.workflow.assignes.keyword",
+          "isMandatory": false
         }
       ],
       "sortBy": {
