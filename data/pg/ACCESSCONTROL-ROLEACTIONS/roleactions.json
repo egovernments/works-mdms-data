@@ -46,6 +46,24 @@
     },
     {
       "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 27,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 28,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 29,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
       "actionid": 21,
       "actioncode": "",
       "tenantId": "pg"
