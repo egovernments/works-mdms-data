@@ -1622,6 +1622,24 @@
       "actionid": 54,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 95,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 96,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_VIEWER",
+      "actionid": 96,
+      "actioncode": "",
+      "tenantId": "pg"
     }
     
   ]

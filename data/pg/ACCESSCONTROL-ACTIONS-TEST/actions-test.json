@@ -1197,6 +1197,30 @@
       "serviceCode": "bankaccounts",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 95,
+      "name": "Create Expense Bill",
+      "url": "/expensebilling/demand/v1/_create",
+      "parentModule": "expenses-billing",
+      "displayName": "Create Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses-billing",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 96,
+      "name": "Search Expense Bill",
+      "url": "/expensebilling/demand/v1/_search",
+      "parentModule": "expenses-billing",
+      "displayName": "Search Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses-billing",
+      "code": "null",
+      "path": ""
     }
   ]
 }
