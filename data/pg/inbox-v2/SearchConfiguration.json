@@ -106,6 +106,86 @@
         "defaultOrder": "ASC"
       },
       "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.musterRollNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.individualEntries", "Data.currentProcessInstance", "Data.auditDetails"]
+    },
+    {
+      "module": "project",
+      "index": "project-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectName",
+          "path": "Data.name",
+          "isMandatory": true,
+          "operator": "FUZZY"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.projectNumber", "Data.name", "Data.projectType", "Data.isDeleted", "Data.auditDetails"]
+    },
+    {
+      "module": "contract",
+      "index": "contract-inbox",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "ward",
+          "path": "Data.additionalDetails.ward.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "projectType",
+          "path": "Data.additionalDetails.projectType.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "projectName",
+          "path": "Data.additionalDetails.projectName",
+          "operator": "FUZZY",
+          "isMandatory": false
+        },
+        {
+          "name": "workOrderNumber",
+          "path": "Data.contractNumber",
+          "operator": "FUZZY",
+          "isMandatory": false
+        },
+        {
+          "name": "status",
+          "path": "Data.contractStatus.keyword",
+          "operator": "IN",
+          "isMandatory": false
+        },
+        {
+          "name": "startDate",
+          "path": "Data.startDate",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "endDate",
+          "path": "Data.endDate",
+          "isMandatory": false,
+          "operator": "LTE"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": ["Data.tenantId","Data.contractNumber","Data.totalContractedAmount","Data.contractType","Data.executingAuthority","Data.contractStatus","Data.startDate","Data.endDate","Data.additionalDetails","Data.lineItems","Data.currentProcessInstance","Data.auditDetails"]
     }
   ]
 }

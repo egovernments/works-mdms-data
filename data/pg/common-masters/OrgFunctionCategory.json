@@ -1,0 +1,45 @@
+{
+  "tenantId": "pg",
+  "moduleName": "common-masters",
+  "OrgFunctionCategory": [
+    {
+      "code": "VEN",
+      "description": "Vendor/ Supplier",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null,
+      "subType": [
+        {
+          "code": "CW",
+          "description": "Civil Works",
+          "active": true,
+          "effectiveFrom": 1677044852,
+          "effectiveTo": null
+        },
+        {
+          "code": "EW",
+          "description": "Electical Works",
+          "active": true,
+          "effectiveFrom": 1677044852,
+          "effectiveTo": null
+        }
+      ]
+    },
+    {
+      "code": "CBO",
+      "description": "Community Based Organization",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null,
+      "subType": [
+        {
+          "code": "NA",
+          "description": "Not Applicable",
+          "active": true,
+          "effectiveFrom": 1677044852,
+          "effectiveTo": null
+        }
+      ]
+    }
+  ]
+}
