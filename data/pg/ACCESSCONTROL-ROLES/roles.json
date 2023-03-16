@@ -88,8 +88,8 @@
       "description": "Creator of a contract"
     },
     {
-      "code": "WORK_ORDER_VERIFIER",
-      "name": "WORK ORDER VERIFIER",
+      "code": "WORK_ORDER_VIEWER",
+      "name": "Work Order Verifier",
       "description": "Verifier of a contract"
     },
     {
