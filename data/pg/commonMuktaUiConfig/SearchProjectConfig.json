@@ -37,8 +37,8 @@
                 "subProjectId": "",
                 "name": "",
                 "projectType": "",
-                "startDate": "",
-                "endDate": ""
+                "createdFrom": "",
+                "createdTo": ""
               },
               "fields": [
                 {
