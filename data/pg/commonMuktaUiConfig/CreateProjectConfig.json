@@ -341,23 +341,6 @@
                   "localePrefix": "COMMON_MASTERS_SCHEME"
                 }
               }
-            },
-            {
-              "isMandatory": false,
-              "key": "noSubProject_subScheme",
-              "type": "radioordropdown",
-              "label": "WORKS_SUB_SCHEME",
-              "disable": false,
-              "populators": {
-                "name": "noSubProject_subScheme",
-                "optionsKey": "code",
-                "error": "WORKS_REQUIRED_ERR",
-                "required": false,
-                "optionsCustomStyle": {
-                  "top": "2.5rem"
-                },
-                "options": []
-              }
             }
           ]
         },
