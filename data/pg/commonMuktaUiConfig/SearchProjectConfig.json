@@ -5,7 +5,7 @@
       {
         "label": "WORKS_SEARCH_PROJECTS",
         "type": "search",
-        "actionLabel": "WORKS_CREATE_PROJECT",
+        "actionLabel": "WORKS_CREATE_NEW_PROJECT",
         "actionRole": "PROJECT_CREATOR",
         "actionLink": "project/create-project",
         "apiDetails": {
