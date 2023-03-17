@@ -111,7 +111,7 @@
     {
       "module": "Work Order",
       "allowedFileTypes": ["pdf","docx"],
-      "maxSizeInMB": 1,
+      "maxSizeInMB": 5,
       "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
       "documents": [
         {
@@ -121,7 +121,7 @@
           "isMandatory": true,
           "showTextInput" : false,
           "allowedFileTypes": [],
-          "maxSizeInMB": null,
+          "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
         {
@@ -131,7 +131,7 @@
           "isMandatory": true,
           "showTextInput" : false,
           "allowedFileTypes": [],
-          "maxSizeInMB": null,
+          "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
         {
@@ -141,7 +141,7 @@
           "isMandatory": false,
           "showTextInput" : true,
           "allowedFileTypes": [],
-          "maxSizeInMB": null,
+          "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         }
       ]

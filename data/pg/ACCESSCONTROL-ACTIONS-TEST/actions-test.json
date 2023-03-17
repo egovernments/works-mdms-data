@@ -1149,6 +1149,78 @@
       "navigationURL": "/works-ui/employee/attendencemgmt/search-attendance",
       "path": "ATTENDENCEMGMT.Search",
       "leftIcon": "action:assignment"
+    },
+    {
+      "id": 91,
+      "name": "Search Organisation",
+      "url": "/org-services/organisation/v1/_search",
+      "parentModule": "organisation",
+      "displayName": "Search Organisation",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "organisation",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 92,
+      "name": "Create Bank Accounts",
+      "url": "/bankaccount-service/bankaccount/v1/_create",
+      "parentModule": "bankaccounts",
+      "displayName": "Create Bank Accounts",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bankaccounts",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 93,
+      "name": "Update Bank Accounts",
+      "url": "/bankaccount-service/bankaccount/v1/_update",
+      "parentModule": "bankaccounts",
+      "displayName": "Update Bank Accounts",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bankaccounts",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 94,
+      "name": "Search Bank Accounts",
+      "url": "/bankaccount-service/bankaccount/v1/_search",
+      "parentModule": "bankaccounts",
+      "displayName": "Search Bank Accounts",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bankaccounts",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 95,
+      "name": "Create Expense Bill",
+      "url": "/expensebilling/demand/v1/_create",
+      "parentModule": "expenses-billing",
+      "displayName": "Create Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses-billing",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 96,
+      "name": "Search Expense Bill",
+      "url": "/expensebilling/demand/v1/_search",
+      "parentModule": "expenses-billing",
+      "displayName": "Search Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses-billing",
+      "code": "null",
+      "path": ""
     }
   ]
 }

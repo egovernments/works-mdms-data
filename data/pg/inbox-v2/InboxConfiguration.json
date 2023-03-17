@@ -39,7 +39,7 @@
         },
         {
           "name": "assignee",
-          "path": "Data.workflow.assignes.keyword",
+          "path": "Data.currentProcessInstance.assignes.uuid.keyword",
           "isMandatory": false
         }
       ],
@@ -67,6 +67,11 @@
         {
           "name": "musterRollStatus",
           "path": "Data.musterRollStatus.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "musterRollNumber",
+          "path": "Data.musterRollNumber.keyword",
           "isMandatory": false
         },
         {
@@ -145,7 +150,7 @@
         },
         {
           "name": "assignee",
-          "path": "Data.workflow.assignes.keyword",
+          "path": "Data.currentProcessInstance.assignes.uuid.keyword",
           "isMandatory": false
         }
       ],
