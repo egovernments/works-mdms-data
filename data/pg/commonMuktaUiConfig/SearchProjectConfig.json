@@ -37,8 +37,8 @@
                 "subProjectId": "",
                 "name": "",
                 "projectType": "",
-                "startDate": "",
-                "endDate": ""
+                "createdFrom": "",
+                "createdTo": ""
               },
               "fields": [
                 {
@@ -164,7 +164,7 @@
                   "additionalCustomization": true
                 },
                 {
-                  "label": "PROJECT_ESTIMATED_COST",
+                  "label": "PROJECT_ESTIMATED_COST_IN_RS",
                   "jsonPath": "additionalDetails.estimatedCostInRs",
                   "additionalCustomization": true
                 }
