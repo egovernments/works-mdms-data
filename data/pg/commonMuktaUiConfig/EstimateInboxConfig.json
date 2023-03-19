@@ -170,7 +170,7 @@
                                 {
                                     "text": "ACTION_TEST_SEARCH_ESTIMATE",
                                     "url": "/employee/estimate/search-estimate",
-                                    "roles": []
+                                    "roles": ["ESTIMATE_VIEWER"]
                                 }
                             ],
                             "label": "MUKTA",
