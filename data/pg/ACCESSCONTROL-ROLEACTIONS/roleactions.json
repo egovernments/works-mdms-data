@@ -1801,7 +1801,12 @@
       "actionid": 91,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 65,
+      "actioncode": "",
+      "tenantId": "pg"
     }
-    
   ]
 }
