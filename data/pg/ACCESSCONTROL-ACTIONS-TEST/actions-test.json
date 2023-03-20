@@ -795,7 +795,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/create-wageseeker",
       "path": "WageSeeker.CreateWageSeeker",
-      "leftIcon": "dynamic:OrganisationIcon"
+      "leftIcon": "dynamic:WageseekerIcon"
     },
     {
       "id": 64,
