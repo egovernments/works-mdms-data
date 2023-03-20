@@ -37,8 +37,8 @@
                 "subProjectId": "",
                 "name": "",
                 "projectType": "",
-                "startDate": "",
-                "endDate": ""
+                "createdFrom": "",
+                "createdTo": ""
               },
               "fields": [
                 {
@@ -49,7 +49,7 @@
                   "populators": {
                     "name": "ward",
                     "type": "ward",
-                    "optionsKey": "name",
+                    "optionsKey": "i18nKey",
                     "allowMultiSelect": false,
                     "optionsCustomStyle": {
                       "top": "2.3rem"
@@ -164,7 +164,7 @@
                   "additionalCustomization": true
                 },
                 {
-                  "label": "PROJECT_ESTIMATED_COST",
+                  "label": "PROJECT_ESTIMATED_COST_IN_RS",
                   "jsonPath": "additionalDetails.estimatedCostInRs",
                   "additionalCustomization": true
                 }

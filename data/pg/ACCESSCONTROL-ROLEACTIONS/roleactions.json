@@ -1741,6 +1741,66 @@
       "actionid": 96,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 37,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 38,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 37,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 38,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 37,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_VIEWER",
+      "actionid": 37,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 54,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_VIEWER",
+      "actionid": 54,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WORK_ORDER_CREATOR",
+      "actionid": 91,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 91,
+      "actioncode": "",
+      "tenantId": "pg"
     }
     
   ]
