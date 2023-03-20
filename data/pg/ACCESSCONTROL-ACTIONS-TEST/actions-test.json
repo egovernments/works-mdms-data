@@ -4,15 +4,15 @@
   "actions-test": [
     {
       "id": 1,
-      "name": "Mukta Home",
+      "name": "Home",
       "url": "url",
-      "displayName": "Mukta Home",
+      "displayName": "Home",
       "orderNumber": 1,
       "parentModule": "works",
       "enabled": true,
       "serviceCode": "works",
       "code": "null",
-      "path": "MuktaHome",
+      "path": "Home",
       "navigationURL": "/works-ui/employee/",
       "leftIcon": "action:announcement",
       "rightIcon": ""
@@ -175,7 +175,7 @@
       "enabled": true,
       "serviceCode": "WORKS",
       "code": "null",
-      "navigationURL": "/works-ui/employee/create-estimate",
+      "navigationURL": "/works-ui/employee/project/search-project",
       "path": "ESTIMATE.CreateEstimate",
       "leftIcon": "social:people"
     },
@@ -203,7 +203,7 @@
       "enabled": true,
       "serviceCode": "ESTIMATE",
       "code": "null",
-      "navigationURL": "/works-ui/employee/works/search-estimate",
+      "navigationURL": "/works-ui/employee/estimate/search-estimate",
       "path": "ESTIMATE.SearchEstimate",
       "leftIcon": "social:people"
     },
@@ -217,7 +217,7 @@
       "enabled": true,
       "serviceCode": "ESTIMATE",
       "code": "null",
-      "navigationURL": "/works-ui/employee/works/inbox",
+      "navigationURL": "/works-ui/employee/estimate/inbox",
       "path": "ESTIMATE.EstimateInbox",
       "leftIcon": "social:people"
     },
@@ -305,20 +305,6 @@
       "serviceCode": "works-inbox-service",
       "code": "null",
       "path": ""
-    },
-    {
-      "id": 25,
-      "name": "ESTIMATE",
-      "url": "url",
-      "displayName": "Search Approved Estimates",
-      "orderNumber": 2,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "ESTIMATE",
-      "code": "null",
-      "navigationURL": "/works-ui/employee/works/search-approved-estimate",
-      "path": "ESTIMATE.SearchApprovedEstimate",
-      "leftIcon": "social:people"
     },
     {
       "id": 26,
@@ -672,20 +658,6 @@
       "leftIcon": "social:people"
     },
     {
-      "id": 55,
-      "name": "BILLS",
-      "url": "url",
-      "displayName": "Create New Bill",
-      "orderNumber": 2,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "BILLS",
-      "code": "null",
-      "navigationURL": "/works-ui/employee/contracts/create-bill",
-      "path": "BILLS.BillCreate",
-      "leftIcon": "social:people"
-    },
-    {
       "id": 56,
       "name": "BILLS",
       "url": "url",
@@ -695,7 +667,7 @@
       "enabled": true,
       "serviceCode": "BILLS",
       "code": "null",
-      "navigationURL": "/works-ui/employee/contracts/search-bills",
+      "navigationURL": "/works-ui/employee/expenditure/search-bill",
       "path": "BILLS.BillSearch",
       "leftIcon": "social:people"
     },
@@ -751,7 +723,7 @@
       "enabled": true,
       "serviceCode": "CONTRACTS",
       "code": "null",
-      "navigationURL": "/works-ui/employee/contracts/create-contract",
+      "navigationURL": "/works-ui/employee/estimate/search-estimate",
       "path": "CONTRACTS.Create",
       "leftIcon": "action:announcement"
     },
@@ -1159,6 +1131,66 @@
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "organisation",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 92,
+      "name": "Create Bank Accounts",
+      "url": "/bankaccount-service/bankaccount/v1/_create",
+      "parentModule": "bankaccounts",
+      "displayName": "Create Bank Accounts",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bankaccounts",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 93,
+      "name": "Update Bank Accounts",
+      "url": "/bankaccount-service/bankaccount/v1/_update",
+      "parentModule": "bankaccounts",
+      "displayName": "Update Bank Accounts",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bankaccounts",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 94,
+      "name": "Search Bank Accounts",
+      "url": "/bankaccount-service/bankaccount/v1/_search",
+      "parentModule": "bankaccounts",
+      "displayName": "Search Bank Accounts",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bankaccounts",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 95,
+      "name": "Create Expense Bill",
+      "url": "/expensebilling/demand/v1/_create",
+      "parentModule": "expenses-billing",
+      "displayName": "Create Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses-billing",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 96,
+      "name": "Search Expense Bill",
+      "url": "/expensebilling/demand/v1/_search",
+      "parentModule": "expenses-billing",
+      "displayName": "Search Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses-billing",
       "code": "null",
       "path": ""
     }
