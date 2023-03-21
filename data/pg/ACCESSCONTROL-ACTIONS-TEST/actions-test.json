@@ -14,7 +14,7 @@
       "code": "null",
       "path": "Home",
       "navigationURL": "/works-ui/employee/",
-      "leftIcon": "action:announcement",
+      "leftIcon": "dynamic:MuktaHomeIcon",
       "rightIcon": ""
     },
     {
@@ -65,7 +65,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/hrms/inbox",
       "path": "HRMS.Search",
-      "leftIcon": "social:people"
+      "leftIcon": "dynamic:HRIcon"
     },
     {
       "id": 6,
@@ -163,7 +163,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/hrms/create",
       "path": "HRMS.Create",
-      "leftIcon": "social:people"
+      "leftIcon": "dynamic:HRIcon"
     },
     {
       "id": 14,
@@ -175,9 +175,9 @@
       "enabled": true,
       "serviceCode": "WORKS",
       "code": "null",
-      "navigationURL": "/works-ui/employee/create-estimate",
+      "navigationURL": "/works-ui/employee/project/search-project",
       "path": "ESTIMATE.CreateEstimate",
-      "leftIcon": "social:people"
+      "leftIcon": "dynamic:EstimateIcon"
     },
     {
       "id": 15,
@@ -191,7 +191,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/project/create-project",
       "path": "PROJECT.Create",
-      "leftIcon": "WSIcon"
+      "leftIcon": "dynamic:ProjectIcon"
     },
     {
       "id": 16,
@@ -203,9 +203,9 @@
       "enabled": true,
       "serviceCode": "ESTIMATE",
       "code": "null",
-      "navigationURL": "/works-ui/employee/works/search-estimate",
+      "navigationURL": "/works-ui/employee/estimate/search-estimate",
       "path": "ESTIMATE.SearchEstimate",
-      "leftIcon": "social:people"
+      "leftIcon": "dynamic:EstimateIcon"
     },
     {
       "id": 17,
@@ -217,9 +217,9 @@
       "enabled": true,
       "serviceCode": "ESTIMATE",
       "code": "null",
-      "navigationURL": "/works-ui/employee/works/inbox",
+      "navigationURL": "/works-ui/employee/estimate/inbox",
       "path": "ESTIMATE.EstimateInbox",
-      "leftIcon": "social:people"
+      "leftIcon": "dynamic:EstimateIcon"
     },
     {
       "id": 18,
@@ -233,7 +233,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/project/search-project",
       "path": "PROJECT.search",
-      "leftIcon": "WSIcon"
+      "leftIcon": "dynamic:ProjectIcon"
     },
     {
       "id": 19,
@@ -305,20 +305,6 @@
       "serviceCode": "works-inbox-service",
       "code": "null",
       "path": ""
-    },
-    {
-      "id": 25,
-      "name": "ESTIMATE",
-      "url": "url",
-      "displayName": "Search Approved Estimates",
-      "orderNumber": 2,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "ESTIMATE",
-      "code": "null",
-      "navigationURL": "/works-ui/employee/works/search-approved-estimate",
-      "path": "ESTIMATE.SearchApprovedEstimate",
-      "leftIcon": "social:people"
     },
     {
       "id": 26,
@@ -669,21 +655,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/expenditure/billinbox",
       "path": "BILLS.BillInbox",
-      "leftIcon": "social:people"
-    },
-    {
-      "id": 55,
-      "name": "BILLS",
-      "url": "url",
-      "displayName": "Create New Bill",
-      "orderNumber": 2,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "BILLS",
-      "code": "null",
-      "navigationURL": "/works-ui/employee/contracts/create-bill",
-      "path": "BILLS.BillCreate",
-      "leftIcon": "social:people"
+      "leftIcon": "dynamic:ExpenditureIcon"
     },
     {
       "id": 56,
@@ -695,9 +667,9 @@
       "enabled": true,
       "serviceCode": "BILLS",
       "code": "null",
-      "navigationURL": "/works-ui/employee/contracts/search-bills",
+      "navigationURL": "/works-ui/employee/expenditure/search-bill",
       "path": "BILLS.BillSearch",
-      "leftIcon": "social:people"
+      "leftIcon": "dynamic:ExpenditureIcon"
     },
     {
       "id": 57,
@@ -711,7 +683,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/expenditure/view-bills/menu",
       "path": "BILLS.BillView",
-      "leftIcon": "social:people"
+      "leftIcon": "dynamic:ExpenditureIcon"
     },
     {
       "id": 58,
@@ -725,7 +697,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/contracts/inbox",
       "path": "CONTRACTS.Inbox",
-      "leftIcon": "action:announcement"
+      "leftIcon": "dynamic:ContractIcon"
     },
     {
       "id": 59,
@@ -739,7 +711,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/attendencemgmt/inbox",
       "path": "ATTENDENCEMGMT.Inbox",
-      "leftIcon": "action:assignment"
+      "leftIcon": "dynamic:AttendanceIcon"
     },
     {
       "id": 60,
@@ -751,9 +723,9 @@
       "enabled": true,
       "serviceCode": "CONTRACTS",
       "code": "null",
-      "navigationURL": "/works-ui/employee/contracts/create-contract",
+      "navigationURL": "/works-ui/employee/estimate/search-estimate",
       "path": "CONTRACTS.Create",
-      "leftIcon": "action:announcement"
+      "leftIcon": "dynamic:ContractIcon"
     },
     {
       "id": 61,
@@ -767,7 +739,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/contracts/search-contract",
       "path": "CONTRACTS.Search",
-      "leftIcon": "action:announcement"
+      "leftIcon": "dynamic:ContractIcon"
     },
     {
       "id": 62,
@@ -781,7 +753,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/works/checklistinbox",
       "path": "CHECKLIST.Inbox",
-      "leftIcon": "FSMIcon"
+      "leftIcon": "dynamic:HRIcon"
     },
     {
       "id": 63,
@@ -795,7 +767,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/works/checklist",
       "path": "CHECKLIST.Create",
-      "leftIcon": "FSMIcon"
+      "leftIcon": "dynamic:HRIcon"
     },
     {
       "id": 62,
@@ -809,21 +781,21 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/search-organization",
       "path": "MASTERS.Search",
-      "leftIcon": "TLIcon"
+      "leftIcon": "dynamic:OrganisationIcon"
     },
     {
       "id": 63,
-      "name": "MASTERS",
+      "name": "WAGESEEKER",
       "url": "url",
       "displayName": "Masters Create WageSeeker",
       "orderNumber": 10,
       "parentModule": "",
       "enabled": true,
-      "serviceCode": "MASTERS",
+      "serviceCode": "WageSeeker",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/create-wageseeker",
-      "path": "MASTERS.CreateWageSeeker",
-      "leftIcon": "TLIcon"
+      "path": "WageSeeker.CreateWageSeeker",
+      "leftIcon": "dynamic:WageseekerIcon"
     },
     {
       "id": 64,
@@ -837,7 +809,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/create-organization",
       "path": "MASTERS.CreateOrganisation",
-      "leftIcon": "TLIcon"
+      "leftIcon": "dynamic:OrganisationIcon"
     },
     {
       "id": 65,
@@ -997,17 +969,17 @@
     },
     {
       "id": 78,
-      "name": "MASTERS",
+      "name": "WAGESEEKER",
       "url": "url",
       "displayName": "Masters Search Wageseeker",
       "orderNumber": 10,
       "parentModule": "",
       "enabled": true,
-      "serviceCode": "MASTERS",
+      "serviceCode": "WageSeeker",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/search-wageseeker",
-      "path": "MASTERS.Search",
-      "leftIcon": "TLIcon"
+      "path": "WageSeeker.Search",
+      "leftIcon": "dynamic:WageseekerIcon"
     },
     {
       "id": 79,
@@ -1020,10 +992,11 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": "Dashboard.Works",
-      "navigationURL": "integration/dss/works",
-      "leftIcon": "places:business-center",
+      "navigationURL": "/works-ui/employee/dss/dashboard/works",
+      "leftIcon": "dynamic:DashboardIcon",
       "rightIcon": ""
-    }, {
+    },
+    {
       "id": 80,
       "name": "DSS Dashboard Config Works",
       "url": "/dashboard-analytics/dashboard/getDashboardConfig/works",
@@ -1035,11 +1008,11 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 81,
       "name": "Logout Session",
       "url": "/user/_logout",
-      "displayName":  "Logout Session",
+      "displayName": "Logout Session",
       "orderNumber": 1,
       "enabled": false,
       "serviceCode": "ADMIN",
@@ -1050,7 +1023,7 @@
       "id": 82,
       "name": "Create Service Definition",
       "url": "/service-request/service/definition/v1/_create",
-      "displayName":  "Create Service Definition",
+      "displayName": "Create Service Definition",
       "orderNumber": 1,
       "enabled": false,
       "serviceCode": "service-request",
@@ -1061,7 +1034,7 @@
       "id": 83,
       "name": "Search Service Definition",
       "url": "/service-request/service/definition/v1/_search",
-      "displayName":  "Search Service Definition",
+      "displayName": "Search Service Definition",
       "orderNumber": 1,
       "enabled": false,
       "serviceCode": "service-request",
@@ -1072,7 +1045,7 @@
       "id": 84,
       "name": "Update Service Definition",
       "url": "/service-request/service/definition/v1/_update",
-      "displayName":  "Update Service Definition",
+      "displayName": "Update Service Definition",
       "orderNumber": 1,
       "enabled": false,
       "serviceCode": "service-request",
@@ -1080,21 +1053,21 @@
       "path": ""
     },
     {
-     "id": 85,
-     "name": "Create Service",
-     "url": "/service-request/service/v1/_create",
-     "displayName":  "Create Service",
-     "orderNumber": 1,
-     "enabled": false,
-     "serviceCode": "service-request",
-     "code": "null",
-     "path": ""
+      "id": 85,
+      "name": "Create Service",
+      "url": "/service-request/service/v1/_create",
+      "displayName": "Create Service",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "service-request",
+      "code": "null",
+      "path": ""
     },
     {
       "id": 86,
       "name": "Search Service",
       "url": "/service-request/service/v1/_search",
-      "displayName":  "Search Service",
+      "displayName": "Search Service",
       "orderNumber": 1,
       "enabled": false,
       "serviceCode": "service-request",
@@ -1105,7 +1078,7 @@
       "id": 87,
       "name": "Update Service",
       "url": "/service-request/service/v1/_update",
-      "displayName":  "Update Service",
+      "displayName": "Update Service",
       "orderNumber": 1,
       "enabled": false,
       "serviceCode": "service-request",
@@ -1121,6 +1094,116 @@
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "works-management-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 89,
+      "name": "WMS search contract",
+      "url": "/wms/contract/_search",
+      "parentModule": "works-management-service",
+      "displayName": "WMS search contract",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-management-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 90,
+      "name": "ATTENDENCEMGMT",
+      "url": "url",
+      "displayName": "ATTENDENCEMGMT Search",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "ATTENDENCEMGMT",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/attendencemgmt/search-attendance",
+      "path": "ATTENDENCEMGMT.Search",
+      "leftIcon": "dynamic:AttendanceIcon"
+    },
+    {
+      "id": 91,
+      "name": "Search Organisation",
+      "url": "/org-services/organisation/v1/_search",
+      "parentModule": "organisation",
+      "displayName": "Search Organisation",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "organisation",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 92,
+      "name": "Create Bank Accounts",
+      "url": "/bankaccount-service/bankaccount/v1/_create",
+      "parentModule": "bankaccounts",
+      "displayName": "Create Bank Accounts",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bankaccounts",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 93,
+      "name": "Update Bank Accounts",
+      "url": "/bankaccount-service/bankaccount/v1/_update",
+      "parentModule": "bankaccounts",
+      "displayName": "Update Bank Accounts",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bankaccounts",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 94,
+      "name": "Search Bank Accounts",
+      "url": "/bankaccount-service/bankaccount/v1/_search",
+      "parentModule": "bankaccounts",
+      "displayName": "Search Bank Accounts",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bankaccounts",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 95,
+      "name": "Create Expense Bill",
+      "url": "/expensebilling/demand/v1/_create",
+      "parentModule": "expenses-billing",
+      "displayName": "Create Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses-billing",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 96,
+      "name": "Search Expense Bill",
+      "url": "/expensebilling/demand/v1/_search",
+      "parentModule": "expenses-billing",
+      "displayName": "Search Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses-billing",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 97,
+      "name": "Search Muster details",
+      "url": "/egov-bff-service/muster/getMusterDetails",
+      "parentModule": "bff",
+      "displayName": "Search Muster details",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bff",
       "code": "null",
       "path": ""
     }

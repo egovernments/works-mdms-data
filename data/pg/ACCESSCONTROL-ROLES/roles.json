@@ -123,6 +123,11 @@
       "description": "Estimate Creator"
     },
     {
+      "code": "ESTIMATE_VIEWER",
+      "name": "ESTIMATE VIEWER",
+      "description": "Estimate VIEWER having search api access"
+    },
+    {
       "code": "ESTIMATE_VERIFIER",
       "name": "ESTIMATE VERIFIER",
       "description": "Estimate Verifier"
@@ -166,6 +171,11 @@
       "code": "BILL_VIEWER",
       "name": "BILL_VIEWER",
       "description": "Bill Viewer"
+    },
+    {
+      "code": "EMPLOYEE_COMMON",
+      "name": "Employee Common",
+      "description": "Default role for all employees that need hrms search, edit profile, logout action"
     }
   ]
 }
