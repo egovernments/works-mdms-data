@@ -143,24 +143,26 @@
         {
           "name": "ward",
           "path": "Data.additionalDetails.ward.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "projectType",
           "path": "Data.additionalDetails.projectType.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "projectName",
           "path": "Data.additionalDetails.projectName",
-          "operator": "FUZZY",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "FUZZY"
         },
         {
           "name": "workOrderNumber",
           "path": "Data.contractNumber",
-          "operator": "FUZZY",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "status",
