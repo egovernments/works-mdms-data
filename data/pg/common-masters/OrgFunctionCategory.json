@@ -3,43 +3,25 @@
   "moduleName": "common-masters",
   "OrgFunctionCategory": [
     {
-      "code": "VEN",
-      "description": "Vendor/ Supplier",
+      "code": "VEN.CW",
+      "description": "Vendor/Supplier Civil Works",
       "active": true,
       "effectiveFrom": 1677044852,
-      "effectiveTo": null,
-      "subType": [
-        {
-          "code": "CW",
-          "description": "Civil Works",
-          "active": true,
-          "effectiveFrom": 1677044852,
-          "effectiveTo": null
-        },
-        {
-          "code": "EW",
-          "description": "Electical Works",
-          "active": true,
-          "effectiveFrom": 1677044852,
-          "effectiveTo": null
-        }
-      ]
+      "effectiveTo": null
     },
     {
-      "code": "CBO",
-      "description": "Community Based Organization",
+      "code": "VEN.EW",
+      "description": "Vendor/Supplier Electical Works",
       "active": true,
       "effectiveFrom": 1677044852,
-      "effectiveTo": null,
-      "subType": [
-        {
-          "code": "NA",
-          "description": "Not Applicable",
-          "active": true,
-          "effectiveFrom": 1677044852,
-          "effectiveTo": null
-        }
-      ]
+      "effectiveTo": null
+    },
+    {
+      "code": "CBO.NA",
+      "description": "Community Based Organization - not applicable",
+      "active": true,
+      "effectiveFrom": 1677044852,
+      "effectiveTo": null
     }
   ]
 }
