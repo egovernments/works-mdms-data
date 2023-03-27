@@ -1210,6 +1210,18 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 71,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 72,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "ORG_STAFF",
       "actionid": 72,
       "actioncode": "",
@@ -1643,6 +1655,18 @@
     {
       "rolecode": "SUPERUSER",
       "actionid": 93,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 93,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 94,
       "actioncode": "",
       "tenantId": "pg"
     },
