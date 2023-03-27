@@ -1677,6 +1677,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 93,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "SUPERUSER",
       "actionid": 94,
       "actioncode": "",
@@ -1690,6 +1696,12 @@
     },
     {
       "rolecode": "ORG_ADMIN",
+      "actionid": 94,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
       "actionid": 94,
       "actioncode": "",
       "tenantId": "pg"
