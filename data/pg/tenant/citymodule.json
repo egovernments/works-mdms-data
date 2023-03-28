@@ -188,6 +188,23 @@
                    "code": "pg.citya"
                }
            ]
+       },
+        {
+           "module": "Utilities",
+           "code": "Utilities",
+           "active": true,
+           "order": 11,
+           "tenants": [
+               {
+                   "code": "pg.cityb"
+               },
+               {
+                   "code": "pg.cityc"
+               },
+               {
+                   "code": "pg.citya"
+               }
+           ]
        }
     ]
 }

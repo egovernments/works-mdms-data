@@ -143,24 +143,26 @@
         {
           "name": "ward",
           "path": "Data.additionalDetails.ward.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "projectType",
           "path": "Data.additionalDetails.projectType.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "projectName",
           "path": "Data.additionalDetails.projectName",
-          "operator": "FUZZY",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "FUZZY"
         },
         {
           "name": "workOrderNumber",
-          "path": "Data.contractNumber",
-          "operator": "FUZZY",
-          "isMandatory": false
+          "path": "Data.contractNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "status",
@@ -183,7 +185,7 @@
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "ASC"
+        "defaultOrder": "DESC"
       },
       "sourceFilterPathList": ["Data.tenantId","Data.contractNumber","Data.totalContractedAmount","Data.contractType","Data.executingAuthority","Data.contractStatus","Data.startDate","Data.endDate","Data.additionalDetails","Data.lineItems","Data.currentProcessInstance","Data.auditDetails"]
     },
