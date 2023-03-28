@@ -160,7 +160,7 @@
         },
         {
           "name": "workOrderNumber",
-          "path": "Data.contractNumber",
+          "path": "Data.contractNumber.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
