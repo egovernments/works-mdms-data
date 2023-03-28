@@ -186,6 +186,29 @@
         "defaultOrder": "ASC"
       },
       "sourceFilterPathList": ["Data.tenantId","Data.contractNumber","Data.totalContractedAmount","Data.contractType","Data.executingAuthority","Data.contractStatus","Data.startDate","Data.endDate","Data.additionalDetails","Data.lineItems","Data.currentProcessInstance","Data.auditDetails"]
+    },
+    {
+      "module": "individual",
+      "index": "individual-index-v1",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "name",
+          "path": "Data.name.givenName",
+          "isMandatory": true,
+          "operator": "FUZZY"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.individualId", "Data.clientReferenceId", "Data.userId", "Data.name", "Data.dateOfBirth", "Data.gender", "Data.bloodGroup", "Data.mobileNumber","Data.altContactNumber","Data.email","Data.address","Data.fatherName","Data.husbandName","Data.relationship","Data.identifiers","Data.skills","Data.photo","Data.additionalFields","Data.isDeleted","Data.rowVersion","Data.auditDetails"]
     }
   ]
 }
