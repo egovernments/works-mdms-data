@@ -3,10 +3,7 @@
   "moduleName": "commonMuktaUiConfig",
   "CreateProjectConfig": [
     {
-      "defaultValues": {
-        "basicDetails_dateOfProposal": "",
-        "noSubProject_ulb": ""
-      },
+      "defaultValues": {},
       "metaData": {
         "showNavs": false,
         "currentFormCategory": false
@@ -16,6 +13,24 @@
           "head": "",
           "subHead": "",
           "body": [
+            {
+              "inline": true,
+              "label": "WORKS_PROJECT_ID",
+              "isMandatory": false,
+              "key": "basicDetails_projectID",
+              "type": "text",
+              "disable": true,
+              "preProcess" : {
+                "updateDependent" : ["populators.customStyle.display"]
+              },
+              "populators": { 
+                "name": "basicDetails_projectID", 
+                "customStyle" : {
+                  "display" : "none"
+                },
+                "customClass" : "field-value-no-border"
+              }
+            },
             {
               "inline": true,
               "label": "ES_COMMON_PROPOSAL_DATE",
