@@ -1206,6 +1206,18 @@
       "serviceCode": "bff",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 98,
+      "name": "WMS search individual",
+      "url": "/wms/individual/_search",
+      "parentModule": "works-management-service",
+      "displayName": "WMS search individual",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-management-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
