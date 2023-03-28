@@ -79,7 +79,7 @@
                             {
                                 "text": "ATM_SEARCH_ATTENDANCE",
                                 "url": "/employee/attendencemgmt/search-attendance",
-                                "roles": []
+                                "roles": ["MUSTER_ROLL_VERIFIER","MUSTER_ROLL_APPROVER"]
                             }
                         ],
                         "label" : "ES_COMMON_ATTENDENCEMGMT",
