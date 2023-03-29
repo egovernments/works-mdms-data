@@ -13,23 +13,23 @@
           "head": "",
           "subHead": "",
           "body": [
-            {	
-              "inline": true,	
-              "label": "WORKS_PROJECT_ID",	
-              "isMandatory": false,	
-              "key": "basicDetails_projectID",	
-              "type": "text",	
-              "disable": true,	
-              "preProcess" : {	
-                "updateDependent" : ["populators.customStyle.display"]	
-              },	
-              "populators": { 	
-                "name": "basicDetails_projectID", 	
-                "customStyle" : {	
-                  "display" : "none"	
-                },	
-                "customClass" : "field-value-no-border"	
-              }	
+            {
+              "inline": true,
+              "label": "WORKS_PROJECT_ID",
+              "isMandatory": false,
+              "key": "basicDetails_projectID",
+              "type": "text",
+              "disable": true,
+              "preProcess" : {
+                "updateDependent" : ["populators.customStyle.display"]
+              },
+              "populators": { 
+                "name": "basicDetails_projectID", 
+                "customStyle" : {
+                  "display" : "none"
+                },
+                "customClass" : "field-value-no-border"
+              }
             },
             {
               "inline": true,
@@ -304,14 +304,14 @@
               "type": "documentUpload",
               "withoutLabel": true,
               "module": "Project",
-	            "error": "WORKS_REQUIRED_ERR",	
-              "name": "noSubProject_docs",	
-              "customClass": "",	
-              "localePrefix": "PROJECT"	
-            }	
-          ]	
-        }	
-      ]	
-    }	
-  ]	
+              "error": "WORKS_REQUIRED_ERR",
+              "name": "noSubProject_docs",
+              "customClass": "",
+              "localePrefix": "PROJECT"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
