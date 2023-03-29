@@ -26,28 +26,33 @@
         },
         {
           "name": "status",
-          "path": "Data.currentProcessInstance.state.uuid.keyword",
-          "isMandatory": false
+          "path": "Data.currentProcessInstance.state.applicationStatus.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "estimateId",
           "path": "Data.estimateNumber.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "department",
           "path": "Data.executingDepartment.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "typeOfWork",
           "path": "Data.project.projectType.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "projectId",
           "path": "Data.project.projectNumber.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "fromProposalDate",
@@ -64,14 +69,15 @@
         {
           "name": "createdBy",
           "path": "Data.auditDetails.createdBy.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         }
       ],
       "sortBy": {
           "path": "Data.auditDetails.createdTime",
           "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails"]
+      "sourceFilterPathList": ["Data.tenantId","Data.estimateNumber","Data.executingDepartment","Data.proposalDate","Data.project","Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails"]
     },
     {
       "module": "muster",
