@@ -1803,29 +1803,16 @@
       "tenantId":"pg"
     },
     {
-      "rolecode": "ORG_ADMIN",
+      "rolecode": "MUKTA_ADMIN",
       "actionid": 100,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "ORG_ADMIN",
+      "rolecode": "MUKTA_ADMIN",
       "actionid": 101,
       "actioncode": "",
       "tenantId": "pg"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 100,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 101,
-      "actioncode": "",
-      "tenantId": "pg"
-    }
-    
+    }    
   ]
 }
