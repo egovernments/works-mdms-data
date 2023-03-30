@@ -195,15 +195,15 @@
                   "key": "basicDetails_photograph",
                   "type": "multiupload",
                   "preProcess" : {
-                    "updateDependent" : ["populators.allowedFileTypes"]
+                    "convertStringToRegEx" : ["populators.allowedFileTypes"]
                   },
                   "populators": {
                     "name": "basicDetails_photograph",
                     "allowedMaxSizeInMB": 2,
                     "maxFilesAllowed": 1,
-                    "allowedFileTypes": {}
+                    "allowedFileTypes": "(.*?)(jpg|jpeg|png)$"
                   }
-              }
+               }
             ]
           },
           {
