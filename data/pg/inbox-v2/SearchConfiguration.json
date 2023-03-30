@@ -13,29 +13,46 @@
           "operator": "EQUAL"
         },
         {
+          "name": "ward",
+          "path": "Data.additionalDetails.location.ward.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectName",
+          "path": "Data.project.name",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
           "name": "status",
-          "path": "Data.currentProcessInstance.state.uuid.keyword",
-          "isMandatory": false
+          "path": "Data.currentProcessInstance.state.applicationStatus.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "estimateId",
           "path": "Data.estimateNumber.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "department",
           "path": "Data.executingDepartment.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "typeOfWork",
           "path": "Data.project.projectType.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "projectId",
           "path": "Data.project.projectNumber.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "fromProposalDate",
@@ -52,14 +69,15 @@
         {
           "name": "createdBy",
           "path": "Data.auditDetails.createdBy.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         }
       ],
       "sortBy": {
           "path": "Data.auditDetails.createdTime",
           "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails"]
+      "sourceFilterPathList": ["Data.tenantId","Data.estimateNumber","Data.executingDepartment","Data.proposalDate","Data.project","Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails"]
     },
     {
       "module": "muster",
@@ -143,24 +161,26 @@
         {
           "name": "ward",
           "path": "Data.additionalDetails.ward.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "projectType",
           "path": "Data.additionalDetails.projectType.keyword",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "projectName",
           "path": "Data.additionalDetails.projectName",
-          "operator": "FUZZY",
-          "isMandatory": false
+          "isMandatory": false,
+          "operator": "FUZZY"
         },
         {
           "name": "workOrderNumber",
-          "path": "Data.contractNumber",
-          "operator": "FUZZY",
-          "isMandatory": false
+          "path": "Data.contractNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "status",
@@ -183,9 +203,32 @@
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "ASC"
+        "defaultOrder": "DESC"
       },
       "sourceFilterPathList": ["Data.tenantId","Data.contractNumber","Data.totalContractedAmount","Data.contractType","Data.executingAuthority","Data.contractStatus","Data.startDate","Data.endDate","Data.additionalDetails","Data.lineItems","Data.currentProcessInstance","Data.auditDetails"]
+    },
+    {
+      "module": "individual",
+      "index": "individual-index-v1",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "name",
+          "path": "Data.name.givenName",
+          "isMandatory": true,
+          "operator": "FUZZY"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.individualId", "Data.clientReferenceId", "Data.userId", "Data.name", "Data.dateOfBirth", "Data.gender", "Data.bloodGroup", "Data.mobileNumber","Data.altContactNumber","Data.email","Data.address","Data.fatherName","Data.husbandName","Data.relationship","Data.identifiers","Data.skills","Data.photo","Data.additionalFields","Data.isDeleted","Data.rowVersion","Data.auditDetails"]
     }
   ]
 }
