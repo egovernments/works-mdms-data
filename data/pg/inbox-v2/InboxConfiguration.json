@@ -90,6 +90,16 @@
           "name": "attendanceRegisterName",
           "path": "Data.additionalDetails.attendanceRegisterName.keyword",
           "isMandatory": false
+        },
+        {
+          "name": "orgId",
+          "path": "Data.additionalDetails.orgId.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "assignee",
+          "path": "Data.currentProcessInstance.assignes.uuid.keyword",
+          "isMandatory": false
         }
       ],
       "sortBy": {
