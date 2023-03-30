@@ -262,7 +262,7 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
-    },    
+    },
     {
       "model": "IndividualEncrypt",
       "uniqueIdentifier": {
