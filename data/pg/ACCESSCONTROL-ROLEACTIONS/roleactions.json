@@ -1126,13 +1126,7 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 69,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "EMPLOYEE",
+      "rolecode": "CBO_ADMIN",
       "actionid": 69,
       "actioncode": "",
       "tenantId": "pg"
