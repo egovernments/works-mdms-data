@@ -262,6 +262,72 @@
         }
       ],
       "roleBasedDecryptionPolicy": []
+    },    
+    {
+      "model": "IndividualEncrypt",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
+      "attributes": [
+        {
+          "name": "mobileNumber",
+          "jsonPath": "mobileNumber",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "aadhaarNumber",
+          "jsonPath": "identifiers/*/identifierId",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "IndividualSearchEncrypt",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
+      "attributes": [
+        {
+          "name": "mobileNumber",
+          "jsonPath": "mobileNumber",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "aadhaarNumber",
+          "jsonPath": "identifier/identifierId",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "IndividualDecrypt",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
+      "attributes": [
+        {
+          "name": "mobileNumber",
+          "jsonPath": "mobileNumber",
+          "patternId": null,
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "aadhaarNumber",
+          "jsonPath": "identifiers/*/identifierId",
+          "patternId": "001",
+          "defaultVisibility": "MASKED"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
     }
   ]
 }
