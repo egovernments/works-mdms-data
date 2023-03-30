@@ -1218,6 +1218,17 @@
       "serviceCode": "works-management-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id":99,
+      "name":"Project Detail Pdf",
+      "url": "/egov-pdf/download/project/project-details",
+      "displayName": "projectdetails search",
+      "orderNumber":1,
+      "enabled":false,
+      "serviceCode":"egov-pdf",
+      "code":"null",
+      "path":""
     }
   ]
 }
