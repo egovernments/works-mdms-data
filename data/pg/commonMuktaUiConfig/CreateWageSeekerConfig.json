@@ -190,16 +190,19 @@
                 }
               },
               {
-                "label": "ES_COMMON_PHOTOGRAPH",
-                "isMandatory": false,
-                "key": "basicDetails_photograph",
-                "type": "multiupload",
-                "populators": {
-                  "name": "basicDetails_photograph",
-                  "allowedMaxSizeInMB": 2,
-                  "maxFilesAllowed": 1,
-                  "allowedFileTypes": {}
-                }
+                  "label": "ES_COMMON_PHOTOGRAPH",
+                  "isMandatory": false,
+                  "key": "basicDetails_photograph",
+                  "type": "multiupload",
+                  "preProcess" : {
+                    "updateDependent" : ["populators.allowedFileTypes"]
+                  },
+                  "populators": {
+                    "name": "basicDetails_photograph",
+                    "allowedMaxSizeInMB": 2,
+                    "maxFilesAllowed": 1,
+                    "allowedFileTypes": {}
+                  }
               }
             ]
           },
