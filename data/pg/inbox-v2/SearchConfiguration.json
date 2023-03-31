@@ -117,6 +117,16 @@
           "path": "Data.additionalDetails.attendanceRegisterName",
           "isMandatory": false,
           "operator": "FUZZY"
+        },
+        {
+          "name": "musterRollNumber",
+          "path": "Data.musterRollNumber.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "ward",
+          "path": "Data.additionalDetails.ward.keyword",
+          "isMandatory": false
         }
       ],
       "sortBy": {
