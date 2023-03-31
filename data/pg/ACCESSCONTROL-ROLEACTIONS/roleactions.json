@@ -1795,7 +1795,24 @@
       "actionid": 98,
       "actioncode": "",
       "tenantId": "pg"
-    }
-    
+    },
+    {
+      "rolecode":"PROJECT_VIEWER",
+      "actionid":99,
+      "actioncode":"",
+      "tenantId":"pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 100,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 101,
+      "actioncode": "",
+      "tenantId": "pg"
+    }    
   ]
 }
