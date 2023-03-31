@@ -1218,6 +1218,41 @@
       "serviceCode": "works-management-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id":99,
+      "name":"Project Detail Pdf",
+      "url": "/egov-pdf/download/project/project-details",
+      "displayName": "projectdetails search",
+      "orderNumber":1,
+      "enabled":false,
+      "serviceCode":"egov-pdf",
+      "code":"null",
+      "path":""
+    },
+    {
+      "id": 100,
+      "name": "Create Simple Organisation without workflow",
+      "url": "/org-services/organisation/v1/_create",
+      "parentModule": "organisation",
+      "displayName": "Create Organisation",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "organisation",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 101,
+      "name": "Update Simple Organisation without workflow",
+      "url": "/org-services/organisation/v1/_update",
+      "parentModule": "organisation",
+      "displayName": "Update Organisation",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "organisation",
+      "code": "null",
+      "path": ""
     }
   ]
 }
