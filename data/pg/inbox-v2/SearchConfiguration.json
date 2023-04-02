@@ -127,6 +127,11 @@
           "name": "ward",
           "path": "Data.additionalDetails.ward.keyword",
           "isMandatory": false
+        },
+        {
+          "name": "projectType",
+          "path": "Data.additionalDetails.projectType.keyword",
+          "isMandatory": false
         }
       ],
       "sortBy": {
