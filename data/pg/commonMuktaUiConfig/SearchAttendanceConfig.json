@@ -1,24 +1,20 @@
 {
   "tenantId": "pg",
   "moduleName": "commonMuktaUiConfig",
-  "SearchMusterConfigFuzzy": [
+  "SearchAttendanceConfig": [
     {
       "label": "ATM_SEARCH_ATTENDANCE",
       "type": "search",
       "apiDetails": {
-        "serviceName": "/wms/muster/_search",
+        "serviceName": "/muster-roll/v1/_search",
         "requestParam": {},
-        "requestBody": {
-          "inbox": {
-            "moduleSearchCriteria": {}
-          }
-        },
+        "requestBody": {},
         "minParametersForSearchForm": 1,
         "masterName": "commonUiConfig",
         "moduleName": "SearchAttendanceConfig",
-        "tableFormJsonPath": "requestBody.inbox",
-        "filterFormJsonPath": "requestBody.inbox.moduleSearchCriteria",
-        "searchFormJsonPath": "requestBody.inbox.moduleSearchCriteria"
+        "tableFormJsonPath": "requestParam",
+        "filterFormJsonPath": "requestParam",
+        "searchFormJsonPath": "requestParam"
       },
       "sections": {
         "search": {
