@@ -339,6 +339,12 @@
       "actioncode": "",
       "tenantId": "pg"
     },
+     {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 26,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
     {
       "rolecode": "SUPERUSER",
       "actionid": 28,
