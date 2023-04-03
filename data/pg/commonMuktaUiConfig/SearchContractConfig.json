@@ -10,7 +10,7 @@
               "requestParam": {},
               "requestBody": {
                 "inbox": {
-                   " moduleSearchCriteria": {}
+                   "moduleSearchCriteria": {}
                 }
               },
               "minParametersForSearchForm": 1,
