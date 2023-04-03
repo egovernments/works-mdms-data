@@ -1825,6 +1825,54 @@
       "actionid": 65,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 98,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 98,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ORG_STAFF",
+      "actionid": 98,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode":"PROJECT_VIEWER",
+      "actionid":99,
+      "actioncode":"",
+      "tenantId":"pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 100,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 101,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WORK_ORDER_CREATOR",
+      "actionid": 102,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 102,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
