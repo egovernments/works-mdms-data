@@ -1253,6 +1253,18 @@
       "serviceCode": "organisation",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 102,
+      "name": "WMS search organisation",
+      "url": "/wms/organisation/_search",
+      "parentModule": "works-management-service",
+      "displayName": "WMS search organisation",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-management-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
