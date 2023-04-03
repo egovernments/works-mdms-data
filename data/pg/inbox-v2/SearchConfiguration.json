@@ -244,6 +244,95 @@
         "defaultOrder": "ASC"
       },
       "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.individualId", "Data.clientReferenceId", "Data.userId", "Data.name", "Data.dateOfBirth", "Data.gender", "Data.bloodGroup", "Data.mobileNumber","Data.altContactNumber","Data.email","Data.address","Data.fatherName","Data.husbandName","Data.relationship","Data.identifiers","Data.skills","Data.photo","Data.additionalFields","Data.isDeleted","Data.rowVersion","Data.auditDetails"]
+    },
+    {
+      "module": "organisation",
+      "index": "organisation-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "name",
+          "path": "Data.name",
+          "isMandatory": false,
+          "operator": "FUZZY"
+        },
+        {
+          "name": "applicationNumber",
+          "path": "Data.applicationNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "orgNumber",
+          "path": "Data.orgNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "applicationStatus",
+          "path": "Data.applicationStatus.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "isActive",
+          "path": "Data.isActive.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
+        },
+        {
+          "name": "type",
+          "path": "Data.functions.*.type.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "functionIsActive",
+          "path": "Data.functions.*.isActive",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "boundaryCode",
+          "path": "Data.orgAddress.*.boundaryCode.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "identifierType",
+          "path": "Data.identifiers.*.type.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "identifierValue",
+          "path": "Data.identifiers.*.value.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.name", "Data.applicationNumber", "Data.orgNumber", "Data.applicationStatus", "Data.externalRefNumber", "Data.isActive", "Data.isActive", "Data.orgAddress", "Data.contactDetails", "Data.identifiers", "Data.functions", "Data.jurisdiction", "Data.documents", "Data.additionalDetails", "Data.auditDetails"]
     }
   ]
 }

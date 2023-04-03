@@ -1604,7 +1604,8 @@
       "actionid": 91,
       "actioncode": "",
       "tenantId": "pg"
-    }, {
+    }, 
+    {
       "rolecode": "EMPLOYEE_COMMON",
       "actionid": 27,
       "actioncode": "",
@@ -1813,6 +1814,18 @@
       "actionid": 101,
       "actioncode": "",
       "tenantId": "pg"
-    }    
+    },
+    {
+      "rolecode": "WORK_ORDER_CREATOR",
+      "actionid": 102,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 102,
+      "actioncode": "",
+      "tenantId": "pg"
+    }
   ]
 }
