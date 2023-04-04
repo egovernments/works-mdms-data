@@ -1832,6 +1832,36 @@
       "actionid": 102,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 103,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_VIEWER",
+      "actionid": 103,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_APPROVER",
+      "actionid": 103,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TECHNICAL_SANCTIONER",
+      "actionid": 103,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_VERIFIER",
+      "actionid": 103,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
