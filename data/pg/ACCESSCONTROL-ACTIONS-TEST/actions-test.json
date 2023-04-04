@@ -975,10 +975,10 @@
       "orderNumber": 10,
       "parentModule": "",
       "enabled": true,
-      "serviceCode": "WAGESEEKER",
+      "serviceCode": "WageSeeker",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/search-wageseeker",
-      "path": "WAGESEEKER.Search",
+      "path": "WageSeeker.Search",
       "leftIcon": "dynamic:WageseekerIcon"
     },
     {
@@ -995,7 +995,8 @@
       "navigationURL": "/works-ui/employee/dss/dashboard/works",
       "leftIcon": "dynamic:DashboardIcon",
       "rightIcon": ""
-    }, {
+    },
+    {
       "id": 80,
       "name": "DSS Dashboard Config Works",
       "url": "/dashboard-analytics/dashboard/getDashboardConfig/works",
@@ -1007,7 +1008,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 81,
       "name": "Logout Session",
       "url": "/user/_logout",
@@ -1206,7 +1207,7 @@
       "code": "null",
       "path": ""
     },
-        {
+    {
       "id": 98,
       "name": "WMS search individual",
       "url": "/wms/individual/_search",
@@ -1250,18 +1251,6 @@
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "organisation",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 102,
-      "name": "WMS search organisation",
-      "url": "/wms/organisation/_search",
-      "parentModule": "works-management-service",
-      "displayName": "WMS search organisation",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "works-management-service",
       "code": "null",
       "path": ""
     }
