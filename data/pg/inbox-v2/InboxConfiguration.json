@@ -13,6 +13,12 @@
           "operator": "EQUAL"
         },
         {
+          "name": "ward",
+          "path": "Data.additionalDetails.location.ward.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
           "name": "status",
           "path": "Data.currentProcessInstance.state.uuid.keyword",
           "isMandatory": false
@@ -89,6 +95,21 @@
         {
           "name": "attendanceRegisterName",
           "path": "Data.additionalDetails.attendanceRegisterName.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "orgId",
+          "path": "Data.additionalDetails.orgId.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "ward",
+          "path": "Data.additionalDetails.ward.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "assignee",
+          "path": "Data.currentProcessInstance.assignes.uuid.keyword",
           "isMandatory": false
         }
       ],
