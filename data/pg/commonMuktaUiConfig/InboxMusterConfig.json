@@ -97,7 +97,7 @@
             ],
             "label": "ES_COMMON_ATTENDENCEMGMT",
             "logoIcon": {
-              "component": "BioMetricIcon",
+              "component": "MuktaIcon",
               "customClass": "search-icon--projects"
             }
           },
