@@ -13,6 +13,12 @@
           "operator": "EQUAL"
         },
         {
+          "name": "ward",
+          "path": "Data.additionalDetails.location.ward.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
           "name": "status",
           "path": "Data.currentProcessInstance.state.uuid.keyword",
           "isMandatory": false
