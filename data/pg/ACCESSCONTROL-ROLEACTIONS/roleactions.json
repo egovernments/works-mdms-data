@@ -1479,7 +1479,7 @@
       "actioncode": "",
       "tenantId": "pg"
     },
-        {
+    {
       "rolecode": "ESTIMATE_CREATOR",
       "actionid": 88,
       "actioncode": "",
@@ -1500,6 +1500,30 @@
     {
       "rolecode": "ESTIMATE_APPROVER",
       "actionid": 52,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_VERIFIER",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "TECHNICAL_SANCTIONER",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ESTIMATE_APPROVER",
+      "actionid": 10,
       "actioncode": "",
       "tenantId": "pg"
     },
