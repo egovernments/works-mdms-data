@@ -1852,7 +1852,7 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "EST_TECH_SANC",
+      "rolecode": "TECHNICAL_SANCTIONER",
       "actionid": 103,
       "actioncode": "",
       "tenantId": "pg"
