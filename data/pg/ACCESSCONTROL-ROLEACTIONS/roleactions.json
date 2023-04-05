@@ -1366,6 +1366,18 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "SUPERUSER",
       "actionid": 77,
       "actioncode": "",
