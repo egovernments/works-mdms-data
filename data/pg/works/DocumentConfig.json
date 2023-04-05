@@ -4,7 +4,7 @@
   "DocumentConfig": [ 
     {
       "module": "Project",
-      "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg","jpg"],
+      "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
       "maxSizeInMB": 5,
       "bannerLabel": "PROJECT_BANNER",
       "documents": [
@@ -14,7 +14,7 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg","jpg"],
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
           "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
@@ -24,7 +24,7 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg","jpg"],
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
           "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
@@ -34,7 +34,7 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg","jpg"],
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
           "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
@@ -44,7 +44,7 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : true,
-          "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg","jpg"],
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
           "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         }
@@ -52,7 +52,7 @@
     },
     {
       "module": "Estimate",
-      "allowedFileTypes": ["pdf","docx","spreadsheetml","sheet","jpeg","jpg"],
+      "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
       "maxSizeInMB": 5,
       "bannerLabel": "ESTIMATE_UPLOAD_BANNER_TEXT",
       "documents": [
@@ -110,7 +110,7 @@
     }, 
     {
       "module": "Work Order",
-      "allowedFileTypes": ["pdf","docx"],
+      "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
       "maxSizeInMB": 5,
       "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
       "documents": [
@@ -186,4 +186,3 @@
     }
   ]
 }
-
