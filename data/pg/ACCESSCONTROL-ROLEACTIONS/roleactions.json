@@ -880,6 +880,24 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 104,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 104,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 104,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "MUSTER_ROLL_APPROVER",
       "actionid": 59,
       "actioncode": "",
