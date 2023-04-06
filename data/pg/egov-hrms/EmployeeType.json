@@ -3,23 +3,23 @@
   "moduleName": "egov-hrms",
   "EmployeeType": [
     {
-      "code": "PERMANENT",
+      "code": "PNT",
+      "description": "Permanent",
       "active": true
     },
     {
-      "code": "TEMPORARY",
+      "code": "TMP",
+      "description": "Temporary",
       "active": true
     },
     {
-      "code": "DAILYWAGES",
+      "code": "DEP",
+      "description": "Deputation",
       "active": true
     },
     {
-      "code": "CONTRACT",
-      "active": true
-    },
-    {
-      "code": "DEPUTATION",
+      "code": "CNT",
+      "description": "Contractual",
       "active": true
     }
   ]
