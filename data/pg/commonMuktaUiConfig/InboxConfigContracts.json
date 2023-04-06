@@ -188,8 +188,8 @@
               "ward": [],
               "locality": [],
               "assignee": {
-                "code": "ASSIGNED_TO_ALL",
-                "name": "COMMON_INBOX_ASSIGNED_TO_ALL"
+                "code": "ASSIGNED_TO_ME",
+                "name": "EST_INBOX_ASSIGNED_TO_ME"
               }
             },
             "fields": [
