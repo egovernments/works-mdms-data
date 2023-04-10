@@ -1694,7 +1694,14 @@
       "actionid": 91,
       "actioncode": "",
       "tenantId": "pg"
-    }, {
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 91,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "EMPLOYEE_COMMON",
       "actionid": 27,
       "actioncode": "",
