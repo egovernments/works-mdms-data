@@ -98,6 +98,11 @@
       "description": "Approver of a contract"
     },
     {
+      "code": "WORK_ORDER_VIEWER",
+      "name": "WORK ORDER VIEWER",
+      "description": "Viewer of a contract"
+    },
+    {
       "code": "CBO_ADMIN",
       "name": "CBO ADMIN",
       "description": "CBO admin to accept or decline a contract"
