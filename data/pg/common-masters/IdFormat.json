@@ -23,7 +23,7 @@
       "idname": "attendance.register.number"
     },
     {
-      "format": "PR/[fy:yyyy-yy]/[cy:MM]/[SEQ_PROJECT_NUM]",
+      "format": "PJ/[fy:yyyy-yy]/[cy:MM]/[SEQ_PROJECT_NUM]",
       "idname": "project.number"
     },
     {
