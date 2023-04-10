@@ -868,6 +868,18 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "WORK_ORDER_VIEWER",
+      "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WORK_ORDER_VIEWER",
+      "actionid": 89,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "JUNIOR_ENGINEER",
       "actionid": 59,
       "actioncode": "",
