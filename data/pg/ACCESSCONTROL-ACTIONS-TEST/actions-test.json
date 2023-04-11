@@ -1287,6 +1287,43 @@
       "serviceCode": "egov-pdf",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 105,
+      "name": "Create Expense Bill",
+      "url": "/expense/bill/v1/_create",
+      "parentModule": "expense",
+      "displayName": "Create Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 106,
+      "name": "Search Expense Bill",
+      "url": "/expense/bill/v1/_search",
+      "parentModule": "expense",
+      "displayName": "Search Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 107,
+      "name": "Update Expense Bill",
+      "url": "/expense/bill/v1/_update",
+      "parentModule": "expense",
+      "displayName": "Update Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses",
+      "code": "null",
+      "path": ""
     }
+    
   ]
 }
