@@ -28,6 +28,7 @@
             "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
             "minReqFields": 1,
             "showFormInstruction": "ESTIMATE_SEARCH_HINT",
+            "formClassName": "custom-both-clear-search",
             "defaultValues": {
               "ward": "",
               "typeOfWork": "",
