@@ -226,6 +226,9 @@
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "optionsCustomStyle": {
+                    "top": "2.3rem"
+                  },
                   "name": "ward",
                   "type": "ward",
                   "optionsKey": "i18nKey",
