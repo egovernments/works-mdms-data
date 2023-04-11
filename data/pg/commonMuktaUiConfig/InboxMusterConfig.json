@@ -33,7 +33,6 @@
             "primaryLabel": "ES_COMMON_SEARCH",
             "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
             "minReqFields": 1,
-            "formClassName": "custom-both-clear-search",
             "defaultValues": {
               "attendanceRegisterName": "",
               "orgId": "",

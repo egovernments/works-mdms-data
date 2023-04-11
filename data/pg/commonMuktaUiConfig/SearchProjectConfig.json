@@ -32,7 +32,6 @@
               "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
               "minReqFields": 1,
               "showFormInstruction": "PROJECT_SELECT_ONE_PARAM_TO_SEARCH",
-              "formClassName": "custom-both-clear-search",
               "defaultValues": {
                 "projectNumber": "",
                 "subProjectId": "",

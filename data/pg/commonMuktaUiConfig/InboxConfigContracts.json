@@ -32,7 +32,6 @@
             "primaryLabel": "Search",
             "secondaryLabel": "Clear Search",
             "minReqFields": 1,
-            "formClassName": "custom-both-clear-search",
             "defaultValues": {
               "workOrderNumber": "",
               "projectId": "",
