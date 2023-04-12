@@ -5,6 +5,8 @@
     {
       "code": "IA",
       "name": "Implementation Agency",
+      "disable" : false,
+      "amount" : 1500000,
       "description": "",
       "effectiveFrom": 1672531200,
       "effectiveTo": "",
@@ -13,6 +15,8 @@
     {
       "code": "IP",
       "name": "Implementation Partner",
+      "disable" : true,
+      "amount" : 1500000,
       "description": "",
       "effectiveFrom": 1672531200,
       "effectiveTo": "",
