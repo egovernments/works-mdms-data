@@ -252,7 +252,7 @@
             },
             {
                 "navLink": "PB_Details",
-                "head": "WORKS_RELEVANT_DOCS",
+                "head": "",
                 "body": [
                     {
                         "type": "documentUpload",
