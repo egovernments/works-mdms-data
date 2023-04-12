@@ -4,7 +4,7 @@
   "SearchQueryConfiguration": [
     {
       "module": "estimate",
-      "index": "estimate-inbox-v2",
+      "index": "estimate-inbox-v3",
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
