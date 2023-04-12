@@ -6,7 +6,7 @@
       "model": "User",
       "uniqueIdentifier": {
         "name": "uuid",
-        "jsonPath": "uuid"
+        "jsonPath": "/uuid"
       },
       "attributes": [
         {
