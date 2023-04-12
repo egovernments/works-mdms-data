@@ -1323,6 +1323,30 @@
       "serviceCode": "expenses",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 108,
+      "name": "Calculator Estimate API",
+      "url": "/works-calculator/v1/_estimate",
+      "parentModule": "works-calculator",
+      "displayName": "Calculator Estimate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 109,
+      "name": "Calculate API",
+      "url": "/works-calculator/v1/_calculate",
+      "parentModule": "works-calculator",
+      "displayName": "Calculate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-calculator",
+      "code": "null",
+      "path": ""
     }
     
   ]
