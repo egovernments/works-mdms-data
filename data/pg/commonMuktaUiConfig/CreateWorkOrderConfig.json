@@ -184,7 +184,7 @@
                 "label": "COMMON_PROJECT_COMP_PERIOD_DAYS",
                 "isMandatory": true,
                 "key": "projectCompletionPeriodInDays",
-                "type": "number",
+                "type": "text",
                 "disable": false,
                 "preProcess": {
                   "convertStringToRegEx": [

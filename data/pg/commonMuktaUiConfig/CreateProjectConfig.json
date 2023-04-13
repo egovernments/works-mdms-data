@@ -64,7 +64,7 @@
                 "validation": {
                   "pattern": "^[a-zA-Z0-9\\/{ \\/ .\\- _$@#\\' } ]*$",
                   "minlength": 2,
-                  "maxlength" : 32
+                  "maxlength" : 128
                 }
               }
             },
