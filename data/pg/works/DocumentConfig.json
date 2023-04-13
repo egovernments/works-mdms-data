@@ -120,7 +120,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
           "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
@@ -130,7 +130,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
           "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
@@ -140,7 +140,7 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : true,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
           "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         }
