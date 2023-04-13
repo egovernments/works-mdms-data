@@ -110,7 +110,7 @@
             "headerStyle": null,
             "primaryLabel": "Filter",
             "secondaryLabel": "",
-            "minReqFields": 1,
+            "minReqFields": 0,
             "defaultValues": {
               "state": "",
               "ward": [],
@@ -154,6 +154,9 @@
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "optionsCustomStyle": {
+                    "top": "2.3rem"
+                  },
                   "name": "ward",
                   "type": "ward",
                   "optionsKey": "i18nKey",
