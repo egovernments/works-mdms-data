@@ -3,177 +3,135 @@
   "moduleName": "common-masters",
   "Designation": [
     {
-      "code": "DESIG_01",
-      "name": "Superintending Engineer ( B&R)",
-      "description": "Superintending Engineer ( B&R)",
+      "code": "WRK_EE",
+      "name": "Executive Engineer",
+      "description": "Executive Engineer",
       "active": true
     },
     {
-      "code": "DESIG_02",
-      "name": "Corporation Engineer (B&R)",
-      "description": "Corporation Engineer (B&R)",
+      "code": "WRK_DEE",
+      "name": "Deputy Executive Engineer",
+      "description": "Deputy Executive Engineer",
       "active": true
     },
     {
-      "code": "DESIG_03",
-      "name": "Asst. Engineer ( B&R)",
-      "description": "Asst. Engineer ( B&R)",
+      "code": "WRK_AEE",
+      "name": "Assistant Executive Engineer",
+      "description": "Assistant Executive Engineer",
       "active": true
     },
     {
-      "code": "DESIG_04",
-      "name": "Junior Engineer ( B&R)",
-      "description": "Junior Engineer ( B&R)",
+      "code": "WRK_ME",
+      "name": "Municipal Engineer",
+      "description": "Municipal Engineer",
       "active": true
     },
     {
-      "code": "DESIG_05",
-      "name": "Land Scape Officer",
-      "description": "Land Scape Officer",
+      "code": "WRK_CE",
+      "name": "City Engineer",
+      "description": "City Engineer",
       "active": true
     },
     {
-      "code": "DESIG_06",
-      "name": "Superintending Engineer ( O&M)",
-      "description": "Superintending Engineer ( O&M)",
+      "code": "WRK_AE",
+      "name": "Assistant Engineer",
+      "description": "Assistant Engineer",
       "active": true
     },
     {
-      "code": "DESIG_07",
-      "name": "Corporation Engineer (O&M)",
-      "description": "Corporation Engineer (O&M)",
+      "code": "WRK_JE",
+      "name": "Junior Engineer",
+      "description": "Junior Engineer",
       "active": true
     },
     {
-      "code": "DESIG_08",
-      "name": "Asst. Engineer ( O&M)",
-      "description": "Asst. Engineer ( O&M)",
+      "code": "WRK_RI",
+      "name": "Revenue Inspector",
+      "description": "Revenue Inspector",
       "active": true
     },
     {
-      "code": "DESIG_09",
-      "name": "Junior Engineer ( O&M)",
-      "description": "Junior Engineer ( O&M)",
+      "code": "WRK_AM",
+      "name": "Ameen",
+      "description": "Ameen",
       "active": true
     },
     {
-      "code": "DESIG_10",
-      "name": "Superintending Engineer ( Light)",
-      "description": "Superintending Engineer ( Light)",
+      "code": "WRK_DA",
+      "name": "Dealing Assistant",
+      "description": "Dealing Assistant",
       "active": true
     },
     {
-      "code": "DESIG_11",
-      "name": "Corporation Engineer (Light)",
-      "description": "Corporation Engineer (Light)",
+      "code": "WRK_PC",
+      "name": "Program Coordinator (MUKTA)",
+      "description": "Program Coordinator (MUKTA)",
       "active": true
     },
     {
-      "code": "DESIG_12",
-      "name": "Junior Engineer ( Light)",
-      "description": "Junior Engineer ( Light)",
+      "code": "WRK_IE",
+      "name": "Implementation Expert (MUKTA)",
+      "description": "Implementation Expert (MUKTA)",
       "active": true
     },
     {
-      "code": "DESIG_13",
-      "name": "Health Officer",
-      "description": "Health Officer",
+      "code": "WRK_AE",
+      "name": "Account Expert (MUKTA)",
+      "description": "Account Expert (MUKTA)",
       "active": true
     },
     {
-      "code": "DESIG_14",
-      "name": "Medical Officer",
-      "description": "Medical Officer",
+      "code": "ACC_AO",
+      "name": "Accounts Officer",
+      "description": "Accounts Officer",
       "active": true
     },
     {
-      "code": "DESIG_15",
-      "name": "Chief Sanitary Inspector",
-      "description": "Mechanical Oversear",
+      "code": "ACC_JAO",
+      "name": "Junior Accounts Officer",
+      "description": "Junior Accounts Officer",
       "active": true
     },
     {
-      "code": "DESIG_16",
-      "name": "Sainitary Inspector",
-      "description": "Clerk",
+      "code": "ADM_MC",
+      "name": "Commissioner",
+      "description": "Commissioner",
       "active": true
     },
     {
-      "code": "DESIG_17",
-      "name": "Sainitary Supervisor",
-      "description": "Accountant",
+      "code": "ADM_ADMC",
+      "name": "Additional Commissioner",
+      "description": "Additional Commissioner",
       "active": true
     },
     {
-      "code": "DESIG_18",
-      "name": "Senior Town Planner",
-      "description": "Senior Town Planner",
+      "code": "ADM_DMC",
+      "name": "Deputy Commissioner",
+      "description": "Deputy Commissioner",
       "active": true
     },
     {
-      "code": "DESIG_19",
-      "name": "Municipal Town Planner",
-      "description": "Municipal Town Planner",
-      "active": true
-    },
-    {
-      "code": "DESIG_20",
-      "name": "Asst. Town Planner",
-      "description": "Asst. Town Planner",
-      "active": true
-    },
-    {
-      "code": "DESIG_21",
-      "name": "Building Inspector",
-      "description": "Building Inspector",
-      "active": true
-    },
-    {
-      "code": "DESIG_22",
-      "name": "Junior Enginer ( Horticulutre)",
-      "description": "Junior Enginer ( Horticulutre)",
-      "active": true
-    },
-    {
-      "code": "DESIG_23",
-      "name": "Citizen service representative",
-      "description": "Citizen service representative",
-      "active": true
-    },
-    {
-      "name": "Deputy Controller Finance and Accounts",
-      "description": "Deputy Controller Finance and Accounts",
-      "code": "DESIG_1001",
-      "active": true
-    },
-   {
-      "name": "Accountant",
-      "description": "Accountant",
-      "code": "DESIG_58",
-      "active": true
-    },
-   {
-      "code": "DESIG_24",
+      "code": "ADM_AMC",
       "name": "Assistant Commissioner",
       "description": "Assistant Commissioner",
       "active": true
-    },    
+    },
     {
-      "name": "Superintendent",
-      "description": "Superintendent",
-      "code": "DESIG_47",
+      "code": "ADM_EO",
+      "name": "Executive Officer",
+      "description": "Executive Officer",
       "active": true
     },
     {
-      "name": "Accounts Officer",
-      "description": "Accounts Officer",
-      "code": "DESIG_59",
+      "code": "ADM_AEO",
+      "name": "Assistant Executive Officer",
+      "description": "Assistant Executive Officer",
       "active": true
     },
     {
-      "name": "Commissioner",
-      "description": "Commissioner",
-      "code": "DESIG_60",
+      "code": "Tax",
+      "name": "Ward Officer",
+      "description": "Ward Officer",
       "active": true
     }
   ]

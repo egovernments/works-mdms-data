@@ -116,8 +116,8 @@
               "ward": [],
               "locality": [],
               "assignee": {
-                "code": "ASSIGNED_TO_ALL",
-                "name": "EST_INBOX_ASSIGNED_TO_ALL"
+                "code": "ASSIGNED_TO_ME",
+                "name": "EST_INBOX_ASSIGNED_TO_ME"
               }
             },
             "fields": [
@@ -154,6 +154,9 @@
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "optionsCustomStyle": {
+                    "top": "2.3rem"
+                  },
                   "name": "ward",
                   "type": "ward",
                   "optionsKey": "i18nKey",

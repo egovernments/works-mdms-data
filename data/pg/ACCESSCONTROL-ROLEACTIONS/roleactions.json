@@ -868,6 +868,18 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "WORK_ORDER_VIEWER",
+      "actionid": 68,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WORK_ORDER_VIEWER",
+      "actionid": 89,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "JUNIOR_ENGINEER",
       "actionid": 59,
       "actioncode": "",
@@ -1642,6 +1654,12 @@
       "tenantId": "pg"
     }, 
     {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 91,
+      "actioncode": "",
+      "tenantId": "pg"
+    }, 
+    {
       "rolecode": "EMPLOYEE_COMMON",
       "actionid": 27,
       "actioncode": "",
@@ -1890,6 +1908,66 @@
     {
       "rolecode": "ESTIMATE_VERIFIER",
       "actionid": 103,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 105,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 106,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 107,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_VERIFIER",
+      "actionid": 106,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_VERIFIER",
+      "actionid": 107,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_APPROVER",
+      "actionid": 106,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_APPROVER",
+      "actionid": 107,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 108,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 108,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 109,
       "actioncode": "",
       "tenantId": "pg"
     }

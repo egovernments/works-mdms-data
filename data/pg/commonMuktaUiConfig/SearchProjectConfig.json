@@ -107,7 +107,7 @@
                     "name": "projectNumber",
                     "error": "PROJECT_PATTERN_ERR_MSG",
                     "validation": {
-                        "pattern": "PR\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
+                        "pattern": "PJ\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
                         "minlength": 2
                     }
                   }
@@ -126,9 +126,14 @@
                   "type": "date",
                   "isMandatory": false,
                   "disable": false,
+                  "key" : "createdTo",
+                  "preProcess" : {
+                    "updateDependent" : ["populators.max"]
+                  },
                   "populators": {
                     "name": "createdTo",
-                    "error": "DATE_VALIDATION_MSG"
+                    "error": "DATE_VALIDATION_MSG",
+                    "max" : "currentDate"
                   },
                   "additionalValidation": {
                     "type": "date",

@@ -103,7 +103,7 @@
                   "name": "musterRollNumber",
                   "error": "COMMON_PATTERN_ERR_MSG_MUSTER_ID",
                   "validation": {
-                    "pattern": "MR\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
+                    "pattern": "MR\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+\\/[0-9]+",
                     "minlength": 2
                   }
                 }

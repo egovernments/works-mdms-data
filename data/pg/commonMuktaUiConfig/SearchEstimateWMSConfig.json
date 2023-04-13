@@ -28,6 +28,7 @@
             "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
             "minReqFields": 1,
             "showFormInstruction": "ESTIMATE_SEARCH_HINT",
+            "formClassName": "custom-both-clear-search",
             "defaultValues": {
               "ward": "",
               "typeOfWork": "",
@@ -44,6 +45,9 @@
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "optionsCustomStyle": {
+                    "top": "2.3rem"
+                  },
                   "name": "ward",
                   "type": "ward",
                   "optionsKey": "i18nKey",
