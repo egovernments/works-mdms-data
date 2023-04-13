@@ -120,7 +120,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
           "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
@@ -130,7 +130,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
           "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
@@ -140,8 +140,56 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : true,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
           "maxSizeInMB": 5,
+          "maxFilesAllowed": 1
+        }
+      ]
+    },
+    {
+      "module": "Expenditure",
+      "allowedFileTypes": ["pdf"],
+      "maxSizeInMB": 5,
+      "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
+      "documents": [
+        {
+          "code": "VENODR_INVOICE",
+          "name" : "doc_vendor_invoice",
+          "active": true,
+          "isMandatory": true,
+          "showTextInput" : false,
+          "allowedFileTypes": [],
+          "maxSizeInMB": null,
+          "maxFilesAllowed": 1
+        },
+        {
+          "code": "MEASUREMENT_BOOK",
+          "name" : "doc_measurement_book",
+          "active": true,
+          "isMandatory": true,
+          "showTextInput" : false,
+          "allowedFileTypes": [],
+          "maxSizeInMB": null,
+          "maxFilesAllowed": 1
+        },
+        {
+          "code": "MATERIAL_UTILIZATION_LOG",
+          "name" : "doc_material_utilisation_log",
+          "active": true,
+          "isMandatory": true,
+          "showTextInput" : true,
+          "allowedFileTypes": [],
+          "maxSizeInMB": null,
+          "maxFilesAllowed": 1
+        },
+        {
+          "code": "OTHERS",
+          "name" : "doc_others",
+          "active": true,
+          "isMandatory": false,
+          "showTextInput" : true,
+          "allowedFileTypes": [],
+          "maxSizeInMB": null,
           "maxFilesAllowed": 1
         }
       ]
