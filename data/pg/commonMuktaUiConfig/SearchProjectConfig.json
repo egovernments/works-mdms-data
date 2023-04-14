@@ -117,8 +117,12 @@
                   "type": "date",
                   "isMandatory": false,
                   "disable": false,
+                  "preProcess" : {
+                    "updateDependent" : ["populators.max"]
+                  },
                   "populators": {
-                    "name": "createdFrom"
+                    "name": "createdFrom",
+                    "max" : "currentDate"
                   }
                 },
                 {
