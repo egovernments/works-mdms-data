@@ -1,8 +1,7 @@
 {
     "tenantId": "pg",
     "moduleName": "common-masters",
-    "RejectReasons":
-    [
+    "RejectReasons": [
         {
             "name": "Estimate Details are incorrect",
             "code": "ESTIMATE_DETAILS_INCORRECT",
