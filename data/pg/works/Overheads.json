@@ -8,7 +8,7 @@
             "active": true,
             "isAutoCalculated":true,
             "type":"percentage",
-            "value":"12",
+            "value":"18",
             "isWorkOrderValue":true,
             "effectiveFrom": 1677044852,
             "effectiveTo": null
@@ -16,7 +16,7 @@
         {
             "code": "REW",
             "description": "Royalty on Earth Work",
-            "active": true,
+            "active": false,
             "isAutoCalculated": false,
             "type":"lumpsum",
             "isWorkOrderValue": false,
