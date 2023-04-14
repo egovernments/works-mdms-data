@@ -314,6 +314,7 @@
                 },
                 "populators": {
                   "name": "locDetails_streetName",
+                  "error": "WORKS_PATTERN_ERR",
                   "validation": {
                     "pattern": "^[a-zA-Z0-9 .\\-_@\\']*$",
                     "minlength": 2,
@@ -334,6 +335,7 @@
                 },
                 "populators": {
                   "name": "locDetails_houseName",
+                  "error": "WORKS_PATTERN_ERR",
                   "validation": {
                     "pattern": "^[a-zA-Z0-9 .\\-_@\\']*$",
                     "minlength": 2,
@@ -400,7 +402,8 @@
                   "error": "EMAIL_VALIDATION",
                   "validation": {
                     "pattern": "^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,})+$",
-                    "minlength": 2
+                    "minlength": 2,
+                    "maxlength": 128
                   }
                 }
               }
