@@ -195,9 +195,17 @@
               "key": "noSubProject_geoLocation",
               "type": "text",
               "disable": false,
+              "preProcess": {
+                "convertStringToRegEx": [
+                  "populators.validation.pattern"
+                ]
+              },
               "populators": {
                 "name": "noSubProject_geoLocation",
-                "error": "WORKS_REQUIRED_ERR"
+                "error": "WORKS_REQUIRED_ERR",
+                "validation": {
+                  "pattern": "^[-+]?([1-8]?\\d(\\.\\d+)?|90(\\.0+)?)\\s*,\\s*[-+]?(180(\\.0+)?|((1[0-7]\\d)|([1-9]?\\d))(\\.\\d+)?)$"
+                }
               }
             },
             {
