@@ -117,6 +117,7 @@
                   "type": "date",
                   "isMandatory": false,
                   "disable": false,
+                  "key" : "createdFrom",
                   "preProcess" : {
                     "updateDependent" : ["populators.max"]
                   },
