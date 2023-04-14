@@ -94,7 +94,7 @@
                                     "name": "estimateNumber",
                                     "error": "ESTIMATE_PATTERN_ERR_MSG",
                                     "validation": {
-                                        "pattern": "ES\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
+                                        "pattern": "ES\/[0-9]+-[0-9]+\/[0-9]+",
                                         "minlength": 2
                                     }
                                 }
