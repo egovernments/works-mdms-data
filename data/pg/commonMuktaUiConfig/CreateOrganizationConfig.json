@@ -309,7 +309,7 @@
               {
                 "label": "ES_COMMON_STREET_NAME",
                 "isMandatory": false,
-                "key": "locDetails_streetName",
+		"key": "locDetails_streetName",
                 "type": "text",
                 "disable": false,
                 "preProcess": {
@@ -319,6 +319,7 @@
                 },
                 "populators": {
                   "name": "locDetails_streetName",
+		  "error": "WORKS_PATTERN_ERR",
                   "validation": {
                     "pattern": "^[a-zA-Z0-9 .\\-_@\\']*$",
                     "minlength": 2,
@@ -339,6 +340,7 @@
                 },
                 "populators": {
                   "name": "locDetails_houseName",
+		  "error": "WORKS_PATTERN_ERR",
                   "validation": {
                     "pattern": "^[a-zA-Z0-9 .\\-_@\\']*$",
                     "minlength": 2,
@@ -405,7 +407,8 @@
                   "error": "EMAIL_VALIDATION",
                   "validation": {
                     "pattern": "^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,})+$",
-                    "minlength": 2
+                    "minlength": 2,
+	            "maxlength": 128
                   }
                 }
               }
