@@ -43,6 +43,9 @@
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "optionsCustomStyle": {
+                    "top": "2.3rem"
+                  },
                   "name": "boundaryCode",
                   "type": "ward",
                   "optionsKey": "i18nKey",
@@ -91,42 +94,29 @@
                 }
               },
               {
-                "label": "CORE_COMMON_STATUS",
-                "type": "dropdown",
-                "isMandatory": false,
-                "disable": false,
-                "populators": {
-                  "name": "applicationStatus",
-                  "optionsKey": "name",
-                  "optionsCustomStyle": { "top": "2.3rem" },
-                  "options": [
-                    { "code": "ACTIVE", "name": "MASTERS_ORG_STATUS_ACTIVE" },
-                    {
-                      "code": "DEBARRED",
-                      "name": "MASTERS_ORG_STATUS_DEBARRED"
-                    },
-                    {
-                      "code": "INACTIVE",
-                      "name": "MASTERS_ORG_STATUS_INACTIVE"
-                    }
-                  ]
-                }
-              },
-              {
                 "label": "CREATED_FROM_DATE",
                 "type": "date",
                 "isMandatory": false,
                 "disable": false,
-                "populators": { "name": "createdFrom" }
+                "key" : "createdFrom",
+                "preProcess" : {
+                  "updateDependent" : ["populators.max"]
+                },
+                "populators": { "name": "createdFrom", "max" : "currentDate" }
               },
               {
                 "label": "CREATED_TO_DATE",
                 "type": "date",
                 "isMandatory": false,
                 "disable": false,
+                "key" : "createdTo",
+                "preProcess" : {
+                  "updateDependent" : ["populators.max"]
+                },
                 "populators": {
                   "name": "createdTo",
-                  "error": "DATE_VALIDATION_MSG"
+                  "error": "DATE_VALIDATION_MSG",
+                  "max" : "currentDate"
                 },
                 "additionalValidation": {
                   "type": "date",
