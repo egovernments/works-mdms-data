@@ -43,6 +43,9 @@
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "optionsCustomStyle": {
+                    "top": "2.3rem"
+                  },
                   "name": "wardCode",
                   "type": "ward",
                   "optionsKey": "i18nKey",
@@ -104,16 +107,25 @@
                 "type": "date",
                 "isMandatory": false,
                 "disable": false,
-                "populators": { "name": "createdFrom" }
+                "key" : "createdFrom",
+                "preProcess" : {
+                  "updateDependent" : ["populators.max"]
+                },
+                "populators": { "name": "createdFrom", "max" : "currentDate"  }
               },
               {
                 "label": "CREATED_TO_DATE",
                 "type": "date",
                 "isMandatory": false,
                 "disable": false,
+                "key" : "createdTo",
+                "preProcess" : {
+                  "updateDependent" : ["populators.max"]
+                },
                 "populators": {
                   "name": "createdTo",
-                  "error": "DATE_VALIDATION_MSG"
+                  "error": "DATE_VALIDATION_MSG",
+                  "max" : "currentDate"
                 },
                 "additionalValidation": {
                   "type": "date",
