@@ -23,7 +23,7 @@
       "idname": "attendance.register.number"
     },
     {
-      "format": "PR/[fy:yyyy-yy]/[cy:MM]/[SEQ_PROJECT_NUM]",
+      "format": "PJ/[fy:yyyy-yy]/[cy:MM]/[SEQ_PROJECT_NUM]",
       "idname": "project.number"
     },
     {
@@ -33,6 +33,18 @@
     {
       "format": "IND-[cy:yyyy-MM-dd]-[SEQ_ADDRESS_IND]",
       "idname": "individual.id"
+    },
+    {
+      "format": "ORG-[SEQ_ORG_NUM]",
+      "idname": "org.number"
+    },
+    {
+      "format": "SR/ORG/[cy:dd-MM-yyyy]/[SEQ_ORG_APP_NUM]",
+      "idname": "org.application.number"
+    },
+    {
+      "format": "SR/FUNC/[cy:dd-MM-yyyy]/[SEQ_FUNC_APP_NUM]",
+      "idname": "function.application.number"
     }
   ]
 }

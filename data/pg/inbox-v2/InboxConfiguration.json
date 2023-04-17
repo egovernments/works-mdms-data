@@ -4,12 +4,18 @@
   "InboxQueryConfiguration": [
     {
       "module": "estimate-service",
-      "index": "estimate-inbox-v2",
+      "index": "estimate-inbox-v3",
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
           "path": "Data.tenantId.keyword",
           "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "ward",
+          "path": "Data.additionalDetails.location.ward.keyword",
+          "isMandatory": false,
           "operator": "EQUAL"
         },
         {
@@ -89,6 +95,21 @@
         {
           "name": "attendanceRegisterName",
           "path": "Data.additionalDetails.attendanceRegisterName.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "orgId",
+          "path": "Data.additionalDetails.orgId.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "ward",
+          "path": "Data.additionalDetails.ward.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "assignee",
+          "path": "Data.currentProcessInstance.assignes.uuid.keyword",
           "isMandatory": false
         }
       ],

@@ -1,9 +1,9 @@
 {
   "tenantId": "pg",
   "moduleName": "commonMuktaUiConfig",
-  "EstimateInboxConfig": [
+  "InboxConfigContracts": [
     {
-      "label": "ACTION_TEST_ESTIMATE_INBOX",
+      "label": "ACTION_TEST_WO_INBOX",
       "type": "inbox",
       "apiDetails": {
         "serviceName": "/inbox/v2/_search",
@@ -11,8 +11,8 @@
         "requestBody": {
           "inbox": {
             "processSearchCriteria": {
-              "businessService": ["mukta-estimate"],
-              "moduleName": "estimate-service"
+              "businessService": ["contract-approval-mukta"],
+              "moduleName": "contract-service"
             },
             "moduleSearchCriteria": {}
           }
@@ -20,7 +20,7 @@
         "minParametersForSearchForm": 0,
         "minParametersForFilterForm": 0,
         "masterName": "commonUiConfig",
-        "moduleName": "EstimateInboxConfig",
+        "moduleName": "ContractsInboxConfig",
         "tableFormJsonPath": "requestBody.inbox",
         "filterFormJsonPath": "requestBody.inbox.moduleSearchCriteria",
         "searchFormJsonPath": "requestBody.inbox.moduleSearchCriteria"
@@ -33,13 +33,13 @@
             "secondaryLabel": "Clear Search",
             "minReqFields": 1,
             "defaultValues": {
-              "estimateNumber": "",
+              "workOrderNumber": "",
               "projectId": "",
               "projectType": ""
             },
             "fields": [
               {
-                "label": "ESTIMATE_ESTIMATE_NO",
+                "label": "WO_NUMBER",
                 "type": "text",
                 "isMandatory": false,
                 "disable": false,
@@ -47,10 +47,10 @@
                   "convertStringToRegEx": ["populators.validation.pattern"]
                 },
                 "populators": {
-                  "name": "estimateNumber",
+                  "name": "workOrderNumber",
                   "error": "ESTIMATE_PATTERN_ERR_MSG",
                   "validation": {
-                    "pattern": "ES\/[0-9]+-[0-9]+\/[0-9]+",
+                    "pattern": "^[a-zA-Z0-9\\/-]*$",
                     "minlength": 2
                   }
                 }
@@ -67,7 +67,7 @@
                   "name": "projectId",
                   "error": "PROJECT_PATTERN_ERR_MSG",
                   "validation": {
-                    "pattern": "PR\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
+                    "pattern": "^[a-zA-Z0-9\\/-]*$",
                     "minlength": 2
                   }
                 }
@@ -80,9 +80,6 @@
                 "populators": {
                   "name": "projectType",
                   "optionsKey": "name",
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  },
                   "mdmsConfig": {
                     "masterName": "ProjectType",
                     "moduleName": "works",
@@ -107,18 +104,18 @@
           "uiConfig": {
             "columns": [
               {
-                "label": "ESTIMATE_ESTIMATE_NO",
+                "label": "WORKS_ORDER_NO",
                 "jsonPath": "ProcessInstance.businessId",
-                "key": "estimateNumber",
-                "additionalCustomization": true
+                "additionalCustomization": true,
+                "key": "workOrderNumber"
               },
               {
-                "label": "ES_COMMON_PROJECT_NAME",
-                "jsonPath": "businessObject.project.name"
+                "label": "WORKS_PROJECT_NAME",
+                "jsonPath": "businessObject.additionalDetails.projectName"
               },
               {
-                "label": "ESTIMATE_PREPARED_BY",
-                "jsonPath": "businessObject.additionalDetails.creator"
+                "label": "ES_COMMON_CBO_NAME",
+                "jsonPath": "businessObject.additionalDetails.orgName"
               },
               {
                 "label": "COMMON_ASSIGNEE",
@@ -133,8 +130,8 @@
                 "key": "state"
               },
               {
-                "label": "WORKS_ESTIMATED_AMOUNT",
-                "jsonPath": "businessObject.additionalDetails.totalEstimatedAmount",
+                "label": "ES_COMMON_AMOUNT",
+                "jsonPath": "businessObject.totalContractedAmount",
                 "additionalCustomization": true,
                 "key": "estimatedAmount"
               },
@@ -156,19 +153,17 @@
           "uiConfig": {
             "links": [
               {
-                "text": "ACTION_TEST_CREATE_ESTIMATE",
-                "url": "/employee/project/search-project",
-                "roles": ["PROJECT_VIEWER", "ESTIMATE_CREATOR"]
+                "text": "ACTION_TEST_CREATE_WO",
+                "url": "/employee/estimate/search-estimate",
+                "roles": ["WORK_ORDER_CREATOR"]
               },
               {
-                "text": "ACTION_TEST_SEARCH_ESTIMATE",
-                "url": "/employee/estimate/search-estimate",
+                "text": "ACTION_TEST_SEARCH_WO",
+                "url": "/employee/contracts/search-contract",
                 "roles": [
-                  "ESTIMATE_VIEWER",
-                  "ESTIMATE_CREATOR",
-                  "ESTIMATE_VERIFIER",
-                  "TECHNICAL_SANCTIONER",
-                  "ESTIMATE_APPROVER"
+                  "WORK_ORDER_CREATOR",
+                  "WORK_ORDER_VERIFIER",
+                  "WORK_ORDER_APPROVER"
                 ]
               }
             ],
@@ -208,11 +203,11 @@
                   "options": [
                     {
                       "code": "ASSIGNED_TO_ME",
-                      "name": "EST_INBOX_ASSIGNED_TO_ME"
+                      "name": "COMMON_INBOX_ASSIGNED_TO_ME"
                     },
                     {
                       "code": "ASSIGNED_TO_ALL",
-                      "name": "EST_INBOX_ASSIGNED_TO_ALL"
+                      "name": "COMMON_INBOX_ASSIGNED_TO_ALL"
                     }
                   ],
                   "optionsKey": "name",
@@ -263,8 +258,8 @@
                 "disable": false,
                 "populators": {
                   "name": "state",
-                  "labelPrefix": "WF_EST_",
-                  "businessService": "mukta-estimate"
+                  "labelPrefix": "WF_WO_",
+                  "businessService": "contract-approval-mukta"
                 }
               }
             ]
