@@ -1,5 +1,5 @@
 {
-  "tenantId": "pg",
+  "tenantId": "state1",
   "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
   "actions-test": [
     {
@@ -140,18 +140,6 @@
       "path": ""
     },
     {
-      "id": 12,
-      "name": "Create LOI",
-      "url": "/loi-service/v1/_create",
-      "parentModule": "loi-service",
-      "displayName": "Create LOI",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "loi-service",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 13,
       "name": "HRMS",
       "url": "url",
@@ -234,30 +222,6 @@
       "navigationURL": "/works-ui/employee/project/search-project",
       "path": "1PROJECT.search",
       "leftIcon": "dynamic:ProjectIcon"
-    },
-    {
-      "id": 19,
-      "name": "Search LOI",
-      "url": "/loi-service/v1/_search",
-      "parentModule": "loi-service",
-      "displayName": "Search LOI",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "loi-service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 20,
-      "name": "Update LOI",
-      "url": "/loi-service/v1/_update",
-      "parentModule": "loi-service",
-      "displayName": "Update LOI",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "loi-service",
-      "code": "null",
-      "path": ""
     },
     {
       "id": 21,
@@ -498,7 +462,6 @@
       "code": "null",
       "path": ""
     },
-
     {
       "id": 42,
       "name": "Create Attendance Register Log",
@@ -1053,15 +1016,15 @@
       "path": ""
     },
     {
-     "id": 85,
-     "name": "Create Service",
-     "url": "/service-request/service/v1/_create",
-     "displayName": "Create Service",
-     "orderNumber": 1,
-     "enabled": false,
-     "serviceCode": "service-request",
-     "code": "null",
-     "path": ""
+      "id": 85,
+      "name": "Create Service",
+      "url": "/service-request/service/v1/_create",
+      "displayName": "Create Service",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "service-request",
+      "code": "null",
+      "path": ""
     },
     {
       "id": 86,
@@ -1220,15 +1183,15 @@
       "path": ""
     },
     {
-      "id":99,
-      "name":"Project Detail Pdf",
+      "id": 99,
+      "name": "Project Detail Pdf",
       "url": "/egov-pdf/download/project/project-details",
       "displayName": "projectdetails search",
-      "orderNumber":1,
-      "enabled":false,
-      "serviceCode":"egov-pdf",
-      "code":"null",
-      "path":""
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
     },
     {
       "id": 100,
