@@ -12,7 +12,7 @@
       "enabled": true,
       "serviceCode": "works",
       "code": "null",
-      "path": "Home",
+      "path": "0Home",
       "navigationURL": "/works-ui/employee/",
       "leftIcon": "dynamic:MuktaHomeIcon",
       "rightIcon": ""
@@ -64,7 +64,7 @@
       "serviceCode": "HRMS",
       "code": "null",
       "navigationURL": "/works-ui/employee/hrms/inbox",
-      "path": "HRMS.Search",
+      "path": "9HRMS.Search",
       "leftIcon": "dynamic:HRIcon"
     },
     {
@@ -162,7 +162,7 @@
       "serviceCode": "HRMS",
       "code": "null",
       "navigationURL": "/works-ui/employee/hrms/create",
-      "path": "HRMS.Create",
+      "path": "9HRMS.Create",
       "leftIcon": "dynamic:HRIcon"
     },
     {
@@ -176,7 +176,7 @@
       "serviceCode": "WORKS",
       "code": "null",
       "navigationURL": "/works-ui/employee/project/search-project",
-      "path": "ESTIMATE.CreateEstimate",
+      "path": "2ESTIMATE.CreateEstimate",
       "leftIcon": "dynamic:EstimateIcon"
     },
     {
@@ -190,7 +190,7 @@
       "serviceCode": "PROJECT",
       "code": "null",
       "navigationURL": "/works-ui/employee/project/create-project",
-      "path": "PROJECT.Create",
+      "path": "1PROJECT.Create",
       "leftIcon": "dynamic:ProjectIcon"
     },
     {
@@ -204,7 +204,7 @@
       "serviceCode": "ESTIMATE",
       "code": "null",
       "navigationURL": "/works-ui/employee/estimate/search-estimate",
-      "path": "ESTIMATE.SearchEstimate",
+      "path": "2ESTIMATE.SearchEstimate",
       "leftIcon": "dynamic:EstimateIcon"
     },
     {
@@ -218,7 +218,7 @@
       "serviceCode": "ESTIMATE",
       "code": "null",
       "navigationURL": "/works-ui/employee/estimate/inbox",
-      "path": "ESTIMATE.EstimateInbox",
+      "path": "2ESTIMATE.EstimateInbox",
       "leftIcon": "dynamic:EstimateIcon"
     },
     {
@@ -232,7 +232,7 @@
       "serviceCode": "PROJECT",
       "code": "null",
       "navigationURL": "/works-ui/employee/project/search-project",
-      "path": "PROJECT.search",
+      "path": "1PROJECT.search",
       "leftIcon": "dynamic:ProjectIcon"
     },
     {
@@ -653,7 +653,7 @@
       "serviceCode": "BILLS",
       "code": "null",
       "navigationURL": "/works-ui/employee/expenditure/billinbox",
-      "path": "BILLS.BillInbox",
+      "path": "5BILLS.BillInbox",
       "leftIcon": "dynamic:ExpenditureIcon"
     },
     {
@@ -681,7 +681,7 @@
       "serviceCode": "BILLS",
       "code": "null",
       "navigationURL": "/works-ui/employee/expenditure/view-bills/menu",
-      "path": "BILLS.BillView",
+      "path": "5BILLS.BillView",
       "leftIcon": "dynamic:ExpenditureIcon"
     },
     {
@@ -695,7 +695,7 @@
       "serviceCode": "CONTRACTS",
       "code": "null",
       "navigationURL": "/works-ui/employee/contracts/inbox",
-      "path": "CONTRACTS.Inbox",
+      "path": "3CONTRACTS.Inbox",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -709,7 +709,7 @@
       "serviceCode": "ATTENDENCEMGMT",
       "code": "null",
       "navigationURL": "/works-ui/employee/attendencemgmt/inbox",
-      "path": "ATTENDENCEMGMT.Inbox",
+      "path": "4ATTENDENCEMGMT.Inbox",
       "leftIcon": "dynamic:AttendanceIcon"
     },
     {
@@ -723,7 +723,7 @@
       "serviceCode": "CONTRACTS",
       "code": "null",
       "navigationURL": "/works-ui/employee/estimate/search-estimate",
-      "path": "CONTRACTS.Create",
+      "path": "3CONTRACTS.Create",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -737,7 +737,7 @@
       "serviceCode": "CONTRACTS",
       "code": "null",
       "navigationURL": "/works-ui/employee/contracts/search-contract",
-      "path": "CONTRACTS.Search",
+      "path": "3CONTRACTS.Search",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
@@ -779,7 +779,7 @@
       "serviceCode": "MASTERS",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/search-organization",
-      "path": "MASTERS.Search",
+      "path": "7MASTERS.Search",
       "leftIcon": "dynamic:OrganisationIcon"
     },
     {
@@ -793,7 +793,7 @@
       "serviceCode": "WageSeeker",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/create-wageseeker",
-      "path": "WageSeeker.CreateWageSeeker",
+      "path": "8WageSeeker.CreateWageSeeker",
       "leftIcon": "dynamic:WageseekerIcon"
     },
     {
@@ -807,7 +807,7 @@
       "serviceCode": "MASTERS",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/create-organization",
-      "path": "MASTERS.CreateOrganisation",
+      "path": "7MASTERS.CreateOrganisation",
       "leftIcon": "dynamic:OrganisationIcon"
     },
     {
@@ -977,7 +977,7 @@
       "serviceCode": "WageSeeker",
       "code": "null",
       "navigationURL": "/works-ui/employee/masters/search-wageseeker",
-      "path": "WageSeeker.Search",
+      "path": "8WageSeeker.Search",
       "leftIcon": "dynamic:WageseekerIcon"
     },
     {
@@ -990,7 +990,7 @@
       "enabled": true,
       "serviceCode": "DSS",
       "code": "null",
-      "path": "Dashboard.Works",
+      "path": "6Dashboard.Works",
       "navigationURL": "/works-ui/employee/dss/dashboard/works",
       "leftIcon": "dynamic:DashboardIcon",
       "rightIcon": ""
@@ -1119,7 +1119,7 @@
       "serviceCode": "ATTENDENCEMGMT",
       "code": "null",
       "navigationURL": "/works-ui/employee/attendencemgmt/search-attendance",
-      "path": "ATTENDENCEMGMT.Search",
+      "path": "4ATTENDENCEMGMT.Search",
       "leftIcon": "dynamic:AttendanceIcon"
     },
     {
