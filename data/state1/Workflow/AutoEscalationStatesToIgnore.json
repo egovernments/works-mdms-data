@@ -1,0 +1,6 @@
+{
+    "tenantId": "state1",
+    "moduleName": "Workflow",
+    "AutoEscalationStatesToIgnore": [
+    ]
+  }
