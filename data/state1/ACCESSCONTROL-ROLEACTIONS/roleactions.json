@@ -27,12 +27,6 @@
       "tenantId": "state1"
     },
     {
-      "rolecode": "EMPLOYEE",
-      "actionid": 4,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
       "rolecode": "EMPLOYEE_COMMON",
       "actionid": 4,
       "actioncode": "",
