@@ -1,0 +1,48 @@
+{
+    "tenantId": "pg",
+    "moduleName": "commonUiConfig",
+    "CBOHomeScreenConfig": [
+        {
+            "order": 1,
+            "key": "my_works",
+            "displayName": "My Works",
+            "label": "MY_WORKS",
+            "active": true
+        },
+        {
+            "order": 2,
+            "key": "track_attendance",
+            "displayName": "Track Attendance",
+            "label": "TRACK_ATTENDENCE",
+            "active": true
+        },
+        {
+            "order": 3,
+            "key": "muster_rolls",
+            "displayName": "Muster Rolls",
+            "label": "WORKS_MUSTERROLLS",
+            "active": true
+        },
+        {
+            "order": 4,
+            "key": "my_bills",
+            "displayName": "My Bills",
+            "label": "WORKS_MY_BILLS",
+            "active": false
+        },
+        {
+            "order": 5,
+            "key": "closure_requests",
+            "displayName": "Closure Requests",
+            "label": "WORKS_CLOSURE_REQUESTS",
+            "active": false
+        },
+        {
+            "order": 6,
+            "key": "register_wage_seeker",
+            "displayName": "REGISTER_WAGE_SEEKER",
+            "label": "REGISTER_WAGE_SEEKER",
+            "active": true
+        }
+    ]
+}
