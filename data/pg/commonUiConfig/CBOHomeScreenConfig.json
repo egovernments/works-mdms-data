@@ -4,42 +4,42 @@
     "CBOHomeScreenConfig": [
         {
             "order": 1,
-            "key": "my_works",
+            "key": "HOME_MY_WORKS",
             "displayName": "My Works",
             "label": "MY_WORKS",
             "active": true
         },
         {
             "order": 2,
-            "key": "track_attendance",
+            "key": "HOME_TRACK_ATTENDENCE",
             "displayName": "Track Attendance",
             "label": "TRACK_ATTENDENCE",
             "active": true
         },
         {
             "order": 3,
-            "key": "muster_rolls",
+            "key": "HOME_MUSTER_ROLLS",
             "displayName": "Muster Rolls",
             "label": "WORKS_MUSTERROLLS",
             "active": true
         },
         {
             "order": 4,
-            "key": "my_bills",
+            "key": "HOME_MY_BILLS",
             "displayName": "My Bills",
             "label": "WORKS_MY_BILLS",
             "active": false
         },
         {
             "order": 5,
-            "key": "closure_requests",
+            "key": "HOME_CLOSURE_REQUESTS",
             "displayName": "Closure Requests",
             "label": "WORKS_CLOSURE_REQUESTS",
             "active": false
         },
         {
             "order": 6,
-            "key": "register_wage_seeker",
+            "key": "HOME_REGISTER_WAGE_SEEKER",
             "displayName": "REGISTER_WAGE_SEEKER",
             "label": "REGISTER_WAGE_SEEKER",
             "active": true
