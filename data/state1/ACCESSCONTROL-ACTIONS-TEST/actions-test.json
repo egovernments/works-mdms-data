@@ -258,18 +258,7 @@
       "code": "null",
       "path": "Administration.Profile Update"
     },
-    {
-      "id": 24,
-      "name": "Works inbox service",
-      "url": "/works-inbox-service/v1/_search",
-      "parentModule": "works-inbox-service",
-      "displayName": "Works inbox",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "works-inbox-service",
-      "code": "null",
-      "path": ""
-    },
+    
     {
       "id": 26,
       "name": "Update Password",
