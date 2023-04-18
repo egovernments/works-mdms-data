@@ -57,24 +57,6 @@
       "tenantId": "state1"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 9,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 10,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 11,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
       "rolecode": "HRMS_ADMIN",
       "actionid": 13,
       "actioncode": "",
@@ -129,50 +111,8 @@
       "tenantId": "state1"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 24,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
       "rolecode": "EMPLOYEE_COMMON",
       "actionid": 24,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "EMPLOYEE_COMMON",
-      "actionid": 26,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 28,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 36,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 37,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 38,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 50,
       "actioncode": "",
       "tenantId": "state1"
     },
@@ -225,18 +165,6 @@
       "tenantId": "state1"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 42,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 49,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
       "rolecode": "EMPLOYEE_COMMON",
       "actionid": 49,
       "actioncode": "",
@@ -249,26 +177,8 @@
       "tenantId": "state1"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 39,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 40,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
       "rolecode": "ORG_ADMIN",
       "actionid": 40,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 41,
       "actioncode": "",
       "tenantId": "state1"
     },
@@ -279,32 +189,8 @@
       "tenantId": "state1"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 43,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 44,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
       "rolecode": "ORG_ADMIN",
       "actionid": 45,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 45,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 46,
       "actioncode": "",
       "tenantId": "state1"
     },
@@ -315,44 +201,14 @@
       "tenantId": "state1"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 47,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
       "rolecode": "ORG_ADMIN",
       "actionid": 47,
       "actioncode": "",
       "tenantId": "state1"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 48,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
       "rolecode": "ORG_ADMIN",
       "actionid": 48,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 51,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 52,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 53,
       "actioncode": "",
       "tenantId": "state1"
     },
@@ -425,12 +281,6 @@
     {
       "rolecode": "MUKTA_ADMIN",
       "actionid": 64,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 65,
       "actioncode": "",
       "tenantId": "state1"
     },
@@ -567,32 +417,14 @@
       "tenantId": "state1"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 70,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
       "rolecode": "ORG_ADMIN",
       "actionid": 70,
       "actioncode": "",
       "tenantId": "state1"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 71,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
       "rolecode": "ORG_ADMIN",
       "actionid": 71,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 72,
       "actioncode": "",
       "tenantId": "state1"
     },
@@ -609,32 +441,8 @@
       "tenantId": "state1"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 73,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 73,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
       "rolecode": "ORG_ADMIN",
       "actionid": 73,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 74,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 74,
       "actioncode": "",
       "tenantId": "state1"
     },
@@ -645,26 +453,8 @@
       "tenantId": "state1"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 75,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 75,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
       "rolecode": "ORG_ADMIN",
       "actionid": 75,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 76,
       "actioncode": "",
       "tenantId": "state1"
     },
@@ -683,12 +473,6 @@
     {
       "rolecode": "MUSTER_ROLL_VERIFIER",
       "actionid": 76,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 77,
       "actioncode": "",
       "tenantId": "state1"
     },
@@ -843,48 +627,6 @@
       "tenantId": "state1"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 82,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 83,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 84,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 85,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 86,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 87,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 88,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
       "rolecode": "PROJECT_CREATOR",
       "actionid": 51,
       "actioncode": "",
@@ -993,12 +735,6 @@
       "tenantId": "state1"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 92,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
       "rolecode": "ORG_ADMIN",
       "actionid": 92,
       "actioncode": "",
@@ -1007,12 +743,6 @@
     {
       "rolecode": "MUKTA_ADMIN",
       "actionid": 92,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 93,
       "actioncode": "",
       "tenantId": "state1"
     },
@@ -1031,12 +761,6 @@
     {
       "rolecode": "ORG_ADMIN",
       "actionid": 93,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 94,
       "actioncode": "",
       "tenantId": "state1"
     },
@@ -1139,12 +863,6 @@
     {
       "rolecode": "EMPLOYEE_COMMON",
       "actionid": 65,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 98,
       "actioncode": "",
       "tenantId": "state1"
     },
