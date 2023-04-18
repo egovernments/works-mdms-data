@@ -536,18 +536,6 @@
       "path": ""
     },
     {
-      "id": 49,
-      "name": "Works inbox service",
-      "url": "/works-inbox-service/v2/_search",
-      "parentModule": "works-inbox-service",
-      "displayName": "Works inbox",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "works-inbox-service",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 50,
       "name": "Estimate muster roll",
       "url": "/muster-roll/v1/_estimate",
@@ -1144,18 +1132,6 @@
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "expenses-billing",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 97,
-      "name": "Search Muster details",
-      "url": "/egov-bff-service/muster/getMusterDetails",
-      "parentModule": "bff",
-      "displayName": "Search Muster details",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "bff",
       "code": "null",
       "path": ""
     },
