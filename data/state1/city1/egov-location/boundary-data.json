@@ -1,5 +1,5 @@
 {
-  "tenantId": "pg.citya",
+  "tenantId": "state1.city1",
   "moduleName": "egov-location",
   "TenantBoundary": [
     {
@@ -10,12 +10,12 @@
       "boundary": {
         "id": 1,
         "boundaryNum": 1,
-        "name": "CityA",
-        "localname": "CityA",
+        "name": "City1",
+        "localname": "City1",
         "longitude": null,
         "latitude": null,
         "label": "City",
-        "code": "pg.citya",
+        "code": "state1.city1",
         "children": [
           {
             "id": 2,
@@ -236,12 +236,12 @@
       "boundary": {
         "id": 1,
         "boundaryNum": 1,
-        "name": "CityA",
-        "localname": "CityA",
+        "name": "City1",
+        "localname": "City1",
         "longitude": null,
         "latitude": null,
         "label": "City",
-        "code": "pg.citya",
+        "code": "state1.city1",
         "children": [
           {
             "id": 2,
