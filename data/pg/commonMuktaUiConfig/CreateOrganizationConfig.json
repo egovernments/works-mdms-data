@@ -401,9 +401,9 @@
                   "name": "contactDetails_email",
                   "error": "EMAIL_VALIDATION",
                   "validation": {
-                    "pattern": "^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,})+$",
+                    "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.(?:[a-zA-Z]{2,6})$",
                     "minlength": 2,
-                    "maxlength": 128
+                    "maxlength": 64
                   }
                 }
               }
