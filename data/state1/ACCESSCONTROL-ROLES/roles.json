@@ -1,0 +1,111 @@
+{
+  "tenantId": "state1",
+  "moduleName": "ACCESSCONTROL-ROLES",
+  "roles": [
+    {
+      "code": "HRMS_ADMIN",
+      "name": "HRMS Admin",
+      "description": "HRMS Admin"
+    },
+    {
+      "code": "SUPERUSER",
+      "name": "SUPER USER",
+      "description": "SUPER USER"
+    },   
+    {
+      "code": "ORG_ADMIN",
+      "name": "Organization admin",
+      "description": "Role for the admin of any organization"
+    },
+    {
+      "code": "WORK_ORDER_CREATOR",
+      "name": "WORK ORDER CREATOR",
+      "description": "Creator of a contract"
+    },
+    {
+      "code": "WORK_ORDER_VERIFIER",
+      "name": "WORK ORDER VERIFIER",
+      "description": "Verifier of a contract"
+    },
+    {
+      "code": "WORK_ORDER_APPROVER",
+      "name": "WORK ORDER APPROVER",
+      "description": "Approver of a contract"
+    },
+    {
+      "code": "OFFICER_IN_CHARGE",
+      "name": "OFFICER IN CHARGE",
+      "description": "Officer in charge of the contract"
+    },
+    {
+      "code": "MUKTA_ADMIN",
+      "name": "MUKTA Admin",
+      "description": "Officer in charge of the Masters"
+    },
+    {
+      "code": "STADMIN",
+      "name": "State Dashboard Admin",
+      "description": "State Dashboard Admin"
+    },
+    {
+      "code": "ESTIMATE_CREATOR",
+      "name": "ESTIMATE CREATOR",
+      "description": "Estimate Creator"
+    },
+    {	
+      "code": "ESTIMATE_VIEWER",	
+      "name": "ESTIMATE VIEWER",	
+      "description": "Estimate VIEWER having search api access"	
+    },
+    {
+      "code": "ESTIMATE_VERIFIER",
+      "name": "ESTIMATE VERIFIER",
+      "description": "Estimate Verifier"
+    },
+    {
+      "code": "TECHNICAL_SANCTIONER",
+      "name": "TECHNICAL SANCTIONER",
+      "description": "Technical sanctioner"
+    },
+    {
+      "code": "ESTIMATE_APPROVER",
+      "name": "ESTIMATE APPROVER",
+      "description": "Estimate Approver"
+    },
+    {
+      "code": "PROJECT_CREATOR",
+      "name": "PROJECT CREATOR",
+      "description": "Project Creator"
+    },
+    {
+      "code": "PROJECT_VIEWER",
+      "name": "PROJECT VIEWER",
+      "description": "Project Viewer"
+    },
+    {
+      "code": "MUSTER_ROLL_VERIFIER",
+      "name": "MUSTER ROLL VERIFIER",
+      "description": "Muster Roll Viewer"
+    },
+    {
+      "code": "MUSTER_ROLL_APPROVER",
+      "name": "MUSTER ROLL APPROVER",
+      "description": "Muster Roll Approver"
+    },
+    {
+      "code": "BILL_CREATOR",
+      "name": "BILL_CREATOR",
+      "description": "Bill Creator"
+    },
+    {
+      "code": "BILL_VIEWER",
+      "name": "BILL_VIEWER",
+      "description": "Bill Viewer"
+    },
+    {
+      "code": "EMPLOYEE_COMMON",
+      "name": "Employee Common",
+      "description": "Default role for all employees that need hrms search, edit profile, logout action"
+    }
+  ]
+}
