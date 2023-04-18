@@ -1,0 +1,16 @@
+{
+    "tenantId": "state1",
+    "moduleName": "works",
+    "OrganisationType": [
+      {
+        "name": "Community Organisation",
+        "code": "COMMUNITY_ORGN",      
+          "active": true
+      },
+      {
+        "name": "Vendor",
+        "code": "VENDOR",      
+          "active": true
+      }
+    ]
+}
