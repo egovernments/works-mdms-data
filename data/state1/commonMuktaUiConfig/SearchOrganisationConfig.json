@@ -1,6 +1,6 @@
 {
   "tenantId": "state1",
-  "moduleName": "commonUiConfig",
+  "moduleName": "commonMuktaUiConfig",
   "SearchOrganisationConfig": [
     {
       "label": "WORKS_SEARCH_ORGANISATION",
@@ -22,8 +22,7 @@
       "sections": {
         "search": {
           "uiConfig": {
-            "headerStyle": null,
-            "formClassName": "custom-both-clear-search",
+            "headerStyle": null
             "primaryLabel": "ES_COMMON_SEARCH",
             "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
             "minReqFields": 1,
@@ -37,6 +36,23 @@
               "createdTo": ""
             },
             "fields": [
+              {
+                "label": "COMMON_WARD",
+                "type": "locationdropdown",
+                "isMandatory": false,
+                "disable": false,
+                "populators": {
+                  "optionsCustomStyle": {
+                    "top": "2.3rem"
+                  },
+                  "name": "boundaryCode",
+                  "type": "ward",
+                  "optionsKey": "i18nKey",
+                  "defaultText": "COMMON_SELECT_WARD",
+                  "selectedText": "COMMON_SELECTED",
+                  "allowMultiSelect": false
+                }
+              },
               {
                 "label": "MASTERS_ORGANISATION_TYPE",
                 "type": "dropdown",
@@ -77,42 +93,29 @@
                 }
               },
               {
-                "label": "CORE_COMMON_STATUS",
-                "type": "dropdown",
-                "isMandatory": false,
-                "disable": false,
-                "populators": {
-                  "name": "applicationStatus",
-                  "optionsKey": "name",
-                  "optionsCustomStyle": { "top": "2.3rem" },
-                  "options": [
-                    { "code": "ACTIVE", "name": "MASTERS_ORG_STATUS_ACTIVE" },
-                    {
-                      "code": "DEBARRED",
-                      "name": "MASTERS_ORG_STATUS_DEBARRED"
-                    },
-                    {
-                      "code": "INACTIVE",
-                      "name": "MASTERS_ORG_STATUS_INACTIVE"
-                    }
-                  ]
-                }
-              },
-              {
                 "label": "CREATED_FROM_DATE",
                 "type": "date",
                 "isMandatory": false,
                 "disable": false,
-                "populators": { "name": "createdFrom" }
+                "key" : "createdFrom",
+                "preProcess" : {
+                  "updateDependent" : ["populators.max"]
+                },
+                "populators": { "name": "createdFrom", "max" : "currentDate" }
               },
               {
                 "label": "CREATED_TO_DATE",
                 "type": "date",
                 "isMandatory": false,
                 "disable": false,
+                "key" : "createdTo",
+                "preProcess" : {
+                  "updateDependent" : ["populators.max"]
+                },
                 "populators": {
                   "name": "createdTo",
-                  "error": "DATE_VALIDATION_MSG"
+                  "error": "DATE_VALIDATION_MSG",
+                  "max" : "currentDate"
                 },
                 "additionalValidation": {
                   "type": "date",
@@ -138,6 +141,11 @@
               {
                 "label": "MASTERS_ORGANISATION_TYPE",
                 "jsonPath": "functions[0].type",
+                "additionalCustomization": true
+              },
+              {
+                "label": "MASTERS_ORGANISATION_SUB_TYPE",
+                "jsonPath": "functions[0].category",
                 "additionalCustomization": true
               },
               {
