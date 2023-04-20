@@ -1,7 +1,7 @@
 {
     "tenantId": "pg",
     "moduleName": "works",
-    "HeadCodes": [
+    "ExpenseHeads": [
       {
         "code": "WEG",
         "description": "Wages",
