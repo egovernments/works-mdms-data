@@ -1357,6 +1357,18 @@
       "serviceCode": "egov-pdf",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 111,
+      "name": "WMS search expense",
+      "url": "/wms/expense/_search",
+      "parentModule": "works-management-service",
+      "displayName": "WMS search expense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-management-service",
+      "code": "null",
+      "path": ""
     }
   ]
 }
