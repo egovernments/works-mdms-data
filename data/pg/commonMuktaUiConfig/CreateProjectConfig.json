@@ -64,7 +64,7 @@
                 "validation": {
                   "pattern": "^[a-zA-Z0-9\\/{ \\/ .\\- _$@#\\' } ]*$",
                   "minlength": 2,
-                  "maxlength" : 32
+                  "maxlength" : 128
                 }
               }
             },
@@ -195,10 +195,17 @@
               "key": "noSubProject_geoLocation",
               "type": "text",
               "disable": false,
+              "preProcess": {
+                "convertStringToRegEx": [
+                  "populators.validation.pattern"
+                ]
+              },
               "populators": {
                 "name": "noSubProject_geoLocation",
-                "error": "WORKS_REQUIRED_ERR",
-                "customIcon" : "geolocation"
+                "error": "COMMON_ENTER_VALID_GEO_LOCATION",
+                "validation": {
+                  "pattern": "^[-+]?([1-8]?\\d(\\.\\d+)?|90(\\.0+)?)\\s*,\\s*[-+]?(180(\\.0+)?|((1[0-7]\\d)|([1-9]?\\d))(\\.\\d+)?)$"
+                }
               }
             },
             {
@@ -265,33 +272,6 @@
                   "top": "2.5rem"
                 },
                 "options": []
-              }
-            }
-          ]
-        },
-        {
-          "navLink": "Project_Details",
-          "head": "WORKS_FINANCIAL_DETAILS",
-          "body": [
-            {
-              "isMandatory": false,
-              "key": "noSubProject_fund",
-              "type": "radioordropdown",
-              "label": "WORKS_HEAD_OF_ACCOUNTS",
-              "disable": false,
-              "populators": {
-                "name": "noSubProject_fund",
-                "optionsKey": "name",
-                "error": "WORKS_REQUIRED_ERR",
-                "required": false,
-                "optionsCustomStyle": {
-                  "top": "2.5rem"
-                },
-                "mdmsConfig": {
-                  "masterName": "Fund",
-                  "moduleName": "finance",
-                  "localePrefix": "COMMON_MASTERS_FUND"
-                }
               }
             }
           ]

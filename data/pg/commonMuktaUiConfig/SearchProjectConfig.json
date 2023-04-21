@@ -117,8 +117,13 @@
                   "type": "date",
                   "isMandatory": false,
                   "disable": false,
+                  "key" : "createdFrom",
+                  "preProcess" : {
+                    "updateDependent" : ["populators.max"]
+                  },
                   "populators": {
-                    "name": "createdFrom"
+                    "name": "createdFrom",
+                    "max" : "currentDate"
                   }
                 },
                 {
@@ -161,6 +166,7 @@
                 {
                   "label": "WORKS_PROJECT_NAME",
                   "jsonPath": "name",
+                  "maxLength": 40,
                   "additionalCustomization": true
                 },
                 {
@@ -171,7 +177,8 @@
                 {
                   "label": "PROJECT_ESTIMATED_COST_IN_RS",
                   "jsonPath": "additionalDetails.estimatedCostInRs",
-                  "additionalCustomization": true
+                  "additionalCustomization": true,
+                  "headerAlign": "right"
                 }
               ],
               "enableGlobalSearch": false,

@@ -3,38 +3,41 @@
     "moduleName": "works",
     "Overheads": [
         {
+            "id": "1",
+            "code": "SC",
+            "description": "Supervision Charge",
+            "active": true,
+            "calculationType": "fixed rate",
+            "rate": "7.5%",
+            "effectiveFrom": 177044852,
+            "effectiveTo": null
+        },
+        {
+            "id": "2",
             "code": "GST",
             "description": "Goods and Service Tax",
             "active": true,
             "isAutoCalculated":true,
             "type":"percentage",
-            "value":"12",
+            "value":"18",
             "isWorkOrderValue":true,
             "effectiveFrom": 1677044852,
             "effectiveTo": null
         },
         {
+            "id": "3",
             "code": "REW",
             "description": "Royalty on Earth Work",
-            "active": true,
+            "active": false,
             "isAutoCalculated": false,
             "type":"lumpsum",
             "isWorkOrderValue": false,
             "effectiveFrom": 1677044852,
             "effectiveTo": null
         },
+       
         {
-            "code": "SC",
-            "description": "Supervision Charge",
-            "active": true,
-            "isAutoCalculated": true,
-            "type": "percentage",
-            "value": "7.5",
-            "isWorkOrderValue": true,
-            "effectiveFrom": 1677044852,
-            "effectiveTo": null
-        },
-        {
+            "id": "4",
             "code": "TST",
             "description": "Testing Overhead",
             "active": true,

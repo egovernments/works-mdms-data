@@ -50,7 +50,7 @@
                   "name": "estimateNumber",
                   "error": "ESTIMATE_PATTERN_ERR_MSG",
                   "validation": {
-                    "pattern": "^[A-Za-z0-9\\/-]*$",
+                    "pattern": "ES\/[0-9]+-[0-9]+\/[0-9]+",
                     "minlength": 2
                   }
                 }
@@ -67,7 +67,7 @@
                   "name": "projectId",
                   "error": "PROJECT_PATTERN_ERR_MSG",
                   "validation": {
-                    "pattern": "PR\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
+                    "pattern": "PJ\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
                     "minlength": 2
                   }
                 }
@@ -136,7 +136,8 @@
                 "label": "WORKS_ESTIMATED_AMOUNT",
                 "jsonPath": "businessObject.additionalDetails.totalEstimatedAmount",
                 "additionalCustomization": true,
-                "key": "estimatedAmount"
+                "key": "estimatedAmount",
+                "headerAlign": "right"
               },
               {
                 "label": "COMMON_SLA_DAYS",
@@ -193,8 +194,8 @@
               "ward": [],
               "locality": [],
               "assignee": {
-                "code": "ASSIGNED_TO_ME",
-                "name": "EST_INBOX_ASSIGNED_TO_ME"
+                "code": "ASSIGNED_TO_ALL",
+                "name": "EST_INBOX_ASSIGNED_TO_ALL"
               }
             },
             "fields": [

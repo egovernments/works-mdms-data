@@ -100,7 +100,7 @@
                   "name": "estimateId",
                   "error": "ESTIMATE_PATTERN_ERR_MSG",
                   "validation": {
-                    "pattern": "ES\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
+                    "pattern": "ES\/[0-9]+-[0-9]+\/[0-9]+",
                     "minlength": 2
                   }
                 }
@@ -182,7 +182,8 @@
               {
                 "label": "WORKS_ESTIMATED_AMOUNT",
                 "jsonPath": "businessObject.additionalDetails.totalEstimatedAmount",
-                "additionalCustomization": true
+                "additionalCustomization": true,
+                "headerAlign": "right"
               }
             ],
             "enableGlobalSearch": false,

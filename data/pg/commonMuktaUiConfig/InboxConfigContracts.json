@@ -48,9 +48,9 @@
                 },
                 "populators": {
                   "name": "workOrderNumber",
-                  "error": "ESTIMATE_PATTERN_ERR_MSG",
+                  "error": "CONTRACT_PATTERN_ERR_MSG",
                   "validation": {
-                    "pattern": "^[a-zA-Z0-9\\/-]*$",
+                    "pattern": "WO\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
                     "minlength": 2
                   }
                 }
@@ -67,7 +67,7 @@
                   "name": "projectId",
                   "error": "PROJECT_PATTERN_ERR_MSG",
                   "validation": {
-                    "pattern": "^[a-zA-Z0-9\\/-]*$",
+                    "pattern": "PJ\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
                     "minlength": 2
                   }
                 }
@@ -133,7 +133,8 @@
                 "label": "ES_COMMON_AMOUNT",
                 "jsonPath": "businessObject.totalContractedAmount",
                 "additionalCustomization": true,
-                "key": "estimatedAmount"
+                "key": "estimatedAmount",
+                "headerAlign": "right"
               },
               {
                 "label": "COMMON_SLA_DAYS",
@@ -188,8 +189,8 @@
               "ward": [],
               "locality": [],
               "assignee": {
-                "code": "ASSIGNED_TO_ME",
-                "name": "EST_INBOX_ASSIGNED_TO_ME"
+                "code": "ASSIGNED_TO_ALL",
+                "name": "EST_INBOX_ASSIGNED_TO_ALL"
               }
             },
             "fields": [

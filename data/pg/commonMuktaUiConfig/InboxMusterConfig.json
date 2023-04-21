@@ -116,8 +116,8 @@
               "ward": [],
               "locality": [],
               "assignee": {
-                "code": "ASSIGNED_TO_ME",
-                "name": "EST_INBOX_ASSIGNED_TO_ME"
+                "code": "ASSIGNED_TO_ALL",
+                "name": "EST_INBOX_ASSIGNED_TO_ALL"
               }
             },
             "fields": [
@@ -208,12 +208,6 @@
                 "jsonPath": "ProcessInstance.state.state",
                 "additionalCustomization": true,
                 "key": "state"
-              },
-              {
-                "label": "ATM_AMOUNT_IN_RS",
-                "jsonPath": "businessObject.additionalDetails.amount",
-                "additionalCustomization": true,
-                "key": "estimatedAmount"
               },
               {
                 "label": "ATM_SLA",
