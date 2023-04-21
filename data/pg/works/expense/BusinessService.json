@@ -1,0 +1,18 @@
+{
+    "tenantId": "pg",
+    "moduleName": "works",
+    "BusinessService": [
+      {
+        "businessService": "Wage Bill",
+        "code": "works.wage"
+      },
+      {
+        "businessService": "Purchase Bill",
+        "code": "works.purchase"
+      },
+      {
+        "businessService": "Supervision Bill",
+        "code": "works.supervision"
+      }
+    ]
+}
