@@ -35,7 +35,7 @@
             "key": "HOME_CLOSURE_REQUESTS",
             "displayName": "Closure Requests",
             "label": "WORKS_CLOSURE_REQUESTS",
-            "active": true
+            "active": false
         },
         {
             "order": 6,
