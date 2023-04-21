@@ -897,18 +897,6 @@
       "tenantId": "state1"
     },
     {
-      "rolecode": "BILL_CREATOR",
-      "actionid": 54,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
-      "rolecode": "BILL_VIEWER",
-      "actionid": 54,
-      "actioncode": "",
-      "tenantId": "state1"
-    },
-    {
       "rolecode": "WORK_ORDER_CREATOR",
       "actionid": 91,
       "actioncode": "",
