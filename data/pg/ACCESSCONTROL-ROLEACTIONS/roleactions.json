@@ -1930,6 +1930,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 91,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "MUKTA_ADMIN",
       "actionid": 91,
       "actioncode": "",
