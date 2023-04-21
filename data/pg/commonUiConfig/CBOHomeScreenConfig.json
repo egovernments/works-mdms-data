@@ -28,14 +28,14 @@
             "key": "HOME_MY_BILLS",
             "displayName": "My Bills",
             "label": "WORKS_MY_BILLS",
-            "active": false
+            "active": true
         },
         {
             "order": 5,
             "key": "HOME_CLOSURE_REQUESTS",
             "displayName": "Closure Requests",
             "label": "WORKS_CLOSURE_REQUESTS",
-            "active": false
+            "active": true
         },
         {
             "order": 6,
