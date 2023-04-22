@@ -9,9 +9,9 @@
             "active": true,
             "isAutoCalculated":true,
             "isWorkOrderValue":true,
-            "type": "fixed rate",
-            "rate": "7.5%",
-            "effectiveFrom": 177044852,
+            "type": "percentage",
+            "value": "7.5",
+            "effectiveFrom": 1682164954037,
             "effectiveTo": null
         },
         {
@@ -23,7 +23,7 @@
             "type":"percentage",
             "value":"18",
             "isWorkOrderValue":true,
-            "effectiveFrom": 1677044852,
+            "effectiveFrom": 1682164954037,
             "effectiveTo": null
         },
         {
@@ -34,7 +34,7 @@
             "isAutoCalculated": false,
             "type":"lumpsum",
             "isWorkOrderValue": false,
-            "effectiveFrom": 1677044852,
+            "effectiveFrom": 1682164954037,
             "effectiveTo": null
         },
        
@@ -47,7 +47,7 @@
             "type": "lumpsum",
             "value": "5000",
             "isWorkOrderValue": true,
-            "effectiveFrom": 1677044852,
+            "effectiveFrom": 1682164954037,
             "effectiveTo": null
         }
 
