@@ -5,7 +5,7 @@
          {
              "id": 1,
              "service": "works.wages",
-             "skill": "UNSKILLED.CARPENTER",
+             "code": "UNSKILLED.CARPENTER",
              "gender": "female",
              "active": true,
              "amount": 150,
