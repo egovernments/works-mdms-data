@@ -7,7 +7,9 @@
             "code": "SC",
             "description": "Supervision Charge",
             "active": true,
-            "calculationType": "fixed rate",
+            "isAutoCalculated":true,
+            "isWorkOrderValue":true,
+            "type": "fixed rate",
             "rate": "7.5%",
             "effectiveFrom": 177044852,
             "effectiveTo": null

@@ -1,7 +1,7 @@
 {
     "tenantId": "pg",
     "moduleName": "calculator",
-    "LaborCharges": [
+    "LabourCharges": [
          {
              "id": 1,
              "service": "works.wages",
