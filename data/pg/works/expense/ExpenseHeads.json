@@ -95,7 +95,7 @@
     {
       "id": "10",
       "code": "SC",
-      "service": "works.purchase",
+      "service": "works.supervision",
       "category": "expense",
       "active": true,
       "effectiveFrom": 177044852,

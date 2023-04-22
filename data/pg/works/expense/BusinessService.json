@@ -3,16 +3,16 @@
     "moduleName": "works",
     "BusinessService": [
       {
-        "businessService": "Wage Bill",
-        "code": "works.wage"
+        "businessService": "works.wage",
+        "code": "WAGE_BILL"
       },
       {
-        "businessService": "Purchase Bill",
-        "code": "works.purchase"
+        "businessService": "works.purchase",
+        "code": "PURCHASE_BILL"
       },
       {
-        "businessService": "Supervision Bill",
-        "code": "works.supervision"
+        "businessService": "works.supervision",
+        "code": "SUPERVISION_BILL"
       }
     ]
 }

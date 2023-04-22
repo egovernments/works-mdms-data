@@ -16,7 +16,7 @@
          {
             "id": 2,
             "service": "works.wages",
-            "code": "UNSKILLED.MULIA",
+            "code": "UNSKILLED.MALE_MULIA",
             "gender": "male",
             "active": true,
             "amount": 10,
@@ -27,7 +27,7 @@
          {
             "id": "2",
             "service": "works.wages",
-            "code": "UNSKILLED.MULIA",
+            "code": "UNSKILLED.FEMALE_MULIA",
             "gender": "female",
             "active": true,
             "amount": 150,
@@ -60,7 +60,7 @@
          {
              "id": "5",
              "service": "works.wages",
-             "code": "SEMI_SKILLED",
+             "code": "SEMI_SKILLED.MALE",
              "gender": "male",
              "active": true,
              "amount": 170,
@@ -71,7 +71,7 @@
          {
              "id": "6",
              "service": "works.wages",
-             "code": "SEMI_SKILLED",
+             "code": "SEMI_SKILLED.FEMALE",
              "gender": "female",
              "active": true,
              "amount": 190,
