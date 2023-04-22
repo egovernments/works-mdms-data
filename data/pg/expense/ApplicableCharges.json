@@ -6,6 +6,7 @@
             "id": "1",
             "code": "SC",
             "service": "works.supervision",
+            "active": true,
             "calculationType": "percentage",
             "value": "7.5",
             "effectiveFrom": 1682164954037,

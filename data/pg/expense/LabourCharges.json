@@ -5,7 +5,7 @@
          {
              "id": 1,
              "service": "works.wages",
-             "skill": "UNSKILLED.CARPENTER",
+             "code": "UNSKILLED.CARPENTER",
              "gender": "female",
              "active": true,
              "amount": 150,
@@ -20,7 +20,7 @@
             "gender": "male",
             "active": true,
             "amount": 10,
-            "unit": "day",
+            "unit": "hour",
             "effectiveFrom": 1682164954037,
             "effectiveTo": null
          },
@@ -31,7 +31,7 @@
             "gender": "female",
             "active": true,
             "amount": 150,
-            "unit": "day",
+            "unit": "hour",
             "effectiveFrom": 1682164954037,
             "effectiveTo": null
          },
