@@ -1,0 +1,78 @@
+{
+    "tenantId": "pg",
+    "moduleName": "tenant",
+    "footer": [
+        {
+            "service": "contract",
+            "code": "IA",
+            "termsAndConditions": [
+                {
+                    "disclaimer": "THE_IA_SHALL_BE_RESPONSIBLE_FOR_EXECUTION_OF_THE_ENTIER_WORK_WITH_THE_TECHNICAL_SUPPORT_OF_ENGINEERING_IN_CHARGE_OF_THE_PROJECT_CONCERNED",
+                    "order": "1."
+                },
+                {
+                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "order": "2."
+                },
+                {
+                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "order": "3."
+                }
+            ]
+        },
+        {
+            "service": "contract",
+            "code": "IP",
+            "termsAndConditions": [
+                {
+                    "disclaimer": "THE_IA_SHALL_BE_RESPONSIBLE_FOR_EXECUTION_OF_THE_ENTIER_WORK_WITH_THE_TECHNICAL_SUPPORT_OF_ENGINEERING_IN_CHARGE_OF_THE_PROJECT_CONCERNED",
+                    "order": "1."
+                },
+                {
+                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "order": "2."
+                },
+                {
+                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "order": "3."
+                }
+            ]
+        },
+        {
+            "service": "contract",
+            "code": "NC",
+            "termsAndConditions": [
+                {
+                    "disclaimer": "THE_IA_SHALL_BE_RESPONSIBLE_FOR_EXECUTION_OF_THE_ENTIER_WORK_WITH_THE_TECHNICAL_SUPPORT_OF_ENGINEERING_IN_CHARGE_OF_THE_PROJECT_CONCERNED",
+                    "order": "1."
+                },
+                {
+                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "order": "2."
+                },
+                {
+                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "order": "3."
+                }
+            ]
+        },
+        {
+            "service": "contract",
+            "code": "GN",
+            "termsAndConditions": [
+                {
+                    "disclaimer": "THE_IA_SHALL_BE_RESPONSIBLE_FOR_EXECUTION_OF_THE_ENTIER_WORK_WITH_THE_TECHNICAL_SUPPORT_OF_ENGINEERING_IN_CHARGE_OF_THE_PROJECT_CONCERNED",
+                    "order": "1."
+                },
+                {
+                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "order": "2."
+                },
+                {
+                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "order": "3."
+                }
+            ]
+        }
+    ]
+}

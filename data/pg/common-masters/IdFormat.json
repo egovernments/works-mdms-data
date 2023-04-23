@@ -57,6 +57,6 @@
     {
       "format": "SB/[fy:yyyy-yy]/[SEQ_SUPERVISION_NUM]",
       "idname": "supervision.bill.number"
-    },
+    }
   ]
 }
