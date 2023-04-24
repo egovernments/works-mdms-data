@@ -45,6 +45,26 @@
     {
       "format": "SR/FUNC/[cy:dd-MM-yyyy]/[SEQ_FUNC_APP_NUM]",
       "idname": "function.application.number"
+    },
+    {
+      "format": "WB/[fy:yyyy-yy]/[SEQ_WAGE_NUM]",
+      "idname": "wage.bill.number"
+    },
+    {
+      "format": "PB/[fy:yyyy-yy]/[SEQ_PURCHASE_NUM]",
+      "idname": "purchase.bill.number"
+    },
+    {
+      "format": "SB/[fy:yyyy-yy]/[SEQ_SUPERVISION_NUM]",
+      "idname": "supervision.bill.number"
+    },
+    {
+      "format": "SB_[SEQ_SUPERVISION_REF_NUM]",
+      "idname": "supervision.reference.number"
+    },
+    {
+      "format": "PB_[SEQ_PURCHASE_REF_NUM]",
+      "idname": "purchase.reference.number"
     }
   ]
 }

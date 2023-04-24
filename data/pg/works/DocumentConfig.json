@@ -62,7 +62,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -72,7 +72,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -82,7 +82,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -92,7 +92,7 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -102,7 +102,7 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : true,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         }
@@ -150,15 +150,15 @@
       "module": "Expenditure",
       "allowedFileTypes": ["pdf"],
       "maxSizeInMB": 5,
-      "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
+      "bannerLabel": "PURCHASE_BILL_FILE_COMPONENT_BANNER",
       "documents": [
         {
-          "code": "VENODR_INVOICE",
+          "code": "VENDOR_INVOICE",
           "name" : "doc_vendor_invoice",
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -168,7 +168,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -177,8 +177,8 @@
           "name" : "doc_material_utilisation_log",
           "active": true,
           "isMandatory": true,
-          "showTextInput" : true,
-          "allowedFileTypes": [],
+          "showTextInput" : false,
+          "allowedFileTypes": ["pdf"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },

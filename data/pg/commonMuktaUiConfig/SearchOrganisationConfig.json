@@ -15,7 +15,7 @@
         "minParametersForSearchForm": 1,
         "masterName": "commonUiConfig",
         "moduleName": "SearchOrganisationConfig",
-        "tableFormJsonPath": "requestParam",
+        "tableFormJsonPath": "requestBody.Pagination",
         "filterFormJsonPath": "requestBody.SearchCriteria",
         "searchFormJsonPath": "requestBody.SearchCriteria"
       },
@@ -23,7 +23,6 @@
         "search": {
           "uiConfig": {
             "headerStyle": null,
-            "formClassName": "custom-both-clear-search",
             "primaryLabel": "ES_COMMON_SEARCH",
             "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
             "minReqFields": 1,

@@ -1,6 +1,6 @@
 {
     "tenantId": "pg",
-    "moduleName": "common-masters",
+    "moduleName": "works",
     "WageSeekerSkills": [
          {
              "id": 1,

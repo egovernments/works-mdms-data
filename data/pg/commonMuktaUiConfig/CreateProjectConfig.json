@@ -73,7 +73,7 @@
               "label": "PROJECT_PROJECT_DESC",
               "isMandatory": true,
               "key": "basicDetails_projectDesc",
-              "type": "text",
+              "type": "textarea",
               "disable": false,
               "preProcess": {
                 "convertStringToRegEx": [

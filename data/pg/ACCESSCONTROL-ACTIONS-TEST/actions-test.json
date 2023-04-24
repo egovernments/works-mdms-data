@@ -1326,24 +1326,24 @@
     {
       "id": 108,
       "name": "Calculator Estimate API",
-      "url": "/works-calculator/v1/_estimate",
-      "parentModule": "works-calculator",
+      "url": "/expense-calculator/v1/_estimate",
+      "parentModule": "expense-calculator",
       "displayName": "Calculator Estimate API",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "works-calculator",
+      "serviceCode": "expense-calculator",
       "code": "null",
       "path": ""
     },
     {
       "id": 109,
       "name": "Calculate API",
-      "url": "/works-calculator/v1/_calculate",
-      "parentModule": "works-calculator",
+      "url": "/expense-calculator/v1/_calculate",
+      "parentModule": "expense-calculator",
       "displayName": "Calculate API",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "works-calculator",
+      "serviceCode": "expense-calculator",
       "code": "null",
       "path": ""
     },
@@ -1355,6 +1355,18 @@
       "orderNumber": 1,
       "enabled": false,
       "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 111,
+      "name": "WMS search expense",
+      "url": "/wms/expense/_search",
+      "parentModule": "works-management-service",
+      "displayName": "WMS search expense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-management-service",
       "code": "null",
       "path": ""
     }
