@@ -150,7 +150,7 @@
       "module": "Expenditure",
       "allowedFileTypes": ["pdf"],
       "maxSizeInMB": 5,
-      "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
+      "bannerLabel": "PURCHASE_BILL_FILE_COMPONENT_BANNER",
       "documents": [
         {
           "code": "VENDOR_INVOICE",
@@ -158,7 +158,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -168,7 +168,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -178,7 +178,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
