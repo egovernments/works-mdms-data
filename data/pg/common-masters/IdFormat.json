@@ -47,6 +47,14 @@
       "idname": "function.application.number"
     },
     {
+      "format": "WB/[fy:yyyy-yy]/[SEQ_WAGE_NUM]",
+      "idname": "wage.bill.number"
+    },
+    {
+      "format": "PB/[fy:yyyy-yy]/[SEQ_PURCHASE_NUM]",
+      "idname": "purchase.bill.number"
+    },
+    {
       "format": "SB/[fy:yyyy-yy]/[SEQ_SUPERVISION_NUM]",
       "idname": "supervision.bill.number"
     }
