@@ -100,6 +100,12 @@
     },
     {
       "rolecode": "ESTIMATE_VIEWER",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "state1"
+    },
+    {
+      "rolecode": "ESTIMATE_VIEWER",
       "actionid": 16,
       "actioncode": "",
       "tenantId": "state1"
@@ -137,6 +143,12 @@
     {
       "rolecode": "ESTIMATE_VIEWER",
       "actionid": 68,
+      "actioncode": "",
+      "tenantId": "state1"
+    },
+    {
+      "rolecode": "ESTIMATE_VIEWER",
+      "actionid": 77,
       "actioncode": "",
       "tenantId": "state1"
     },
