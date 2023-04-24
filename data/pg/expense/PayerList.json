@@ -1,0 +1,27 @@
+{
+    "tenantId": "pg",
+    "moduleName": "expense",
+    "PayerList": [
+      {
+        "id": "1",
+        "tenantId": "pg.citya",
+        "payerCode": "pg.citya",
+        "type": "ULB",
+        "active": "true"
+      },
+      {
+        "id": "2",
+        "tenantId": "pg.cityb",
+        "payerCode": "pg.cityb",
+        "type": "ULB",
+        "active": "true"
+      },
+      {
+        "id": "3",
+        "tenantId": "pg.cityc",
+        "payerCode": "pg.cityc",
+        "type": "ULB",
+        "active": "true"
+      }
+    ]
+}
