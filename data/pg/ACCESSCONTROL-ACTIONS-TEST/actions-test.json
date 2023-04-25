@@ -609,7 +609,7 @@
     {
       "id": 51,
       "name": "Create Project",
-      "url": "/pms/project/v1/_create",
+      "url": "/project/v1/_create",
       "parentModule": "project-management-system",
       "displayName": "Create Project",
       "orderNumber": 0,
@@ -621,7 +621,7 @@
     {
       "id": 52,
       "name": "Search Project",
-      "url": "/pms/project/v1/_search",
+      "url": "/project/v1/_search",
       "parentModule": "project-management-system",
       "displayName": "Search Project",
       "orderNumber": 0,
@@ -633,7 +633,7 @@
     {
       "id": 53,
       "name": "Update Project",
-      "url": "/pms/project/v1/_update",
+      "url": "/project/v1/_update",
       "parentModule": "project-management-system",
       "displayName": "Update Project",
       "orderNumber": 0,
