@@ -22,7 +22,7 @@
       "sections": {
         "search": {
           "uiConfig": {
-            "headerStyle": null
+            "headerStyle": null,
             "primaryLabel": "ES_COMMON_SEARCH",
             "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
             "minReqFields": 1,
