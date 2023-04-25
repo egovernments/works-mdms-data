@@ -1,0 +1,125 @@
+{
+    "ACCESSCONTROL-ACTIONS-TEST": {
+		"actions-test": {
+			"masterName": "actions-test",
+			"isStateLevel": true,
+			"uniqueKeys": [
+				"$.id"
+			]
+		}
+	},
+	"ACCESSCONTROL-ROLES": {
+		"roles": {
+			"masterName": "roles",
+			"isStateLevel": true,
+			"uniqueKeys": [
+				"$.code"
+			]
+		}
+	},
+	"ACCESSCONTROL-ROLEACTIONS": {
+		"roleactions": {
+			"masterName": "roleactions",
+			"uniqueKeys": [
+				"$.rolecode",
+				"$.actionid",
+				"$.tenantid"
+			]
+		}
+	},
+	"common-masters": {
+		"Department": {
+			"masterName": "Department",
+			"moduleDefinition": null,
+			"isStateLevel": true,
+			"uniqueKeys": [
+				"$.code",
+				"$.tenantId"
+			]
+		},
+		"Designation": {
+			"masterName": "Designation",
+			"moduleDefinition": null,
+			"isStateLevel": true,
+			"uniqueKeys": [
+				"$.code"
+			]
+		},
+		"OwnerShipCategory": {
+			"masterName": "OwnerShipCategory",
+			"moduleDefinition": null,
+			"isStateLevel": true,
+			"uniqueKeys": [
+				"$.code"
+			]
+		}
+	},
+	"DIGIT-UI": {
+		"ApiCachingSettings": {
+			"masterName": "ApiCachingSettings",
+			"isStateLevel": true,
+			"uniqueKeys": []
+		}
+	},
+    "tenant": {
+		"tenants": {
+			"masterName": "tenants",
+			"isStateLevel": true,
+			"moduleDefinition": null,
+			"uniqueKeys": [
+				"$.code"
+			]
+		},
+		"citymodule": {
+			"masterName": "citymodule",
+			"isStateLevel": true,
+			"moduleDefinition": null,
+			"uniqueKeys": [
+				"$.code"
+			]
+		}
+	},"egov-hrms": {
+		"EmployeeStatus": {
+			"masterName": "EmployeeStatus",
+			"isStateLevel": true,
+			"uniqueKeys": [
+				"$.code"
+			]
+		},
+		"EmployeeType": {
+			"masterName": "EmployeeType",
+			"isStateLevel": true,
+			"uniqueKeys": [
+				"$.code"
+			]
+		},
+		"Degree": {
+			"masterName": "Degree",
+			"isStateLevel": true,
+			"uniqueKeys": [
+				"$.code"
+			]
+		},
+		"Specalization": {
+			"masterName": "Specalization",
+			"isStateLevel": true,
+			"uniqueKeys": [
+				"$.code"
+			]
+		},
+		"DeactivationReason": {
+			"masterName": "DeactivationReason",
+			"isStateLevel": true,
+			"uniqueKeys": [
+				"$.code"
+			]
+		},
+		"EmploymentTest": {
+			"masterName": "EmploymentTest",
+			"isStateLevel": true,
+			"uniqueKeys": [
+				"$.code"
+			]
+		}
+	}
+}
