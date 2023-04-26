@@ -1,0 +1,90 @@
+{
+  "tenantId": "statea",
+  "moduleName": "ACCESSCONTROL-ROLEACTIONS",
+  "roleactions": [
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 4,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 23,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 26,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 81,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 65,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 21,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 22,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 1,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 2,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 3,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 5,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 7,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 8,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 13,
+      "actioncode": "",
+      "tenantId": "statea"
+    }
+  ]
+}
