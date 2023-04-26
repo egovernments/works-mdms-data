@@ -253,6 +253,64 @@
       "actionid": 77,
       "actioncode": "",
       "tenantId": "statea"
-    }
+    }, 
+    {
+      "rolecode": "ESTIMATE_VIEWER",
+      "actionid": 16,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "TECHNICAL_SANCTIONER",
+      "actionid": 16,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ESTIMATE_APPROVER",
+      "actionid": 17,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "TECHNICAL_SANCTIONER",
+      "actionid": 17,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ESTIMATE_APPROVER",
+      "actionid": 16,
+      "actioncode": "",
+      "tenantId": "statea"
+    }, {
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 14,
+      "actioncode": "",
+      "tenantId": "statea"
+    }, {
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 16,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 17,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ESTIMATE_VERIFIER",
+      "actionid": 16,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ESTIMATE_VERIFIER",
+      "actionid": 17,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
   ]
 }
