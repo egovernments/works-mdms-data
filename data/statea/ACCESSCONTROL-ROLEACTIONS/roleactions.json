@@ -373,6 +373,42 @@
       "actionid": 67,
       "actioncode": "",
       "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 91,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 64,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 105,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 102,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 101,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+        {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 100,
+      "actioncode": "",
+      "tenantId": "statea"
     }
   ]
 }
