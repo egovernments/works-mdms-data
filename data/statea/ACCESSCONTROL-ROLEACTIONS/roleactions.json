@@ -123,12 +123,6 @@
       "tenantId": "statea"
     },
     {
-      "rolecode": "MUSTER_ROLL_VERIFIER",
-      "actionid": 38,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
       "rolecode": "ORG_ADMIN",
       "actionid": 39,
       "actioncode": "",
@@ -183,12 +177,6 @@
       "tenantId": "statea"
     },
     {
-      "rolecode": "MUSTER_ROLL_VERIFIER",
-      "actionid": 104,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
       "rolecode": "MUSTER_ROLL_APPROVER",
       "actionid": 37,
       "actioncode": "",
@@ -203,18 +191,6 @@
     {
       "rolecode": "MUSTER_ROLL_APPROVER",
       "actionid": 104,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "MUKTA_ADMIN",
-      "actionid": 62,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "MUKTA_ADMIN",
-      "actionid": 63,
       "actioncode": "",
       "tenantId": "statea"
     },
@@ -296,5 +272,23 @@
       "actioncode": "",
       "tenantId": "statea"
     },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 105,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 106,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 104,
+      "actioncode": "",
+      "tenantId": "statea"
+    }
   ]
 }
