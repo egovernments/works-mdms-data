@@ -85,6 +85,114 @@
       "actionid": 13,
       "actioncode": "",
       "tenantId": "statea"
+    },
+    {
+      "rolecode": "PROJECT_CREATOR",
+      "actionid": 51,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "PROJECT_CREATOR",
+      "actionid": 52,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "PROJECT_CREATOR",
+      "actionid": 53,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "PROJECT_VIEWER",
+      "actionid": 52,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "WORK_ORDER_CREATOR",
+      "actionid": 66,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "WORK_ORDER_CREATOR",
+      "actionid": 67,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "WORK_ORDER_CREATOR",
+      "actionid": 68,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "WORK_ORDER_CREATOR",
+      "actionid": 65,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "WORK_ORDER_CREATOR",
+      "actionid": 89,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "WORK_ORDER_VERIFIER",
+      "actionid": 67,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "WORK_ORDER_VERIFIER",
+      "actionid": 68,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "WORK_ORDER_VERIFIER",
+      "actionid": 65,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "WORK_ORDER_VERIFIER",
+      "actionid": 89,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "WORK_ORDER_APPROVER",
+      "actionid": 67,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "WORK_ORDER_APPROVER",
+      "actionid": 68,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "WORK_ORDER_APPROVER",
+      "actionid": 65,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "WORK_ORDER_VIEWER",
+      "actionid": 67,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "WORK_ORDER_VIEWER",
+      "actionid": 89,
+      "actioncode": "",
+      "tenantId": "statea"
     }
   ]
 }
