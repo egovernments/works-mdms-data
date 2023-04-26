@@ -21,8 +21,8 @@
           "masterName": "commonUiConfig",
           "moduleName": "SearchProjectConfig",
           "tableFormJsonPath": "requestParam",
-          "filterFormJsonPath": "requestBody.Projects[0]",
-          "searchFormJsonPath": "requestBody.Projects[0]"
+          "filterFormJsonPath": "requestBody.Project[0]",
+          "searchFormJsonPath": "requestBody.Project[0]"
         },
         "sections": {
           "search": {
