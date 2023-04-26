@@ -130,12 +130,6 @@
     },
     {
       "rolecode": "WORK_ORDER_CREATOR",
-      "actionid": 65,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "WORK_ORDER_CREATOR",
       "actionid": 89,
       "actioncode": "",
       "tenantId": "statea"
@@ -149,12 +143,6 @@
     {
       "rolecode": "WORK_ORDER_VERIFIER",
       "actionid": 68,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "WORK_ORDER_VERIFIER",
-      "actionid": 65,
       "actioncode": "",
       "tenantId": "statea"
     },
@@ -178,7 +166,7 @@
     },
     {
       "rolecode": "WORK_ORDER_APPROVER",
-      "actionid": 65,
+      "actionid": 89,
       "actioncode": "",
       "tenantId": "statea"
     },
@@ -189,8 +177,80 @@
       "tenantId": "statea"
     },
     {
-      "rolecode": "WORK_ORDER_VIEWER",
-      "actionid": 89,
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 9,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ESTIMATE_VERIFIER",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ESTIMATE_VERIFIER",
+      "actionid": 11,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ESTIMATE_VERIFIER",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "TECHNICAL_SANCTIONER",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "TECHNICAL_SANCTIONER",
+      "actionid": 11,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "TECHNICAL_SANCTIONER",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ESTIMATE_APPROVER",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ESTIMATE_APPROVER",
+      "actionid": 11,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "TECHNICAL_SANCTIONER",
+      "actionid": 77,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ESTIMATE_VIEWER",
+      "actionid": 10,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ESTIMATE_VIEWER",
+      "actionid": 77,
       "actioncode": "",
       "tenantId": "statea"
     }
