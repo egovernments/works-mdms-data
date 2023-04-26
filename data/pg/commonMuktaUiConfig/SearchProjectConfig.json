@@ -21,8 +21,8 @@
           "masterName": "commonUiConfig",
           "moduleName": "SearchProjectConfig",
           "tableFormJsonPath": "requestParam",
-          "filterFormJsonPath": "requestBody.Project[0]",
-          "searchFormJsonPath": "requestBody.Project[0]"
+          "filterFormJsonPath": "requestBody.Projects[0]",
+          "searchFormJsonPath": "requestBody.Projects[0]"
         },
         "sections": {
           "search": {
@@ -183,7 +183,7 @@
               ],
               "enableGlobalSearch": false,
               "enableColumnSort": true,
-              "resultsJsonPath": "Projects"
+              "resultsJsonPath": "Project"
             },
             "children": {},
             "show": true
