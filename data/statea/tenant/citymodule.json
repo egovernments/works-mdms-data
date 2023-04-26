@@ -1,0 +1,210 @@
+{
+    "tenantId": "statea",
+    "moduleName": "tenant",
+    "citymodule": [
+        {
+            "module": "Works",
+            "code": "Works",
+            "active": true,
+            "order": 1,
+            "tenants": [
+                {
+                    "code": "statea.citytwo"
+                },
+                {
+                    "code": "statea.citythree"
+                },
+                {
+                    "code": "statea.cityone"
+                }
+            ]
+        },
+        {
+            "module": "AttendenceMgmt",
+            "code": "AttendenceMgmt",
+            "active": true,
+            "order": 4,
+            "tenants": [
+                {
+                    "code": "statea.citytwo"
+                },
+                {
+                    "code": "statea.citythree"
+                },
+                {
+                    "code": "statea.cityone"
+                }
+            ]
+        },
+        {
+            "module": "Contracts",
+            "code": "Contracts",
+            "active": true,
+            "order": 5,
+            "tenants": [
+                {
+                    "code": "statea.citytwo"
+                },
+                {
+                    "code": "statea.citythree"
+                },
+                {
+                    "code": "statea.cityone"
+                }
+            ]
+        },
+        {
+            "module": "Expenditure",
+            "code": "Expenditure",
+            "active": true,
+            "order": 7,
+            "tenants": [
+                {
+                    "code": "statea.citytwo"
+                },
+                {
+                    "code": "statea.citythree"
+                },
+                {
+                    "code": "statea.cityone"
+                }
+            ]
+        },
+        {
+            "module": "Engagement",
+            "code": "Engagement",
+            "active": false,
+            "order": 4,
+            "tenants": [
+                {
+                    "code": "statea.citytwo"
+                },
+                {
+                    "code": "statea.citythree"
+                },
+                {
+                    "code": "statea.cityone"
+                }
+            ]
+        },
+        {
+            "module": "HRMS",
+            "code": "HRMS",
+            "active": true,
+            "order": 2,
+            "tenants": [
+                {
+                    "code": "statea.citytwo"
+                },
+                {
+                    "code": "statea.citythree"
+                },
+                {
+                    "code": "statea.cityone"
+                }
+            ]
+        },
+        {
+            "module": "Estimate",
+            "code": "Estimate",
+            "active": true,
+            "order": 3,
+            "tenants": [
+                {
+                    "code": "statea.citytwo"
+                },
+                {
+                    "code": "statea.citythree"
+                },
+                {
+                    "code": "statea.cityone"
+                }
+            ]
+        },
+        {
+            "module": "Masters",
+            "code": "Masters",
+            "active": true,
+            "order": 6,
+            "tenants": [
+                {
+                    "code": "statea.citytwo"
+                },
+                {
+                    "code": "statea.citythree"
+                },
+                {
+                    "code": "statea.cityone"
+                }
+            ]
+        },
+        {
+            "module": "Project",
+            "code": "Project",
+            "active": true,
+            "order": 8,
+            "tenants": [
+                {
+                    "code": "statea.citytwo"
+                },
+                {
+                    "code": "statea.citythree"
+                },
+                {
+                    "code": "statea.cityone"
+                }
+            ]
+        },
+         {
+            "module": "Mukta",
+            "code": "Mukta",
+            "active": true,
+            "order": 9,
+            "tenants": [
+                {
+                    "code": "statea.citytwo"
+                },
+                {
+                    "code": "statea.citythree"
+                },
+                {
+                    "code": "statea.cityone"
+                }
+            ]
+        },
+        {
+           "module": "DSS",
+           "code": "DSS",
+           "active": true,
+           "order": 10,
+           "tenants": [
+               {
+                   "code": "statea.citytwo"
+               },
+               {
+                   "code": "statea.citythree"
+               },
+               {
+                   "code": "statea.cityone"
+               }
+           ]
+       },
+        {
+           "module": "Utilities",
+           "code": "Utilities",
+           "active": true,
+           "order": 11,
+           "tenants": [
+               {
+                   "code": "statea.citytwo"
+               },
+               {
+                   "code": "statea.citythree"
+               },
+               {
+                   "code": "statea.cityone"
+               }
+           ]
+       }
+    ]
+}

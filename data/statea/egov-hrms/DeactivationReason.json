@@ -1,0 +1,14 @@
+{
+  "tenantId": "statea",
+  "moduleName": "egov-hrms",
+  "DeactivationReason": [
+    {
+      "code": "OTHERS",
+      "active": true
+    },
+    {
+      "code": "ORDERBYCOMMISSIONER",
+      "active": true
+    }
+  ]
+}

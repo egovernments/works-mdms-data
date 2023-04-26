@@ -1,0 +1,21 @@
+{
+    "tenantId": "statea",
+    "moduleName": "works",
+    "BankAccType": [
+      {
+        "name": "Savings",
+        "code": "SAVINGS",      
+        "active": true
+      },
+      {
+        "name": "Current",
+        "code": "CURRENT",      
+        "active": true
+      },
+      {
+        "name": "Loan",
+        "code": "LOAN",      
+        "active": false
+      }
+    ]
+}
