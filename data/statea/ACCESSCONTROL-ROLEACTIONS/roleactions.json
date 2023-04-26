@@ -205,7 +205,7 @@
       "actionid": 77,
       "actioncode": "",
       "tenantId": "statea"
-    }, 
+    },
     {
       "rolecode": "ESTIMATE_VIEWER",
       "actionid": 16,
@@ -235,12 +235,14 @@
       "actionid": 16,
       "actioncode": "",
       "tenantId": "statea"
-    }, {
+    },
+    {
       "rolecode": "ESTIMATE_CREATOR",
       "actionid": 14,
       "actioncode": "",
       "tenantId": "statea"
-    }, {
+    },
+    {
       "rolecode": "ESTIMATE_CREATOR",
       "actionid": 16,
       "actioncode": "",
@@ -264,7 +266,7 @@
       "actioncode": "",
       "tenantId": "statea"
     },
-{
+    {
       "rolecode": "WORK_ORDER_CREATOR",
       "actionid": 66,
       "actioncode": "",
@@ -287,7 +289,8 @@
       "actionid": 89,
       "actioncode": "",
       "tenantId": "statea"
-    },   {
+    },
+    {
       "rolecode": "WORK_ORDER_CREATOR",
       "actionid": 61,
       "actioncode": "",
@@ -322,7 +325,8 @@
       "actionid": 89,
       "actioncode": "",
       "tenantId": "statea"
-    }, {
+    },
+    {
       "rolecode": "WORK_ORDER_VERIFIER",
       "actionid": 58,
       "actioncode": "",
@@ -369,6 +373,6 @@
       "actionid": 67,
       "actioncode": "",
       "tenantId": "statea"
-    },
+    }
   ]
 }
