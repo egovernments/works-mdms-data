@@ -710,34 +710,6 @@
       "leftIcon": "dynamic:HRIcon"
     },
     {
-      "id": 62,
-      "name": "MASTERS",
-      "url": "url",
-      "displayName": "Masters Search Organisation",
-      "orderNumber": 10,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "MASTERS",
-      "code": "null",
-      "navigationURL": "/works-ui/employee/masters/search-organization",
-      "path": "7MASTERS.Search",
-      "leftIcon": "dynamic:OrganisationIcon"
-    },
-    {
-      "id": 63,
-      "name": "WAGESEEKER",
-      "url": "url",
-      "displayName": "Masters Create WageSeeker",
-      "orderNumber": 10,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "WageSeeker",
-      "code": "null",
-      "navigationURL": "/works-ui/employee/masters/create-wageseeker",
-      "path": "8WageSeeker.CreateWageSeeker",
-      "leftIcon": "dynamic:WageseekerIcon"
-    },
-    {
       "id": 64,
       "name": "MASTERS",
       "url": "url",
