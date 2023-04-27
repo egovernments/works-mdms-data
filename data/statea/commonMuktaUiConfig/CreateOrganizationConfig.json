@@ -56,26 +56,16 @@
                 "label": "MASTERS_REGISTERED_BY_DEPT",
                 "isMandatory": true,
                 "key": "basicDetails_regDept",
-                "type": "dropdown",
+                "type": "text",
                 "disable": false,
-                "preProcess": {
-                  "convertStringToRegEx": [
-                    "populators.validation.pattern"
-                  ]
+                "preProcess" : {
+                    "convertStringToRegEx" : ["populators.validation.pattern"]
                 },
                 "populators": {
-	                    "name": "basicDetails_regDept",	
-                    "optionsKey": "name",	
-                    "error": "WORKS_REQUIRED_ERR",	
-                    "optionsCustomStyle": {	
-                        "top": "2.3rem"	
-                    },	
-                    "mdmsConfig": {	
-                        "masterName": "Department",	
-                        "moduleName": "common-masters",	
-                        "localePrefix": "COMMON_MASTERS_DEPARTMENT"	
-                    }	
-                }	
+                    "name": "basicDetails_regDept",
+                    "error": "WORKS_REQUIRED_ERR",
+                    "validation": {"pattern": "^[a-zA-Z0-9 .\\-_@\\']*$", "minlength" : 2, "maxlength": 64}
+                }
               },
               {
                 "label": "MASTERS_REGISTRATION_NUMBER",
@@ -309,7 +299,7 @@
               {
                 "label": "ES_COMMON_STREET_NAME",
                 "isMandatory": false,
-		"key": "locDetails_streetName",
+                "key": "locDetails_streetName",
                 "type": "text",
                 "disable": false,
                 "preProcess": {
@@ -319,11 +309,11 @@
                 },
                 "populators": {
                   "name": "locDetails_streetName",
-		  "error": "WORKS_PATTERN_ERR",
+                  "error": "WORKS_PATTERN_ERR",
                   "validation": {
-                    "pattern": "^[a-zA-Z0-9 .\\-_@#\\']*$",
+                    "pattern": "^[a-zA-Z0-9 .,\\/\\-_@#\\']*$",
                     "minlength": 2,
-                    "maxlength": 128
+                    "maxlength": 64
                   }
                 }
               },
@@ -340,9 +330,9 @@
                 },
                 "populators": {
                   "name": "locDetails_houseName",
-		  "error": "WORKS_PATTERN_ERR",
+                  "error": "WORKS_PATTERN_ERR",
                   "validation": {
-                    "pattern": "^[a-zA-Z0-9 .\\-_@#\\']*$",
+                    "pattern": "^[a-zA-Z0-9 .,\\/\\-_@#\\']*$",
                     "minlength": 2,
                     "maxlength": 8
                   }
@@ -371,8 +361,8 @@
                   "error": "MASTERS_PATTERN_ERR_MSG_ORG_DETAILS",
                   "validation": {
                     "pattern": "^[a-zA-Z0-9 .\\-_@\\']*$",
-                    "minlength": 2,
-                    "maxlength": 64
+                    "minlength": 1,
+                    "maxlength": 50
                   }
                 }
               },
@@ -406,9 +396,9 @@
                   "name": "contactDetails_email",
                   "error": "EMAIL_VALIDATION",
                   "validation": {
-                    "pattern": "^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,})+$",
+                    "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.(?:[a-zA-Z]{2,6})$",
                     "minlength": 2,
-	            "maxlength": 128
+                    "maxlength": 64
                   }
                 }
               }
@@ -472,9 +462,11 @@
                 },
                 "populators": {
                   "name": "financeDetails_accountNumber",
-                  "error": "WORKS_REQUIRED_ERR",
+                  "error": "BANK_ACCOUNT_VALIDATION",
                   "validation": {
-                    "pattern": "^[0-9]{9,18}$"
+                    "pattern": "^[0-9]{9,18}$",
+                    "minlength": 9,
+                    "maxlength": 18
                   }
                 }
               },
@@ -482,9 +474,9 @@
                 "type": "component",
                 "component": "TransferCodeTable",
                 "withoutLabel": true,
-	            "key": "transferCodes",	
-                "customProps" : {	
-                  "isMandatory": true	
+                "key": "transferCodes",
+                "customProps" : {
+                  "isMandatory": true
                 }
               },
               {
@@ -517,9 +509,9 @@
                 "type": "component",
                 "component": "TransferCodeTable",
                 "withoutLabel": true,
-	            "key": "taxIdentifier",	
-                "customProps" : {	
-                  "isMandatory": true	
+                "key": "taxIdentifier",
+                "customProps" : {
+                  "isMandatory": false
                 }
               }
             ]
