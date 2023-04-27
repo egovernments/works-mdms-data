@@ -6,7 +6,7 @@
             "label": "ES_COMMON_INBOX",
             "type": "inbox",
             "apiDetails": {
-              "serviceName": "/pms/project/v1/_search",
+              "serviceName": "/project/v1/_search",
               "requestParam": {},
               "requestBody": {
                 "apiOperation": "SEARCH",

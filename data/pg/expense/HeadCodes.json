@@ -100,6 +100,16 @@
       "active": true,
       "effectiveFrom": 177044852,
       "effectiveTo": null
+    },
+    {
+      "id": "11",
+      "code": "PURCHASE",
+      "description": "Head code to make payment to vendor",
+      "service": "works.purchase",
+      "category": "payable",
+      "active": true,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
     }
   ]
 }

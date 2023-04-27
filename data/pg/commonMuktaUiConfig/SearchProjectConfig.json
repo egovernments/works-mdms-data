@@ -9,7 +9,7 @@
         "actionRole": "PROJECT_CREATOR",
         "actionLink": "project/create-project",
         "apiDetails": {
-          "serviceName": "/pms/project/v1/_search",
+          "serviceName": "/project/v1/_search",
           "requestParam": {},
           "requestBody": {
             "apiOperation": "SEARCH",
@@ -21,8 +21,8 @@
           "masterName": "commonUiConfig",
           "moduleName": "SearchProjectConfig",
           "tableFormJsonPath": "requestParam",
-          "filterFormJsonPath": "requestBody.Projects[0]",
-          "searchFormJsonPath": "requestBody.Projects[0]"
+          "filterFormJsonPath": "requestBody.Project[0]",
+          "searchFormJsonPath": "requestBody.Project[0]"
         },
         "sections": {
           "search": {
@@ -183,7 +183,7 @@
               ],
               "enableGlobalSearch": false,
               "enableColumnSort": true,
-              "resultsJsonPath": "Projects"
+              "resultsJsonPath": "Project"
             },
             "children": {},
             "show": true
