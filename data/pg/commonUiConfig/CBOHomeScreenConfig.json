@@ -28,7 +28,7 @@
             "key": "HOME_MY_BILLS",
             "displayName": "My Bills",
             "label": "WORKS_MY_BILLS",
-            "active": false
+            "active": true
         },
         {
             "order": 5,
