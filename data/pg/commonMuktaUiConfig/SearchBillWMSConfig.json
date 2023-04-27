@@ -5,6 +5,9 @@
       {
         "label": "EXP_SEARCH_BILL",
         "type": "search",
+        "actionLabel": "ES_COMMON_DOWNLOAD_PAYMENT_ADVICE",
+        "actionRole": "EMPLOYEE",
+        "actionLink": "expenditure/download-bill",
         "apiDetails": {
           "serviceName": "/wms/expense/_search",
           "requestParam": {},
@@ -69,7 +72,7 @@
                       "masterName": "BusinessService",
                       "moduleName": "expense",
                       "localePrefix": "COMMON_MASTERS_BILL",
-                      "select": "(data)=>{ return Array.isArray(data['expense'].BusinessService) && data['expense'].BusinessService.filter(ele=>ele.code.includes('BILL')).map(ele=>({...ele, name:'COMMON_MASTERS_BILL_'+ele.code }))}"
+                      "select": "(data)=>{ return Array.isArray(data['expense'].BusinessService) && data['expense'].BusinessService.filter(ele=>ele.code.includes('BILL')).map(ele=>({...ele, name:'COMMON_MASTERS_BILL_TYPE_'+Digit.Utils.locale.getTransformedLocale(ele.businessService) }))}"
                     }
                   }
                 },
@@ -119,7 +122,7 @@
                     "optionsKey": "i18nKey",
                     "allowMultiSelect": false,
                     "masterName": "commonUiConfig",
-                    "moduleName": "SearchBillConfig",
+                    "moduleName": "SearchBillWMSConfig",
                     "customfn": "populateReqCriteria"
                   }
                 },
@@ -184,7 +187,7 @@
                 },
                 {
                   "label": "ES_COMMON_LOCATION",
-                  "jsonPath": "businessObject.tenantId",
+                  "jsonPath": "businessObject.additionalDetails.location",
                   "additionalCustomization": true
                 },
                 {
@@ -193,11 +196,11 @@
                 },
                 {
                   "label": "WORKS_BILL_TYPE",
-                  "jsonPath": "businessObject.additionalDetails.billType"
+                  "jsonPath": "businessObject.businessservice"
                 },
                 {
                   "label": "CORE_COMMON_STATUS",
-                  "jsonPath": "musterRollStatus",
+                  "jsonPath": "ProcessInstance.state.state",
                   "additionalCustomization": true
                 },
                 {
@@ -209,7 +212,10 @@
               ],
               "enableGlobalSearch": false,
               "enableColumnSort": true,
-              "resultsJsonPath": "items"
+              "resultsJsonPath": "items",
+              "showCheckBox": true,
+              "checkBoxActionLabel": "ES_COMMON_GERERATE_PAYMENT_ADVICE",
+              "showTableInstruction" : "EXP_DOWNLOAD_BILL_INSTRUCTION"
             },
             "children": {},
             "show": true
