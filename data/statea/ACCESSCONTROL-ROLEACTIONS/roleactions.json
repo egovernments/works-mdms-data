@@ -410,9 +410,15 @@
       "actioncode": "",
       "tenantId": "statea"
     },
-        {
+    {
       "rolecode": "MUKTA_ADMIN",
       "actionid": 100,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 107,
       "actioncode": "",
       "tenantId": "statea"
     }
