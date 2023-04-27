@@ -10,6 +10,12 @@
     },
     {
       "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 107,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "EMPLOYEE_COMMON",
       "actionid": 23,
       "actioncode": "",
       "tenantId": "statea"

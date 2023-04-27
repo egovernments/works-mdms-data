@@ -1204,6 +1204,19 @@
       "navigationURL": "/works-ui/employee/masters/create-wageseeker",
       "path": "8WageSeeker.CreateWageSeeker",
       "leftIcon": "dynamic:WageseekerIcon"
+    },
+    {
+      "id": 107,
+      "name": "user search ",
+      "url": "/user/_search",
+      "parentModule": "core",
+      "displayName": "user-search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "user",
+      "code": "null",
+      "path": ""
     }
+    
   ]
 }
