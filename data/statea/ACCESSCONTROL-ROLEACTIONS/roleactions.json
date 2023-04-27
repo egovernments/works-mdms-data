@@ -427,6 +427,192 @@
       "actionid": 107,
       "actioncode": "",
       "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 21,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 22,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 36,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 37,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 38,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 37,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 40,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 42,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 44,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 45,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 46,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 50,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 71,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 37,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 76,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 104,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 64,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 67,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 68,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 69,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 71,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 78,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 92,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 98,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 100,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 101,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 102,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 104,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+	{
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 104,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 105,
+      "actioncode": "",
+      "tenantId": "statea"
     }
   ]
 }
