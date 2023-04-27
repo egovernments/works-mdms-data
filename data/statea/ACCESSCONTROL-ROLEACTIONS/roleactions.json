@@ -573,6 +573,12 @@
       "tenantId": "statea"
     },
     {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 94,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
       "rolecode": "MUKTA_ADMIN",
       "actionid": 98,
       "actioncode": "",
