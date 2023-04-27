@@ -1,0 +1,30 @@
+{
+    "tenantId": "pg",
+    "moduleName": "expense",
+    "BusinessService": [
+      {
+        "businessService": "works.wages",
+        "code": "WAGE_BILL"
+      },
+      {
+        "businessService": "works.purchase",
+        "code": "PURCHASE_BILL"
+      },
+      {
+        "businessService": "works.supervision",
+        "code": "SUPERVISION_BILL"
+      },
+         {
+        "businessService": "contract-approval-mukta",
+        "code": "CONTRACT"
+      },
+      {
+        "businessService": "muster-roll-approval",
+        "code": "MUSTER_ROLL"
+      },
+      {
+        "businessService": "mukta-estimate",
+        "code": "ESTIMATE"
+      }
+    ]
+}
