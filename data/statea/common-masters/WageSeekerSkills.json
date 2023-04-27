@@ -1,0 +1,108 @@
+{
+    "tenantId": "statea",
+    "moduleName": "common-masters",
+    "WageSeekerSkills": [
+         {
+             "name": "Unskilled Male mulia",
+             "code": "UNSKILLED.MALE_MULIA",
+             "active": true,
+             "amount": 150
+         },
+         {
+             "name": "Unskilled Female mulia",
+             "code": "UNSKILLED.FEMALE_MULIA",
+             "active": true,
+             "amount": 150
+         },
+         {
+             "name": "Unskilled Scavanger",
+             "code": "UNSKILLED.SCAVENGER",
+             "active": true,
+             "amount": 150
+         },
+         {
+             "name": "Unskilled Chain Man",
+             "code": "UNSKILLED.CHAIN_MAN",
+             "active": true,
+             "amount": 150
+         },
+         {
+             "name": "Semi-skilled Male mulia",
+             "code": "SEMI_SKILLED.MALE_MULIA",
+             "active": true,
+             "amount": 170
+         },
+         {
+             "name": "Semi-skilled Female mulia",
+             "code": "SEMI_SKILLED.FEMALE_MULIA",
+             "active": true,
+             "amount": 170
+         },
+         {
+             "name": "Semi-skilled Scavanger",
+             "code": "SEMI_SKILLED.SCAVENGER",
+             "active": true,
+             "amount": 170
+         },
+         {
+             "name": "Semi-skilled Sangi mulia",
+             "code": "SEMI_SKILLED.SANGI_MULIA",
+             "active": true,
+             "amount": 170
+         },
+         {
+             "name": "Semi-skilled Hammer man",
+             "code": "SEMI_SKILLED.HAMMER_MAN",
+             "active": true,
+             "amount": 170
+         },
+         {
+             "name": "Semi-skilled Cleaner",
+             "code": "SEMI_SKILLED.CLEANER",
+             "active": true,
+             "amount": 170
+         },
+         {
+             "name": "Skilled Plumber",
+             "code": "HIGHLY_SKILLED.PLUMBER",
+             "active": true,
+             "amount": 205
+         },
+         {
+             "name": "Skilled Mason",
+             "code": "HIGHLY_SKILLED.MASON",
+             "active": true,
+             "amount": 205
+         },
+         {
+             "name": "Skilled Painter",
+             "code": "HIGHLY_SKILLED.PAINTER",
+             "active": true,
+             "amount": 205
+         },
+         {
+             "name": "Skilled Fitter",
+             "code": "HIGHLY_SKILLED.FITTER",
+             "active": true,
+             "amount": 205
+         },
+         {
+             "name": "Boring Mistry",
+             "code": "OTHERS.BORING_MISTRY",
+             "active": true,
+             "amount": 205
+         },
+         {
+             "name": "Winch operator",
+             "code": "OTHERS.WINCH_OPERATOR",
+             "active": true,
+             "amount": 205
+         },
+         {
+             "name": "Helper to Well Sinker",
+             "code": "OTHERS.HELPER_WELL_SINKER",
+             "active": true,
+             "amount": 190
+         }
+     ]
+}
