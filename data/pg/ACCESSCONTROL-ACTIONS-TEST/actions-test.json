@@ -1369,6 +1369,18 @@
       "serviceCode": "works-management-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 112,
+      "name": "Calculate API",
+      "url": "/expense-calculator/purchase/v1/_createbill",
+      "parentModule": "expense-calculator",
+      "displayName": "Calculate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
     }
   ]
 }
