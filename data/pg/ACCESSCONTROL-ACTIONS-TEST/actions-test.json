@@ -1381,6 +1381,18 @@
       "serviceCode": "expense-calculator",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 113,
+      "name": "Search Expense Calculate API",
+      "url": "/expense-calculator/v1/_search",
+      "parentModule": "expense-calculator",
+      "displayName": "Calculate Search API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
     }
   ]
 }
