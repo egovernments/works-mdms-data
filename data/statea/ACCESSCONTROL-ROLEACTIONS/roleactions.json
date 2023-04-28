@@ -673,12 +673,6 @@
       "actionid": 94,
       "actioncode": "",
       "tenantId": "statea"
-    },
-    {
-      "rolecode": "ORG_ADMIN",
-      "actionid": 93,
-      "actioncode": "",
-      "tenantId": "statea"
     }
   ]
 }
