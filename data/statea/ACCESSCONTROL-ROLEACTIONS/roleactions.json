@@ -226,12 +226,19 @@
     },
     {
       "rolecode": "TECHNICAL_SANCTIONER",
+      "actionid": 10,
       "actioncode": "",
       "tenantId": "statea"
     },
     {
       "rolecode": "TECHNICAL_SANCTIONER",
       "actionid": 11,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "TECHNICAL_SANCTIONER",
+      "actionid": 17,
       "actioncode": "",
       "tenantId": "statea"
     },
