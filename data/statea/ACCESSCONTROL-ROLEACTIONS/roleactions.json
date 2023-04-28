@@ -135,6 +135,12 @@
       "tenantId": "statea"
     },
     {
+      "rolecode": "PROJECT_VIEWER",
+      "actionid": 99,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
       "rolecode": "ESTIMATE_CREATOR",
       "actionid": 9,
       "actioncode": "",
