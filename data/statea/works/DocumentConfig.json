@@ -115,8 +115,8 @@
       "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
       "documents": [
         {
-          "code": "BOQ",
-          "name" : "doc_boq",
+          "code": "TERMS_AND_CONDITIONS",
+          "name" : "doc_terms_and_conditions",
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
@@ -125,10 +125,20 @@
           "maxFilesAllowed": 1
         },
         {
-          "code": "TERMS_AND_CONDITIONS",
-          "name" : "doc_terms_and_conditions",
+          "code": "Ward Committee Resolution",
+          "name" : "doc_ward_committe_resolution",
           "active": true,
-          "isMandatory": true,
+          "isMandatory": false,
+          "showTextInput" : false,
+          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
+          "maxSizeInMB": 5,
+          "maxFilesAllowed": 1
+        },
+        {
+          "code": "ULB Committee Resolution",
+          "name" : "doc_ulb_committe_resolution",
+          "active": true,
+          "isMandatory": false,
           "showTextInput" : false,
           "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
           "maxSizeInMB": 5,
