@@ -108,16 +108,6 @@
       "description": "Default role for all employees that need hrms search, edit profile, logout action"
     },
     {	
-      "code": "CITIZEN",	
-      "name": "Citizen",	
-      "description": "Default role for citizen"	
-    },	
-    {	
-      "code": "EMPLOYEE",	
-      "name": "Employee",	
-      "description": "Default role for all employees"	
-    },
-    {	
       "code": "ORG_STAFF",	
       "name": "Organization staff",	
       "description": "Role for the staff of any organization"	
