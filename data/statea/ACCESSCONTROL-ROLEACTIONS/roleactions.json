@@ -381,6 +381,24 @@
       "tenantId": "statea"
     },
     {
+      "rolecode": "WORK_ORDER_CREATOR",
+      "actionid": 110,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WORK_ORDER_VIEWER",
+      "actionid": 110,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "WORK_ORDER_APPROVER",
+      "actionid": 110,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "MUKTA_ADMIN",
       "actionid": 91,
       "actioncode": "",
