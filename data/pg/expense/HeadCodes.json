@@ -17,7 +17,7 @@
       "code": "GST",
       "description": "Goods and services tax",
       "service": "works.purchase",
-      "category": "deduction",
+      "category": "expense",
       "active": true,
       "effectiveFrom": 1682164954037,
       "effectiveTo": null
@@ -38,7 +38,7 @@
       "category": "expense",
       "service": "works.purchase",
       "description": "Purchase Amount",
-      "active": true,
+      "active": false,
       "effectiveFrom": 1682164954037,
       "effectiveTo": null
     },
