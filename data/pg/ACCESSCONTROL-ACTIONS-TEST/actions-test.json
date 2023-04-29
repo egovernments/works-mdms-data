@@ -1393,6 +1393,18 @@
       "serviceCode": "expense-calculator",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 114,
+      "name": "Search Expense Bill PDF API",
+      "url": "/egov-pdf/bill/_search",
+      "parentModule": "expense-calculator",
+      "displayName": "Expense Bill PDF Search API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
     }
   ]
 }
