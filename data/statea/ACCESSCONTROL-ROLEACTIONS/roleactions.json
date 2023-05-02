@@ -622,18 +622,6 @@
     },
     {
       "rolecode": "MUKTA_ADMIN",
-      "actionid": 93,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "ORG_ADMIN",
-      "actionid": 93,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "MUKTA_ADMIN",
       "actionid": 94,
       "actioncode": "",
       "tenantId": "statea"
@@ -646,55 +634,7 @@
     },
     {
       "rolecode": "ORG_VIEWER",
-      "actionid": 58,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "ORG_VIEWER",
-      "actionid": 60,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "ORG_VIEWER",
-      "actionid": 61,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "ORG_VIEWER",
-      "actionid": 66,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "ORG_VIEWER",
-      "actionid": 67,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "ORG_VIEWER",
-      "actionid": 68,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "ORG_VIEWER",
-      "actionid": 37,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "ORG_VIEWER",
-      "actionid": 38,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "ORG_VIEWER",
-      "actionid": 76,
+      "actionid": 91,
       "actioncode": "",
       "tenantId": "statea"
     },
