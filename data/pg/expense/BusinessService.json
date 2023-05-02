@@ -4,26 +4,26 @@
     "BusinessService": [
       {
         "businessService": "works.wages",
-        "code": "WAGE_BILL"
+        "code": "EXPENSE.WAGES"
       },
       {
         "businessService": "works.purchase",
-        "code": "PURCHASE_BILL"
+        "code": "EXPENSE.PURCHASE"
       },
       {
         "businessService": "works.supervision",
-        "code": "SUPERVISION_BILL"
+        "code": "EXPENSE.SUPERVISION"
       },
-         {
-        "businessService": "contract-approval-mukta",
+      {
+        "businessService": "contract",
         "code": "CONTRACT"
       },
       {
-        "businessService": "muster-roll-approval",
-        "code": "MUSTER_ROLL"
+        "businessService": "muster roll",
+        "code": "MR"
       },
       {
-        "businessService": "mukta-estimate",
+        "businessService": "estimate",
         "code": "ESTIMATE"
       }
     ]
