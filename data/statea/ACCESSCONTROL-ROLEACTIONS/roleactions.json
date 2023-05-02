@@ -622,6 +622,24 @@
     },
     {
       "rolecode": "MUKTA_ADMIN",
+      "actionid": 94,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 94,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_VIEWER",
+      "actionid": 91,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
       "actionid": 98,
       "actioncode": "",
       "tenantId": "statea"
