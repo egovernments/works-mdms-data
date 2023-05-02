@@ -650,7 +650,7 @@
       "actioncode": "",
       "tenantId": "statea"
     },
-	{
+    {
       "rolecode": "MUSTER_ROLL_VERIFIER",
       "actionid": 104,
       "actioncode": "",
@@ -659,6 +659,24 @@
     {
       "rolecode": "MUKTA_ADMIN",
       "actionid": 105,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 92,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+      {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 93,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 94,
       "actioncode": "",
       "tenantId": "statea"
     }
