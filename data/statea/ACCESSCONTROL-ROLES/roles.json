@@ -111,6 +111,26 @@
       "code": "EMPLOYEE_COMMON",
       "name": "Employee Common",
       "description": "Default role for all employees that need hrms search, edit profile, logout action"
+    },
+    {	
+      "code": "ORG_STAFF",	
+      "name": "Organization staff",	
+      "description": "Role for the staff of any organization"	
+    },	
+    {	
+      "code": "JUNIOR_ENGINEER",	
+      "name": "JUNIOR ENGINEER",	
+      "description": "Junior engineer of a ULB"	
+    },	
+    {	
+      "code": "MUNICIPAL_ENGINEER",	
+      "name": "MUNICIPAL ENGINEER",	
+      "description": "Municipal engineer of a ULB"	
+    },
+    {	
+      "code": "CBO_ADMIN",	
+      "name": "CBO ADMIN",	
+      "description": "CBO admin to accept or decline a contract"	
     }
   ]
 }
