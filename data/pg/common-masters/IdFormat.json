@@ -48,15 +48,15 @@
     },
     {
       "format": "WB/[fy:yyyy-yy]/[SEQ_WAGE_NUM]",
-      "idname": "works.wages.bill.number"
+      "idname": "expense.wages.bill.number"
     },
     {
       "format": "PB/[fy:yyyy-yy]/[SEQ_PURCHASE_NUM]",
-      "idname": "works.purchase.bill.number"
+      "idname": "expense.purchase.bill.number"
     },
     {
       "format": "SB/[fy:yyyy-yy]/[SEQ_SUPERVISION_NUM]",
-      "idname": "works.supervision.bill.number"
+      "idname": "expense.supervision.bill.number"
     },
     {
       "format": "SB_[SEQ_SUPERVISION_REF_NUM]",
