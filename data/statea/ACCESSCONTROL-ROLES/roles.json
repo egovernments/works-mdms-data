@@ -18,6 +18,11 @@
       "description": "Role for the admin of any organization"
     },
     {
+      "code": "ORG_VIEWER",
+      "name": "Organization viewer",
+      "description": "Organization viewer"
+    },
+    {
       "code": "WORK_ORDER_CREATOR",
       "name": "WORK ORDER CREATOR",
       "description": "Creator of a contract"
