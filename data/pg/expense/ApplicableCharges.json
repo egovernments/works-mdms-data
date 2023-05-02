@@ -73,7 +73,7 @@
             "description": "GST",
             "active": true,
             "calculationType":"lumpsum",
-            "value": "null",
+            "value": null,
             "effectiveFrom": 1682164954037,
             "effectiveTo": null
         }
