@@ -163,7 +163,7 @@
       "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
       "documents": [
         {
-          "code": "VENODR_INVOICE",
+          "code": "VENDOR_INVOICE",
           "name" : "doc_vendor_invoice",
           "active": true,
           "isMandatory": true,
@@ -187,7 +187,7 @@
           "name" : "doc_material_utilisation_log",
           "active": true,
           "isMandatory": true,
-          "showTextInput" : true,
+          "showTextInput" : false,
           "allowedFileTypes": [],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
