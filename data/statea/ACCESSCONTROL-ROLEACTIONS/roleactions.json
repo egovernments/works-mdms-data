@@ -411,6 +411,12 @@
       "tenantId": "statea"
     },
     {
+      "rolecode": "EMPLOYEE_COMMON",
+      "actionid": 91,
+      "actioncode": "",
+      "tenantId": "statea"
+    },  
+    {
       "rolecode": "ORG_ADMIN",
       "actionid": 91,
       "actioncode": "",
