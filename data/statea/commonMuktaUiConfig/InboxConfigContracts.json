@@ -11,7 +11,7 @@
         "requestBody": {
           "inbox": {
             "processSearchCriteria": {
-              "businessService": ["contract-approval-mukta"],
+              "businessService": ["CONTRACT"],
               "moduleName": "contract-service"
             },
             "moduleSearchCriteria": {}
