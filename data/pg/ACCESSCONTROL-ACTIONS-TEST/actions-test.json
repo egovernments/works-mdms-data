@@ -1393,6 +1393,42 @@
       "serviceCode": "expense-calculator",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 114,
+      "name": "Search Expense Bill PDF API",
+      "url": "/egov-pdf/bill/_search",
+      "parentModule": "expense-calculator",
+      "displayName": "Expense Bill PDF Search API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 115,
+      "name": "Generate Expense Bill PDF API",
+      "url": "/egov-pdf/bill/_generate",
+      "parentModule": "expense-calculator",
+      "displayName": "Expense Bill PDF generate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 116,
+      "name": "Generate Expense Bill PDF API",
+      "url": "/expense/payment/v1/_create",
+      "parentModule": "expense-calculator",
+      "displayName": "Expense Bill PDF generate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
     }
   ]
 }
