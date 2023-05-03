@@ -12,7 +12,7 @@
                         "inbox": {
                             "processSearchCriteria": {
                                 "businessService": [
-                                    "mukta-estimate"
+                                    "ESTIMATE"
                                 ],
                                 "moduleName": "estimate-service"
                             },
