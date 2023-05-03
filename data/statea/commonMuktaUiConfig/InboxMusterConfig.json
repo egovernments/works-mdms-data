@@ -12,7 +12,7 @@
         "requestBody": {
           "inbox": {
             "processSearchCriteria": {
-              "businessService": ["muster-roll-approval"],
+              "businessService": ["MR"],
               "moduleName": "muster-roll-service"
             },
             "moduleSearchCriteria": {}
