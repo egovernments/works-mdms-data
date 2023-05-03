@@ -7,15 +7,15 @@
             "code": "IA",
             "termsAndConditions": [
                 {
-                    "disclaimer": "THE_IA_SHALL_BE_RESPONSIBLE_FOR_EXECUTION_OF_THE_ENTIER_WORK_WITH_THE_TECHNICAL_SUPPORT_OF_ENGINEERING_IN_CHARGE_OF_THE_PROJECT_CONCERNED",
+                    "disclaimer": "IA_CONDITION_1",
                     "order": "1."
                 },
                 {
-                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "disclaimer": "IA_CONDITION_2",
                     "order": "2."
                 },
                 {
-                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "disclaimer": "IA_CONDITION_3",
                     "order": "3."
                 }
             ]
@@ -25,15 +25,15 @@
             "code": "IP",
             "termsAndConditions": [
                 {
-                    "disclaimer": "THE_IA_SHALL_BE_RESPONSIBLE_FOR_EXECUTION_OF_THE_ENTIER_WORK_WITH_THE_TECHNICAL_SUPPORT_OF_ENGINEERING_IN_CHARGE_OF_THE_PROJECT_CONCERNED",
+                    "disclaimer": "IP_CONDITION_1",
                     "order": "1."
                 },
                 {
-                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "disclaimer": "IP_CONDITION_2",
                     "order": "2."
                 },
                 {
-                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "disclaimer": "IP_CONDITION_3",
                     "order": "3."
                 }
             ]
@@ -43,15 +43,15 @@
             "code": "NC",
             "termsAndConditions": [
                 {
-                    "disclaimer": "THE_IA_SHALL_BE_RESPONSIBLE_FOR_EXECUTION_OF_THE_ENTIER_WORK_WITH_THE_TECHNICAL_SUPPORT_OF_ENGINEERING_IN_CHARGE_OF_THE_PROJECT_CONCERNED",
+                    "disclaimer": "NON_COMPLETION_CONDITION_1",
                     "order": "1."
                 },
                 {
-                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "disclaimer": "NON_COMPLETION_CONDITION_2",
                     "order": "2."
                 },
                 {
-                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "disclaimer": "NON_COMPLETION_CONDITION_3",
                     "order": "3."
                 }
             ]
@@ -61,15 +61,15 @@
             "code": "GN",
             "termsAndConditions": [
                 {
-                    "disclaimer": "THE_IA_SHALL_BE_RESPONSIBLE_FOR_EXECUTION_OF_THE_ENTIER_WORK_WITH_THE_TECHNICAL_SUPPORT_OF_ENGINEERING_IN_CHARGE_OF_THE_PROJECT_CONCERNED",
+                    "disclaimer": "GENERAL_CONDITION_1",
                     "order": "1."
                 },
                 {
-                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "disclaimer": "GENERAL_CONDITION_2",
                     "order": "2."
                 },
                 {
-                    "disclaimer": "PDF_STATIC_LABEL_CONSOLIDATED_RECEIPT_DISCLAIMER_FIRST_LINE",
+                    "disclaimer": "GENERAL_CONDITION_3",
                     "order": "3."
                 }
             ]
