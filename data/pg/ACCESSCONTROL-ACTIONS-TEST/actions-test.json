@@ -1405,6 +1405,18 @@
       "serviceCode": "expense-calculator",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 115,
+      "name": "Generate Expense Bill PDF API",
+      "url": "/egov-pdf/bill/_generate",
+      "parentModule": "expense-calculator",
+      "displayName": "Expense Bill PDF generate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
     }
   ]
 }
