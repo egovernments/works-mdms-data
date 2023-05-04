@@ -153,6 +153,12 @@
       "tenantId": "statea"
     },
     {
+      "rolecode": "ESTIMATE_CREATOR",
+      "actionid": 34,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
       "rolecode": "ESTIMATE_VERIFIER",
       "actionid": 10,
       "actioncode": "",
@@ -161,6 +167,12 @@
     {
       "rolecode": "ESTIMATE_VERIFIER",
       "actionid": 11,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ESTIMATE_VERIFIER",
+      "actionid": 34,
       "actioncode": "",
       "tenantId": "statea"
     },
@@ -179,6 +191,12 @@
     {
       "rolecode": "TECHNICAL_SANCTIONER",
       "actionid": 11,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "TECHNICAL_SANCTIONER",
+      "actionid": 34,
       "actioncode": "",
       "tenantId": "statea"
     },
@@ -201,6 +219,12 @@
       "tenantId": "statea"
     },
     {
+      "rolecode": "ESTIMATE_APPROVER",
+      "actionid": 34,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
       "rolecode": "TECHNICAL_SANCTIONER",
       "actionid": 77,
       "actioncode": "",
@@ -215,6 +239,12 @@
     {
       "rolecode": "ESTIMATE_VIEWER",
       "actionid": 77,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+     {
+      "rolecode": "ESTIMATE_VIEWER",
+      "actionid": 34,
       "actioncode": "",
       "tenantId": "statea"
     },
