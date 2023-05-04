@@ -1429,6 +1429,18 @@
       "serviceCode": "expense-calculator",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 117,
+      "name": "Calculate API",
+      "url": "/expense-calculator/purchase/v1/_updatebill",
+      "parentModule": "expense-calculator",
+      "displayName": "Calculate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
     }
   ]
 }
