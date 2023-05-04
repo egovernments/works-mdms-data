@@ -242,6 +242,12 @@
       "actioncode": "",
       "tenantId": "statea"
     },
+     {
+      "rolecode": "ESTIMATE_VIEWER",
+      "actionid": 34,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
     {
       "rolecode": "ESTIMATE_VIEWER",
       "actionid": 16,
