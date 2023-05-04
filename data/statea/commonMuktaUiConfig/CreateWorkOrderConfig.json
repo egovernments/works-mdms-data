@@ -69,7 +69,7 @@
                 "label": "WORKS_PROJECT_NAME",
                 "isMandatory": false,
                 "key": "basicDetails_projectName",
-                "type": "text",
+                "type": "paragraph",
                 "disable": true,
                 "appendColon": false,
                 "populators": {
@@ -85,7 +85,7 @@
                 "label": "PROJECTS_DESCRIPTION",
                 "isMandatory": false,
                 "key": "basicDetails_projectDesc",
-                "type": "text",
+                "type": "paragraph",
                 "disable": true,
                 "appendColon": false,
                 "populators": {
