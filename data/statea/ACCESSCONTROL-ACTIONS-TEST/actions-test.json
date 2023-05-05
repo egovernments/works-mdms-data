@@ -1167,6 +1167,17 @@
       "path": ""
     },
     {
+      "id": 103,
+      "name": "Estimate Pdf",
+      "url": "/egov-pdf/download/estimate/estimates",
+      "displayName": "estimates search",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "egov-pdf",
+      "code": "null",
+      "path": ""
+    }
+    {
       "id": 104,
       "name": "Nominal Muster Roll Pdf",
       "url": "/egov-pdf/download/musterRoll/muster-roll",
