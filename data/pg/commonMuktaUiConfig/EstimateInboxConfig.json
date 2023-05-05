@@ -114,7 +114,7 @@
               },
               {
                 "label": "ES_COMMON_PROJECT_NAME",
-                "jsonPath": "businessObject.project.name"
+                "jsonPath": "businessObject.additionalDetails.projectName"
               },
               {
                 "label": "ESTIMATE_PREPARED_BY",
