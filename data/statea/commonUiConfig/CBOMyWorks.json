@@ -1,0 +1,9 @@
+{
+    "tenantId": "pg",
+    "moduleName": "commonUiConfig",
+    "CBOMyWorks": [
+        {
+            "searchCriteria" : ["ACCEPTED", "PENDING_FOR_ACCEPTANCE"]
+        }
+    ]
+}
