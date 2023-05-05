@@ -258,7 +258,6 @@
       "code": "null",
       "path": "Administration.Profile Update"
     },
-    
     {
       "id": 26,
       "name": "Update Password",
@@ -1176,7 +1175,7 @@
       "serviceCode": "egov-pdf",
       "code": "null",
       "path": ""
-    }
+    },
     {
       "id": 104,
       "name": "Nominal Muster Roll Pdf",
@@ -1188,7 +1187,7 @@
       "code": "null",
       "path": ""
     },
-     {
+    {
       "id": 105,
       "name": "MASTERS",
       "url": "url",
