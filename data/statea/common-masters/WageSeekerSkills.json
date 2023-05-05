@@ -1,108 +1,96 @@
 {
-    "tenantId": "statea",
+    "tenantId": "pg",
     "moduleName": "common-masters",
     "WageSeekerSkills": [
          {
-             "name": "Unskilled Male mulia",
-             "code": "UNSKILLED.MALE_MULIA",
-             "active": true,
-             "amount": 150
+             "id": 1,
+             "code": "UNSKILLED.CARPENTER",
+             "active": true
          },
          {
-             "name": "Unskilled Female mulia",
-             "code": "UNSKILLED.FEMALE_MULIA",
-             "active": true,
-             "amount": 150
+            "id": 2,
+            "code": "UNSKILLED.MALE_MULIA",
+            "active": true
          },
          {
-             "name": "Unskilled Scavanger",
+            "id": "2",
+            "code": "UNSKILLED.FEMALE_MULIA",
+            "active": true
+         },
+         {
+             "id": "3",
              "code": "UNSKILLED.SCAVENGER",
-             "active": true,
-             "amount": 150
+             "active": true
          },
          {
-             "name": "Unskilled Chain Man",
+             "id": "4",
              "code": "UNSKILLED.CHAIN_MAN",
-             "active": true,
-             "amount": 150
+             "active": true
          },
          {
-             "name": "Semi-skilled Male mulia",
-             "code": "SEMI_SKILLED.MALE_MULIA",
-             "active": true,
-             "amount": 170
+             "id": "5",
+             "code": "SEMI_SKILLED.MALE",
+             "active": true
          },
          {
-             "name": "Semi-skilled Female mulia",
-             "code": "SEMI_SKILLED.FEMALE_MULIA",
-             "active": true,
-             "amount": 170
+             "id": "6",
+             "code": "SEMI_SKILLED.FEMALE",
+             "active": true
          },
          {
-             "name": "Semi-skilled Scavanger",
+             "id": "7",
              "code": "SEMI_SKILLED.SCAVENGER",
-             "active": true,
-             "amount": 170
+             "active": true
          },
          {
-             "name": "Semi-skilled Sangi mulia",
+             "id": "8",
              "code": "SEMI_SKILLED.SANGI_MULIA",
-             "active": true,
-             "amount": 170
+             "active": true
          },
          {
-             "name": "Semi-skilled Hammer man",
+             "id": "9",
              "code": "SEMI_SKILLED.HAMMER_MAN",
-             "active": true,
-             "amount": 170
+             "active": true
          },
          {
-             "name": "Semi-skilled Cleaner",
+             "id": "10",
              "code": "SEMI_SKILLED.CLEANER",
-             "active": true,
-             "amount": 170
+             "active": true
          },
          {
-             "name": "Skilled Plumber",
+             "id": "11",
              "code": "HIGHLY_SKILLED.PLUMBER",
-             "active": true,
-             "amount": 205
+             "active": true
          },
          {
-             "name": "Skilled Mason",
-             "code": "HIGHLY_SKILLED.MASON",
-             "active": true,
-             "amount": 205
+            "id": "12",
+            "code": "HIGHLY_SKILLED.MASON",
+            "active": true
          },
          {
-             "name": "Skilled Painter",
+             "id": "13",
              "code": "HIGHLY_SKILLED.PAINTER",
-             "active": true,
-             "amount": 205
+             "active": true
          },
          {
-             "name": "Skilled Fitter",
+             "id": "14",
              "code": "HIGHLY_SKILLED.FITTER",
-             "active": true,
-             "amount": 205
+             "active": true
          },
          {
-             "name": "Boring Mistry",
+             "id": "15",
              "code": "OTHERS.BORING_MISTRY",
-             "active": true,
-             "amount": 205
+             "active": true
          },
          {
-             "name": "Winch operator",
+             "id": "16",
              "code": "OTHERS.WINCH_OPERATOR",
-             "active": true,
-             "amount": 205
+             "active": true
          },
          {
-             "name": "Helper to Well Sinker",
+             "id": "17",
              "code": "OTHERS.HELPER_WELL_SINKER",
-             "active": true,
-             "amount": 190
+             "active": true
          }
      ]
 }
