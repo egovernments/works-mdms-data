@@ -10,7 +10,7 @@
         {
             "code": "END_OF_WEEK",
             "value": "end of week",
-            "active": true
+            "active": false
         }
     ]
 }
