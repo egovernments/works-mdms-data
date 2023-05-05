@@ -59,11 +59,11 @@
       "idname": "expense.supervision.bill.number"
     },
     {
-      "format": "SB_[SEQ_SUPERVISION_REF_NUM]",
+      "format": "SR_[SEQ_SUPERVISION_REF_NUM]",
       "idname": "supervision.reference.number"
     },
     {
-      "format": "PB_[SEQ_PURCHASE_REF_NUM]",
+      "format": "PR_[SEQ_PURCHASE_REF_NUM]",
       "idname": "purchase.reference.number"
     }
   ]
