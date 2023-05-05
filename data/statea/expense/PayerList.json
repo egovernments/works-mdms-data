@@ -1,0 +1,27 @@
+{
+    "tenantId": "statea",
+    "moduleName": "expense",
+    "PayerList": [
+      {
+        "id": "001",
+        "tenantId": "statea.cityone",
+        "code": "statea.cityone",
+        "type": "ULB",
+        "active": true
+      },
+      {
+        "id": "002",
+        "tenantId": "statea.citytwo",
+        "code": "statea.citytwo",
+        "type": "ULB",
+        "active": true
+      },
+      {
+        "id": "003",
+        "tenantId": "statea.citythree",
+        "code": "statea.citythree",
+        "type": "ULB",
+        "active": true
+      }
+    ]
+}

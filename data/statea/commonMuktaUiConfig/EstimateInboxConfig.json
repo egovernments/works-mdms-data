@@ -121,7 +121,7 @@
                                 },
                                 {
                                     "label": "ES_COMMON_PROJECT_NAME",
-                                    "jsonPath": "businessObject.project.name"
+                                    "jsonPath": "businessObject.additionalDetails.projectName"
                                 },
                                 {
                                     "label": "ESTIMATE_PREPARED_BY",
@@ -143,7 +143,8 @@
                                     "label": "WORKS_ESTIMATED_AMOUNT",
                                     "jsonPath": "businessObject.additionalDetails.totalEstimatedAmount",
                                     "additionalCustomization": true,
-                                    "key": "estimatedAmount"
+                                    "key": "estimatedAmount",
+                                    "headerAlign": "right"
                                 },
                                 {
                                     "label": "COMMON_SLA_DAYS",

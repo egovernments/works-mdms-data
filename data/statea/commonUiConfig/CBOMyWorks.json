@@ -1,0 +1,9 @@
+{
+    "tenantId": "statea",
+    "moduleName": "commonUiConfig",
+    "CBOMyWorks": [
+        {
+            "searchCriteria" : ["ACCEPTED", "PENDING_FOR_ACCEPTANCE"]
+        }
+    ]
+}

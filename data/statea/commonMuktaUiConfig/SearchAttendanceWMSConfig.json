@@ -131,7 +131,8 @@
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
-                  "name": "startDate"
+                  "name": "startDate",
+                  "max" : "currentDate"
                 }
               },
               {
@@ -139,8 +140,13 @@
                 "type": "date",
                 "isMandatory": false,
                 "disable": false,
+                "key": "endDate",
+                "preProcess" : {
+                  "updateDependent" : ["populators.max"]
+                },
                 "populators": {
-                  "name": "endDate"
+                  "name": "endDate",
+                  "max" : "currentDate"
                 }
               }
             ]
@@ -181,11 +187,6 @@
               {
                 "label": "CORE_COMMON_STATUS",
                 "jsonPath": "ProcessInstance.state.state",
-                "additionalCustomization": true
-              },
-              {
-                "label": "MUSTER_WAGE_AMOUNT",
-                "jsonPath": "businessObject.additionalDetails.amount",
                 "additionalCustomization": true
               }
             ],

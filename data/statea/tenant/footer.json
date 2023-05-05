@@ -1,0 +1,78 @@
+{
+  "tenantId": "statea",
+  "moduleName": "tenant",
+  "footer": [
+      {
+          "service": "contract",
+          "code": "IA",
+          "termsAndConditions": [
+              {
+                  "disclaimer": "IA_CONDITION_1",
+                  "order": "1."
+              },
+              {
+                  "disclaimer": "IA_CONDITION_2",
+                  "order": "2."
+              },
+              {
+                  "disclaimer": "IA_CONDITION_3",
+                  "order": "3."
+              }
+          ]
+      },
+      {
+          "service": "contract",
+          "code": "IP",
+          "termsAndConditions": [
+              {
+                  "disclaimer": "IP_CONDITION_1",
+                  "order": "1."
+              },
+              {
+                  "disclaimer": "IP_CONDITION_2",
+                  "order": "2."
+              },
+              {
+                  "disclaimer": "IP_CONDITION_3",
+                  "order": "3."
+              }
+          ]
+      },
+      {
+          "service": "contract",
+          "code": "NC",
+          "termsAndConditions": [
+              {
+                  "disclaimer": "NON_COMPLETION_CONDITION_1",
+                  "order": "1."
+              },
+              {
+                  "disclaimer": "NON_COMPLETION_CONDITION_2",
+                  "order": "2."
+              },
+              {
+                  "disclaimer": "NON_COMPLETION_CONDITION_3",
+                  "order": "3."
+              }
+          ]
+      },
+      {
+          "service": "contract",
+          "code": "GN",
+          "termsAndConditions": [
+              {
+                  "disclaimer": "GENERAL_CONDITION_1",
+                  "order": "1."
+              },
+              {
+                  "disclaimer": "GENERAL_CONDITION_2",
+                  "order": "2."
+              },
+              {
+                  "disclaimer": "GENERAL_CONDITION_3",
+                  "order": "3."
+              }
+          ]
+      }
+  ]
+}
