@@ -99,12 +99,17 @@
     },
     {
       "code": "BILL_CREATOR",
-      "name": "BILL_CREATOR",
+      "name": "BILL CREATOR",
       "description": "Bill Creator"
     },
     {
+      "code": "BILL_VERIFIER",
+      "name": "BILL VERIFIER",
+      "description": "Bill Verifier"
+    },
+    {
       "code": "BILL_VIEWER",
-      "name": "BILL_VIEWER",
+      "name": "BILL VIEWER",
       "description": "Bill Viewer"
     },
     {

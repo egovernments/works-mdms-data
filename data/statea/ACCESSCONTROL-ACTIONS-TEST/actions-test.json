@@ -1227,7 +1227,66 @@
       "serviceCode": "user",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 108,
+      "name": "Calculator Estimate API",
+      "url": "/expense-calculator/v1/_estimate",
+      "parentModule": "expense-calculator",
+      "displayName": "Calculator Estimate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 109,
+      "name": "Calculate API",
+      "url": "/expense-calculator/v1/_calculate",
+      "parentModule": "expense-calculator",
+      "displayName": "Calculate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 110,
+      "name": "Search Expense Calculate API",
+      "url": "/expense-calculator/v1/_search",
+      "parentModule": "expense-calculator",
+      "displayName": "Calculate Search API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 111,
+      "name": "Calculate API",
+      "url": "/expense-calculator/purchase/v1/_createbill",
+      "parentModule": "expense-calculator",
+      "displayName": "Calculate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 112,
+      "name": "Calculate API",
+      "url": "/expense-calculator/purchase/v1/_updatebill",
+      "parentModule": "expense-calculator",
+      "displayName": "Calculate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
     }
-    
   ]
 }
