@@ -417,7 +417,7 @@
       "tenantId": "statea"
     },
     {
-      "rolecode": "WORK_ORDER_CREATOR",
+      "rolecode": "ORG_ADMIN",
       "actionid": 110,
       "actioncode": "",
       "tenantId": "statea"
@@ -740,7 +740,7 @@
       "actioncode": "",
       "tenantId": "statea"
     },
-        {
+    {
       "rolecode": "MUSTER_ROLL_APPROVER",
       "actionid": 108,
       "actioncode": "",
@@ -749,54 +749,6 @@
     {
       "rolecode": "BILL_CREATOR",
       "actionid": 108,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "BILL_CREATOR",
-      "actionid": 109,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "BILL_VERIFIER",
-      "actionid": 111,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "BILL_CREATOR",
-      "actionid": 111,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "ORG_ADMIN",
-      "actionid": 111,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "BILL_APPROVER",
-      "actionid": 111,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "ORG_STAFF",
-      "actionid": 111,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 111,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 111,
       "actioncode": "",
       "tenantId": "statea"
     },
@@ -825,19 +777,13 @@
       "tenantId": "statea"
     },
     {
-      "rolecode": "BILL_CREATOR",
+      "rolecode": "BILL_ACCOUNTANT",
       "actionid": 114,
       "actioncode": "",
       "tenantId": "statea"
     },
     {
-      "rolecode": "BILL_CREATOR",
-      "actionid": 115,
-      "actioncode": "",
-      "tenantId": "statea"
-    },
-    {
-      "rolecode": "BILL_CREATOR",
+      "rolecode": "BILL_ACCOUNTANT",
       "actionid": 116,
       "actioncode": "",
       "tenantId": "statea"
