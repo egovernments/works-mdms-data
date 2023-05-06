@@ -2080,6 +2080,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "BILL_ACCOUNTANT",
+      "actionid": 114,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "BILL_CREATOR",
       "actionid": 115,
       "actioncode": "",
