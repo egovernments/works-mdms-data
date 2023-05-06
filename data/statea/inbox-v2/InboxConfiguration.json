@@ -53,7 +53,13 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.project.name","Data.project.projectNumber"]
+      "sourceFilterPathList": [
+        "Data.currentProcessInstance",
+        "Data.auditDetails",
+        "Data.additionalDetails",
+        "Data.project.name",
+        "Data.project.projectNumber"
+      ]
     },
     {
       "module": "muster-roll-service",
@@ -117,7 +123,18 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.musterRollNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.individualEntries", "Data.currentProcessInstance", "Data.auditDetails"]
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.musterRollNumber",
+        "Data.musterRollStatus",
+        "Data.startDate",
+        "Data.endDate",
+        "Data.additionalDetails",
+        "Data.individualEntries",
+        "Data.currentProcessInstance",
+        "Data.auditDetails"
+      ]
     },
     {
       "module": "contract-service",
@@ -179,7 +196,74 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.contractNumber" ,"Data.additionalDetails.projectName","Data.additionalDetails.orgName", "Data.currentProcessInstance", "Data.totalContractedAmount", "Data.auditDetails"]
+      "sourceFilterPathList": [
+        "Data.contractNumber",
+        "Data.additionalDetails.projectName",
+        "Data.additionalDetails.orgName",
+        "Data.currentProcessInstance",
+        "Data.totalContractedAmount",
+        "Data.auditDetails"
+      ]
+    },
+    {
+      "module": "expense",
+      "index": "expense-bill-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "tenantId",
+          "path": "Data.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "status",
+          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "billNumber",
+          "path": "Data.billNumber.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "projectName",
+          "path": "Data.additionalDetails.projectName.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "billType",
+          "path": "Data.businessservice.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "ward",
+          "path": "Data.additionalDetails.ward.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "locality",
+          "path": "Data.additionalDetails.locality.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "assignee",
+          "path": "Data.currentProcessInstance.assignes.uuid.keyword",
+          "isMandatory": false
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "DESC"
+      },
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.billNumber",
+        "Data.additionalDetails",
+        "Data.businessservice",
+        "Data.currentProcessInstance",
+        "Data.auditDetails"
+      ]
     }
   ]
 }

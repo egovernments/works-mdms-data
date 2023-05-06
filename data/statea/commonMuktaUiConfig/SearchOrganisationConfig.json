@@ -15,7 +15,7 @@
         "minParametersForSearchForm": 1,
         "masterName": "commonUiConfig",
         "moduleName": "SearchOrganisationConfig",
-        "tableFormJsonPath": "requestParam",
+        "tableFormJsonPath": "requestBody.Pagination",
         "filterFormJsonPath": "requestBody.SearchCriteria",
         "searchFormJsonPath": "requestBody.SearchCriteria"
       },

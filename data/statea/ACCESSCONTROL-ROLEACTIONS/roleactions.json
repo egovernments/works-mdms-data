@@ -417,22 +417,22 @@
       "tenantId": "statea"
     },
     {
-      "rolecode": "WORK_ORDER_CREATOR",
+      "rolecode": "ORG_ADMIN",
       "actionid": 110,
       "actioncode": "",
-      "tenantId": "pg"
+      "tenantId": "statea"
     },
     {
       "rolecode": "WORK_ORDER_VIEWER",
       "actionid": 110,
       "actioncode": "",
-      "tenantId": "pg"
+      "tenantId": "statea"
     },
     {
       "rolecode": "WORK_ORDER_APPROVER",
       "actionid": 110,
       "actioncode": "",
-      "tenantId": "pg"
+      "tenantId": "statea"
     },
     {
       "rolecode": "MUKTA_ADMIN",
@@ -443,6 +443,12 @@
     {
       "rolecode": "ORG_ADMIN",
       "actionid": 91,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 106,
       "actioncode": "",
       "tenantId": "statea"
     },
@@ -733,6 +739,73 @@
       "actionid": 94,
       "actioncode": "",
       "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 108,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 108,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 112,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 113,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_VERIFIER",
+      "actionid": 113,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_VIEWER",
+      "actionid": 113,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_ACCOUNTANT",
+      "actionid": 114,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_ACCOUNTANT",
+      "actionid": 116,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 117,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_VERIFIER",
+      "actionid": 117,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_VIEWER",
+      "actionid": 117,
+      "actioncode": "",
+      "tenantId": "statea"
     }
   ]
 }
+

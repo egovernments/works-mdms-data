@@ -9,7 +9,7 @@
         "actionRole": "PROJECT_CREATOR",
         "actionLink": "project/create-project",
         "apiDetails": {
-          "serviceName": "/pms/project/v1/_search",
+          "serviceName": "/project/v1/_search",
           "requestParam": {},
           "requestBody": {
             "apiOperation": "SEARCH",
@@ -177,12 +177,13 @@
                 {
                   "label": "PROJECT_ESTIMATED_COST_IN_RS",
                   "jsonPath": "additionalDetails.estimatedCostInRs",
-                  "additionalCustomization": true
+                  "additionalCustomization": true,
+                  "headerAlign": "right"
                 }
               ],
               "enableGlobalSearch": false,
               "enableColumnSort": true,
-              "resultsJsonPath": "Projects"
+              "resultsJsonPath": "Project"
             },
             "children": {},
             "show": true
