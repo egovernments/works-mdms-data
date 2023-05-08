@@ -3,7 +3,7 @@
     "moduleName": "commonUiConfig",
     "CBOMusterInboxConfig": [
         {
-            "reSubmitCode" : "PENDINGFORCORRECTION"
+            "reSubmitCode" : "REJECTED"
         }
     ]
 }
