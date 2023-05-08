@@ -203,7 +203,12 @@
         },
         {
           "name": "projectName",
-          "path": "Data.additionalDetails.projectName.keyword",
+          "path": "Data.projectName.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "projectId",
+          "path": "Data.additionalDetails.projectId.keyword",
           "isMandatory": false
         },
         {
@@ -213,12 +218,12 @@
         },
         {
           "name": "ward",
-          "path": "Data.additionalDetails.ward.keyword",
+          "path": "Data.ward.keyword",
           "isMandatory": false
         },
         {
           "name": "locality",
-          "path": "Data.additionalDetails.locality.keyword",
+          "path": "Data.locality.keyword",
           "isMandatory": false
         },
         {
