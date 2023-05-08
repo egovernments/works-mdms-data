@@ -183,7 +183,7 @@
     },
     {
       "module": "expense",
-      "index": "expense-bill-inbox",
+      "index": "expense-bill-index",
       "allowedSearchCriteria": [
         {
           "name": "tenantId",
@@ -193,7 +193,7 @@
         },
         {
           "name": "status",
-          "path": "Data.workflow.state.uuid.keyword",
+          "path": "Data.currentProcessInstance.state.uuid.keyword",
           "isMandatory": false
         },
         {
@@ -223,7 +223,7 @@
         },
         {
           "name": "assignee",
-          "path": "Data.workflow.assignes.uuid.keyword",
+          "path": "Data.currentProcessInstance.assignes.uuid.keyword",
           "isMandatory": false
         }
       ],
@@ -231,7 +231,7 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber","Data.additionalDetails", "Data.businessservice","Data.workflow", "Data.auditDetails"]
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber","Data.additionalDetails", "Data.businessservice","Data.currentProcessInstance", "Data.auditDetails"]
     }
   ]
 }
