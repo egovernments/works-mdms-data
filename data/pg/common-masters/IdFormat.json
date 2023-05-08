@@ -65,6 +65,10 @@
     {
       "format": "PR_[SEQ_PURCHASE_REF_NUM]",
       "idname": "purchase.reference.number"
+    },
+    {
+      "format": "WR_[SEQ_WAGE_REF_NUM]",
+      "idname": "wage.reference.number"
     }
   ]
 }
