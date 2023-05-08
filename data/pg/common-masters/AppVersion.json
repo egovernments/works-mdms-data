@@ -1,0 +1,9 @@
+{
+    "tenantId": "pg",
+    "moduleName": "common-masters",
+    "AppVersion": [
+        {
+            "version": "0.1.0"
+        }
+    ]
+}
