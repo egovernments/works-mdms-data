@@ -1,0 +1,9 @@
+{
+    "tenantId": "pg",
+    "moduleName": "commonUiConfig",
+    "CBOMusterInboxConfig": [
+        {
+            "reSubmitCode" : "PENDING_FOR_CORRECTION"
+        }
+    ]
+}
