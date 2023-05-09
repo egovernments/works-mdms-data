@@ -237,7 +237,7 @@
               },
               {
                 "label": "ES_COMMON_AMOUNT",
-                "jsonPath": "businessObject.totalBillAmount",
+                "jsonPath": "businessObject.totalAmount",
                 "additionalCustomization": true
               },
               {
