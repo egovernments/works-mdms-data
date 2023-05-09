@@ -29,12 +29,12 @@
          },
          {
              "id": "5",
-             "code": "SEMI_SKILLED.MALE",
+             "code": "SEMI_SKILLED.MALE_MULIA",
              "active": true
          },
          {
              "id": "6",
-             "code": "SEMI_SKILLED.FEMALE",
+             "code": "SEMI_SKILLED.FEMALE_MULIA",
              "active": true
          },
          {
