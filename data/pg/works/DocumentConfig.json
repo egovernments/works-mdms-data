@@ -184,7 +184,7 @@
         },
         {
           "code": "MATERIAL_UTILIZATION_LOG",
-          "name" : "doc_material_utilisation_log",
+          "name" : "doc_material_utilization_log",
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
