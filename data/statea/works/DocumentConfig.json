@@ -115,16 +115,6 @@
       "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
       "documents": [
         {
-          "code": "TERMS_AND_CONDITIONS",
-          "name" : "doc_terms_and_conditions",
-          "active": true,
-          "isMandatory": true,
-          "showTextInput" : false,
-          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
-          "maxSizeInMB": 5,
-          "maxFilesAllowed": 1
-        },
-        {
           "code": "Ward Committee Resolution",
           "name" : "doc_ward_committe_resolution",
           "active": true,
