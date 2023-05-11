@@ -28,6 +28,7 @@
                   "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
                   "minReqFields": 1,
                   "showFormInstruction": "CONTRACT_SEARCH_HINT",
+                  "formClassName": "custom-both-clear-search",
                   "defaultValues": {
                     "ward": "",
                     "projectType": "",
@@ -103,7 +104,7 @@
                           "name": "workOrderNumber",
                           "error": "CONTRACT_PATTERN_ERR_MSG",
                           "validation": {
-                              "pattern": "WO\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
+                              "pattern": "WO\/[0-9]+-[0-9]+\/[0-9]+",
                               "minlength": 2
                           }
                         }
@@ -221,7 +222,8 @@
                     {
                       "label": "ES_COMMON_AMOUNT",
                       "jsonPath": "businessObject.totalContractedAmount",
-                      "additionalCustomization": true
+                      "additionalCustomization": true,
+                      "headerAlign": "right"
                     }
                   ],
                   "enableGlobalSearch": false,

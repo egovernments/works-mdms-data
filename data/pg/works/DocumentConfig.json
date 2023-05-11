@@ -124,7 +124,7 @@
           "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
-        {
+         {
           "code": "Ward Committee Resolution",
           "name" : "doc_ward_committe_resolution",
           "active": true,
@@ -134,9 +134,9 @@
           "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
-        {
+         {
           "code": "ULB Committee Resolution",
-          "name" : "doc_ulb_committee_resolution",
+          "name" : "doc_ulb_committe_resolution",
           "active": true,
           "isMandatory": false,
           "showTextInput" : false,
@@ -163,7 +163,7 @@
       "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
       "documents": [
         {
-          "code": "VENODR_INVOICE",
+          "code": "VENDOR_INVOICE",
           "name" : "doc_vendor_invoice",
           "active": true,
           "isMandatory": true,
@@ -184,10 +184,10 @@
         },
         {
           "code": "MATERIAL_UTILIZATION_LOG",
-          "name" : "doc_material_utilisation_log",
+          "name" : "doc_material_utilization_log",
           "active": true,
           "isMandatory": true,
-          "showTextInput" : true,
+          "showTextInput" : false,
           "allowedFileTypes": [],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1

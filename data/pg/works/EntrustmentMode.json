@@ -4,17 +4,17 @@
   "EntrustmentMode": [
     {
       "name": "Nomination",
-      "code": "Nomination",
+      "code": "NOMINATION",
       "active": true
     },
     {
       "name": "e-Procurement",
-      "code": "e-Procurement",
+      "code": "E_PROCUREMENT",
       "active": true
     },
     {
       "name": "Tendering",
-      "code": "Tendering",
+      "code": "TENDERING",
       "active": true
     }
   ]

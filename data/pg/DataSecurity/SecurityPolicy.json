@@ -1,4 +1,3 @@
-
 {
   "tenantId": "pg",
   "moduleName": "DataSecurity",
@@ -401,12 +400,13 @@
           "name": "accountNumber",
           "jsonPath": "accountNumber",
           "patternId": "001",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": [
 	    {
-          "roles": ["MUKTA_ADMIN", "MUSTER_ROLL_VERIFIER"],
+		    
+          "roles": [ "ORG_ADMIN", "MUSTER_ROLL_VERIFIER", "MUSTER_ROLL_APPROVER", "BILL_CREATOR", "BILL_VIEWER", "BILL_VERIFIER", "BILL_APPROVER"],
           "attributeAccessList": [
             {
               "attribute": "accountHolderName",
