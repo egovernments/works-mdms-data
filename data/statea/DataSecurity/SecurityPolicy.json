@@ -405,7 +405,8 @@
       ],
       "roleBasedDecryptionPolicy": [
 	    {
-          "roles": ["MUKTA_ADMIN", "MUSTER_ROLL_VERIFIER"],
+		    
+          "roles": [ "MUSTER_ROLL_VERIFIER"],
           "attributeAccessList": [
             {
               "attribute": "accountHolderName",
@@ -415,6 +416,21 @@
             {
               "attribute": "accountNumber",
               "firstLevelVisibility": "MASKED",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        },{
+		    
+          "roles": ["BILL_ACCOUNTANT", "MUKTA_ADMIN"],
+          "attributeAccessList": [
+            {
+              "attribute": "accountHolderName",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "accountNumber",
+              "firstLevelVisibility": "PLAIN",
               "secondLevelVisibility": "PLAIN"
             }
           ]
