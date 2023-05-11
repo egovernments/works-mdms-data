@@ -106,7 +106,7 @@
     {
       "id": 9,
       "name": "Create Estimate",
-      "url": "/estimate-service/estimate/v1/_create",
+      "url": "/estimate/v1/_create",
       "parentModule": "estimate-service",
       "displayName": "Create Estimate",
       "orderNumber": 0,
@@ -118,7 +118,7 @@
     {
       "id": 10,
       "name": "Search Estimate",
-      "url": "/estimate-service/estimate/v1/_search",
+      "url": "/estimate/v1/_search",
       "parentModule": "estimate-service",
       "displayName": "Search Estimate",
       "orderNumber": 0,
@@ -130,24 +130,12 @@
     {
       "id": 11,
       "name": "Update Estimate",
-      "url": "/estimate-service/estimate/v1/_update",
+      "url": "/estimate/v1/_update",
       "parentModule": "estimate-service",
       "displayName": "Update Estimate",
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "estimate-service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 12,
-      "name": "Create LOI",
-      "url": "/loi-service/v1/_create",
-      "parentModule": "loi-service",
-      "displayName": "Create LOI",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "loi-service",
       "code": "null",
       "path": ""
     },
@@ -236,30 +224,6 @@
       "leftIcon": "dynamic:ProjectIcon"
     },
     {
-      "id": 19,
-      "name": "Search LOI",
-      "url": "/loi-service/v1/_search",
-      "parentModule": "loi-service",
-      "displayName": "Search LOI",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "loi-service",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 20,
-      "name": "Update LOI",
-      "url": "/loi-service/v1/_update",
-      "parentModule": "loi-service",
-      "displayName": "Update LOI",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "loi-service",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 21,
       "name": "Workflow search",
       "url": "/egov-workflow-v2/egov-wf/process/_search",
@@ -293,18 +257,6 @@
       "serviceCode": "ADMIN",
       "code": "null",
       "path": "Administration.Profile Update"
-    },
-    {
-      "id": 24,
-      "name": "Works inbox service",
-      "url": "/works-inbox-service/v1/_search",
-      "parentModule": "works-inbox-service",
-      "displayName": "Works inbox",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "works-inbox-service",
-      "code": "null",
-      "path": ""
     },
     {
       "id": 26,
@@ -583,18 +535,6 @@
       "path": ""
     },
     {
-      "id": 49,
-      "name": "Works inbox service",
-      "url": "/works-inbox-service/v2/_search",
-      "parentModule": "works-inbox-service",
-      "displayName": "Works inbox",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "works-inbox-service",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 50,
       "name": "Estimate muster roll",
       "url": "/muster-roll/v1/_estimate",
@@ -609,7 +549,7 @@
     {
       "id": 51,
       "name": "Create Project",
-      "url": "/pms/project/v1/_create",
+      "url": "/project/v1/_create",
       "parentModule": "project-management-system",
       "displayName": "Create Project",
       "orderNumber": 0,
@@ -621,7 +561,7 @@
     {
       "id": 52,
       "name": "Search Project",
-      "url": "/pms/project/v1/_search",
+      "url": "/project/v1/_search",
       "parentModule": "project-management-system",
       "displayName": "Search Project",
       "orderNumber": 0,
@@ -633,7 +573,7 @@
     {
       "id": 53,
       "name": "Update Project",
-      "url": "/pms/project/v1/_update",
+      "url": "/project/v1/_update",
       "parentModule": "project-management-system",
       "displayName": "Update Project",
       "orderNumber": 0,
@@ -769,34 +709,6 @@
       "leftIcon": "dynamic:HRIcon"
     },
     {
-      "id": 62,
-      "name": "MASTERS",
-      "url": "url",
-      "displayName": "Masters Search Organisation",
-      "orderNumber": 10,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "MASTERS",
-      "code": "null",
-      "navigationURL": "/works-ui/employee/masters/search-organization",
-      "path": "7MASTERS.Search",
-      "leftIcon": "dynamic:OrganisationIcon"
-    },
-    {
-      "id": 63,
-      "name": "WAGESEEKER",
-      "url": "url",
-      "displayName": "Masters Create WageSeeker",
-      "orderNumber": 10,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "WageSeeker",
-      "code": "null",
-      "navigationURL": "/works-ui/employee/masters/create-wageseeker",
-      "path": "8WageSeeker.CreateWageSeeker",
-      "leftIcon": "dynamic:WageseekerIcon"
-    },
-    {
       "id": 64,
       "name": "MASTERS",
       "url": "url",
@@ -825,7 +737,7 @@
     {
       "id": 66,
       "name": "Create Contract",
-      "url": "/contract-service/contract/v1/_create",
+      "url": "/contract/v1/_create",
       "parentModule": "contract-service",
       "displayName": "Create Contract",
       "orderNumber": 0,
@@ -837,7 +749,7 @@
     {
       "id": 67,
       "name": "Update Contract",
-      "url": "/contract-service/contract/v1/_update",
+      "url": "/contract/v1/_update",
       "parentModule": "contract-service",
       "displayName": "Update Contract",
       "orderNumber": 0,
@@ -849,7 +761,7 @@
     {
       "id": 68,
       "name": "Search Contract",
-      "url": "/contract-service/contract/v1/_search",
+      "url": "/contract/v1/_search",
       "parentModule": "contract-service",
       "displayName": "Create Contract",
       "orderNumber": 0,
@@ -1052,15 +964,15 @@
       "path": ""
     },
     {
-     "id": 85,
-     "name": "Create Service",
-     "url": "/service-request/service/v1/_create",
-     "displayName": "Create Service",
-     "orderNumber": 1,
-     "enabled": false,
-     "serviceCode": "service-request",
-     "code": "null",
-     "path": ""
+      "id": 85,
+      "name": "Create Service",
+      "url": "/service-request/service/v1/_create",
+      "displayName": "Create Service",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "service-request",
+      "code": "null",
+      "path": ""
     },
     {
       "id": 86,
@@ -1195,18 +1107,6 @@
       "path": ""
     },
     {
-      "id": 97,
-      "name": "Search Muster details",
-      "url": "/egov-bff-service/muster/getMusterDetails",
-      "parentModule": "bff",
-      "displayName": "Search Muster details",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "bff",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 98,
       "name": "WMS search individual",
       "url": "/wms/individual/_search",
@@ -1288,6 +1188,70 @@
       "path": ""
     },
     {
+      "id": 105,
+      "name": "MASTERS",
+      "url": "url",
+      "displayName": "Masters Search Organisation",
+      "orderNumber": 10,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MASTERS",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/masters/search-organization",
+      "path": "7MASTERS.Search",
+      "leftIcon": "dynamic:OrganisationIcon"
+    },
+    {
+      "id": 106,
+      "name": "WAGESEEKER",
+      "url": "url",
+      "displayName": "Masters Create WageSeeker",
+      "orderNumber": 10,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "WageSeeker",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/masters/create-wageseeker",
+      "path": "8WageSeeker.CreateWageSeeker",
+      "leftIcon": "dynamic:WageseekerIcon"
+    },
+    {
+      "id": 107,
+      "name": "user search ",
+      "url": "/user/_search",
+      "parentModule": "core",
+      "displayName": "user-search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "user",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 108,
+      "name": "Calculator Estimate API",
+      "url": "/expense-calculator/v1/_estimate",
+      "parentModule": "expense-calculator",
+      "displayName": "Calculator Estimate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 109,
+      "name": "Calculate API",
+      "url": "/expense-calculator/v1/_calculate",
+      "parentModule": "expense-calculator",
+      "displayName": "Calculate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 110,
       "name": "Work Order Pdf",
       "url": "/egov-pdf/download/workOrder/work-order",
@@ -1297,6 +1261,90 @@
       "serviceCode": "egov-pdf",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 111,
+      "name": "WMS search expense",
+      "url": "/wms/expense/_search",
+      "parentModule": "works-management-service",
+      "displayName": "WMS search expense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-management-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 112,
+      "name": "Calculate API",
+      "url": "/expense-calculator/purchase/v1/_createbill",
+      "parentModule": "expense-calculator",
+      "displayName": "Calculate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 113,
+      "name": "Search Expense Calculate API",
+      "url": "/expense-calculator/v1/_search",
+      "parentModule": "expense-calculator",
+      "displayName": "Calculate Search API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 114,
+      "name": "Search Expense Bill PDF API",
+      "url": "/egov-pdf/bill/_search",
+      "parentModule": "expense-calculator",
+      "displayName": "Expense Bill PDF Search API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 115,
+      "name": "Generate Expense Bill PDF API",
+      "url": "/egov-pdf/bill/_generate",
+      "parentModule": "expense-calculator",
+      "displayName": "Expense Bill PDF generate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 116,
+      "name": "Generate Expense Bill PDF API",
+      "url": "/expense/payment/v1/_create",
+      "parentModule": "expense-calculator",
+      "displayName": "Expense Bill PDF generate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 117,
+      "name": "Calculate API",
+      "url": "/expense-calculator/purchase/v1/_updatebill",
+      "parentModule": "expense-calculator",
+      "displayName": "Calculate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
     }
-  ]
+  ]  
 }
