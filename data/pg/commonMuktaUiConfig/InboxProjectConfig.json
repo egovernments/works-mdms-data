@@ -6,7 +6,7 @@
             "label": "ES_COMMON_INBOX",
             "type": "inbox",
             "apiDetails": {
-              "serviceName": "/pms/project/v1/_search",
+              "serviceName": "/project/v1/_search",
               "requestParam": {},
               "requestBody": {
                 "apiOperation": "SEARCH",
@@ -96,12 +96,12 @@
                     {
                       "text": "WORKS_CREATE_PROJECT",
                       "url": "/employee/project/create-project",
-                      "roles": []
+                      "roles": ["PROJECT_CREATOR"]
                     },
                     {
                       "text": "WORKS_SEARCH_PROJECTS",
                       "url": "/employee/project/search-project",
-                      "roles": []
+                      "roles": ["PROJECT_VIEWER","PROJECT_CREATOR"]
                     }
                   ],
                   "label": "PROJECT_INBOX",

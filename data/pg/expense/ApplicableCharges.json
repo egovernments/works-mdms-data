@@ -65,6 +65,17 @@
             "value": "12",
             "effectiveFrom": 1682164954037,
             "effectiveTo": null
+        },
+        {
+            "id": "24",
+            "service": "works.purchase",
+            "code": "GST",
+            "description": "GST",
+            "active": true,
+            "calculationType":"lumpsum",
+            "value": null,
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
         }
     ]
 }

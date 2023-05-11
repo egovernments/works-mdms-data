@@ -13,7 +13,10 @@
                             "type": "component",
                             "component": "ViewProject",
                             "withoutLabel": true,
-                            "key": "projectDetails"
+                            "key": "projectDetails",
+                             "customProps":{
+                                     "module":"estimate"
+                            }
                         }
                     ]
                 },

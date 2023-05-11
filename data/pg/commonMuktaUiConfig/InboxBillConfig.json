@@ -1,9 +1,10 @@
 {
   "tenantId": "pg",
   "moduleName": "commonMuktaUiConfig",
-  "EstimateInboxConfig": [
+  "InboxBillConfig": [
     {
-      "label": "ACTION_TEST_ESTIMATE_INBOX",
+      "label": "ES_COMMON_INBOX",
+      "postProcessResult": false,
       "type": "inbox",
       "apiDetails": {
         "serviceName": "/inbox/v2/_search",
@@ -11,8 +12,12 @@
         "requestBody": {
           "inbox": {
             "processSearchCriteria": {
-              "businessService": ["ESTIMATE"],
-              "moduleName": "estimate-service"
+              "businessService": [
+                "EXPENSE.SUPERVISION",
+                "EXPENSE.WAGES",
+                "EXPENSE.PURCHASE"
+              ],
+              "moduleName": "expense"
             },
             "moduleSearchCriteria": {}
           }
@@ -20,7 +25,7 @@
         "minParametersForSearchForm": 0,
         "minParametersForFilterForm": 0,
         "masterName": "commonUiConfig",
-        "moduleName": "EstimateInboxConfig",
+        "moduleName": "BillInboxConfig",
         "tableFormJsonPath": "requestBody.inbox",
         "filterFormJsonPath": "requestBody.inbox.moduleSearchCriteria",
         "searchFormJsonPath": "requestBody.inbox.moduleSearchCriteria"
@@ -29,28 +34,30 @@
         "search": {
           "uiConfig": {
             "headerStyle": null,
-            "primaryLabel": "Search",
-            "secondaryLabel": "Clear Search",
+            "primaryLabel": "ES_COMMON_SEARCH",
+            "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
             "minReqFields": 1,
             "defaultValues": {
-              "estimateNumber": "",
+              "billNumber": "",
               "projectId": "",
-              "projectType": ""
+              "billType": ""
             },
             "fields": [
               {
-                "label": "ESTIMATE_ESTIMATE_NO",
+                "label": "WORKS_BILL_NUMBER",
                 "type": "text",
                 "isMandatory": false,
                 "disable": false,
                 "preProcess": {
-                  "convertStringToRegEx": ["populators.validation.pattern"]
+                  "convertStringToRegEx": [
+                    "populators.validation.pattern"
+                  ]
                 },
                 "populators": {
-                  "name": "estimateNumber",
-                  "error": "ESTIMATE_PATTERN_ERR_MSG",
+                  "name": "billNumber",
+                  "error": "Enter valid bill number",
                   "validation": {
-                    "pattern": "ES\/[0-9]+-[0-9]+\/[0-9]+",
+                    "pattern": "^[A-Za-z0-9\\/-]*$",
                     "minlength": 2
                   }
                 }
@@ -60,33 +67,31 @@
                 "type": "text",
                 "isMandatory": false,
                 "disable": false,
-                "preProcess": {
-                  "convertStringToRegEx": ["populators.validation.pattern"]
-                },
                 "populators": {
                   "name": "projectId",
-                  "error": "PROJECT_PATTERN_ERR_MSG",
+                  "error": "Enter valid project number",
                   "validation": {
-                    "pattern": "PJ\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
+                    "pattern": "^[A-Za-z0-9\\/-]*$",
                     "minlength": 2
                   }
                 }
               },
               {
-                "label": "WORKS_PROJECT_TYPE",
+                "label": "WORKS_BILL_TYPE",
                 "type": "dropdown",
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
-                  "name": "projectType",
+                  "name": "billType",
                   "optionsKey": "name",
                   "optionsCustomStyle": {
                     "top": "2.3rem"
                   },
                   "mdmsConfig": {
-                    "masterName": "ProjectType",
-                    "moduleName": "works",
-                    "localePrefix": "COMMON_MASTERS"
+                    "masterName": "BusinessService",
+                    "moduleName": "expense",
+                    "localePrefix": "COMMON_MASTERS_BILL",
+                    "select": "(data)=>{ return Array.isArray(data['expense'].BusinessService) && data['expense'].BusinessService.filter(ele=>ele.code.includes('EXPENSE')).map(ele=>({...ele, name:'COMMON_MASTERS_BILL_TYPE_'+Digit.Utils.locale.getTransformedLocale(ele.code)}))}"
                   }
                 }
               }
@@ -96,87 +101,24 @@
           "children": {},
           "show": true
         },
-        "searchResult": {
-          "label": "",
-          "estimateNumber": "",
-          "projectId": "",
-          "department": "",
-          "estimateStatus": "",
-          "fromProposalDate": "",
-          "toProposalDate": "",
-          "uiConfig": {
-            "columns": [
-              {
-                "label": "ESTIMATE_ESTIMATE_NO",
-                "jsonPath": "ProcessInstance.businessId",
-                "key": "estimateNumber",
-                "additionalCustomization": true
-              },
-              {
-                "label": "ES_COMMON_PROJECT_NAME",
-                "jsonPath": "businessObject.additionalDetails.projectName"
-              },
-              {
-                "label": "ESTIMATE_PREPARED_BY",
-                "jsonPath": "businessObject.additionalDetails.creator"
-              },
-              {
-                "label": "COMMON_ASSIGNEE",
-                "jsonPath": "ProcessInstance.assignes",
-                "additionalCustomization": true,
-                "key": "assignee"
-              },
-              {
-                "label": "COMMON_WORKFLOW_STATES",
-                "jsonPath": "ProcessInstance.state.state",
-                "additionalCustomization": true,
-                "key": "state"
-              },
-              {
-                "label": "WORKS_ESTIMATED_AMOUNT",
-                "jsonPath": "businessObject.additionalDetails.totalEstimatedAmount",
-                "additionalCustomization": true,
-                "key": "estimatedAmount",
-                "headerAlign": "right"
-              },
-              {
-                "label": "COMMON_SLA_DAYS",
-                "jsonPath": "businessObject.serviceSla",
-                "additionalCustomization": true,
-                "key": "sla"
-              }
-            ],
-            "enableGlobalSearch": false,
-            "enableColumnSort": true,
-            "resultsJsonPath": "items"
-          },
-          "children": {},
-          "show": true
-        },
         "links": {
           "uiConfig": {
             "links": [
               {
-                "text": "ACTION_TEST_CREATE_ESTIMATE",
-                "url": "/employee/project/search-project",
-                "roles": ["ESTIMATE_CREATOR"]
+                "text": "EXP_CREATE_BILL",
+                "url": "/employee/contracts/search-contract",
+                "roles": []
               },
               {
-                "text": "ACTION_TEST_SEARCH_ESTIMATE",
-                "url": "/employee/estimate/search-estimate",
-                "roles": [
-                  "ESTIMATE_VIEWER",
-                  "ESTIMATE_CREATOR",
-                  "ESTIMATE_VERIFIER",
-                  "TECHNICAL_SANCTIONER",
-                  "ESTIMATE_APPROVER"
-                ]
+                "text": "EXP_SEARCH_BILL",
+                "url": "/employee/expenditure/search-bill",
+                "roles": []
               }
             ],
             "label": "MUKTA",
             "logoIcon": {
-              "component": "PropertyHouse",
-              "customClass": "inbox-search-icon--projects"
+              "component": "BioMetricIcon",
+              "customClass": "search-icon--projects"
             }
           },
           "children": {},
@@ -186,17 +128,15 @@
           "uiConfig": {
             "type": "filter",
             "headerStyle": null,
-            "primaryLabel": "Filter",
-            "secondaryLabel": "",
+            "primaryLabel": "ES_COMMON_APPLY",
             "minReqFields": 0,
+            "secondaryLabel": "",
             "defaultValues": {
-              "state": "",
-              "ward": [],
-              "locality": [],
               "assignee": {
                 "code": "ASSIGNED_TO_ALL",
-                "name": "EST_INBOX_ASSIGNED_TO_ALL"
-              }
+                "name": "COMMON_INBOX_ASSIGNED_TO_ALL"
+              },
+              "state": ""
             },
             "fields": [
               {
@@ -209,11 +149,11 @@
                   "options": [
                     {
                       "code": "ASSIGNED_TO_ME",
-                      "name": "EST_INBOX_ASSIGNED_TO_ME"
+                      "name": "COMMON_INBOX_ASSIGNED_TO_ME"
                     },
                     {
                       "code": "ASSIGNED_TO_ALL",
-                      "name": "EST_INBOX_ASSIGNED_TO_ALL"
+                      "name": "COMMON_INBOX_ASSIGNED_TO_ALL"
                     }
                   ],
                   "optionsKey": "name",
@@ -232,12 +172,9 @@
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  },
                   "name": "ward",
                   "type": "ward",
-                  "optionsKey": "i18nKey",
+                  "optionsKey": "name",
                   "defaultText": "COMMON_SELECT_WARD",
                   "selectedText": "COMMON_SELECTED",
                   "allowMultiSelect": true
@@ -251,7 +188,7 @@
                 "populators": {
                   "name": "locality",
                   "type": "locality",
-                  "optionsKey": "i18nKey",
+                  "optionsKey": "name",
                   "defaultText": "COMMON_SELECT_LOCALITY",
                   "selectedText": "COMMON_SELECTED",
                   "allowMultiSelect": true
@@ -264,13 +201,56 @@
                 "disable": false,
                 "populators": {
                   "name": "state",
-                  "labelPrefix": "WF_EST_",
-                  "businessService": "mukta-estimate"
+                  "labelPrefix": "WF_"
                 }
               }
             ]
           },
-          "label": "Filter",
+          "label": "ES_COMMON_FILTERS",
+          "show": true
+        },
+        "searchResult": {
+          "label": "",
+          "uiConfig": {
+            "columns": [
+              {
+                "label": "WORKS_BILL_NUMBER",
+                "jsonPath": "businessObject.billNumber",
+                "additionalCustomization": true
+              },
+              {
+                "label": "ES_COMMON_PROJECT_NAME",
+                "jsonPath": "businessObject.additionalDetails.projectName"
+              },
+              {
+                "label": "ES_COMMON_CBO_NAME",
+                "jsonPath": "businessObject.additionalDetails.orgName"
+              },
+              {
+                "label": "COMMON_ASSIGNEE",
+                "jsonPath": "ProcessInstance.assignes.[0].name"
+              },
+              {
+                "label": "COMMON_WORKFLOW_STATES",
+                "jsonPath": "ProcessInstance.state.state",
+                "additionalCustomization": true
+              },
+              {
+                "label": "ES_COMMON_AMOUNT",
+                "jsonPath": "businessObject.totalAmount",
+                "additionalCustomization": true
+              },
+              {
+                "label": "COMMON_SLA_DAYS",
+                "jsonPath": "businessObject.serviceSla",
+                "additionalCustomization": true
+              }
+            ],
+            "enableGlobalSearch": false,
+            "enableColumnSort": true,
+            "resultsJsonPath": "items"
+          },
+          "children": {},
           "show": true
         }
       },

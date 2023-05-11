@@ -52,7 +52,7 @@
                 "name": "basicDetails_projectDesc",
                 "error": "PROJECT_PATTERN_ERR_MSG_PROJECT_DESC",
                 "validation": {
-                  "pattern": "^[^{0-9}^\\$\\\"<>?\\\\\\\\~!@#$%^()+={}\\[\\]*,\\/_:;“”‘’]{1,50}$",
+                  "pattern": "^[^{0-9}^\\$\\\"<>?\\\\\\\\~!@#$%^()+={}\\[\\]*\\/_:;“”‘’]{1,50}$",
                   "minlength": 2
                 }
               }
