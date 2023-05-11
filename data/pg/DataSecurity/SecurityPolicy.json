@@ -406,7 +406,7 @@
       "roleBasedDecryptionPolicy": [
 	    {
 		    
-          "roles": [ 'ORG_ADMIN', 'MUSTER_ROLL_VERIFIER', 'MUSTER_ROLL_APPROVER', 'BILL_CREATOR', 'BILL_VIEWER', 'BILL_VERIFIER', 'BILL_APPROVER'],
+          "roles": [ "ORG_ADMIN", "MUSTER_ROLL_VERIFIER", "MUSTER_ROLL_APPROVER", "BILL_CREATOR", "BILL_VIEWER", "BILL_VERIFIER", "BILL_APPROVER"],
           "attributeAccessList": [
             {
               "attribute": "accountHolderName",
