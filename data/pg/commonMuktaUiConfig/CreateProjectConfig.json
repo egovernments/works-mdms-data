@@ -39,11 +39,13 @@
               "type": "date",
               "disable": false,
               "preProcess" : {
-                "updateDependent" : ["populators.max"]
+                "updateDependent" : ["populators.validation.max"]
               },
               "populators": {
                 "name": "basicDetails_dateOfProposal",
-                "max" : "currentDate"
+                "validation":{
+                  "max":"currentDate"
+                }
               }
             },
             {
