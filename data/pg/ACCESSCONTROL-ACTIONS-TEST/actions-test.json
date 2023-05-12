@@ -1345,6 +1345,58 @@
       "serviceCode": "expense-calculator",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 118,
+      "name": "Generate Expense Bill PDF API",
+      "url": "/expense/payment/v1/_update",
+      "parentModule": "expense-calculator",
+      "displayName": "Expense Bill PDF generate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 119,
+      "name": "Generate Expense Bill PDF API",
+      "url": "/expense/payment/v1/_search",
+      "parentModule": "expense-calculator",
+      "displayName": "Expense Bill PDF generate API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense-calculator",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 120,
+      "name": "PAYMENT",
+      "url": "url",
+      "displayName": "PAYMENT Generate",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "PAYMENT",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/expenditure/search-bill",
+      "path": "5PAYMENT.GENERATEPAY",
+      "leftIcon": "dynamic:ExpenditureIcon"
+    },
+    {
+      "id": 121,
+      "name": "PAYMENT",
+      "url": "url",
+      "displayName": "PAYMENT Download",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "PAYMENT",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/expenditure/download-bill",
+      "path": "5PAYMENT.DOWNLOADPAY",
+      "leftIcon": "dynamic:ExpenditureIcon"
     }
-  ]  
+  ]
 }
