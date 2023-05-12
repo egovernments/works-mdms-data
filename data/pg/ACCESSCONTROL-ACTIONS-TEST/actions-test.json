@@ -1397,6 +1397,42 @@
       "navigationURL": "/works-ui/employee/expenditure/download-bill",
       "path": "5PAYMENT.DOWNLOADPAY",
       "leftIcon": "dynamic:ExpenditureIcon"
+    },
+    {
+      "id": 122,
+      "name": "Create Expense Bill",
+      "url": "/expense/bill/v1/_create",
+      "parentModule": "expense",
+      "displayName": "Create Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 123,
+      "name": "Search Expense Bill",
+      "url": "/expense/bill/v1/_search",
+      "parentModule": "expense",
+      "displayName": "Search Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 124,
+      "name": "Update Expense Bill",
+      "url": "/expense/bill/v1/_update",
+      "parentModule": "expense",
+      "displayName": "Update Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses",
+      "code": "null",
+      "path": ""
     }
   ]
 }
