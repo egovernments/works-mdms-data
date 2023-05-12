@@ -178,6 +178,16 @@
              "amount": 205,
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
+         },  
+        {
+             "id": "18",
+             "service": "works.wages",
+             "code": "SEMI_SKILLED.FEMALE_MULIA",
+             "gender": "all",
+             "active": true,
+             "amount": 150,
+             "effectiveFrom": 1682164954037,
+             "effectiveTo": null
          },
          {
              "id": "17",
