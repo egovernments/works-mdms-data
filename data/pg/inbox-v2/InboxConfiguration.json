@@ -53,7 +53,8 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.project.projectType.keyword","Data.project.name","Data.project.projectNumber"]
+      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.project.projectType","Data.project.name","Data.project.projectNumber"]
+
     },
     {
       "module": "muster-roll-service",
@@ -117,7 +118,8 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.musterRollNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.individualEntries", "Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails.orgId.keyword"]
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.musterRollNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.individualEntries", "Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails.orgId"]
+
     },
     {
       "module": "contract-service",
