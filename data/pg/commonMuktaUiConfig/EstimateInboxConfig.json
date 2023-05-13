@@ -264,7 +264,7 @@
                 "disable": false,
                 "populators": {
                   "name": "state",
-                  "labelPrefix": "WF_EST_",
+                  "labelPrefix": "WF_",
                   "businessService": "mukta-estimate"
                 }
               }
