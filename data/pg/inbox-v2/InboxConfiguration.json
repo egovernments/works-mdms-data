@@ -54,7 +54,6 @@
         "defaultOrder": "DESC"
       },
       "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.project.projectType","Data.project.name","Data.project.projectNumber"]
-
     },
     {
       "module": "muster-roll-service",
@@ -100,7 +99,7 @@
         },
         {
           "name": "orgId",
-          "path": "Data.additionalDetails.orgId.keyword",
+          "path": "Data.additionalDetails.orgName.keyword",
           "isMandatory": false
         },
         {
