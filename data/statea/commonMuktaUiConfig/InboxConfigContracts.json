@@ -242,7 +242,7 @@
                 "disable": false,
                 "populators": {
                   "name": "state",
-                  "labelPrefix": "WF_WO_",
+                  "labelPrefix": "WF_",
                   "businessService": "contract-approval-mukta"
                 }
               }
