@@ -1439,6 +1439,18 @@
       "navigationURL": "/works-ui/employee/contracts/search-contract",
       "path": "5BILLS.BillView",
       "leftIcon": "dynamic:ExpenditureIcon"
+    },
+    {
+      "id": 125,
+      "name": "Expense Search API",
+      "url": "/expense/bill/v1/_search",
+      "parentModule": "expense",
+      "displayName": "Expense Search API",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expense",
+      "code": "null",
+      "path": ""
     }
   ]  
 }
