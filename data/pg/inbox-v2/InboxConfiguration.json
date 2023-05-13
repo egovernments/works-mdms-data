@@ -99,7 +99,7 @@
         },
         {
           "name": "orgId",
-          "path": "Data.additionalDetails.orgId.keyword",
+          "path": "Data.additionalDetails.orgName.keyword",
           "isMandatory": false
         },
         {
