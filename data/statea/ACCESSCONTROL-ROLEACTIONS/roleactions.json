@@ -940,6 +940,34 @@
       "actionid": 123,
       "actioncode": "",
       "tenantId": "statea"
+    },{
+      "rolecode": "BILL_CREATOR",
+      "actionid": 125,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_VIEWER",
+      "actionid": 125,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_VERIFIER",
+      "actionid": 125,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_APPROVER",
+      "actionid": 125,
+      "actioncode": "",
+      "tenantId": "statea"
+    } , {
+      "rolecode": "BILL_ACCOUNTANT",
+      "actionid": 125,
+      "actioncode": "",
+      "tenantId": "statea"
     }
   ]
 }
