@@ -771,6 +771,24 @@
       "tenantId": "statea"
     },
     {
+      "rolecode": "BILL_VIEWER",
+      "actionid": 108,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_APPROVER",
+      "actionid": 108,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_VERIFIER",
+      "actionid": 108,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
       "rolecode": "BILL_CREATOR",
       "actionid": 112,
       "actioncode": "",
