@@ -1,6 +1,6 @@
 {
   "tenantId": "pg",
-  "moduleName": "commonMuktaUiConfig",
+  "moduleName": "commonUiConfig",
   "SearchBillConfig": [
     {
       "label": "EXP_SEARCH_BILL",

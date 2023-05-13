@@ -196,6 +196,11 @@
       "code": "EMPLOYEE_COMMON",
       "name": "Employee Common",
       "description": "Default role for all employees that need hrms search, edit profile, logout action"
+    },
+    {
+      "code": "BILL_ACCOUNTANT",
+      "name": "BILL_ACCOUNTANT",
+      "description": "Bill Accountant"
     }
   ]
 }

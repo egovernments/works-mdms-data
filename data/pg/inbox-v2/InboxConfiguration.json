@@ -53,7 +53,7 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.project.name","Data.project.projectNumber"]
+      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.project.projectType","Data.project.name","Data.project.projectNumber"]
     },
     {
       "module": "muster-roll-service",
@@ -99,7 +99,7 @@
         },
         {
           "name": "orgId",
-          "path": "Data.additionalDetails.orgId.keyword",
+          "path": "Data.additionalDetails.orgName.keyword",
           "isMandatory": false
         },
         {
@@ -117,7 +117,8 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.musterRollNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.individualEntries", "Data.currentProcessInstance", "Data.auditDetails"]
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.musterRollNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.individualEntries", "Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails.orgId"]
+
     },
     {
       "module": "contract-service",
@@ -203,7 +204,12 @@
         },
         {
           "name": "projectName",
-          "path": "Data.additionalDetails.projectName.keyword",
+          "path": "Data.projectName.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "projectId",
+          "path": "Data.additionalDetails.projectId.keyword",
           "isMandatory": false
         },
         {
@@ -213,12 +219,12 @@
         },
         {
           "name": "ward",
-          "path": "Data.additionalDetails.ward.keyword",
+          "path": "Data.ward.keyword",
           "isMandatory": false
         },
         {
           "name": "locality",
-          "path": "Data.additionalDetails.locality.keyword",
+          "path": "Data.locality.keyword",
           "isMandatory": false
         },
         {

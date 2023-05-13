@@ -59,12 +59,20 @@
       "idname": "expense.supervision.bill.number"
     },
     {
+      "format": "EP/[CITY.CODE]/[fy:yyyy-yy]/[cy:MM]/[cy:dd]/[SEQ_EXPENSE_PAYMENT_NUMBER]",
+      "idname": "expense.payment.number"
+    },
+    {
       "format": "SR_[SEQ_SUPERVISION_REF_NUM]",
       "idname": "supervision.reference.number"
     },
     {
       "format": "PR_[SEQ_PURCHASE_REF_NUM]",
       "idname": "purchase.reference.number"
+    },
+    {
+      "format": "WR_[SEQ_WAGE_REF_NUM]",
+      "idname": "wage.reference.number"
     }
   ]
 }
