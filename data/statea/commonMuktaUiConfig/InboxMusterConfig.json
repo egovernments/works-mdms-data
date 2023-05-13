@@ -169,7 +169,7 @@
                 "disable": false,
                 "populators": {
                   "name": "state",
-                  "labelPrefix": "WF_MUSTOR_",
+                  "labelPrefix": "WF_",
                   "businessService": "muster-roll-approval"
                 }
               }
