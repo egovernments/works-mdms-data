@@ -88,7 +88,7 @@
                   "name": "projectNumber",
                   "error": "PROJECT_PATTERN_ERR_MSG",
                   "validation": {
-                    "pattern": "PJ\\\\/[0-9]+-[0-9]+\\\\/[0-9]+\\\\/[0-9]+",
+                    "pattern": "PJ\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
                     "minlength": 2
                   }
                 }
@@ -102,7 +102,7 @@
                   "name": "billNumber",
                   "error": "ES_COMMON_BILL_PATTERN_ERR_MSG",
                   "validation": {
-                    "pattern": "^[A-Za-z0-9\\\\/-]*$",
+                    "pattern": "^[A-Za-z0-9\\/-]*$",
                     "minlength": 2
                   }
                 }
@@ -199,7 +199,7 @@
               },
               {
                 "label": "CORE_COMMON_STATUS",
-                "jsonPath": "bill.status",
+                "jsonPath": "bill.wfStatus",
                 "additionalCustomization": true
               },
               {
@@ -212,7 +212,7 @@
             "enableGlobalSearch": false,
             "enableColumnSort": true,
             "resultsJsonPath": "bills",
-            "showCheckBox": "BILL_ACCOUNTANT",
+            "showCheckBox": true,
             "checkBoxActionLabel": "ES_COMMON_GENERATE_PAYMENT_ADVICE",
             "showTableInstruction": "EXP_DOWNLOAD_BILL_INSTRUCTION"
           },

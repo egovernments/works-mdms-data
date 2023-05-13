@@ -482,7 +482,7 @@
         "Data.businessservice",
         "Data.currentProcessInstance",
         "Data.auditDetails",
-        "Data.netPayableAmount"
+        "Data.totalAmount"
       ]
     }
   ]
