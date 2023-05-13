@@ -359,7 +359,16 @@
           "defaultVisibility": "MASKED"
         }
       ],
-      "roleBasedDecryptionPolicy": []
+      "roleBasedDecryptionPolicy": [ {
+          "roles": [  "MUKTA_ADMIN"],
+          "attributeAccessList": [
+            {
+              "attribute": "aadhaarNumber",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }]
     },
     {
       "model": "BankAccountEncrypt",
