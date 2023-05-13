@@ -1397,6 +1397,48 @@
       "navigationURL": "/works-ui/employee/expenditure/download-bill",
       "path": "5PAYMENT.DOWNLOADPAY",
       "leftIcon": "dynamic:ExpenditureIcon"
+    },
+    {
+      "id": 122,
+      "name": "BILLS",
+      "url": "url",
+      "displayName": "Bill Inbox",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "BILLS",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/expenditure/billinbox",
+      "path": "5BILLS.BillInbox",
+      "leftIcon": "dynamic:ExpenditureIcon"
+    },
+    {
+      "id": 123,
+      "name": "BILLS",
+      "url": "url",
+      "displayName": "Bill Search",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "BILLS",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/expenditure/search-bill",
+      "path": "5BILLS.BillSearch",
+      "leftIcon": "dynamic:ExpenditureIcon"
+    },
+    {
+      "id": 124,
+      "name": "BILLS",
+      "url": "url",
+      "displayName": "Bill Create",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "BILLS",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/contracts/search-contract",
+      "path": "5BILLS.BillView",
+      "leftIcon": "dynamic:ExpenditureIcon"
     }
   ]  
 }
