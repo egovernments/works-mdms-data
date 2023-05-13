@@ -106,6 +106,15 @@
       "code": "BILL_VIEWER",
       "name": "BILL_VIEWER",
       "description": "Bill Viewer"
+    },{
+      "code": "BILL_APPROVER",
+      "name": "BILL_APPROVER",
+      "description": "Bill Approver"
+    },
+    {
+      "code": "BILL_VERIFIER",
+      "name": "BILL_VERIFIER",
+      "description": "Bill Verifier"
     },
     {
       "code": "EMPLOYEE_COMMON",
