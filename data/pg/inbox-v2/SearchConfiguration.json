@@ -382,13 +382,18 @@
           "name": "ward",
           "path": "Data.additionalDetails.ward.keyword",
           "isMandatory": false
+        },
+        {
+          "name": "paymentStatus",
+          "path": "Data.paymentStatus.keyword",
+          "isMandatory": false
         }
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.businessservice", "Data.currentProcessInstance", "Data.auditDetails","Data.netPayableAmount"]
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.businessservice", "Data.currentProcessInstance", "Data.auditDetails","Data.totalAmount","Data.paymentStatus"]
     }
   ]
 }
