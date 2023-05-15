@@ -280,10 +280,21 @@
           "name": "aadhaarNumber",
           "jsonPath": "identifiers/*/identifierId",
           "patternId": "001",
-          "defaultVisibility": "PLAIN"
+          "defaultVisibility": "MASKED"
         }
       ],
-      "roleBasedDecryptionPolicy": []
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": ["MUKTA_ADMIN"],
+          "attributeAccessList": [
+            {
+              "attribute": "aadhaarNumber",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
     },
     {
       "model": "IndividualSearchEncrypt",
@@ -372,7 +383,7 @@
           "name": "accountHolderName",
           "jsonPath": "accountHolderName",
           "patternId": "001",
-          "defaultVisibility": "PLAIN"
+          "defaultVisibility": "MASKED"
         },
         {
           "name": "accountNumber",
@@ -406,16 +417,16 @@
       "roleBasedDecryptionPolicy": [
 	    {
 		    
-          "roles": [ "ORG_ADMIN", "MUSTER_ROLL_VERIFIER", "MUSTER_ROLL_APPROVER", "BILL_CREATOR", "BILL_VIEWER", "BILL_VERIFIER", "BILL_APPROVER"],
+          "roles": ["BILL_ACCOUNTANT", "MUKTA_ADMIN"],
           "attributeAccessList": [
             {
               "attribute": "accountHolderName",
-              "firstLevelVisibility": "MASKED",
+              "firstLevelVisibility": "PLAIN",
               "secondLevelVisibility": "PLAIN"
             },
             {
               "attribute": "accountNumber",
-              "firstLevelVisibility": "MASKED",
+              "firstLevelVisibility": "PLAIN",
               "secondLevelVisibility": "PLAIN"
             }
           ]
