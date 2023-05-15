@@ -239,7 +239,7 @@
         },
         {
           "name": "billType",
-          "path": "Data.businessservice.keyword",
+          "path": "Data.businessService.keyword",
           "isMandatory": false
         },
         {
@@ -256,28 +256,13 @@
           "name": "assignee",
           "path": "Data.currentProcessInstance.assignes.uuid.keyword",
           "isMandatory": false
-        },
-        {
-          "name": "referenceId",
-          "path": "Data.referenceId.keyword",
-          "isMandatory": false,
-          "operator": "FUZZY"
         }
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": [
-        "Data.tenantId",
-        "Data.id",
-        "Data.billNumber",
-        "Data.additionalDetails",
-        "Data.businessservice",
-        "Data.currentProcessInstance",
-        "Data.auditDetails",
-        "Data.referenceId"
-      ]
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber",  "Data.additionalDetails", "Data.businessService","Data.currentProcessInstance", "Data.auditDetails"]
     }
   ]
 }
