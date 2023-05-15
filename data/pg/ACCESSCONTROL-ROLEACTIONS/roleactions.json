@@ -460,12 +460,6 @@
     },
     {
       "rolecode": "BILL_CREATOR",
-      "actionid": 122,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "BILL_CREATOR",
       "actionid": 123,
       "actioncode": "",
       "tenantId": "pg"
@@ -479,24 +473,6 @@
     {
       "rolecode": "BILL_APPROVER",
       "actionid": 123,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "BILL_CREATOR",
-      "actionid": 124,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "BILL_VERIFIER",
-      "actionid": 124,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
-      "rolecode": "BILL_APPROVER",
-      "actionid": 124,
       "actioncode": "",
       "tenantId": "pg"
     },
