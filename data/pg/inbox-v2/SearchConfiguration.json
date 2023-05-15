@@ -351,7 +351,7 @@
         },
         {
           "name": "billType",
-          "path": "Data.businessservice.keyword",
+          "path": "Data.businessService.keyword",
           "operator": "IN",
           "isMandatory": false
         },
@@ -393,7 +393,7 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.businessservice", "Data.currentProcessInstance", "Data.auditDetails","Data.totalAmount","Data.paymentStatus"]
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.businessService", "Data.currentProcessInstance", "Data.auditDetails","Data.totalAmount","Data.paymentStatus"]
     }
   ]
 }
