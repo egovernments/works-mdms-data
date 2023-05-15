@@ -114,7 +114,7 @@
               },
               {
                 "label": "ES_COMMON_PROJECT_NAME",
-                "jsonPath": "businessObject.additionalDetails.projectName"
+                "jsonPath": "businessObject.project.name"
               },
               {
                 "label": "ESTIMATE_PREPARED_BY",
@@ -264,7 +264,7 @@
                 "disable": false,
                 "populators": {
                   "name": "state",
-                  "labelPrefix": "WF_EST_",
+                  "labelPrefix": "WF_",
                   "businessService": "mukta-estimate"
                 }
               }
