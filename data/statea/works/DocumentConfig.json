@@ -115,7 +115,7 @@
       "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
       "documents": [
         {
-          "code": "Ward Committee Resolution",
+          "code": "Ward_Committee_Resolution",
           "name" : "doc_ward_committe_resolution",
           "active": true,
           "isMandatory": false,
@@ -125,7 +125,7 @@
           "maxFilesAllowed": 1
         },
         {
-          "code": "ULB Committee Resolution",
+          "code": "ULB_Committee_Resolution",
           "name" : "doc_ulb_committe_resolution",
           "active": true,
           "isMandatory": false,
