@@ -115,6 +115,10 @@
       "code": "BILL_VERIFIER",
       "name": "BILL_VERIFIER",
       "description": "Bill Verifier"
+    }, {
+      "code": "WORK_ORDER_VIEWER",
+      "name": "WORK_ORDER_VIEWER",
+      "description": "Workorder Viewer"
     },
     {
       "code": "EMPLOYEE_COMMON",
