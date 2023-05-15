@@ -14,6 +14,30 @@
       "actioncode": "",
       "tenantId": "pg"
     },
+     {
+      "rolecode": "BILL_VERIFIER",
+      "actionid": 111,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 111,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 111,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_APPROVER",
+      "actionid": 111,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
     {
       "rolecode": "EMPLOYEE_COMMON",
       "actionid": 23,
