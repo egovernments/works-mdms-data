@@ -108,6 +108,16 @@
       "description": "Bill Viewer"
     },
     {
+      "code": "BILL_VERIFIER",
+      "name": "BILL_VERIFIER",
+      "description": "Bill Verifier"
+    },
+    {
+      "code": "BILL_APPROVER",
+      "name": "BILL_APPROVER",
+      "description": "Bill Approver"
+    },
+    {
       "code": "EMPLOYEE_COMMON",
       "name": "Employee Common",
       "description": "Default role for all employees that need hrms search, edit profile, logout action"
