@@ -370,7 +370,18 @@
           "defaultVisibility": "MASKED"
         }
       ],
-      "roleBasedDecryptionPolicy": []
+      "roleBasedDecryptionPolicy": [
+        {
+        "roles": [ "MUKTA_ADMIN"],
+        "attributeAccessList": [
+          {
+            "attribute": "aadhaarNumber",
+            "firstLevelVisibility": "PLAIN",
+            "secondLevelVisibility": "PLAIN"
+          }
+        ]
+      }
+    ]
     },
     {
       "model": "BankAccountEncrypt",
@@ -416,21 +427,6 @@
       ],
       "roleBasedDecryptionPolicy": [
 	    {
-		    
-          "roles": ["BILL_ACCOUNTANT", "MUKTA_ADMIN"],
-          "attributeAccessList": [
-            {
-              "attribute": "accountHolderName",
-              "firstLevelVisibility": "PLAIN",
-              "secondLevelVisibility": "PLAIN"
-            },
-            {
-              "attribute": "accountNumber",
-              "firstLevelVisibility": "PLAIN",
-              "secondLevelVisibility": "PLAIN"
-            }
-          ]
-        },{
 		    
           "roles": ["BILL_ACCOUNTANT", "MUKTA_ADMIN"],
           "attributeAccessList": [
