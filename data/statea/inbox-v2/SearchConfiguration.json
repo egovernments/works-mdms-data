@@ -434,7 +434,7 @@
         },
         {
           "name": "billType",
-          "path": "Data.businessservice.keyword",
+          "path": "Data.businessService.keyword",
           "operator": "IN",
           "isMandatory": false
         },
@@ -490,7 +490,7 @@
         "Data.startDate",
         "Data.endDate",
         "Data.additionalDetails",
-        "Data.businessservice",
+        "Data.businessService",
         "Data.currentProcessInstance",
         "Data.auditDetails",
         "Data.totalAmount",
