@@ -26,7 +26,7 @@
         },
         {
           "name": "status",
-          "path": "Data.currentProcessInstance.state.applicationStatus.keyword",
+          "path": "Data.currentProcessInstance.state.state.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
@@ -91,7 +91,7 @@
         },
         {
           "name": "status",
-          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "path": "Data.currentProcessInstance.state.state.keyword",
           "isMandatory": false
         },
         {
@@ -199,7 +199,7 @@
         },
         {
           "name": "status",
-          "path": "Data.contractStatus.keyword",
+          "path": "Data.currentProcessInstance.state.state.keyword",
           "operator": "IN",
           "isMandatory": false
         },
@@ -346,12 +346,12 @@
         },
         {
           "name": "status",
-          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "path": "Data.currentProcessInstance.state.state.keyword",
           "isMandatory": false
         },
         {
           "name": "billType",
-          "path": "Data.businessservice.keyword",
+          "path": "Data.businessService.keyword",
           "operator": "IN",
           "isMandatory": false
         },
@@ -393,7 +393,7 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.businessservice", "Data.currentProcessInstance", "Data.auditDetails","Data.totalAmount","Data.paymentStatus"]
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.businessService", "Data.currentProcessInstance", "Data.auditDetails","Data.totalAmount","Data.paymentStatus"]
     }
   ]
 }
