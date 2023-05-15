@@ -470,6 +470,12 @@
           "name": "paymentStatus",
           "path": "Data.paymentStatus.keyword",
           "isMandatory": false
+        },
+        {
+          "name": "referenceId",
+          "path": "Data.referenceId.keyword",
+          "isMandatory": false,
+          "operator": "FUZZY"
         }
       ],
       "sortBy": {
@@ -488,7 +494,8 @@
         "Data.currentProcessInstance",
         "Data.auditDetails",
         "Data.totalAmount",
-        "Data.paymentStatus"
+        "Data.paymentStatus",
+        "Data.referenceId"
       ]
     }
   ]

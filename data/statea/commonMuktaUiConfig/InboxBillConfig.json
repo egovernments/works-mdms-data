@@ -40,7 +40,7 @@
               "defaultValues": {
                 "billNumber": "",
                 "projectId": "",
-                "billType": ""
+                "referenceId": ""
               },
               "fields": [
                 {
@@ -77,21 +77,16 @@
                   }
                 },
                 {
-                  "label": "WORKS_BILL_TYPE",
-                  "type": "dropdown",
+                  "label": "WORKS_CONTRACT_ID",
+                  "type": "text",
                   "isMandatory": false,
                   "disable": false,
                   "populators": {
-                    "name": "billType",
-                    "optionsKey": "name",
-                    "optionsCustomStyle": {
-                      "top": "2.3rem"
-                    },
-                    "mdmsConfig": {
-                      "masterName": "BusinessService",
-                      "moduleName": "expense",
-                      "localePrefix": "COMMON_MASTERS_BILL",
-                      "select": "(data)=>{ return Array.isArray(data['expense'].BusinessService) && data['expense'].BusinessService.filter(ele=>ele.code.includes('EXPENSE')).map(ele=>({...ele, name:'COMMON_MASTERS_BILL_TYPE_'+Digit.Utils.locale.getTransformedLocale(ele.code)}))}"
+                    "name": "referenceId",
+                    "error": "Enter valid contract number",
+                    "validation": {
+                      "pattern": "^[A-Za-z0-9\\/-]*$",
+                      "minlength": 2
                     }
                   }
                 }
