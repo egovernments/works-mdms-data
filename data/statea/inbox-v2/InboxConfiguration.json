@@ -256,7 +256,13 @@
           "name": "assignee",
           "path": "Data.currentProcessInstance.assignes.uuid.keyword",
           "isMandatory": false
-        }
+        },
+      {
+        "name": "referenceId",
+        "path": "Data.referenceId.keyword",
+        "isMandatory": false,
+        "operator": "FUZZY"
+      }
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
