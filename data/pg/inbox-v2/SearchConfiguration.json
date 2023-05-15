@@ -26,7 +26,7 @@
         },
         {
           "name": "status",
-          "path": "Data.currentProcessInstance.state.applicationStatus.keyword",
+          "path": "Data.currentProcessInstance.state.state.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
@@ -91,7 +91,7 @@
         },
         {
           "name": "status",
-          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "path": "Data.currentProcessInstance.state.state.keyword",
           "isMandatory": false
         },
         {
@@ -199,7 +199,7 @@
         },
         {
           "name": "status",
-          "path": "Data.contractStatus.keyword",
+          "path": "Data.currentProcessInstance.state.state.keyword",
           "operator": "IN",
           "isMandatory": false
         },
@@ -346,7 +346,7 @@
         },
         {
           "name": "status",
-          "path": "Data.currentProcessInstance.state.uuid.keyword",
+          "path": "Data.currentProcessInstance.state.state.keyword",
           "isMandatory": false
         },
         {
