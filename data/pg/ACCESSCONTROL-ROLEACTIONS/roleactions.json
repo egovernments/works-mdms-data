@@ -452,27 +452,21 @@
       "actioncode": "",
       "tenantId": "pg"
     },
-     {
-      "rolecode": "ORG_ADMIN",
+    {
+      "rolecode": "BILL_CREATOR",
       "actionid": 106,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
-      "rolecode": "BILL_CREATOR",
-      "actionid": 123,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "BILL_VERIFIER",
-      "actionid": 123,
+      "actionid": 106,
       "actioncode": "",
       "tenantId": "pg"
     },
     {
       "rolecode": "BILL_APPROVER",
-      "actionid": 123,
+      "actionid": 106,
       "actioncode": "",
       "tenantId": "pg"
     },
