@@ -34,7 +34,7 @@
                     "projectType": "",
                     "projectName": "",
                     "workOrderNumber": "",
-                    "contractStatus":"",
+                    "status":"",
                     "createdFrom": "",
                     "createdTo": ""
                   },
