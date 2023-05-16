@@ -111,13 +111,13 @@
         },
         {
           "name": "startDate",
-          "path": "Data.startDate",
+          "path": "Data.auditDetails.createdTime",
           "isMandatory": false,
           "operator": "GTE"
         },
         {
           "name": "endDate",
-          "path": "Data.endDate",
+          "path": "Data.auditDetails.createdTime",
           "isMandatory": false,
           "operator": "LTE"
         },
@@ -233,13 +233,13 @@
         },
         {
           "name": "startDate",
-          "path": "Data.startDate",
+          "path": "Data.auditDetails.createdTime",
           "isMandatory": false,
           "operator": "GTE"
         },
         {
           "name": "endDate",
-          "path": "Data.endDate",
+          "path": "Data.auditDetails.createdTime",
           "isMandatory": false,
           "operator": "LTE"
         }
