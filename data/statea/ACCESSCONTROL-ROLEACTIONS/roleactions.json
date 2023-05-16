@@ -421,6 +421,11 @@
       "actionid": 68,
       "actioncode": "",
       "tenantId": "statea"
+    }, {
+      "rolecode": "WORK_ORDER_VIEWER",
+      "actionid": 89,
+      "actioncode": "",
+      "tenantId": "statea"
     },
     {
       "rolecode": "ORG_ADMIN",
@@ -964,8 +969,15 @@
       "actionid": 123,
       "actioncode": "",
       "tenantId": "statea"
-    },{
+    },
+    {
       "rolecode": "BILL_CREATOR",
+      "actionid": 125,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_VIEWER",
       "actionid": 125,
       "actioncode": "",
       "tenantId": "statea"
@@ -987,12 +999,14 @@
       "actionid": 125,
       "actioncode": "",
       "tenantId": "statea"
-    } , {
+    },
+    {
       "rolecode": "BILL_ACCOUNTANT",
       "actionid": 125,
       "actioncode": "",
       "tenantId": "statea"
-    }, {
+    },
+    {
       "rolecode": "BILL_ACCOUNTANT",
       "actionid": 115,
       "actioncode": "",
