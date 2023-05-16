@@ -280,21 +280,10 @@
           "name": "aadhaarNumber",
           "jsonPath": "identifiers/*/identifierId",
           "patternId": "001",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         }
       ],
-      "roleBasedDecryptionPolicy": [
-        {
-          "roles": ["MUKTA_ADMIN"],
-          "attributeAccessList": [
-            {
-              "attribute": "aadhaarNumber",
-              "firstLevelVisibility": "PLAIN",
-              "secondLevelVisibility": "PLAIN"
-            }
-          ]
-        }
-      ]
+      "roleBasedDecryptionPolicy": []
     },
     {
       "model": "IndividualSearchEncrypt",
@@ -428,7 +417,7 @@
       "roleBasedDecryptionPolicy": [
 	    {
 		    
-          "roles": ["BILL_ACCOUNTANT", "MUKTA_ADMIN"],
+          "roles": [  "BILL_ACCOUNTANT", "MUKTA_ADMIN"],
           "attributeAccessList": [
             {
               "attribute": "accountHolderName",
