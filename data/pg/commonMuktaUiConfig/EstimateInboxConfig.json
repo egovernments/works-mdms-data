@@ -159,7 +159,7 @@
               {
                 "text": "ACTION_TEST_CREATE_ESTIMATE",
                 "url": "/employee/project/search-project",
-                "roles": ["ESTIMATE_CREATOR"]
+                "roles": ["PROJECT_VIEWER", "ESTIMATE_CREATOR"]
               },
               {
                 "text": "ACTION_TEST_SEARCH_ESTIMATE",
@@ -264,7 +264,7 @@
                 "disable": false,
                 "populators": {
                   "name": "state",
-                  "labelPrefix": "WF_",
+                  "labelPrefix": "WF_EST_",
                   "businessService": "mukta-estimate"
                 }
               }
