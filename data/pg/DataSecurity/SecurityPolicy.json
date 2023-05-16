@@ -367,10 +367,21 @@
           "name": "aadhaarNumber",
           "jsonPath": "identifiers/*/identifierId",
           "patternId": "001",
-          "defaultVisibility": "PLAIN"
+          "defaultVisibility": "MASKED"
         }
       ],
-      "roleBasedDecryptionPolicy": []
+      "roleBasedDecryptionPolicy": [
+        {
+        "roles": [ "MUKTA_ADMIN"],
+        "attributeAccessList": [
+          {
+            "attribute": "aadhaarNumber",
+            "firstLevelVisibility": "PLAIN",
+            "secondLevelVisibility": "PLAIN"
+          }
+        ]
+      }
+    ]
     },
     {
       "model": "BankAccountEncrypt",
@@ -383,7 +394,7 @@
           "name": "accountHolderName",
           "jsonPath": "accountHolderName",
           "patternId": "001",
-          "defaultVisibility": "MASKED"
+          "defaultVisibility": "PLAIN"
         },
         {
           "name": "accountNumber",
@@ -405,13 +416,13 @@
           "name": "accountHolderName",
           "jsonPath": "accountHolderName",
           "patternId": "001",
-          "defaultVisibility": "PLAIN"
+          "defaultVisibility": "MASKED"
         },
         {
           "name": "accountNumber",
           "jsonPath": "accountNumber",
           "patternId": "001",
-          "defaultVisibility": "PLAIN"
+          "defaultVisibility": "MASKED"
         }
       ],
       "roleBasedDecryptionPolicy": [
