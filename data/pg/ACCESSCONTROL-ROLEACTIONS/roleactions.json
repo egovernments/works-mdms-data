@@ -990,6 +990,12 @@
       "actionid": 125,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "WORK_ORDER_CREATOR",
+      "actionid": 110,
+      "actioncode": "",
+      "tenantId": "statea"
     }
   ]
 }
