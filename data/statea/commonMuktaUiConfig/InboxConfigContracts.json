@@ -48,7 +48,7 @@
                 },
                 "populators": {
                   "name": "workOrderNumber",
-                  "error": "ESTIMATE_PATTERN_ERR_MSG",
+                  "error": "ERR_INVALID_CONTRACT_ID",
                   "validation": {
                     "pattern": "WO\/[0-9]+-[0-9]+\/[0-9]+",
                     "minlength": 2
