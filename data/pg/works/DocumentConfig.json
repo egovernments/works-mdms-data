@@ -52,7 +52,7 @@
     },
     {
       "module": "Estimate",
-      "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
+      "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
       "maxSizeInMB": 5,
       "bannerLabel": "ESTIMATE_UPLOAD_BANNER_TEXT",
       "documents": [
