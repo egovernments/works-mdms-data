@@ -147,6 +147,30 @@
       "tenantId": "statea"
     },
     {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 90,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 90,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 59,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 59,
+      "actioncode": "",
+      "tenantId": "statea"
+    },
+    {
       "rolecode": "ESTIMATE_CREATOR",
       "actionid": 9,
       "actioncode": "",
