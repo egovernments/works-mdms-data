@@ -201,7 +201,10 @@
                   "name": "basicDetails_photograph",
                   "allowedMaxSizeInMB": 2,
                   "maxFilesAllowed": 1,
-                  "allowedFileTypes": "(.*?)(jpg|jpeg|png)$"
+                  "allowedFileTypes": "(.*?)(jpg|jpeg|png)$",
+                  "containerStyles": {
+                    "marginBottom": "1rem"
+                  }
                 }
              }
           ]
