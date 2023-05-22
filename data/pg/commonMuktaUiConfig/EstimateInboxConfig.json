@@ -1,5 +1,5 @@
 {
-  "tenantId": "pg",
+  "tenantId": "statea",
   "moduleName": "commonMuktaUiConfig",
   "EstimateInboxConfig": [
     {
@@ -159,7 +159,7 @@
               {
                 "text": "ACTION_TEST_CREATE_ESTIMATE",
                 "url": "/employee/project/search-project",
-                "roles": ["PROJECT_VIEWER", "ESTIMATE_CREATOR"]
+                "roles": ["ESTIMATE_CREATOR"]
               },
               {
                 "text": "ACTION_TEST_SEARCH_ESTIMATE",
@@ -244,27 +244,13 @@
                 }
               },
               {
-                "label": "COMMON_LOCALITY",
-                "type": "locationdropdown",
-                "isMandatory": false,
-                "disable": false,
-                "populators": {
-                  "name": "locality",
-                  "type": "locality",
-                  "optionsKey": "i18nKey",
-                  "defaultText": "COMMON_SELECT_LOCALITY",
-                  "selectedText": "COMMON_SELECTED",
-                  "allowMultiSelect": true
-                }
-              },
-              {
                 "label": "COMMON_WORKFLOW_STATES",
                 "type": "workflowstatesfilter",
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
                   "name": "state",
-                  "labelPrefix": "WF_EST_",
+                  "labelPrefix": "WF_",
                   "businessService": "mukta-estimate"
                 }
               }
