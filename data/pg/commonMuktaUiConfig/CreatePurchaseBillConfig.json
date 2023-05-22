@@ -139,39 +139,61 @@
                 "type": "date",
                 "disable": false,
                 "preProcess" : {
-                  "updateDependent" : ["populators.max"]
+                  "updateDependent" : ["populators.validation.max"]
                 },
-                "populators": { 
-                  "name": "invoiceDetails_invoiceDate", 
-                  "error": "WORKS_REQUIRED_ERR", 
-                  "max" : "currentDate" 
-                }
-              },
-              {
-                "label": "EXP_MATERIALCOST_RS",
-                "isMandatory": true,
-                "key": "invoiceDetails_materialCost",
-                "type": "number",
-                "disable": false,
                 "populators": {
-                  "name": "invoiceDetails_materialCost",
-                  "error": "WORKS_REQUIRED_ERR",
-                  "validation": {
-                    "min": 0
+                  "name": "invoiceDetails_invoiceDate",
+                  "error": "WORKS_REQUIRED_ERR", 
+                  "validation":{
+                    "max":"currentDate"
                   }
                 }
               },
               {
+                "inline": true,
+                "label": "EXP_MATERIALCOST_RS",
+                "isMandatory": true,
+                "key": "invoiceDetails_materialCost",
+                "type": "text",
+                "disable": false,
+                "preProcess": {
+                  "convertStringToRegEx": [
+                    "populators.validation.pattern"
+                  ]
+              },
+                "populators": {
+                  "name": "invoiceDetails_materialCost",
+                  "error": "ERR_INVALID_MAT_COST",
+                    "validation": {
+                      "pattern": "^[1-9]\\d*(\\.\\d+)?$",
+                      "maxlength" : 16,
+                      "step" : "0.01",
+                      "min" : 0,
+                      "max" : 5000000
+                    }
+                }
+              },
+              {
+                "inline": true,
                 "label": "EXP_GST_RS",
                 "isMandatory": false,
                 "key": "invoiceDetails_gst",
-                "type": "number",
+                "type": "text",
                 "disable": false,
+                "preProcess": {
+                  "convertStringToRegEx": [
+                    "populators.validation.pattern"
+                  ]
+              },
                 "populators": {
                   "name": "invoiceDetails_gst",
-                  "error": "WORKS_REQUIRED_ERR",
+                  "error": "ERR_INVALID_AMOUNT",
                   "validation": {
-                    "min": 0
+                    "pattern": "^[1-9]\\d*(\\.\\d+)?$",
+                    "maxlength" : 16,
+                    "step" : "0.01",
+                    "min" : 0,
+                    "max" : 5000000
                   }
                 }
               }
