@@ -63,7 +63,7 @@
                 },
                 "populators": {
                     "name": "basicDetails_regDept",
-                    "error": "WORKS_REQUIRED_ERR",
+                    "error": "ORG_VALIDATION_ERROR_DEPT",
                     "validation": {"pattern": "^[a-zA-Z0-9 .\\-_@\\']*$", "minlength" : 2, "maxlength": 64}
                 }
               },
