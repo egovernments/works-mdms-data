@@ -201,6 +201,7 @@
       "sourceFilterPathList": [
         "Data.contractNumber",
         "Data.additionalDetails.projectName",
+        "Data.additionalDetails.projectId",
         "Data.additionalDetails.orgName",
         "Data.currentProcessInstance",
         "Data.totalContractedAmount",
@@ -268,7 +269,7 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber",  "Data.additionalDetails", "Data.businessService","Data.currentProcessInstance", "Data.auditDetails","Data.referenceId"]
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber", "Data.totalAmount",  "Data.additionalDetails", "Data.businessService","Data.currentProcessInstance", "Data.auditDetails","Data.referenceId"]
     }
   ]
 }

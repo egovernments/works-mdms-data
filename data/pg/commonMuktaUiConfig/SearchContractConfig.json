@@ -184,7 +184,8 @@
                     },
                     {
                       "label": "ES_COMMON_STATUS",
-                      "jsonPath": "businessObject.contractStatus"
+                      "jsonPath": "businessObject.contractStatus",
+                      "additionalCustomization": true
                     },
                     {
                       "label": "ES_COMMON_AMOUNT",

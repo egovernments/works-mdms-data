@@ -106,16 +106,19 @@
       "code": "BILL_VIEWER",
       "name": "BILL_VIEWER",
       "description": "Bill Viewer"
+    },{
+      "code": "BILL_APPROVER",
+      "name": "BILL_APPROVER",
+      "description": "Bill Approver"
     },
     {
       "code": "BILL_VERIFIER",
       "name": "BILL_VERIFIER",
       "description": "Bill Verifier"
-    },
-    {
-      "code": "BILL_APPROVER",
-      "name": "BILL_APPROVER",
-      "description": "Bill Approver"
+    }, {
+      "code": "WORK_ORDER_VIEWER",
+      "name": "WORK_ORDER_VIEWER",
+      "description": "Workorder Viewer"
     },
     {
       "code": "EMPLOYEE_COMMON",

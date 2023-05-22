@@ -1,12 +1,12 @@
 {
   "tenantId": "pg",
-  "moduleName": "commonMuktaUiConfig",
+  "moduleName": "commonUiConfig",
   "SearchBillConfig": [
     {
       "label": "EXP_SEARCH_BILL",
       "type": "search",
       "actionLabel": "ES_COMMON_DOWNLOAD_PAYMENT_ADVICE",
-      "actionRole": "BILL_CREATOR",
+      "actionRole": "BILL_ACCOUNTANT",
       "actionLink": "expenditure/download-bill",
       "apiDetails": {
         "serviceName": "/expense-calculator/v1/_search",

@@ -96,12 +96,12 @@
                     {
                       "text": "WORKS_CREATE_PROJECT",
                       "url": "/employee/project/create-project",
-                      "roles": ["PROJECT_CREATOR"]
+                      "roles": []
                     },
                     {
                       "text": "WORKS_SEARCH_PROJECTS",
                       "url": "/employee/project/search-project",
-                      "roles": ["PROJECT_VIEWER","PROJECT_CREATOR"]
+                      "roles": []
                     }
                   ],
                   "label": "PROJECT_INBOX",
