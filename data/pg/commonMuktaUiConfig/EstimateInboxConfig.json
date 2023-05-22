@@ -244,20 +244,6 @@
                 }
               },
               {
-                "label": "COMMON_LOCALITY",
-                "type": "locationdropdown",
-                "isMandatory": false,
-                "disable": false,
-                "populators": {
-                  "name": "locality",
-                  "type": "locality",
-                  "optionsKey": "i18nKey",
-                  "defaultText": "COMMON_SELECT_LOCALITY",
-                  "selectedText": "COMMON_SELECTED",
-                  "allowMultiSelect": true
-                }
-              },
-              {
                 "label": "COMMON_WORKFLOW_STATES",
                 "type": "workflowstatesfilter",
                 "isMandatory": false,

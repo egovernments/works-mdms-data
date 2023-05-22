@@ -29,7 +29,7 @@
     {
       "code": "CBO.SDA",
       "description": "Community Based Organization - Slum Dwellers Association",
-      "parent": "CBO",   
+      "parent": "CBO",
       "active": true,
       "effectiveFrom": 1677044852,
       "effectiveTo": null

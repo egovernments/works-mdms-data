@@ -24,17 +24,17 @@
               "search": {
                 "uiConfig": {
                   "headerStyle": null,
+                  "formClassName": "custom-both-clear-search",
                   "primaryLabel": "ES_COMMON_SEARCH",
                   "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
                   "minReqFields": 1,
                   "showFormInstruction": "CONTRACT_SEARCH_HINT",
-                  "formClassName": "custom-both-clear-search",
                   "defaultValues": {
                     "ward": "",
                     "projectType": "",
                     "projectName": "",
                     "workOrderNumber": "",
-                    "contractStatus":"",
+                    "status":"",
                     "createdFrom": "",
                     "createdTo": ""
                   },
@@ -109,56 +109,23 @@
                           }
                         }
                       },
-                    {
-                        "label": "ES_COMMON_STATUS",
-                        "type": "dropdown",
+                      {
+                        "label": "CORE_COMMON_STATUS",
+                        "type": "apidropdown",
                         "isMandatory": false,
                         "disable": false,
                         "populators": {
-                            "name": "contractStatus",
-                            "optionsKey": "i18nKey",
-                            "options": [
-                                {
-                                    "name": "Submitted",
-                                    "code": "SUBMITTED",
-                                    "i18nKey": "SUBMITTED"
-                                },
-                                {
-                                    "name": "Approved",
-                                    "code": "APPROVED",
-                                    "i18nKey": "APPROVED"
-                                },
-                                {
-                                    "name": "Rejected",
-                                    "code": "REJECTED",
-                                    "i18nKey": "REJECTED"
-                                },
-                                {
-                                    "name": "Verified",
-                                    "code": "VERIFIED",
-                                    "i18nKey": "VERIFIED"
-                                },
-                                {
-                                  "name": "Declined",
-                                  "code": "DECLINED",
-                                  "i18nKey": "DECLINED"
-                                },
-                                {
-                                  "name": "Created",
-                                  "code": "CREATED",
-                                  "i18nKey": "CREATED"
-                                },
-                                {
-                                  "name": "Accepted",
-                                  "code": "ACCEPTED",
-                                  "i18nKey": "ACCEPTED"
-                                }
-                            ],
-                            "optionsCustomStyle" : {
-                                "top" : "2.3rem"
-                            }
+                          "optionsCustomStyle": {
+                            "top": "2.3rem"
+                          },
+                          "name": "status",
+                          "optionsKey": "i18nKey",
+                          "allowMultiSelect": false,
+                          "masterName": "commonUiConfig",
+                          "moduleName": "SearchContractConfig",
+                          "customfn": "populateReqCriteria"
                         }
-                    },
+                      },
                     {
                       "label": "CREATED_FROM_DATE",
                       "type": "date",
@@ -217,7 +184,8 @@
                     },
                     {
                       "label": "ES_COMMON_STATUS",
-                      "jsonPath": "businessObject.contractStatus"
+                      "jsonPath": "businessObject.contractStatus",
+                      "additionalCustomization": true
                     },
                     {
                       "label": "ES_COMMON_AMOUNT",
