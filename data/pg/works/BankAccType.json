@@ -15,7 +15,7 @@
       {
         "name": "Loan",
         "code": "LOAN",      
-        "active": true
+        "active": false
       }
     ]
 }

@@ -154,9 +154,6 @@
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  },
                   "name": "ward",
                   "type": "ward",
                   "optionsKey": "i18nKey",
@@ -172,7 +169,7 @@
                 "disable": false,
                 "populators": {
                   "name": "state",
-                  "labelPrefix": "WF_MUSTOR_",
+                  "labelPrefix": "WF_",
                   "businessService": "muster-roll-approval"
                 }
               }

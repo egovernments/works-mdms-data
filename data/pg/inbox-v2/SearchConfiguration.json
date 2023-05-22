@@ -74,10 +74,19 @@
         }
       ],
       "sortBy": {
-          "path": "Data.auditDetails.createdTime",
-          "defaultOrder": "ASC"
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.tenantId","Data.estimateNumber","Data.executingDepartment","Data.proposalDate","Data.project","Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails"]
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.estimateNumber",
+        "Data.executingDepartment",
+        "Data.proposalDate",
+        "Data.project",
+        "Data.currentProcessInstance",
+        "Data.auditDetails",
+        "Data.additionalDetails"
+      ]
     },
     {
       "module": "muster",
@@ -102,13 +111,13 @@
         },
         {
           "name": "startDate",
-          "path": "Data.startDate",
+          "path": "Data.auditDetails.createdTime",
           "isMandatory": false,
           "operator": "GTE"
         },
         {
           "name": "endDate",
-          "path": "Data.endDate",
+          "path": "Data.auditDetails.createdTime",
           "isMandatory": false,
           "operator": "LTE"
         },
@@ -138,7 +147,18 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.musterRollNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.individualEntries", "Data.currentProcessInstance", "Data.auditDetails"]
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.musterRollNumber",
+        "Data.musterRollStatus",
+        "Data.startDate",
+        "Data.endDate",
+        "Data.additionalDetails",
+        "Data.individualEntries",
+        "Data.currentProcessInstance",
+        "Data.auditDetails"
+      ]
     },
     {
       "module": "project",
@@ -161,7 +181,15 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.projectNumber", "Data.name", "Data.projectType", "Data.isDeleted", "Data.auditDetails"]
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.projectNumber",
+        "Data.name",
+        "Data.projectType",
+        "Data.isDeleted",
+        "Data.auditDetails"
+      ]
     },
     {
       "module": "contract",
@@ -205,13 +233,13 @@
         },
         {
           "name": "startDate",
-          "path": "Data.startDate",
+          "path": "Data.auditDetails.createdTime",
           "isMandatory": false,
           "operator": "GTE"
         },
         {
           "name": "endDate",
-          "path": "Data.endDate",
+          "path": "Data.auditDetails.createdTime",
           "isMandatory": false,
           "operator": "LTE"
         }
@@ -220,7 +248,20 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.tenantId","Data.contractNumber","Data.totalContractedAmount","Data.contractType","Data.executingAuthority","Data.contractStatus","Data.startDate","Data.endDate","Data.additionalDetails","Data.lineItems","Data.currentProcessInstance","Data.auditDetails"]
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.contractNumber",
+        "Data.totalContractedAmount",
+        "Data.contractType",
+        "Data.executingAuthority",
+        "Data.contractStatus",
+        "Data.startDate",
+        "Data.endDate",
+        "Data.additionalDetails",
+        "Data.lineItems",
+        "Data.currentProcessInstance",
+        "Data.auditDetails"
+      ]
     },
     {
       "module": "individual",
@@ -243,7 +284,31 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.individualId", "Data.clientReferenceId", "Data.userId", "Data.name", "Data.dateOfBirth", "Data.gender", "Data.bloodGroup", "Data.mobileNumber","Data.altContactNumber","Data.email","Data.address","Data.fatherName","Data.husbandName","Data.relationship","Data.identifiers","Data.skills","Data.photo","Data.additionalFields","Data.isDeleted","Data.rowVersion","Data.auditDetails"]
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.individualId",
+        "Data.clientReferenceId",
+        "Data.userId",
+        "Data.name",
+        "Data.dateOfBirth",
+        "Data.gender",
+        "Data.bloodGroup",
+        "Data.mobileNumber",
+        "Data.altContactNumber",
+        "Data.email",
+        "Data.address",
+        "Data.fatherName",
+        "Data.husbandName",
+        "Data.relationship",
+        "Data.identifiers",
+        "Data.skills",
+        "Data.photo",
+        "Data.additionalFields",
+        "Data.isDeleted",
+        "Data.rowVersion",
+        "Data.auditDetails"
+      ]
     },
     {
       "module": "organisation",
@@ -332,7 +397,25 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.name", "Data.applicationNumber", "Data.orgNumber", "Data.applicationStatus", "Data.externalRefNumber", "Data.isActive", "Data.isActive", "Data.orgAddress", "Data.contactDetails", "Data.identifiers", "Data.functions", "Data.jurisdiction", "Data.documents", "Data.additionalDetails", "Data.auditDetails"]
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.name",
+        "Data.applicationNumber",
+        "Data.orgNumber",
+        "Data.applicationStatus",
+        "Data.externalRefNumber",
+        "Data.isActive",
+        "Data.isActive",
+        "Data.orgAddress",
+        "Data.contactDetails",
+        "Data.identifiers",
+        "Data.functions",
+        "Data.jurisdiction",
+        "Data.documents",
+        "Data.additionalDetails",
+        "Data.auditDetails"
+      ]
     },
     {
       "module": "expense",
@@ -359,7 +442,7 @@
           "name": "projectName",
           "path": "Data.additionalDetails.projectName.keyword",
           "isMandatory": false,
-		      "operator": "FUZZY"
+          "operator": "FUZZY"
         },
         {
           "name": "billNumber",
@@ -387,13 +470,33 @@
           "name": "paymentStatus",
           "path": "Data.paymentStatus.keyword",
           "isMandatory": false
+        },
+        {
+          "name": "referenceId",
+          "path": "Data.referenceId.keyword",
+          "isMandatory": false,
+          "operator": "FUZZY"
         }
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.businessService", "Data.currentProcessInstance", "Data.auditDetails","Data.totalAmount","Data.paymentStatus"]
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.billNumber",
+        "Data.musterRollStatus",
+        "Data.startDate",
+        "Data.endDate",
+        "Data.additionalDetails",
+        "Data.businessService",
+        "Data.currentProcessInstance",
+        "Data.auditDetails",
+        "Data.totalAmount",
+        "Data.paymentStatus",
+        "Data.referenceId"
+      ]
     }
   ]
 }

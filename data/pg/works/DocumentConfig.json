@@ -62,7 +62,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -72,7 +72,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -82,7 +82,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -92,7 +92,7 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -102,7 +102,7 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : true,
-          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         }
@@ -114,8 +114,8 @@
       "maxSizeInMB": 5,
       "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
       "documents": [
-         {
-          "code": "Ward Committee Resolution",
+        {
+          "code": "Ward_Committee_Resolution",
           "name" : "doc_ward_committe_resolution",
           "active": true,
           "isMandatory": false,
@@ -124,8 +124,8 @@
           "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
-         {
-          "code": "ULB Committee Resolution",
+        {
+          "code": "ULB_Committee_Resolution",
           "name" : "doc_ulb_committe_resolution",
           "active": true,
           "isMandatory": false,
@@ -150,7 +150,7 @@
       "module": "Expenditure",
       "allowedFileTypes": ["pdf"],
       "maxSizeInMB": 5,
-      "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
+      "bannerLabel": "PURCHASE_BILL_FILE_COMPONENT_BANNER",
       "documents": [
         {
           "code": "VENDOR_INVOICE",
@@ -158,7 +158,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -168,7 +168,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -178,7 +178,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
