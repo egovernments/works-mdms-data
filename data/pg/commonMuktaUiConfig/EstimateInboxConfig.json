@@ -1,5 +1,5 @@
 {
-  "tenantId": "statea",
+  "tenantId": "pg",
   "moduleName": "commonMuktaUiConfig",
   "EstimateInboxConfig": [
     {
