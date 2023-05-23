@@ -113,7 +113,7 @@
               "label": "MUKTA",
               "logoIcon": {
                 "component": "ExpenditureIcon",
-                "customClass": "search-icon--projects"
+                "customClass": "inbox-links-icon"
               }
             },
             "children": {},
