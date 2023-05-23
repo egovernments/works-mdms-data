@@ -176,7 +176,7 @@
             "label": "MUKTA",
             "logoIcon": {
               "component": "EstimateIcon",
-              "customClass": "inbox-search-icon--projects"
+              "customClass": "inbox-links-icon"
             }
           },
           "children": {},
