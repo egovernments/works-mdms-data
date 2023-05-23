@@ -112,7 +112,7 @@
               ],
               "label": "MUKTA",
               "logoIcon": {
-                "component": "BioMetricIcon",
+                "component": "ExpenditureIcon",
                 "customClass": "search-icon--projects"
               }
             },
@@ -172,15 +172,32 @@
                     "optionsKey": "name",
                     "defaultText": "COMMON_SELECT_WARD",
                     "selectedText": "COMMON_SELECTED",
+                    "allowMultiSelect": true,
+                    "optionsCustomStyle": {
+                      "top": "2.3rem"
+                    }
+                  }
+                },
+                {
+                  "label": "COMMON_LOCALITY",
+                  "type": "locationdropdown",
+                  "isMandatory": false,
+                  "disable": false,
+                  "populators": {
+                    "name": "locality",
+                    "type": "locality",
+                    "optionsKey": "name",
+                    "defaultText": "COMMON_SELECT_LOCALITY",
+                    "selectedText": "COMMON_SELECTED",
                     "allowMultiSelect": true
                   }
                 },
                 {
-                  "label": "COMMON_WORKFLOW_STATES",
                   "type": "workflowstatesfilter",
                   "isMandatory": false,
                   "disable": false,
                   "populators": {
+                    "componentLabel": "COMMON_WORKFLOW_STATES",
                     "name": "state",
                     "labelPrefix": "WF_"
                   }
