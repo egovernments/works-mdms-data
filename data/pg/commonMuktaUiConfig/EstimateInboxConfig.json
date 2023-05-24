@@ -175,7 +175,7 @@
             ],
             "label": "MUKTA",
             "logoIcon": {
-              "component": "PropertyHouse",
+              "component": "EstimateIcon",
               "customClass": "inbox-search-icon--projects"
             }
           },
@@ -244,11 +244,26 @@
                 }
               },
               {
-                "label": "COMMON_WORKFLOW_STATES",
+                "label": "COMMON_LOCALITY",
+                "type": "locationdropdown",
+                "isMandatory": false,
+                "disable": false,
+                "populators": {
+                  "name": "locality",
+                  "type": "locality",
+                  "optionsKey": "name",
+                  "defaultText": "COMMON_SELECT_LOCALITY",
+                  "selectedText": "COMMON_SELECTED",
+                  "allowMultiSelect": true
+                }
+              },
+              {
+               
                 "type": "workflowstatesfilter",
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "componentLabel": "COMMON_WORKFLOW_STATES",
                   "name": "state",
                   "labelPrefix": "WF_",
                   "businessService": "mukta-estimate"
