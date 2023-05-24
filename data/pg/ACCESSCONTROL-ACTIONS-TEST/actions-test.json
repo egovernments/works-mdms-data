@@ -140,6 +140,18 @@
       "path": ""
     },
     {
+      "id": 12,
+      "name": "Create LOI",
+      "url": "/loi-service/v1/_create",
+      "parentModule": "loi-service",
+      "displayName": "Create LOI",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "loi-service",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 13,
       "name": "HRMS",
       "url": "url",
@@ -224,6 +236,30 @@
       "leftIcon": "dynamic:ProjectIcon"
     },
     {
+      "id": 19,
+      "name": "Search LOI",
+      "url": "/loi-service/v1/_search",
+      "parentModule": "loi-service",
+      "displayName": "Search LOI",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "loi-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 20,
+      "name": "Update LOI",
+      "url": "/loi-service/v1/_update",
+      "parentModule": "loi-service",
+      "displayName": "Update LOI",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "loi-service",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 21,
       "name": "Workflow search",
       "url": "/egov-workflow-v2/egov-wf/process/_search",
@@ -257,6 +293,18 @@
       "serviceCode": "ADMIN",
       "code": "null",
       "path": "Administration.Profile Update"
+    },
+    {
+      "id": 24,
+      "name": "Works inbox service",
+      "url": "/works-inbox-service/v1/_search",
+      "parentModule": "works-inbox-service",
+      "displayName": "Works inbox",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-inbox-service",
+      "code": "null",
+      "path": ""
     },
     {
       "id": 26,
@@ -535,6 +583,18 @@
       "path": ""
     },
     {
+      "id": 49,
+      "name": "Works inbox service",
+      "url": "/works-inbox-service/v2/_search",
+      "parentModule": "works-inbox-service",
+      "displayName": "Works inbox",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-inbox-service",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 50,
       "name": "Estimate muster roll",
       "url": "/muster-roll/v1/_estimate",
@@ -587,7 +647,7 @@
       "name": "BILLS",
       "url": "url",
       "displayName": "Bill Inbox",
-      "orderNumber": 2,
+      "orderNumber": 3,
       "parentModule": "",
       "enabled": true,
       "serviceCode": "BILLS",
@@ -707,6 +767,34 @@
       "navigationURL": "/works-ui/employee/works/checklist",
       "path": "CHECKLIST.Create",
       "leftIcon": "dynamic:HRIcon"
+    },
+    {
+      "id": 62,
+      "name": "MASTERS",
+      "url": "url",
+      "displayName": "Masters Search Organisation",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MASTERS",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/masters/search-organization",
+      "path": "7MASTERS.Search",
+      "leftIcon": "dynamic:OrganisationIcon"
+    },
+    {
+      "id": 63,
+      "name": "WAGESEEKER",
+      "url": "url",
+      "displayName": "Masters Create WageSeeker",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "WageSeeker",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/masters/create-wageseeker",
+      "path": "8WageSeeker.CreateWageSeeker",
+      "leftIcon": "dynamic:WageseekerIcon"
     },
     {
       "id": 64,
@@ -897,7 +985,7 @@
       "name": "Dashboard Works",
       "url": "url",
       "displayName": "Works Dashboard",
-      "orderNumber": 1,
+      "orderNumber": 4,
       "parentModule": "dss-dashboard",
       "enabled": true,
       "serviceCode": "DSS",
@@ -1107,6 +1195,18 @@
       "path": ""
     },
     {
+      "id": 97,
+      "name": "Search Muster details",
+      "url": "/egov-bff-service/muster/getMusterDetails",
+      "parentModule": "bff",
+      "displayName": "Search Muster details",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bff",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 98,
       "name": "WMS search individual",
       "url": "/wms/individual/_search",
@@ -1189,41 +1289,37 @@
     },
     {
       "id": 105,
-      "name": "MASTERS",
-      "url": "url",
-      "displayName": "Masters Search Organisation",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "MASTERS",
+      "name": "Create Expense Bill",
+      "url": "/expense/bill/v1/_create",
+      "parentModule": "expense",
+      "displayName": "Create Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses",
       "code": "null",
-      "navigationURL": "/works-ui/employee/masters/search-organization",
-      "path": "7MASTERS.Search",
-      "leftIcon": "dynamic:OrganisationIcon"
+      "path": ""
     },
     {
       "id": 106,
-      "name": "WAGESEEKER",
-      "url": "url",
-      "displayName": "Masters Create WageSeeker",
-      "orderNumber": 2,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "WageSeeker",
+      "name": "Search Expense Bill",
+      "url": "/expense/bill/v1/_search",
+      "parentModule": "expense",
+      "displayName": "Search Expense Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "expenses",
       "code": "null",
-      "navigationURL": "/works-ui/employee/masters/create-wageseeker",
-      "path": "8WageSeeker.CreateWageSeeker",
-      "leftIcon": "dynamic:WageseekerIcon"
+      "path": ""
     },
     {
       "id": 107,
-      "name": "user search ",
-      "url": "/user/_search",
-      "parentModule": "core",
-      "displayName": "user-search",
+      "name": "Update Expense Bill",
+      "url": "/expense/bill/v1/_update",
+      "parentModule": "expense",
+      "displayName": "Update Expense Bill",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "user",
+      "serviceCode": "expenses",
       "code": "null",
       "path": ""
     },
@@ -1357,8 +1453,7 @@
       "serviceCode": "expense-calculator",
       "code": "null",
       "path": ""
-    },   
-    {
+    },   {
       "id": 119,
       "name": "Generate Expense Bill PDF API",
       "url": "/expense/payment/v1/_search",
@@ -1369,8 +1464,7 @@
       "serviceCode": "expense-calculator",
       "code": "null",
       "path": ""
-    }, 
-    {
+    }, {
       "id": 120,
       "name": "PAYMENT",
       "url": "url",
@@ -1382,9 +1476,8 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/expenditure/search-bill",
       "path": "5PAYMENT.GENERATEPAY",
-      "leftIcon": "dynamic:ExpenditureIcon"
-    },
-    {
+      "leftIcon": "dynamic:PaymentIcon"
+    },{
       "id": 121,
       "name": "PAYMENT",
       "url": "url",
@@ -1396,61 +1489,7 @@
       "code": "null",
       "navigationURL": "/works-ui/employee/expenditure/download-bill",
       "path": "5PAYMENT.DOWNLOADPAY",
-      "leftIcon": "dynamic:ExpenditureIcon"
-    },
-    {
-      "id": 122,
-      "name": "BILLS",
-      "url": "url",
-      "displayName": "Bill Inbox",
-      "orderNumber": 3,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "BILLS",
-      "code": "null",
-      "navigationURL": "/works-ui/employee/expenditure/billinbox",
-      "path": "5BILLS.BillInbox",
-      "leftIcon": "dynamic:ExpenditureIcon"
-    },
-    {
-      "id": 123,
-      "name": "BILLS",
-      "url": "url",
-      "displayName": "Bill Search",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "BILLS",
-      "code": "null",
-      "navigationURL": "/works-ui/employee/expenditure/search-bill",
-      "path": "5BILLS.BillSearch",
-      "leftIcon": "dynamic:ExpenditureIcon"
-    },
-    {
-      "id": 124,
-      "name": "BILLS",
-      "url": "url",
-      "displayName": "Bill Create",
-      "orderNumber": 2,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "BILLS",
-      "code": "null",
-      "navigationURL": "/works-ui/employee/contracts/search-contract",
-      "path": "5BILLS.BillView",
-      "leftIcon": "dynamic:ExpenditureIcon"
-    },
-    {
-      "id": 125,
-      "name": "Expense Search API",
-      "url": "/expense/bill/v1/_search",
-      "parentModule": "expense",
-      "displayName": "Expense Search API",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "expense",
-      "code": "null",
-      "path": ""
+      "leftIcon": "dynamic:PaymentIcon"
     }
-  ]  
+  ]
 }
