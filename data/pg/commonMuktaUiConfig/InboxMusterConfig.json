@@ -98,7 +98,7 @@
             "label": "ES_COMMON_ATTENDENCEMGMT",
             "logoIcon": {
               "component": "AttendanceIcon",
-              "customClass": "search-icon--projects"
+              "customClass": "inbox-links-icon"
             }
           },
           "children": {},
