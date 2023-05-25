@@ -201,6 +201,11 @@
       "code": "BILL_ACCOUNTANT",
       "name": "BILL_ACCOUNTANT",
       "description": "Bill Accountant"
+    },
+    {
+      "code": "DASHBOARD_VIEWER",
+      "name": "DASHBOARD_VIEWER",
+      "description": "Dashboard Viewer"
     }
   ]
 }

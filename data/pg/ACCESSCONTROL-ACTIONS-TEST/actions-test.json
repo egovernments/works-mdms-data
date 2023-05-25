@@ -1490,6 +1490,19 @@
       "navigationURL": "/works-ui/employee/expenditure/download-bill",
       "path": "5PAYMENT.DOWNLOADPAY",
       "leftIcon": "dynamic:PaymentIcon"
+    },{
+      "id": 122,
+      "name": "Dasboard",
+      "url": "url",
+      "displayName": "Dashboard",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "dashboard",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/dashboard",
+      "path": "",
+      "leftIcon": "dynamic:DashboardIcon"
     }
   ]
 }
