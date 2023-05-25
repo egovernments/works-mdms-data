@@ -1324,6 +1324,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 74,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "SUPERUSER",
       "actionid": 75,
       "actioncode": "",
