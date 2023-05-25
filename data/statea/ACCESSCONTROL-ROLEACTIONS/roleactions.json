@@ -1020,6 +1020,12 @@
       "tenantId": "statea"
     },
     {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 74,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "BILL_ACCOUNTANT",
       "actionid": 115,
       "actioncode": "",
