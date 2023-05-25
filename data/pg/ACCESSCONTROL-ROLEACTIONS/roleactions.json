@@ -1020,6 +1020,42 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 74,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "JUNIOR_ENGINEER",
+      "actionid": 59,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 59,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 59,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_VERIFIER",
+      "actionid": 90,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUSTER_ROLL_APPROVER",
+      "actionid": 90,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "BILL_ACCOUNTANT",
       "actionid": 115,
       "actioncode": "",
