@@ -2161,11 +2161,6 @@
       "actionid": 121,
       "actioncode": "",
       "tenantId": "pg"
-    },{
-      "rolecode": "DASHBOARD_VIEWER",
-      "actionid": 122,
-      "actioncode": "",
-      "tenantId": "pg"
     }
   ]
 }
