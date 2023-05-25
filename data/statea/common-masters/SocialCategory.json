@@ -19,8 +19,8 @@
             "active": true
         },
         {
-            "name": "Other",
-            "code": "OTHER",
+            "name": "General",
+            "code": "GENERAL",
             "active": true
         }
     ]
