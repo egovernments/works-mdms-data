@@ -216,7 +216,7 @@
                 "label": "COMMON_WORK_ORDER_AMT_RS",
                 "isMandatory": true,
                 "key": "workOrderAmountRs",
-                "type": "number",
+                "type": "amount",
                 "disable": true,
                 "populators": {
                   "name": "workOrderAmountRs"
