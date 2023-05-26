@@ -178,7 +178,7 @@
                 "label": "EXP_GST_RS",
                 "isMandatory": false,
                 "key": "invoiceDetails_gst",
-                "type": "text",
+                "type": "amount",
                 "disable": false,
                 "preProcess": {
                   "convertStringToRegEx": [
