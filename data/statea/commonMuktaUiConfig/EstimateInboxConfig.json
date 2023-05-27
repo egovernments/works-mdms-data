@@ -175,8 +175,8 @@
             ],
             "label": "MUKTA",
             "logoIcon": {
-              "component": "PropertyHouse",
-              "customClass": "inbox-search-icon--projects"
+              "component": "EstimateIcon",
+              "customClass": "inbox-links-icon"
             }
           },
           "children": {},
@@ -244,11 +244,12 @@
                 }
               },
               {
-                "label": "COMMON_WORKFLOW_STATES",
+               
                 "type": "workflowstatesfilter",
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "componentLabel": "COMMON_WORKFLOW_STATES",
                   "name": "state",
                   "labelPrefix": "WF_",
                   "businessService": "mukta-estimate"
