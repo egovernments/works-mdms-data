@@ -183,7 +183,8 @@
               },
               {
                 "label": "WORKS_PROJECT_NAME",
-                "jsonPath": "businessObject.additionalDetails.projectName"
+                "jsonPath": "businessObject.additionalDetails.projectName",
+                "additionalCustomization":true
               },
               {
                 "label": "ES_COMMON_LOCATION",
