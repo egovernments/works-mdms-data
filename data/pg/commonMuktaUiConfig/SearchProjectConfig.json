@@ -9,7 +9,7 @@
         "actionRole": "PROJECT_CREATOR",
         "actionLink": "project/create-project",
         "apiDetails": {
-          "serviceName": "/project/v1/_search",
+          "serviceName": "/wms/project/search",
           "requestParam": {},
           "requestBody": {
             "apiOperation": "SEARCH",
