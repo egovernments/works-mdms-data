@@ -2161,6 +2161,42 @@
       "actionid": 121,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 123,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 124,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+     {
+      "rolecode": "EMPLOYEE",
+      "actionid": 122,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 123,
+      "actioncode": "",
+      "tenantId": "pb"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 124,
+      "actioncode": "",
+      "tenantId": "pb"
     }
   ]
 }

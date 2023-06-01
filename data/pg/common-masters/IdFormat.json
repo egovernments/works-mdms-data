@@ -3,6 +3,10 @@
   "moduleName": "common-masters",
   "IdFormat": [
     {
+      "format": "PB-BTR-[cy:yyyy-MM-dd]-[SEQ_EG_BTR_ID]",
+      "idname": "btr.registrationid"
+    },
+    {
       "format": "ES/[fy:yyyy-yy]/[SEQ_ESTIMATE_NUM]",
       "idname": "estimate.number"
     },
