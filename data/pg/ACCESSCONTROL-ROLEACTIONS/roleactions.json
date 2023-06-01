@@ -1612,8 +1612,20 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "PROJECT_CREATOR",
+      "actionid": 88,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "PROJECT_VIEWER",
       "actionid": 52,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PROJECT_VIEWER",
+      "actionid": 88,
       "actioncode": "",
       "tenantId": "pg"
     },
