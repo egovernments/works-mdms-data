@@ -185,7 +185,7 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "ASC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.projectNumber", "Data.name", "Data.projectType", "Data.isDeleted", "Data.auditDetails"]
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.projectNumber", "Data.name", "Data.projectType", "Data.address", "Data.additionalDetails" "Data.isDeleted", "Data.auditDetails"]
     },
     {
       "module": "contract",
