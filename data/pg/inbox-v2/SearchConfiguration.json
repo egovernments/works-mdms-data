@@ -302,8 +302,44 @@
         {
           "name": "name",
           "path": "Data.name.givenName",
-          "isMandatory": true,
+          "isMandatory": false,
           "operator": "FUZZY"
+        },
+        {
+          "name": "ward",
+          "path": "Data.address.ward.code.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "individualId",
+          "path": "Data.individualId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "socialCategoryKey",
+          "path": "Data.socialCategoryKey.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "socialCategoryValue",
+          "path": "Data.socialCategoryValue.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
         }
       ],
       "sortBy": {
