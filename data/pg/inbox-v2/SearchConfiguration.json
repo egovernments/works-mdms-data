@@ -210,6 +210,8 @@
         "Data.id",
         "Data.projectNumber",
         "Data.name",
+        "Data.address",
+        "Data.additionalDetails",
         "Data.projectType",
         "Data.isDeleted",
         "Data.auditDetails"
