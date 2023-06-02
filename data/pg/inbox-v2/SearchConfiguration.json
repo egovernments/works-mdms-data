@@ -153,8 +153,32 @@
         {
           "name": "projectName",
           "path": "Data.name",
-          "isMandatory": true,
+          "isMandatory": false,
           "operator": "FUZZY"
+        },
+        {
+          "name": "projectType",
+          "path": "Data.projectType.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "boundary",
+          "path": "Data.address.boundary.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
         }
       ],
       "sortBy": {
