@@ -9,7 +9,7 @@
       "actionRole": "INDIVIDUAL_CREATOR",
       "actionLink": "masters/create-wageseeker",
       "apiDetails": {
-        "serviceName": "/wms/individual/_search",
+        "serviceName": "/individual/v1/_search",
         "requestParam": {},
         "requestBody": { "apiOperation": "SEARCH", "Individual": {} },
         "minParametersForSearchForm": 1,
