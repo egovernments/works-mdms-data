@@ -18,7 +18,7 @@
               },
               "minParametersForSearchForm": 1,
             "masterName": "commonUiConfig",
-            "moduleName": "SearchProjectConfig",
+            "moduleName": "SearchWMSProjectConfig",
             "tableFormJsonPath": "requestBody.inbox",
             "filterFormJsonPath": "requestBody.inbox.moduleSearchCriteria",
             "searchFormJsonPath": "requestBody.inbox.moduleSearchCriteria"
