@@ -480,7 +480,7 @@
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "ASC"
+        "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
         "Data.tenantId",
