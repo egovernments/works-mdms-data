@@ -177,6 +177,12 @@
           "operator": "FUZZY"
         },
         {
+          "name": "projectNumber",
+          "path": "Data.projectNumber",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
           "name": "projectType",
           "path": "Data.projectType.keyword",
           "isMandatory": false,
