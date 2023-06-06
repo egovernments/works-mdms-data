@@ -141,6 +141,18 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "PROJECT_CREATOR",
+      "actionid": 88,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PROJECT_VIEWER",
+      "actionid": 88,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "PROJECT_VIEWER",
       "actionid": 99,
       "actioncode": "",
@@ -254,7 +266,7 @@
       "actioncode": "",
       "tenantId": "pg"
     },
-     {
+    {
       "rolecode": "ESTIMATE_VIEWER",
       "actionid": 103,
       "actioncode": "",
@@ -332,7 +344,6 @@
       "actioncode": "",
       "tenantId": "pg"
     },
-    
     {
       "rolecode": "WORK_ORDER_CREATOR",
       "actionid": 67,
@@ -434,7 +445,8 @@
       "actionid": 68,
       "actioncode": "",
       "tenantId": "pg"
-    }, {
+    },
+    {
       "rolecode": "WORK_ORDER_VIEWER",
       "actionid": 89,
       "actioncode": "",
@@ -491,6 +503,12 @@
     {
       "rolecode": "MUKTA_ADMIN",
       "actionid": 102,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 98,
       "actioncode": "",
       "tenantId": "pg"
     },
@@ -625,7 +643,7 @@
       "actionid": 94,
       "actioncode": "",
       "tenantId": "pg"
-    }, 
+    },
     {
       "rolecode": "BILL_ACCOUNTANT",
       "actionid": 94,
@@ -758,7 +776,7 @@
       "actioncode": "",
       "tenantId": "pg"
     },
-      {
+    {
       "rolecode": "MUKTA_ADMIN",
       "actionid": 93,
       "actioncode": "",
@@ -931,12 +949,14 @@
       "actionid": 111,
       "actioncode": "",
       "tenantId": "pg"
-    }, {
+    },
+    {
       "rolecode": "BILL_CREATOR",
       "actionid": 122,
       "actioncode": "",
       "tenantId": "pg"
-    }, {
+    },
+    {
       "rolecode": "BILL_CREATOR",
       "actionid": 124,
       "actioncode": "",
@@ -959,7 +979,8 @@
       "actionid": 122,
       "actioncode": "",
       "tenantId": "pg"
-    },{
+    },
+    {
       "rolecode": "BILL_CREATOR",
       "actionid": 123,
       "actioncode": "",
