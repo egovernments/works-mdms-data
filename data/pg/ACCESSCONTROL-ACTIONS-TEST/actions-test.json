@@ -722,7 +722,7 @@
       "enabled": true,
       "serviceCode": "CONTRACTS",
       "code": "null",
-      "navigationURL": "/works-ui/employee/estimate/search-estimate",
+      "navigationURL": "/works-ui/employee/estimate/search-estimate?status=APPROVED",
       "path": "3CONTRACTS.Create",
       "leftIcon": "dynamic:ContractIcon"
     },
@@ -1474,7 +1474,7 @@
       "enabled": true,
       "serviceCode": "PAYMENT",
       "code": "null",
-      "navigationURL": "/works-ui/employee/expenditure/search-bill",
+      "navigationURL": "/works-ui/employee/expenditure/search-bill?status=APPROVED",
       "path": "5PAYMENT.GENERATEPAY",
       "leftIcon": "dynamic:PaymentIcon"
     },{
