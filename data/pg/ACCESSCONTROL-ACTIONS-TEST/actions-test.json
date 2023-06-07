@@ -736,7 +736,7 @@
       "enabled": true,
       "serviceCode": "CONTRACTS",
       "code": "null",
-      "navigationURL": "/works-ui/employee/contracts/search-contract?status=ACCEPTED",
+      "navigationURL": "/works-ui/employee/contracts/search-contract",
       "path": "3CONTRACTS.Search",
       "leftIcon": "dynamic:ContractIcon"
     },
