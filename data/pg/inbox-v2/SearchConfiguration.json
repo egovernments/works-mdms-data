@@ -163,7 +163,7 @@
     {
       "module": "project",
       "index": "project-index",
-     "allowedSearchCriteria": [
+      "allowedSearchCriteria": [
         {
           "name": "tenantId",
           "path": "Data.tenantId.keyword",
@@ -175,6 +175,12 @@
           "path": "Data.name",
           "isMandatory": false,
           "operator": "FUZZY"
+        },
+        {
+          "name": "projectNumber",
+          "path": "Data.projectNumber",
+          "isMandatory": false,
+          "operator": "EQUAL"
         },
         {
           "name": "projectType",
