@@ -328,7 +328,7 @@
           "path": "Data.id.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
-        }
+        },
         {
           "name": "socialCategoryKey",
           "path": "Data.socialCategoryKey.keyword",
