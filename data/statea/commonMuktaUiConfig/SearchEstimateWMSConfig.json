@@ -178,7 +178,8 @@
               },
               {
                 "label": "ES_COMMON_PROJECT_NAME",
-                "jsonPath": "businessObject.additionalDetails.projectName"
+                "jsonPath": "businessObject.project.name",
+                "additionalCustomization": true
               },
               {
                 "label": "ES_COMMON_LOCATION",
