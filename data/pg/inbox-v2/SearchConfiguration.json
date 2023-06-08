@@ -535,9 +535,9 @@
         },
         {
           "name": "referenceId",
-          "path": "Data.referenceId.keyword",
+          "path": "Data.billDetails.referenceId.keyword",
           "isMandatory": false,
-          "operator": "FUZZY"
+          "operator": "EQUAL"
         }
       ],
       "sortBy": {
