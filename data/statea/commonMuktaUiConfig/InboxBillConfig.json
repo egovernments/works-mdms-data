@@ -101,7 +101,7 @@
               "links": [
                 {
                   "text": "EXP_CREATE_BILL",
-                  "url": "/employee/contracts/search-contract",
+                  "url": "/employee/contracts/search-contract?status=ACCEPTED",
                   "roles": []
                 },
                 {
@@ -212,7 +212,7 @@
                 },
                 {
                   "label": "COMMON_ASSIGNEE",
-                  "jsonPath": "ProcessInstance.assignes.[0].name"
+                  "jsonPath": "ProcessInstance.assignes[0].name"
                 },
                 {
                   "label": "COMMON_WORKFLOW_STATES",
