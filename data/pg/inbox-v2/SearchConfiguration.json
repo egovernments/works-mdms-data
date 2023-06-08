@@ -547,7 +547,7 @@
         },
         {
           "name": "referenceId",
-          "path": Data.billDetails.referenceId.keyword,
+          "path": "Data.billDetails.referenceId.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         }
