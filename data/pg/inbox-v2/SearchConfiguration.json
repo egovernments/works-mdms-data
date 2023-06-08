@@ -219,6 +219,7 @@
         "Data.address",
         "Data.additionalDetails",
         "Data.projectType",
+        "Data.projectDesc",
         "Data.isDeleted",
         "Data.auditDetails"
       ]
