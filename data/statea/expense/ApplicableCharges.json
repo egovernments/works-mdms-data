@@ -76,6 +76,16 @@
             "value": null,
             "effectiveFrom": 1682164954037,
             "effectiveTo": null
+        },
+        {
+            "id": "25",
+            "code": "LC",
+            "service": "works.wages",
+            "active": true,
+            "calculationType":"percentage",
+            "value":"1",
+            "effectiveFrom": 1682164954037,
+            "effectiveTo": null
         }
     ]
 }
