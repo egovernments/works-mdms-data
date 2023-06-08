@@ -324,6 +324,12 @@
           "operator": "EQUAL"
         },
         {
+          "name": "id",
+          "path": "Data.id.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        }
+        {
           "name": "socialCategoryKey",
           "path": "Data.socialCategoryKey.keyword",
           "isMandatory": false,
