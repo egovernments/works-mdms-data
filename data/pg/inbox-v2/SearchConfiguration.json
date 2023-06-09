@@ -178,7 +178,7 @@
         },
         {
           "name": "projectNumber",
-          "path": "Data.projectNumber",
+          "path": "Data.projectNumber.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
