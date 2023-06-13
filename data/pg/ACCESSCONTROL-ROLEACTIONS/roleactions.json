@@ -2221,6 +2221,12 @@
       "actionid": 124,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "STADMIN",
+      "actionid": 125,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
