@@ -201,6 +201,11 @@
       "code": "BILL_ACCOUNTANT",
       "name": "BILL_ACCOUNTANT",
       "description": "Bill Accountant"
+    },
+    {
+      "code": "INTERNAL_MICROSERVICE_ROLE",
+      "name": "Internal Microservice Role",
+      "description": "Internal role for plain access"
     }
   ]
 }
