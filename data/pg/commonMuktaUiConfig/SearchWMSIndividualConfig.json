@@ -80,17 +80,6 @@
                       }
                     },
                     {
-                      "label": "CORE_COMMON_PROFILE_MOBILE_NUMBER",
-                      "type": "mobileNumber",
-                      "isMandatory": false,
-                      "disable": false,
-                      "populators": {
-                        "name": "mobileNumber",
-                        "error": "PROJECT_PATTERN_ERR_MSG",
-                        "validation": { "pattern": {}, "minlength": 2 }
-                      }
-                    },
-                    {
                       "label": "MASTERS_SOCIAL_CATEGORY",
                       "type": "dropdown",
                       "isMandatory": false,
