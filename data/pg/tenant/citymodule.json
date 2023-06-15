@@ -205,6 +205,22 @@
                    "code": "pg.citya"
                }
            ]
-       }
+       },
+        {
+          "module": "Sample",
+          "code": "Sample",
+          "active": true,
+          "order": 12,
+          "tenants": [
+                {
+                  "code": "pg.citya"
+                },
+                {
+                  "code": "pg.cityb"
+                },
+                {
+                  "code": "pg.cityc"
+                }
+      ]
     ]
 }
