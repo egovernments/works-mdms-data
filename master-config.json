@@ -129,5 +129,16 @@
 		"isStateLevel": true,
 		"uniqueKeys": []
 	  }
+	},
+	"ifms": {
+		"HeadOfAccounts": {
+			"masterName": "HeadOfAccounts",
+			"isStateLevel": true
+		},
+		"SchemeDetails": {
+			"masterName": "SchemeDetails",
+			"isStateLevel": true
+		}
 	}
+
   }
