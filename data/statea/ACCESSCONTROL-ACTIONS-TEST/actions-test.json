@@ -597,6 +597,20 @@
       "leftIcon": "dynamic:ExpenditureIcon"
     },
     {
+      "id": 55,
+      "name": "BILLS",
+      "url": "url",
+      "displayName": "Create Purchase Bill",
+      "orderNumber": 3,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "BILLS",
+      "code": "null",
+      "navigationURL": "/works-ui/employee/contracts/search-contract?status=ACCEPTED",
+      "path": "5BILLS.CreratePurchaseBill",
+      "leftIcon": "dynamic:ExpenditureIcon"
+    },
+    {
       "id": 56,
       "name": "BILLS",
       "url": "url",
@@ -662,7 +676,7 @@
       "enabled": true,
       "serviceCode": "CONTRACTS",
       "code": "null",
-      "navigationURL": "/works-ui/employee/estimate/search-estimate",
+      "navigationURL": "/works-ui/employee/estimate/search-estimate?status=APPROVED",
       "path": "3CONTRACTS.Create",
       "leftIcon": "dynamic:ContractIcon"
     },
@@ -1380,7 +1394,7 @@
       "enabled": true,
       "serviceCode": "PAYMENT",
       "code": "null",
-      "navigationURL": "/works-ui/employee/expenditure/search-bill",
+      "navigationURL": "/works-ui/employee/expenditure/search-bill?status=APPROVED",
       "path": "5PAYMENT.GENERATEPAY",
       "leftIcon": "dynamic:ExpenditureIcon"
     },

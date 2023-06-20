@@ -154,7 +154,7 @@
                 "label": "EXP_MATERIALCOST_RS",
                 "isMandatory": true,
                 "key": "invoiceDetails_materialCost",
-                "type": "text",
+                "type": "amount",
                 "disable": false,
                 "preProcess": {
                   "convertStringToRegEx": [
@@ -178,7 +178,7 @@
                 "label": "EXP_GST_RS",
                 "isMandatory": false,
                 "key": "invoiceDetails_gst",
-                "type": "text",
+                "type": "amount",
                 "disable": false,
                 "preProcess": {
                   "convertStringToRegEx": [

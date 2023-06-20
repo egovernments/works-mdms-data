@@ -15,6 +15,24 @@
       "tenantId": "statea"
     },
     {
+      "rolecode": "PROJECT_CREATOR",
+      "actionid": 88,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "PROJECT_VIEWER",
+      "actionid": 88,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "MUKTA_ADMIN",
+      "actionid": 98,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "EMPLOYEE_COMMON",
       "actionid": 23,
       "actioncode": "",
@@ -31,6 +49,12 @@
       "actionid": 81,
       "actioncode": "",
       "tenantId": "statea"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 55,
+      "actioncode": "",
+      "tenantId": "pg"
     },
     {
       "rolecode": "EMPLOYEE_COMMON",
@@ -1047,7 +1071,7 @@
       "rolecode": "MUKTA_ADMIN",
       "actionid": 74,
       "actioncode": "",
-      "tenantId": "pg"
+      "tenantId": "statea"
     },
     {
       "rolecode": "BILL_ACCOUNTANT",

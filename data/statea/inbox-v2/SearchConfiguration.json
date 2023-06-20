@@ -75,7 +75,7 @@
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "ASC"
+        "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
         "Data.tenantId",
@@ -145,7 +145,7 @@
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "ASC"
+        "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
         "Data.tenantId",
@@ -173,20 +173,53 @@
         {
           "name": "projectName",
           "path": "Data.name",
-          "isMandatory": true,
+          "isMandatory": false,
           "operator": "FUZZY"
+        },
+        {
+          "name": "projectNumber",
+          "path": "Data.projectNumber.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "projectType",
+          "path": "Data.projectType.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "boundary",
+          "path": "Data.address.boundary.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
         }
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "ASC"
+        "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
         "Data.tenantId",
         "Data.id",
         "Data.projectNumber",
         "Data.name",
+        "Data.address",
+        "Data.additionalDetails",
         "Data.projectType",
+        "Data.description",
         "Data.isDeleted",
         "Data.auditDetails"
       ]
@@ -276,13 +309,55 @@
         {
           "name": "name",
           "path": "Data.name.givenName",
-          "isMandatory": true,
+          "isMandatory": false,
           "operator": "FUZZY"
+        },
+        {
+          "name": "ward",
+          "path": "Data.address.ward.code.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "individualId",
+          "path": "Data.individualId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "id",
+          "path": "Data.id.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "socialCategoryKey",
+          "path": "Data.socialCategoryKey.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "socialCategoryValue",
+          "path": "Data.socialCategoryValue.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "createdFrom",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "GTE"
+        },
+        {
+          "name": "createdTo",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false,
+          "operator": "LTE"
         }
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "ASC"
+        "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
         "Data.tenantId",
@@ -473,14 +548,14 @@
         },
         {
           "name": "referenceId",
-          "path": "Data.referenceId.keyword",
+          "path": "Data.billDetails.referenceId.keyword",
           "isMandatory": false,
-          "operator": "FUZZY"
+          "operator": "EQUAL"
         }
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "ASC"
+        "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
         "Data.tenantId",

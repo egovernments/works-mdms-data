@@ -110,6 +110,16 @@
       "active": true,
       "effectiveFrom": 1682164954037,
       "effectiveTo": null
+    },
+    {
+      "id": "12",
+      "code": "LC",
+      "category": "deduction",
+      "service": "works.wages",
+      "description": "Labour Cess",
+      "active": true,
+      "effectiveFrom": 1682164954037,
+      "effectiveTo": null
     }
   ]
 }

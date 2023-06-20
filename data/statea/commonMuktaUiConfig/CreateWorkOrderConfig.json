@@ -207,6 +207,7 @@
                   "error": "COMMON_PATTERN_ERR_MSG_PROJECT_COMP_PERIOD",
                   "validation": {
                     "pattern": "^(?!(0))[0-9]+$",
+                    "max": 365,
                     "maxlength": 8
                   }
                 }
@@ -216,7 +217,7 @@
                 "label": "COMMON_WORK_ORDER_AMT_RS",
                 "isMandatory": true,
                 "key": "workOrderAmountRs",
-                "type": "number",
+                "type": "amount",
                 "disable": true,
                 "populators": {
                   "name": "workOrderAmountRs"

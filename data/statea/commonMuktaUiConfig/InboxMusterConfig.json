@@ -97,8 +97,8 @@
             ],
             "label": "ES_COMMON_ATTENDENCEMGMT",
             "logoIcon": {
-              "component": "MuktaIcon",
-              "customClass": "search-icon--projects"
+              "component": "AttendanceIcon",
+              "customClass": "inbox-links-icon"
             }
           },
           "children": {},
@@ -154,6 +154,9 @@
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "optionsCustomStyle": {
+                    "top": "2.3rem"
+                  },
                   "name": "ward",
                   "type": "ward",
                   "optionsKey": "i18nKey",
@@ -163,11 +166,11 @@
                 }
               },
               {
-                "label": "COMMON_WORKFLOW_STATES",
                 "type": "workflowstatesfilter",
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "componentLabel": "COMMON_WORKFLOW_STATES",
                   "name": "state",
                   "labelPrefix": "WF_",
                   "businessService": "muster-roll-approval"

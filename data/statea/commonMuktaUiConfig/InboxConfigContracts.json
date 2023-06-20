@@ -155,7 +155,7 @@
             "links": [
               {
                 "text": "ACTION_TEST_CREATE_WO",
-                "url": "/employee/estimate/search-estimate",
+                "url": "/employee/estimate/search-estimate?status=APPROVED",
                 "roles": ["WORK_ORDER_CREATOR"]
               },
               {
@@ -170,8 +170,8 @@
             ],
             "label": "MUKTA",
             "logoIcon": {
-              "component": "PropertyHouse",
-              "customClass": "inbox-search-icon--projects"
+              "component": "ContractIcon",
+              "customClass": "inbox-links-icon"
             }
           },
           "children": {},
@@ -227,6 +227,9 @@
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "optionsCustomStyle": {
+                    "top": "2.3rem"
+                  },
                   "name": "ward",
                   "type": "ward",
                   "optionsKey": "i18nKey",
@@ -236,11 +239,11 @@
                 }
               },
               {
-                "label": "COMMON_WORKFLOW_STATES",
                 "type": "workflowstatesfilter",
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "componentLabel": "COMMON_WORKFLOW_STATES",
                   "name": "state",
                   "labelPrefix": "WF_",
                   "businessService": "contract-approval-mukta"

@@ -101,7 +101,7 @@
               "links": [
                 {
                   "text": "EXP_CREATE_BILL",
-                  "url": "/employee/contracts/search-contract",
+                  "url": "/employee/contracts/search-contract?status=ACCEPTED",
                   "roles": []
                 },
                 {
@@ -112,8 +112,8 @@
               ],
               "label": "MUKTA",
               "logoIcon": {
-                "component": "BioMetricIcon",
-                "customClass": "search-icon--projects"
+                "component": "ExpenditureIcon",
+                "customClass": "inbox-links-icon"
               }
             },
             "children": {},
@@ -172,15 +172,18 @@
                     "optionsKey": "name",
                     "defaultText": "COMMON_SELECT_WARD",
                     "selectedText": "COMMON_SELECTED",
-                    "allowMultiSelect": true
+                    "allowMultiSelect": true,
+                    "optionsCustomStyle": {
+                      "top": "2.3rem"
+                    }
                   }
                 },
                 {
-                  "label": "COMMON_WORKFLOW_STATES",
                   "type": "workflowstatesfilter",
                   "isMandatory": false,
                   "disable": false,
                   "populators": {
+                    "componentLabel": "COMMON_WORKFLOW_STATES",
                     "name": "state",
                     "labelPrefix": "WF_"
                   }
@@ -209,7 +212,7 @@
                 },
                 {
                   "label": "COMMON_ASSIGNEE",
-                  "jsonPath": "ProcessInstance.assignes.[0].name"
+                  "jsonPath": "ProcessInstance.assignes[0].name"
                 },
                 {
                   "label": "COMMON_WORKFLOW_STATES",
