@@ -1078,6 +1078,12 @@
       "actionid": 115,
       "actioncode": "",
       "tenantId": "statea"
+    },
+    {
+      "rolecode": "ORG_ADMIN",
+      "actionid": 98,
+      "actioncode": "",
+      "tenantId": "statea"
     }
   ]
 }
