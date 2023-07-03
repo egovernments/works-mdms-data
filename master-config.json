@@ -28,6 +28,12 @@
 	  }
 	},
 	"common-masters": {
+		"IdFormat": {
+			"masterName": "IdFormat",
+			"moduleDefinition": null,
+			"isStateLevel": true,
+			"uniqueKeys": []
+		},
 	  "Department": {
 		"masterName": "Department",
 		"moduleDefinition": null,
