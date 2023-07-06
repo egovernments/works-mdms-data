@@ -1564,6 +1564,30 @@
       "serviceCode": "works-management-service",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 127,
+      "name": "IFMS PI search",
+      "url": "/ifms/pi/v1/_search",
+      "parentModule": "ifms-adapter",
+      "displayName": "IFMS-PI Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ifms-adapter",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 128,
+      "name": "IFMS PI create",
+      "url": "/ifms/pi/v1/_create",
+      "parentModule": "ifms-adapter",
+      "displayName": "IFMS-PI Create",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ifms-adapter",
+      "code": "null",
+      "path": ""
     }
   ]
 }
