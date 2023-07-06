@@ -1,0 +1,42 @@
+{
+  "tenantId": "pg",
+  "moduleName": "expense",
+  "PaymentInstructionStatus": [
+   {  
+    "id":1,
+    "value":"INITIATED",
+    "i18nKey":"EXP_PI_STATUS_INITIATED",
+    "isActive":true
+   },
+   {  
+    "id":2,
+    "value":"APPROVED",
+    "i18nKey":"EXP_PI_STATUS_APPROVED",
+    "isActive":true
+   },
+   {  
+    "id":3,
+    "value":"IN PROCESS",
+    "i18nKey":"EXP_PI_STATUS_IN_PROCESS",
+    "isActive":true
+   },
+   {  
+    "id":4,
+    "value":"FAILED",
+    "i18nKey":"EXP_PI_STATUS_FAILED",
+    "isActive":true
+   },
+   {  
+    "id":5,
+    "value":"SUCCESSFUL",
+    "i18nKey":"EXP_PI_STATUS_SUCCESSFUL",
+    "isActive":true
+   },
+   {  
+    "id":6,
+    "value":"PARTIAL",
+    "i18nKey":"EXP_PI_STATUS_PARTIAL",
+    "isActive":true
+   }
+  ]
+}

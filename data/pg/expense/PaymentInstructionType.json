@@ -1,0 +1,18 @@
+{
+  "tenantId": "pg",
+  "moduleName": "expense",
+  "PaymentInstructionType": [
+   {  
+    "id":1,
+    "type":"ORIGINAL",
+    "i18nKey":"EXP_PI_TYPE_ORIGINAL",
+    "isActive":true
+   },
+   {
+    "id":2,
+    "type":"REVISED",
+    "i18nKey":"EXP_PI_TYPE_REVISED",
+    "isActive":true
+   }
+  ]
+}
