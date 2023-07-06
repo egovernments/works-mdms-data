@@ -4,15 +4,15 @@
   "PaymentInstructionType": [
    {  
     "id":1,
-    "type":"ORIGINAL",
+    "code":"ORIGINAL",
     "i18nKey":"EXP_PI_TYPE_ORIGINAL",
-    "isActive":true
+    "active":true
    },
    {
     "id":2,
-    "type":"REVISED",
+    "code":"REVISED",
     "i18nKey":"EXP_PI_TYPE_REVISED",
-    "isActive":true
+    "active":true
    }
   ]
 }
