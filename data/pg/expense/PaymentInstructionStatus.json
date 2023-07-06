@@ -4,39 +4,39 @@
   "PaymentInstructionStatus": [
    {  
     "id":1,
-    "value":"INITIATED",
+    "code":"INITIATED",
     "i18nKey":"EXP_PI_STATUS_INITIATED",
-    "isActive":true
+    "active":true
    },
    {  
     "id":2,
-    "value":"APPROVED",
+    "code":"APPROVED",
     "i18nKey":"EXP_PI_STATUS_APPROVED",
-    "isActive":true
+    "active":true
    },
    {  
     "id":3,
-    "value":"IN PROCESS",
+    "code":"IN PROCESS",
     "i18nKey":"EXP_PI_STATUS_IN_PROCESS",
-    "isActive":true
+    "active":true
    },
    {  
     "id":4,
-    "value":"FAILED",
+    "code":"FAILED",
     "i18nKey":"EXP_PI_STATUS_FAILED",
-    "isActive":true
+    "active":true
    },
    {  
     "id":5,
-    "value":"SUCCESSFUL",
+    "code":"SUCCESSFUL",
     "i18nKey":"EXP_PI_STATUS_SUCCESSFUL",
-    "isActive":true
+    "active":true
    },
    {  
     "id":6,
-    "value":"PARTIAL",
+    "code":"PARTIAL",
     "i18nKey":"EXP_PI_STATUS_PARTIAL",
-    "isActive":true
+    "active":true
    }
   ]
 }
