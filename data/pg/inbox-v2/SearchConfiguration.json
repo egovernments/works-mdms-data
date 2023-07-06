@@ -638,6 +638,12 @@
           "operator": "EQUAL"
         },
         {
+          "name": "jitBillNo",
+          "path": "Data.jitBillNo.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
           "name": "status",
           "path": "Data.piStatus.keyword",
           "isMandatory": false,
@@ -675,6 +681,8 @@
       "sourceFilterPathList": [
         "Data.id",
         "Data.tenantId",
+        "Data.jitBillNo",
+        "Data.parentPiNumber",
         "Data.muktaReferenceId",
         "Data.numBeneficiaries",
         "Data.grossAmount",
