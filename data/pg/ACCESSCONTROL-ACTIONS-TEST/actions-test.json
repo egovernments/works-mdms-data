@@ -1465,6 +1465,18 @@
       "serviceCode": "expense",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 126,
+      "name": "WMS search IFMS-PI",
+      "url": "/wms/ifms-pi/_search",
+      "parentModule": "works-management-service",
+      "displayName": "WMS search IFMS-PI",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "works-management-service",
+      "code": "null",
+      "path": ""
     }
   ]  
 }
