@@ -1099,6 +1099,30 @@
       "actionid": 115,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 127,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_ACCOUNTANT",
+      "actionid": 127,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 128,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_ACCOUNTANT",
+      "actionid": 128,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
