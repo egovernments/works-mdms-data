@@ -69,6 +69,10 @@
     {
       "format": "WR_[SEQ_WAGE_REF_NUM]",
       "idname": "wage.reference.number"
+    },
+    {
+      "format": "PI-[CITY.CODE]/[fy:yyyy-yy]/[SEQ_IFMS_PAYMENT_INSTRUCTION_NUMBER]",
+      "idname": "ifms.pi.reference.number"
     }
   ]
 }
