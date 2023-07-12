@@ -573,6 +573,60 @@
         "Data.referenceId"
       ]
     },
+    	    {	
+      "module": "expense-payment",	
+      "index": "expense-payment-index",	
+      "allowedSearchCriteria": [	
+        {	
+          "name": "tenantId",	
+          "path": "Data.tenantId.keyword",	
+          "isMandatory": true,	
+          "operator": "EQUAL"	
+        },	
+        {	
+          "name": "status",	
+          "path": "Data.status",	
+          "isMandatory": false	
+        },	
+        {	
+          "name": "billNumber",	
+          "path": "Data.bills.additionalDetails.billNumber.keyword",	
+          "isMandatory": false	
+        },	
+        {	
+          "name": "referenceId",	
+          "path": "Data.bills.additionalDetails.referenceId.keyword",	
+          "isMandatory": false	
+        },	
+        {	
+          "name": "createdFrom",	
+          "path": "Data.auditDetails.createdTime",	
+          "isMandatory": false,	
+          "operator": "GTE"	
+        },	
+        {	
+          "name": "createdTo",	
+          "path": "Data.auditDetails.createdTime",	
+          "isMandatory": false,	
+          "operator": "LTE"	
+        }	
+      ],	
+      "sortBy": {	
+        "path": "Data.auditDetails.createdTime",	
+        "defaultOrder": "DESC"	
+      },	
+      "sourceFilterPathList": [	
+        "Data.id",	
+        "Data.tenantId",	
+        "Data.netPayableAmount",	
+        "Data.netPaidAmount",	
+        "Data.paymentNumber",	
+        "Data.status",	
+        "Data.bills",	
+        "Data.auditDetails",	
+        "Data.additionalDetails"	
+      ]	
+    },
     {
       "module": "ifms-pi",
       "index": "ifms-pi-index",
