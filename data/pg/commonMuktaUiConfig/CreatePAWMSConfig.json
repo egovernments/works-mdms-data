@@ -16,7 +16,7 @@
         },
         "minParametersForSearchForm": 1,
         "masterName": "commonUiConfig",
-        "moduleName": "SearchBillWMSConfig",
+        "moduleName": "CreatePAWMSConfig",
         "tableFormJsonPath": "requestBody.inbox",
         "filterFormJsonPath": "requestBody.inbox.moduleSearchCriteria",
         "searchFormJsonPath": "requestBody.inbox.moduleSearchCriteria"
