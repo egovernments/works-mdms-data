@@ -2,6 +2,11 @@
   "tenantId": "pg",
   "moduleName": "ACCESSCONTROL-ROLES",
   "roles": [
+   {
+      "code": "CITIZEN",
+      "name": "Citizen",
+      "description": "Default role for citizen"
+    },
     {
       "code": "HRMS_ADMIN",
       "name": "HRMS Admin",
