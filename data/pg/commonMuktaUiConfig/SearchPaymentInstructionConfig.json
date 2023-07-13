@@ -5,6 +5,9 @@
     {
       "label": "EXP_SEARCH_PAYMENT_INS",
       "type": "search",
+      "actionLabel": "EXP_CREATE_PA",
+      "actionRole": "BILL_ACCOUNTANT",
+      "actionLink": "expenditure/create-pa?status=APPROVED",
       "apiDetails": {
         "serviceName": "/wms/ifms-pi/_search",
         "requestParam": {},
