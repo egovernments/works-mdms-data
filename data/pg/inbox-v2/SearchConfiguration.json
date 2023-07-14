@@ -644,6 +644,12 @@
           "operator": "EQUAL"
         },
         {
+          "name": "piType",
+          "path": "Data.piType.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
           "name": "status",
           "path": "Data.piStatus.keyword",
           "isMandatory": false,
