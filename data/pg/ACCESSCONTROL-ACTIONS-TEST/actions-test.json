@@ -908,23 +908,23 @@
     },
     {
       "id": 79,
-      "name": "Dashboard Works",
+      "name": "Dashboard Mukta",
       "url": "url",
-      "displayName": "Works Dashboard",
+      "displayName": "Mukta Dashboard",
       "orderNumber": 1,
       "parentModule": "dss-dashboard",
       "enabled": true,
       "serviceCode": "DSS",
       "code": "null",
-      "path": "6Dashboard.Works",
-      "navigationURL": "/works-ui/employee/dss/dashboard/works",
+      "path": "6Dashboard.Mukta",
+      "navigationURL": "/works-ui/employee/dss/dashboard/mukta",
       "leftIcon": "dynamic:DashboardIcon",
       "rightIcon": ""
     },
     {
       "id": 80,
       "name": "DSS Dashboard Config Works",
-      "url": "/dashboard-analytics/dashboard/getDashboardConfig/works",
+      "url": "/dashboard-analytics/dashboard/getDashboardConfig/mukta",
       "parentModule": "",
       "displayName": "DSS",
       "orderNumber": 0,
@@ -1499,6 +1499,18 @@
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "ifms-adapter",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 129,
+      "name": "DSS Dashboard Charts",
+      "url": "/dashboard-analytics/dashboard/getChartV2",
+      "parentModule": "",
+      "displayName": "DSS",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "DSS",
       "code": "null",
       "path": ""
     }
