@@ -77,6 +77,10 @@
     {
       "format": "PI-[CITY.CODE]/[fy:yyyy-yy]/[SEQ_IFMS_PAYMENT_INSTRUCTION_NUMBER]",
       "idname": "ifms.pi.reference.number"
+    },
+    {
+      "format": "BN-[CITY.CODE]/[SEQ_IFMS_BENEFICIARY_NUMBER]",
+      "idname": "ifms.benef.reference.number"
     }
   ]
 }
