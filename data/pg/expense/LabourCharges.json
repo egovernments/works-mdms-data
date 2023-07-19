@@ -8,7 +8,7 @@
              "code": "UNSKILLED.CARPENTER",
              "gender": "female",
              "active": true,
-             "amount": 150,
+             "amount": 15,
              "unit": "day",
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
@@ -30,7 +30,7 @@
             "code": "UNSKILLED.FEMALE_MULIA",
             "gender": "female",
             "active": true,
-            "amount": 150,
+            "amount": 15,
             "unit": "hour",
             "effectiveFrom": 1682164954037,
             "effectiveTo": null
@@ -41,7 +41,7 @@
              "code": "UNSKILLED.SCAVENGER",
              "gender": "all",
              "active": true,
-             "amount": 150,
+             "amount": 15,
              "unit": "day",
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
@@ -52,7 +52,7 @@
              "code": "UNSKILLED.CHAIN_MAN",
              "gender": "all",
              "active": true,
-             "amount": 150,
+             "amount": 15,
              "unit": "day",
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
@@ -63,7 +63,7 @@
              "code": "SEMI_SKILLED.MALE_MULIA",
              "gender": "male",
              "active": true,
-             "amount": 170,
+             "amount": 17,
              "unit": "day",
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
@@ -74,7 +74,7 @@
              "code": "SEMI_SKILLED.FEMALE_MULIA",
              "gender": "female",
              "active": true,
-             "amount": 190,
+             "amount": 19,
              "unit": "day",
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
@@ -85,7 +85,7 @@
              "code": "SEMI_SKILLED.SCAVENGER",
              "gender": "all",
              "active": true,
-             "amount": 170,
+             "amount": 17,
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
          },
@@ -95,7 +95,7 @@
              "code": "SEMI_SKILLED.SANGI_MULIA",
              "gender": "all",
              "active": true,
-             "amount": 170,
+             "amount": 17,
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
          },
@@ -105,7 +105,7 @@
              "code": "SEMI_SKILLED.HAMMER_MAN",
              "gender": "all",
              "active": true,
-             "amount": 170,
+             "amount": 17,
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
          },
@@ -115,7 +115,7 @@
              "code": "SEMI_SKILLED.CLEANER",
              "gender": "all",
              "active": true,
-             "amount": 170,
+             "amount": 17,
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
          },
@@ -125,7 +125,7 @@
              "code": "HIGHLY_SKILLED.PLUMBER",
              "gender": "all",
              "active": true,
-             "amount": 205,
+             "amount": 20,
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
          },
@@ -135,7 +135,7 @@
             "code": "HIGHLY_SKILLED.MASON",
             "gender": "all",
             "active": true,
-            "amount": 205,
+            "amount": 20,
             "effectiveFrom": 1682164954037,
             "effectiveTo": null
          },
@@ -145,7 +145,7 @@
              "code": "HIGHLY_SKILLED.PAINTER",
              "gender": "all",
              "active": true,
-             "amount": 205,
+             "amount": 20,
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
          },
@@ -155,7 +155,7 @@
              "code": "HIGHLY_SKILLED.FITTER",
              "gender": "all",
              "active": true,
-             "amount": 205,
+             "amount": 20,
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
          },
@@ -165,7 +165,7 @@
              "code": "OTHERS.BORING_MISTRY",
              "gender": "all",
              "active": true,
-             "amount": 205,
+             "amount": 20,
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
          },
@@ -175,7 +175,7 @@
              "code": "OTHERS.WINCH_OPERATOR",
              "gender": "all",
              "active": true,
-             "amount": 205,
+             "amount": 20,
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
          },
@@ -185,7 +185,7 @@
              "code": "OTHERS.HELPER_WELL_SINKER",
              "gender": "all",
              "active": true,
-             "amount": 190,
+             "amount": 19,
              "effectiveFrom": 1682164954037,
              "effectiveTo": null
          }
