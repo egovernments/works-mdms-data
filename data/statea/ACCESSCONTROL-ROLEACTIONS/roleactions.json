@@ -1084,6 +1084,24 @@
       "actionid": 98,
       "actioncode": "",
       "tenantId": "statea"
+    },
+    {
+      "rolecode": "STADMIN",
+      "actionid": 126,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "STADMIN",
+      "actionid": 79,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "STADMIN",
+      "actionid": 80,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
