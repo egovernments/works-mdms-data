@@ -1165,6 +1165,18 @@
       "actionid": 126,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_CREATOR",
+      "actionid": 129,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "BILL_ACCOUNTANT",
+      "actionid": 129,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
