@@ -1513,6 +1513,18 @@
       "serviceCode": "DSS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 130,
+      "name": "IFMS funds search",
+      "url": "/ifms/funds/v1/_search",
+      "parentModule": "ifms-adapter",
+      "displayName": "IFMS-Funds search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ifms-adapter",
+      "code": "null",
+      "path": ""
     }
   ]  
 }
