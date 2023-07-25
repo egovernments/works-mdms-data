@@ -1515,7 +1515,7 @@
       "path": ""
     },
     {
-      "id": 129,
+      "id": 130,
       "name": "IFMS funds search",
       "url": "/ifms/funds/v1/_search",
       "parentModule": "ifms-adapter",
