@@ -37,6 +37,12 @@
     "code":"PARTIAL",
     "i18nKey":"EXP_PI_STATUS_PARTIAL",
     "active":true
+   },
+   {  
+    "id":7,
+    "code":"COMPLETED",
+    "i18nKey":"EXP_PI_STATUS_COMPLETED",
+    "active":true
    }
   ]
 }
