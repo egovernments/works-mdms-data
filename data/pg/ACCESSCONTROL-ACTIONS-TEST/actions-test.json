@@ -1723,7 +1723,82 @@
       "serviceCode": "mdms-v2",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 141,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Manage PGR Service Def Master",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=PGR&masterName=ServiceDefs",
+      "path": "9MDMS.PGRServiceDefs",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 142,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Manage UOM Master",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=UOM",
+      "path": "9MDMS.commonmasterUOM",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 143,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/common-masters.UOM",
+      "displayName": "Create UOM Master",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 144,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/PGR.ServiceDefs",
+      "displayName": "Create Service Def Master",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 145,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/common-masters.UOM",
+      "displayName": "Update UOM Master",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 146,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_update/PGR.ServiceDefs",
+      "displayName": "Update Service Def Master",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
-
   ]
 }
