@@ -2330,12 +2330,7 @@
       "actioncode": "",
       "tenantId": "pg"
     },
-    {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 134,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
+  
     {
       "rolecode": "MDMS_ADMIN",
       "actionid": 135,
