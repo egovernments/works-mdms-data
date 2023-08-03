@@ -1605,20 +1605,20 @@
       "id": 130,
       "name": "MDMS",
       "url": "url",
-      "displayName": "Update Department Master",
+      "displayName": "Manage Department Master",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
       "serviceCode": "MDMS",
       "code": "null",
-      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-master&masterName=Department",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=common-masters&masterName=Department",
       "path": "9MDMS.commonmasterDepartment",
       "leftIcon": "dynamic:ContractIcon"
     },
     {
       "id": 131,
       "name": "MDMS",
-      "url":"/mdms-v2/v2/_create/common-master.Department",
+      "url":"/mdms-v2/v2/_create/common-masters.Department",
       "displayName": "create Department Master",
       "orderNumber": 1,
       "parentModule": "",
@@ -1629,7 +1629,7 @@
     },{
       "id": 133,
       "name": "MDMS",
-      "url":"/mdms-v2/v2/_update/common-master.Department",
+      "url":"/mdms-v2/v2/_update/common-masters.Department",
       "displayName": "Update Department Master",
       "orderNumber": 1,
       "parentModule": "",
@@ -1641,7 +1641,7 @@
       "id": 134,
       "name": "MDMS",
       "url": "url",
-      "displayName": "Update EmployeeType Master",
+      "displayName": "Manage EmployeeType Master",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
@@ -1654,7 +1654,7 @@
     {
       "id": 135,
       "name": "MDMS",
-      "url":"/mdms-v2/v2/_create/hrms.Department",
+      "url":"/mdms-v2/v2/_create/hrms.EmployeeType",
       "displayName": "create EmployeeType Master",
       "orderNumber": 1,
       "parentModule": "",
@@ -1666,7 +1666,7 @@
     {
       "id": 136,
       "name": "MDMS",
-      "url":"/mdms-v2/v2/_update/hrms.Department",
+      "url":"/mdms-v2/v2/_update/hrms.EmployeeType",
       "displayName": "Update EmployeeType Master",
       "orderNumber": 1,
       "parentModule": "",
@@ -1674,6 +1674,44 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },{
+      "id": 137,
+      "name": "MDMS",
+      "url": "url",
+      "displayName": "Manage EmployeeType Master",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "navigationURL": "/workbench-ui/employee/workbench/mdms-search-v2?moduleName=pgr&masterName=RejectionReasons",
+      "path": "9MDMS.pgrRejectionReasons",
+      "leftIcon": "dynamic:ContractIcon"
+    },
+    {
+      "id": 138,
+      "name": "MDMS",
+      "url":"/mdms-v2/v2/_create/pgr.RejectionReasons",
+      "displayName": "create RejectionReasons Master",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 139,
+      "name": "pgr",
+      "url":"/mdms-v2/v2/_update/pgr.RejectionReasons",
+      "displayName": "Update RejectionReasons Master",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MDMS",
+      "code": "null",
+      "path": ""
     }
+
   ]
 }
