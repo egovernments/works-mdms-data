@@ -1711,6 +1711,18 @@
       "serviceCode": "MDMS",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 140,
+      "name": "MDMS v2 sample update",
+      "url": "/mdms-v2/v2/_update/common-masters.Sample",
+      "parentModule": "mdms-v2",
+      "displayName": "mdms-v2",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "mdms-v2",
+      "code": "null",
+      "path": ""
     }
 
   ]
