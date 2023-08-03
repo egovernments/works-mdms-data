@@ -940,12 +940,6 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "EMPLOYEE_COMMON",
-      "actionid": 61,
-      "actioncode": "",
-      "tenantId": "pg"
-    },
-    {
       "rolecode": "MUKTA_ADMIN",
       "actionid": 62,
       "actioncode": "",
