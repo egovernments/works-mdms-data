@@ -1,0 +1,10 @@
+{
+    "tenantId": "pg",
+    "moduleName": "commonUiConfig",
+    "CBOMyServiceRequests": [
+        {
+            "editTimeExtReqCode": "PENDING_FOR_CORRECTION",
+            "editActionCode": "EDIT"
+        }
+    ]
+}
