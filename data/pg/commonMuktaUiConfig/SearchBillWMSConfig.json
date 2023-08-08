@@ -5,9 +5,6 @@
     {
       "label": "EXP_SEARCH_BILL",
       "type": "search",
-      "actionLabel": "ES_COMMON_DOWNLOAD_PAYMENT_ADVICE",
-      "actionRole": "BILL_ACCOUNTANT",
-      "actionLink": "expenditure/download-bill",
       "apiDetails": {
         "serviceName": "/wms/expense/_search",
         "requestParam": {},
@@ -214,10 +211,7 @@
             ],
             "enableGlobalSearch": false,
             "enableColumnSort": true,
-            "resultsJsonPath": "items",
-            "showCheckBox": true,
-            "checkBoxActionLabel": "ES_COMMON_GENERATE_PAYMENT_ADVICE",
-            "showTableInstruction": "EXP_DOWNLOAD_BILL_INSTRUCTION"
+            "resultsJsonPath": "items"
           },
           "children": {},
           "show": true
