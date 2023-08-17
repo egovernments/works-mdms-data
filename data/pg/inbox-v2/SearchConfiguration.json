@@ -75,7 +75,7 @@
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "ASC"
+        "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
         "Data.tenantId",
@@ -145,7 +145,7 @@
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "ASC"
+        "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
         "Data.tenantId",
@@ -209,7 +209,7 @@
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "ASC"
+        "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
         "Data.tenantId",
@@ -357,7 +357,7 @@
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
-        "defaultOrder": "ASC"
+        "defaultOrder": "DESC"
       },
       "sourceFilterPathList": [
         "Data.tenantId",
