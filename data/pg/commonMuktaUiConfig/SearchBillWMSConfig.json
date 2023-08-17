@@ -199,7 +199,7 @@
               },
               {
                 "label": "CORE_COMMON_STATUS",
-                "jsonPath": "ProcessInstance.state.state",
+                "jsonPath": "businessObject.paymentStatus",
                 "additionalCustomization": true
               },
               {
