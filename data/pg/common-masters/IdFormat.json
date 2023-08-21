@@ -3,6 +3,10 @@
   "moduleName": "common-masters",
   "IdFormat": [
     {
+      "format": "PB-BTR-[cy:yyyy-MM-dd]-[SEQ_EG_BTR_ID]",
+      "idname": "btr.registrationid"
+    },
+    {
       "format": "ES/[fy:yyyy-yy]/[SEQ_ESTIMATE_NUM]",
       "idname": "estimate.number"
     },
@@ -21,6 +25,10 @@
     {
       "format": "PJ/[fy:yyyy-yy]/[cy:MM]/[SEQ_PROJECT_NUM]",
       "idname": "project.number"
+    },
+    {
+      "format": "RW/[fy:yyyy-yy]/[SEQ_CONT_SUPPLEMENT_NUM]",
+      "idname": "contract.supplement.number"
     },
     {
       "format": "WO/[fy:yyyy-yy]/[SEQ_CONTRACT_NUM]",
