@@ -211,6 +211,11 @@
       "code": "MDMS_ADMIN",
       "name": "MDMS_ADMIN",
       "description": "MDMS_ADMIN"
+    },
+    {
+      "code": "LOC_ADMIN",
+      "name": "Localisation admin",
+      "description": "LOC_ADMIN"
     }
   ]
 }
