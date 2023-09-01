@@ -26,6 +26,13 @@
       "sections": {
         "search": {
           "uiConfig": {
+            "searchWrapperStyles":{
+              "flexDirection":"column-reverse",
+              "marginTop":"1.4rem",
+              "alignItems":"center",
+              "justifyContent":"end",
+              "gridColumn":"4"
+            },
             "additionalTabs":[
               {
                 "uiConfig": {
