@@ -11,7 +11,7 @@
         "requestBody": {
           "inbox": {
             "processSearchCriteria": {
-              "businessService": ["mukta-estimate"],
+              "businessService": ["ESTIMATE"],
               "moduleName": "estimate-service"
             },
             "moduleSearchCriteria": {}
@@ -67,7 +67,7 @@
                   "name": "projectId",
                   "error": "PROJECT_PATTERN_ERR_MSG",
                   "validation": {
-                    "pattern": "PR\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
+                    "pattern": "PJ\\/[0-9]+-[0-9]+\\/[0-9]+\\/[0-9]+",
                     "minlength": 2
                   }
                 }
@@ -136,7 +136,8 @@
                 "label": "WORKS_ESTIMATED_AMOUNT",
                 "jsonPath": "businessObject.additionalDetails.totalEstimatedAmount",
                 "additionalCustomization": true,
-                "key": "estimatedAmount"
+                "key": "estimatedAmount",
+                "headerAlign": "right"
               },
               {
                 "label": "COMMON_SLA_DAYS",
@@ -158,7 +159,7 @@
               {
                 "text": "ACTION_TEST_CREATE_ESTIMATE",
                 "url": "/employee/project/search-project",
-                "roles": ["PROJECT_VIEWER", "ESTIMATE_CREATOR"]
+                "roles": ["ESTIMATE_CREATOR"]
               },
               {
                 "text": "ACTION_TEST_SEARCH_ESTIMATE",
@@ -174,8 +175,8 @@
             ],
             "label": "MUKTA",
             "logoIcon": {
-              "component": "PropertyHouse",
-              "customClass": "inbox-search-icon--projects"
+              "component": "EstimateIcon",
+              "customClass": "inbox-links-icon"
             }
           },
           "children": {},
@@ -250,20 +251,21 @@
                 "populators": {
                   "name": "locality",
                   "type": "locality",
-                  "optionsKey": "i18nKey",
+                  "optionsKey": "name",
                   "defaultText": "COMMON_SELECT_LOCALITY",
                   "selectedText": "COMMON_SELECTED",
                   "allowMultiSelect": true
                 }
               },
               {
-                "label": "COMMON_WORKFLOW_STATES",
+               
                 "type": "workflowstatesfilter",
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "componentLabel": "COMMON_WORKFLOW_STATES",
                   "name": "state",
-                  "labelPrefix": "WF_EST_",
+                  "labelPrefix": "WF_",
                   "businessService": "mukta-estimate"
                 }
               }

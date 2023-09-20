@@ -3,12 +3,12 @@
   "moduleName": "common-masters",
   "IdFormat": [
     {
-      "format": "ES/[fy:yyyy-yy]/[SEQ_ESTIMATE_NUM]",
-      "idname": "estimate.number"
+      "format": "PB-BTR-[cy:yyyy-MM-dd]-[SEQ_EG_BTR_ID]",
+      "idname": "btr.registrationid"
     },
     {
-      "format": "EP/[fy:yyyy-yy]/[cy:MM]/ESTIMATE_NUM/[SEQ_ESTIMATE_DETAIL_NUM]",
-      "idname": "estimate.detail.number"
+      "format": "ES/[fy:yyyy-yy]/[SEQ_ESTIMATE_NUM]",
+      "idname": "estimate.number"
     },
     {
       "format": "LI/[fy:yyyy-yy]/[cy:MM]/[SEQ_LI_NUM]",
@@ -25,6 +25,10 @@
     {
       "format": "PJ/[fy:yyyy-yy]/[cy:MM]/[SEQ_PROJECT_NUM]",
       "idname": "project.number"
+    },
+    {
+      "format": "RW/[fy:yyyy-yy]/[SEQ_CONT_SUPPLEMENT_NUM]",
+      "idname": "contract.supplement.number"
     },
     {
       "format": "WO/[fy:yyyy-yy]/[SEQ_CONTRACT_NUM]",
@@ -45,6 +49,42 @@
     {
       "format": "SR/FUNC/[cy:dd-MM-yyyy]/[SEQ_FUNC_APP_NUM]",
       "idname": "function.application.number"
+    },
+    {
+      "format": "WB/[fy:yyyy-yy]/[SEQ_WAGE_NUM]",
+      "idname": "expense.wages.bill.number"
+    },
+    {
+      "format": "PB/[fy:yyyy-yy]/[SEQ_PURCHASE_NUM]",
+      "idname": "expense.purchase.bill.number"
+    },
+    {
+      "format": "SB/[fy:yyyy-yy]/[SEQ_SUPERVISION_NUM]",
+      "idname": "expense.supervision.bill.number"
+    },
+    {
+      "format": "EP/[CITY.CODE]/[fy:yyyy-yy]/[cy:MM]/[cy:dd]/[SEQ_EXPENSE_PAYMENT_NUMBER]",
+      "idname": "expense.payment.number"
+    },
+    {
+      "format": "SR_[SEQ_SUPERVISION_REF_NUM]",
+      "idname": "supervision.reference.number"
+    },
+    {
+      "format": "PR_[SEQ_PURCHASE_REF_NUM]",
+      "idname": "purchase.reference.number"
+    },
+    {
+      "format": "WR_[SEQ_WAGE_REF_NUM]",
+      "idname": "wage.reference.number"
+    },
+    {
+      "format": "PI-[CITY.CODE]/[fy:yyyy-yy]/[SEQ_IFMS_PAYMENT_INSTRUCTION_NUMBER]",
+      "idname": "ifms.pi.reference.number"
+    },
+    {
+      "format": "BN-[CITY.CODE]/[SEQ_IFMS_BENEFICIARY_NUMBER]",
+      "idname": "ifms.benef.reference.number"
     }
   ]
 }

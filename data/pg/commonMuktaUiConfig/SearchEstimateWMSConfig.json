@@ -24,11 +24,11 @@
         "search": {
           "uiConfig": {
             "headerStyle": null,
+            "formClassName": "custom-both-clear-search",
             "primaryLabel": "ES_COMMON_SEARCH",
             "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
             "minReqFields": 1,
             "showFormInstruction": "ESTIMATE_SEARCH_HINT",
-            "formClassName": "custom-both-clear-search",
             "defaultValues": {
               "ward": "",
               "typeOfWork": "",
@@ -45,9 +45,6 @@
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
-                  "optionsCustomStyle": {
-                    "top": "2.3rem"
-                  },
                   "name": "ward",
                   "type": "ward",
                   "optionsKey": "i18nKey",
@@ -127,8 +124,13 @@
                 "type": "date",
                 "isMandatory": false,
                 "disable": false,
-                "populators": {
-                  "name": "fromProposalDate"
+                "key" : "fromProposalDate",
+                "preProcess" : {
+                  "updateDependent" : ["populators.max"]
+                 },
+                 "populators": {
+                    "name": "fromProposalDate",
+                    "max" : "currentDate"
                 }
               },
               {
@@ -136,8 +138,21 @@
                 "type": "date",
                 "isMandatory": false,
                 "disable": false,
+                "key" : "toProposalDate",
+                "preProcess" : {
+                  "updateDependent" : ["populators.max"]
+                 },
                 "populators": {
-                  "name": "toProposalDate"
+                  "name": "toProposalDate",
+                  "error": "DATE_VALIDATION_MSG",
+                  "max" : "currentDate"
+                  },
+                  "additionalValidation": {
+                    "type": "date",
+                    "keys": {
+                      "start": "fromProposalDate",
+                      "end": "toProposalDate"
+                   }
                 }
               }
             ]
@@ -163,7 +178,8 @@
               },
               {
                 "label": "ES_COMMON_PROJECT_NAME",
-                "jsonPath": "businessObject.project.name"
+                "jsonPath": "businessObject.project.name",
+                "additionalCustomization":true
               },
               {
                 "label": "ES_COMMON_LOCATION",
@@ -182,7 +198,8 @@
               {
                 "label": "WORKS_ESTIMATED_AMOUNT",
                 "jsonPath": "businessObject.additionalDetails.totalEstimatedAmount",
-                "additionalCustomization": true
+                "additionalCustomization": true,
+                "headerAlign": "right"
               }
             ],
             "enableGlobalSearch": false,

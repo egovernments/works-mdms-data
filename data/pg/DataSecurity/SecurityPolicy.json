@@ -280,10 +280,21 @@
           "name": "aadhaarNumber",
           "jsonPath": "identifiers/*/identifierId",
           "patternId": "001",
-          "defaultVisibility": "PLAIN"
+          "defaultVisibility": "MASKED"
         }
       ],
-      "roleBasedDecryptionPolicy": []
+      "roleBasedDecryptionPolicy": [
+        {
+          "roles": ["MUKTA_ADMIN"],
+          "attributeAccessList": [
+            {
+              "attribute": "aadhaarNumber",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+      ]
     },
     {
       "model": "IndividualSearchEncrypt",
@@ -308,6 +319,38 @@
       "roleBasedDecryptionPolicy": []
     },
     {
+      "model": "IndividualSearchIdentifierEncrypt",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
+      "attributes": [
+        {
+          "name": "aadhaarNumber",
+          "jsonPath": "identifier/identifierId",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "IndividualSearchMobileNumberEncrypt",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
+      "attributes": [
+        {
+          "name": "mobileNumber",
+          "jsonPath": "mobileNumber",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
+    },
+    {
       "model": "IndividualDecrypt",
       "uniqueIdentifier": {
         "name": "id",
@@ -325,6 +368,100 @@
           "jsonPath": "identifiers/*/identifierId",
           "patternId": "001",
           "defaultVisibility": "MASKED"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+    ]
+    },
+    {
+      "model": "BankAccountEncrypt",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
+      "attributes": [
+        {
+          "name": "accountHolderName",
+          "jsonPath": "accountHolderName",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        },
+        {
+          "name": "accountNumber",
+          "jsonPath": "accountNumber",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "BankAccountDecrypt",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
+      "attributes": [
+        {
+          "name": "accountHolderName",
+          "jsonPath": "accountHolderName",
+          "patternId": "001",
+          "defaultVisibility": "MASKED"
+        },
+        {
+          "name": "accountNumber",
+          "jsonPath": "accountNumber",
+          "patternId": "001",
+          "defaultVisibility": "MASKED"
+        }
+      ],
+      "roleBasedDecryptionPolicy": [
+	    {
+		    
+          "roles": ["BILL_ACCOUNTANT", "MUKTA_ADMIN"],
+          "attributeAccessList": [
+            {
+              "attribute": "accountHolderName",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            },
+            {
+              "attribute": "accountNumber",
+              "firstLevelVisibility": "PLAIN",
+              "secondLevelVisibility": "PLAIN"
+            }
+          ]
+        }
+	   ]
+   },
+	{
+      "model": "BankAccountHolderNameEncrypt",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
+      "attributes": [
+        {
+          "name": "accountHolderName",
+          "jsonPath": "accountHolderName",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
+        }
+      ],
+      "roleBasedDecryptionPolicy": []
+    },
+    {
+      "model": "BankAccountNumberEncrypt",
+      "uniqueIdentifier": {
+        "name": "id",
+        "jsonPath": "/id"
+      },
+      "attributes": [
+        {
+          "name": "accountNumber",
+          "jsonPath": "accountNumber",
+          "patternId": "001",
+          "defaultVisibility": "PLAIN"
         }
       ],
       "roleBasedDecryptionPolicy": []
