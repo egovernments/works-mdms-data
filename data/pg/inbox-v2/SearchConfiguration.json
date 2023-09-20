@@ -260,7 +260,7 @@
         },
         {
           "name": "revisedWorkOrderNumber",
-          "path": "Data.supplementNumber.keyword",
+          "path": "Data.currentProcessInstance.businessId.keyword",
           "isMandatory": false,
           "operator": "EQUAL"
         },
