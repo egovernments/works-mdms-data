@@ -151,7 +151,13 @@
         {
           "name": "workOrderNumber",
           "path": "Data.contractNumber.keyword",
-          "isMandatory": true,
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "revisedWorkOrderNumber",
+          "path": "Data.supplementNumber.keyword",
+          "isMandatory": false,
           "operator": "EQUAL"
         },
         {
@@ -258,12 +264,12 @@
           "path": "Data.currentProcessInstance.assignes.uuid.keyword",
           "isMandatory": false
         },
-      {
-        "name": "referenceId",
-        "path": "Data.referenceId.keyword",
-        "isMandatory": false,
-        "operator": "FUZZY"
-      }
+        {
+          "name": "referenceId",
+          "path": "Data.billDetails.referenceId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        }
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",

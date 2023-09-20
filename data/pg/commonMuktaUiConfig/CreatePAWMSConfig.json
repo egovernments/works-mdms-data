@@ -1,12 +1,13 @@
 {
   "tenantId": "pg",
   "moduleName": "commonMuktaUiConfig",
-  "SearchEstimateWMSConfig": [
+  "CreatePAWMSConfig": [
     {
-      "label": "WORKS_SEARCH_ESTIMATES",
+      "label": "EXP_CREATE_PA",
       "type": "search",
+      "actionRole": "BILL_ACCOUNTANT",
       "apiDetails": {
-        "serviceName": "/wms/estimate/_search",
+        "serviceName": "/wms/expense/_search",
         "requestParam": {},
         "requestBody": {
           "inbox": {
@@ -15,7 +16,7 @@
         },
         "minParametersForSearchForm": 1,
         "masterName": "commonUiConfig",
-        "moduleName": "SearchEstimateConfig",
+        "moduleName": "CreatePAWMSConfig",
         "tableFormJsonPath": "requestBody.inbox",
         "filterFormJsonPath": "requestBody.inbox.moduleSearchCriteria",
         "searchFormJsonPath": "requestBody.inbox.moduleSearchCriteria"
@@ -24,19 +25,19 @@
         "search": {
           "uiConfig": {
             "headerStyle": null,
-            "formClassName": "custom-both-clear-search",
             "primaryLabel": "ES_COMMON_SEARCH",
             "secondaryLabel": "ES_COMMON_CLEAR_SEARCH",
             "minReqFields": 1,
-            "showFormInstruction": "ESTIMATE_SEARCH_HINT",
+            "showFormInstruction": "BILL_SELECT_ONE_PARAM_TO_SEARCH",
+            "formClassName": "custom-both-clear-search",
             "defaultValues": {
               "ward": "",
-              "typeOfWork": "",
+              "billType": "",
               "projectName": "",
-              "estimateId": "",
+              "billNumber": "",
               "status": "",
-              "fromProposalDate": "",
-              "toProposalDate": ""
+              "createdFrom": "",
+              "createdTo": ""
             },
             "fields": [
               {
@@ -48,36 +49,40 @@
                   "name": "ward",
                   "type": "ward",
                   "optionsKey": "i18nKey",
-                  "defaultText": "COMMON_SELECT_WARD",
-                  "selectedText": "COMMON_SELECTED",
-                  "allowMultiSelect": false
+                  "allowMultiSelect": false,
+                  "optionsCustomStyle": {
+                    "top": "2.3rem"
+                  }
                 }
               },
               {
-                "label": "WORKS_PROJECT_TYPE",
+                "label": "WORKS_BILL_TYPE",
                 "type": "dropdown",
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
-                  "name": "typeOfWork",
+                  "name": "billType",
                   "optionsKey": "name",
                   "optionsCustomStyle": {
                     "top": "2.3rem"
                   },
                   "mdmsConfig": {
-                    "masterName": "ProjectType",
-                    "moduleName": "works",
-                    "localePrefix": "COMMON_MASTERS"
+                    "masterName": "BusinessService",
+                    "moduleName": "expense",
+                    "localePrefix": "COMMON_MASTERS_BILL",
+                    "select": "(data)=>{ return Array.isArray(data['expense'].BusinessService) && data['expense'].BusinessService.filter(ele=>ele.code.includes('EXPENSE')).map(ele=>({...ele, name:'COMMON_MASTERS_BILL_TYPE_'+Digit.Utils.locale.getTransformedLocale(ele.businessService) }))}"
                   }
                 }
               },
               {
-                "label": "ES_COMMON_PROJECT_NAME",
+                "label": "WORKS_PROJECT_NAME",
                 "type": "text",
                 "isMandatory": false,
                 "disable": false,
                 "preProcess": {
-                  "convertStringToRegEx": ["populators.validation.pattern"]
+                  "convertStringToRegEx": [
+                    "populators.validation.pattern"
+                  ]
                 },
                 "populators": {
                   "name": "projectName",
@@ -89,15 +94,15 @@
                 }
               },
               {
-                "label": "ESTIMATE_ESTIMATE_NO",
+                "label": "WORKS_BILL_NUMBER",
                 "type": "text",
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
-                  "name": "estimateId",
-                  "error": "ESTIMATE_PATTERN_ERR_MSG",
+                  "name": "billNumber",
+                  "error": "ES_COMMON_BILL_PATTERN_ERR_MSG",
                   "validation": {
-                    "pattern": "ES\/[0-9]+-[0-9]+\/[0-9]+",
+                    "pattern": "^[A-Za-z0-9\\/-]*$",
                     "minlength": 2
                   }
                 }
@@ -115,46 +120,51 @@
                   "optionsKey": "i18nKey",
                   "allowMultiSelect": false,
                   "masterName": "commonUiConfig",
-                  "moduleName": "SearchEstimateConfig",
+                  "moduleName": "SearchBillWMSConfig",
                   "customfn": "populateReqCriteria"
                 }
               },
               {
-                "label": "WORKS_COMMON_FROM_DATE_LABEL",
+                "label": "ES_COMMON_CREATED_FROM",
                 "type": "date",
                 "isMandatory": false,
                 "disable": false,
-                "key" : "fromProposalDate",
-                "preProcess" : {
-                  "updateDependent" : ["populators.max"]
-                 },
-                 "populators": {
-                    "name": "fromProposalDate",
-                    "max" : "currentDate"
+                "key": "createdFrom",
+                "preProcess": {
+                  "updateDependent": [
+                    "populators.max"
+                  ]
+                },
+                "populators": {
+                  "name": "createdFrom",
+                  "max": "currentDate"
                 }
               },
               {
-                "label": "WORKS_COMMON_TO_DATE_LABEL",
+                "label": "ES_COMMON_CREATED_TO",
                 "type": "date",
                 "isMandatory": false,
                 "disable": false,
-                "key" : "toProposalDate",
-                "preProcess" : {
-                  "updateDependent" : ["populators.max"]
-                 },
+                "key": "createdTo",
+                "preProcess": {
+                  "updateDependent": [
+                    "populators.max"
+                  ]
+                },
                 "populators": {
-                  "name": "toProposalDate",
+                  "name": "createdTo",
                   "error": "DATE_VALIDATION_MSG",
-                  "max" : "currentDate"
-                  },
-                  "additionalValidation": {
-                    "type": "date",
-                    "keys": {
-                      "start": "fromProposalDate",
-                      "end": "toProposalDate"
-                   }
+                  "max": "currentDate"
+                },
+                "additionalValidation": {
+                  "type": "date",
+                  "keys": {
+                    "start": "createdFrom",
+                    "end": "createdTo"
+                  }
                 }
-              }
+              },
+              {}
             ]
           },
           "label": "",
@@ -163,48 +173,50 @@
         },
         "searchResult": {
           "label": "",
-          "estimateNumber": "",
-          "projectId": "",
-          "department": "",
-          "estimateStatus": "",
-          "fromProposalDate": "",
-          "toProposalDate": "",
           "uiConfig": {
             "columns": [
               {
-                "label": "ESTIMATE_ESTIMATE_NO",
-                "jsonPath": "businessObject.estimateNumber",
+                "label": "WORKS_BILL_NUMBER",
+                "jsonPath": "businessObject.billNumber",
                 "additionalCustomization": true
               },
               {
-                "label": "ES_COMMON_PROJECT_NAME",
-                "jsonPath": "businessObject.project.name",
+                "label": "WORKS_PROJECT_NAME",
+                "jsonPath": "businessObject.additionalDetails.projectName",
                 "additionalCustomization":true
               },
               {
                 "label": "ES_COMMON_LOCATION",
-                "jsonPath": "businessObject.additionalDetails.location",
+                "jsonPath": "businessObject.additionalDetails",
                 "additionalCustomization": true
               },
               {
-                "label": "ESTIMATE_PREPARED_BY",
-                "jsonPath": "businessObject.additionalDetails.creator"
+                "label": "ES_COMMON_CBO_NAME",
+                "jsonPath": "businessObject.additionalDetails.orgName"
+              },
+              {
+                "label": "WORKS_BILL_TYPE",
+                "jsonPath": "ProcessInstance.businessService",
+                "additionalCustomization": true
               },
               {
                 "label": "CORE_COMMON_STATUS",
-                "jsonPath": "ProcessInstance.state.state",
+                "jsonPath": "businessObject.paymentStatus",
                 "additionalCustomization": true
               },
               {
-                "label": "WORKS_ESTIMATED_AMOUNT",
-                "jsonPath": "businessObject.additionalDetails.totalEstimatedAmount",
+                "label": "EXP_BILL_AMOUNT",
+                "jsonPath": "businessObject.totalAmount",
                 "additionalCustomization": true,
                 "headerAlign": "right"
               }
             ],
             "enableGlobalSearch": false,
             "enableColumnSort": true,
-            "resultsJsonPath": "items"
+            "resultsJsonPath": "items",
+            "showCheckBox": true,
+            "checkBoxActionLabel": "ES_COMMON_GENERATE_PAYMENT_ADVICE",
+            "showTableInstruction": "EXP_CREATE_PA_INSTRUCTION"
           },
           "children": {},
           "show": true

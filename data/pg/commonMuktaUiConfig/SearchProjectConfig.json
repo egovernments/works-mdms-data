@@ -34,7 +34,7 @@
               "showFormInstruction": "PROJECT_SELECT_ONE_PARAM_TO_SEARCH",
               "defaultValues": {
                 "projectNumber": "",
-                "subProjectId": "",
+                "ward": "",
                 "name": "",
                 "projectType": "",
                 "createdFrom": "",

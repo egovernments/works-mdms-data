@@ -161,12 +161,13 @@
                   "columns": [
                     {
                       "label": "WORKS_ORDER_ID",
-                      "jsonPath": "businessObject.contractNumber",
+                      "jsonPath": "ProcessInstance.businessId",
                       "additionalCustomization": true
                     },
                     {
                       "label": "WORKS_PROJECT_NAME",
-                      "jsonPath": "businessObject.additionalDetails.projectName"
+                      "jsonPath": "businessObject.additionalDetails.projectName",
+                      "additionalCustomization":true
                     },
                     {
                       "label": "COMMON_NAME_OF_CBO",
