@@ -53,7 +53,14 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.currentProcessInstance", "Data.auditDetails", "Data.additionalDetails", "Data.project.name","Data.project.projectNumber"]
+      "sourceFilterPathList": [
+        "Data.currentProcessInstance",
+        "Data.auditDetails",
+        "Data.additionalDetails",
+        "Data.project.projectType",
+        "Data.project.name",
+        "Data.project.projectNumber"
+      ]
     },
     {
       "module": "muster-roll-service",
@@ -99,7 +106,7 @@
         },
         {
           "name": "orgId",
-          "path": "Data.additionalDetails.orgId.keyword",
+          "path": "Data.additionalDetails.orgName.keyword",
           "isMandatory": false
         },
         {
@@ -117,7 +124,19 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.musterRollNumber", "Data.musterRollStatus", "Data.startDate", "Data.endDate", "Data.additionalDetails", "Data.individualEntries", "Data.currentProcessInstance", "Data.auditDetails"]
+      "sourceFilterPathList": [
+        "Data.tenantId",
+        "Data.id",
+        "Data.musterRollNumber",
+        "Data.musterRollStatus",
+        "Data.startDate",
+        "Data.endDate",
+        "Data.additionalDetails",
+        "Data.individualEntries",
+        "Data.currentProcessInstance",
+        "Data.auditDetails",
+        "Data.additionalDetails.orgId"
+      ]
     },
     {
       "module": "contract-service",
@@ -132,7 +151,13 @@
         {
           "name": "workOrderNumber",
           "path": "Data.contractNumber.keyword",
-          "isMandatory": true,
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "revisedWorkOrderNumber",
+          "path": "Data.supplementNumber.keyword",
+          "isMandatory": false,
           "operator": "EQUAL"
         },
         {
@@ -179,7 +204,15 @@
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.contractNumber" ,"Data.additionalDetails.projectName","Data.additionalDetails.orgName", "Data.currentProcessInstance", "Data.totalContractedAmount", "Data.auditDetails"]
+      "sourceFilterPathList": [
+        "Data.contractNumber",
+        "Data.additionalDetails.projectName",
+        "Data.additionalDetails.projectId",
+        "Data.additionalDetails.orgName",
+        "Data.currentProcessInstance",
+        "Data.totalContractedAmount",
+        "Data.auditDetails"
+      ]
     },
     {
       "module": "expense",
@@ -203,35 +236,46 @@
         },
         {
           "name": "projectName",
-          "path": "Data.additionalDetails.projectName.keyword",
+          "path": "Data.projectName.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "projectId",
+          "path": "Data.additionalDetails.projectId.keyword",
           "isMandatory": false
         },
         {
           "name": "billType",
-          "path": "Data.businessservice.keyword",
+          "path": "Data.businessService.keyword",
           "isMandatory": false
         },
         {
           "name": "ward",
-          "path": "Data.additionalDetails.ward.keyword",
+          "path": "Data.ward.keyword",
           "isMandatory": false
         },
         {
           "name": "locality",
-          "path": "Data.additionalDetails.locality.keyword",
+          "path": "Data.locality.keyword",
           "isMandatory": false
         },
         {
           "name": "assignee",
           "path": "Data.currentProcessInstance.assignes.uuid.keyword",
           "isMandatory": false
+        },
+        {
+          "name": "referenceId",
+          "path": "Data.billDetails.referenceId.keyword",
+          "isMandatory": false,
+          "operator": "EQUAL"
         }
       ],
       "sortBy": {
         "path": "Data.auditDetails.createdTime",
         "defaultOrder": "DESC"
       },
-      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber","Data.additionalDetails", "Data.businessservice","Data.currentProcessInstance", "Data.auditDetails"]
+      "sourceFilterPathList": ["Data.tenantId" ,"Data.id", "Data.billNumber", "Data.totalAmount",  "Data.additionalDetails", "Data.businessService","Data.currentProcessInstance", "Data.auditDetails","Data.referenceId"]
     }
   ]
 }

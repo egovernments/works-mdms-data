@@ -114,7 +114,7 @@
               },
               {
                 "label": "ES_COMMON_PROJECT_NAME",
-                "jsonPath": "businessObject.additionalDetails.projectName"
+                "jsonPath": "businessObject.project.name"
               },
               {
                 "label": "ESTIMATE_PREPARED_BY",
@@ -159,7 +159,7 @@
               {
                 "text": "ACTION_TEST_CREATE_ESTIMATE",
                 "url": "/employee/project/search-project",
-                "roles": ["PROJECT_VIEWER", "ESTIMATE_CREATOR"]
+                "roles": ["ESTIMATE_CREATOR"]
               },
               {
                 "text": "ACTION_TEST_SEARCH_ESTIMATE",
@@ -175,8 +175,8 @@
             ],
             "label": "MUKTA",
             "logoIcon": {
-              "component": "PropertyHouse",
-              "customClass": "inbox-search-icon--projects"
+              "component": "EstimateIcon",
+              "customClass": "inbox-links-icon"
             }
           },
           "children": {},
@@ -251,20 +251,21 @@
                 "populators": {
                   "name": "locality",
                   "type": "locality",
-                  "optionsKey": "i18nKey",
+                  "optionsKey": "name",
                   "defaultText": "COMMON_SELECT_LOCALITY",
                   "selectedText": "COMMON_SELECTED",
                   "allowMultiSelect": true
                 }
               },
               {
-                "label": "COMMON_WORKFLOW_STATES",
+               
                 "type": "workflowstatesfilter",
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "componentLabel": "COMMON_WORKFLOW_STATES",
                   "name": "state",
-                  "labelPrefix": "WF_EST_",
+                  "labelPrefix": "WF_",
                   "businessService": "mukta-estimate"
                 }
               }

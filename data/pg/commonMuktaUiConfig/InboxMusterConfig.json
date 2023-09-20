@@ -97,8 +97,8 @@
             ],
             "label": "ES_COMMON_ATTENDENCEMGMT",
             "logoIcon": {
-              "component": "MuktaIcon",
-              "customClass": "search-icon--projects"
+              "component": "AttendanceIcon",
+              "customClass": "inbox-links-icon"
             }
           },
           "children": {},
@@ -166,13 +166,27 @@
                 }
               },
               {
-                "label": "COMMON_WORKFLOW_STATES",
+                "label": "COMMON_LOCALITY",
+                "type": "locationdropdown",
+                "isMandatory": false,
+                "disable": false,
+                "populators": {
+                  "name": "locality",
+                  "type": "locality",
+                  "optionsKey": "name",
+                  "defaultText": "COMMON_SELECT_LOCALITY",
+                  "selectedText": "COMMON_SELECTED",
+                  "allowMultiSelect": true
+                }
+              },
+              {
                 "type": "workflowstatesfilter",
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "componentLabel": "COMMON_WORKFLOW_STATES",
                   "name": "state",
-                  "labelPrefix": "WF_MUSTOR_",
+                  "labelPrefix": "WF_",
                   "businessService": "muster-roll-approval"
                 }
               }

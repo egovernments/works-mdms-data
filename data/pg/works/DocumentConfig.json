@@ -52,7 +52,7 @@
     },
     {
       "module": "Estimate",
-      "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
+      "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
       "maxSizeInMB": 5,
       "bannerLabel": "ESTIMATE_UPLOAD_BANNER_TEXT",
       "documents": [
@@ -62,7 +62,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -72,7 +72,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -82,7 +82,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -92,7 +92,7 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : false,
-          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -102,7 +102,7 @@
           "active": true,
           "isMandatory": false,
           "showTextInput" : true,
-          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg"],
+          "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         }
@@ -115,17 +115,7 @@
       "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
       "documents": [
         {
-          "code": "TERMS_AND_CONDITIONS",
-          "name" : "doc_terms_and_conditions",
-          "active": true,
-          "isMandatory": true,
-          "showTextInput" : false,
-          "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
-          "maxSizeInMB": 5,
-          "maxFilesAllowed": 1
-        },
-         {
-          "code": "Ward Committee Resolution",
+          "code": "Ward_Committee_Resolution",
           "name" : "doc_ward_committe_resolution",
           "active": true,
           "isMandatory": false,
@@ -134,8 +124,8 @@
           "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
-         {
-          "code": "ULB Committee Resolution",
+        {
+          "code": "ULB_Committee_Resolution",
           "name" : "doc_ulb_committe_resolution",
           "active": true,
           "isMandatory": false,
@@ -160,7 +150,7 @@
       "module": "Expenditure",
       "allowedFileTypes": ["pdf"],
       "maxSizeInMB": 5,
-      "bannerLabel": "COMMON_FILE_COMPONENT_BANNER",
+      "bannerLabel": "PURCHASE_BILL_FILE_COMPONENT_BANNER",
       "documents": [
         {
           "code": "VENDOR_INVOICE",
@@ -168,7 +158,7 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
@@ -178,17 +168,17 @@
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },
         {
           "code": "MATERIAL_UTILIZATION_LOG",
-          "name" : "doc_material_utilisation_log",
+          "name" : "doc_material_utilization_log",
           "active": true,
           "isMandatory": true,
           "showTextInput" : false,
-          "allowedFileTypes": [],
+          "allowedFileTypes": ["pdf"],
           "maxSizeInMB": null,
           "maxFilesAllowed": 1
         },

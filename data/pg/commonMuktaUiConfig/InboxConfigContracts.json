@@ -11,7 +11,7 @@
         "requestBody": {
           "inbox": {
             "processSearchCriteria": {
-              "businessService": ["CONTRACT"],
+              "businessService": ["CONTRACT","CONTRACT-REVISION"],
               "moduleName": "contract-service"
             },
             "moduleSearchCriteria": {}
@@ -48,7 +48,7 @@
                 },
                 "populators": {
                   "name": "workOrderNumber",
-                  "error": "CONTRACT_PATTERN_ERR_MSG",
+                  "error": "ERR_INVALID_CONTRACT_ID",
                   "validation": {
                     "pattern": "WO\/[0-9]+-[0-9]+\/[0-9]+",
                     "minlength": 2
@@ -155,7 +155,7 @@
             "links": [
               {
                 "text": "ACTION_TEST_CREATE_WO",
-                "url": "/employee/estimate/search-estimate",
+                "url": "/employee/estimate/search-estimate?status=APPROVED",
                 "roles": ["WORK_ORDER_CREATOR"]
               },
               {
@@ -170,8 +170,8 @@
             ],
             "label": "MUKTA",
             "logoIcon": {
-              "component": "PropertyHouse",
-              "customClass": "inbox-search-icon--projects"
+              "component": "ContractIcon",
+              "customClass": "inbox-links-icon"
             }
           },
           "children": {},
@@ -190,7 +190,7 @@
               "locality": [],
               "assignee": {
                 "code": "ASSIGNED_TO_ALL",
-                "name": "EST_INBOX_ASSIGNED_TO_ALL"
+                "name": "COMMON_INBOX_ASSIGNED_TO_ALL"
               }
             },
             "fields": [
@@ -246,20 +246,20 @@
                 "populators": {
                   "name": "locality",
                   "type": "locality",
-                  "optionsKey": "i18nKey",
+                  "optionsKey": "name",
                   "defaultText": "COMMON_SELECT_LOCALITY",
                   "selectedText": "COMMON_SELECTED",
                   "allowMultiSelect": true
                 }
               },
               {
-                "label": "COMMON_WORKFLOW_STATES",
                 "type": "workflowstatesfilter",
                 "isMandatory": false,
                 "disable": false,
                 "populators": {
+                  "componentLabel": "COMMON_WORKFLOW_STATES",
                   "name": "state",
-                  "labelPrefix": "WF_WO_",
+                  "labelPrefix": "WF_",
                   "businessService": "contract-approval-mukta"
                 }
               }
